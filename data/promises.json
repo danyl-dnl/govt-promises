@@ -1,0 +1,1171 @@
+[
+  {
+    "id": "p1",
+    "slug": "free-travel-for-women-on-ksrtc-buses-1",
+    "title": "Free travel for women on KSRTC buses",
+    "titleMl": "Free travel for women on KSRTC buses",
+    "description": "Free travel for women on KSRTC buses",
+    "manifestoQuote": "Free travel for women on KSRTC buses",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.322Z",
+    "createdAt": "2026-05-19T19:54:55.323Z"
+  },
+  {
+    "id": "p2",
+    "slug": "1-000-monthly-assistance-stipend-for-college-going-girl-students-2",
+    "title": "₹1,000 monthly assistance/stipend for college-going girl students",
+    "titleMl": "₹1,000 monthly assistance/stipend for college-going girl students",
+    "description": "₹1,000 monthly assistance/stipend for college-going girl students",
+    "manifestoQuote": "₹1,000 monthly assistance/stipend for college-going girl students",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.323Z",
+    "createdAt": "2026-05-19T19:54:55.323Z"
+  },
+  {
+    "id": "p3",
+    "slug": "oommen-chandy-health-insurance-up-to-25-lakh-coverage-per-family-3",
+    "title": "Oommen Chandy Health Insurance: up to ₹25 lakh coverage per family",
+    "titleMl": "ഉമ്മൻ ചാണ്ടി ആരോഗ്യ ഇൻഷുറൻസ്",
+    "description": "Providing up to ₹25 lakh in free health insurance coverage per household.",
+    "manifestoQuote": "No family should fall into poverty due to medical bills. The Oommen Chandy Health Insurance scheme will provide up to ₹25 lakh coverage per family.",
+    "sector": {
+      "id": "s2",
+      "name": "Health",
+      "nameMl": "ആരോഗ്യം",
+      "icon": "heart-pulse",
+      "color": "#15803D"
+    },
+    "status": "in-progress",
+    "icon": "stethoscope",
+    "sources": [
+      {
+        "title": "Health Insurance Awaiting State Budget",
+        "url": "#",
+        "publication": "The Times of India",
+        "date": "2026-05-19",
+        "tier": 3,
+        "summary": "Specific execution dates for the ₹25-Lakh Health Insurance are awaiting the first state budget."
+      }
+    ],
+    "lastUpdated": "2026-05-19T10:00:00Z",
+    "createdAt": "2026-05-18T10:00:00Z"
+  },
+  {
+    "id": "p4",
+    "slug": "increase-welfare-social-security-pension-to-3-000-4",
+    "title": "Increase welfare/social security pension to ₹3,000",
+    "titleMl": "Increase welfare/social security pension to ₹3,000",
+    "description": "Increase welfare/social security pension to ₹3,000",
+    "manifestoQuote": "Increase welfare/social security pension to ₹3,000",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.323Z",
+    "createdAt": "2026-05-19T19:54:55.323Z"
+  },
+  {
+    "id": "p5",
+    "slug": "interest-free-loans-up-to-5-lakh-for-young-entrepreneurs-5",
+    "title": "Interest-free loans up to ₹5 lakh for young entrepreneurs",
+    "titleMl": "Interest-free loans up to ₹5 lakh for young entrepreneurs",
+    "description": "Interest-free loans up to ₹5 lakh for young entrepreneurs",
+    "manifestoQuote": "Interest-free loans up to ₹5 lakh for young entrepreneurs",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.323Z",
+    "createdAt": "2026-05-19T19:54:55.323Z"
+  },
+  {
+    "id": "p6",
+    "slug": "dedicated-department-ministry-for-senior-citizens-6",
+    "title": "Dedicated department/ministry for senior citizens",
+    "titleMl": "Dedicated department/ministry for senior citizens",
+    "description": "Dedicated department/ministry for senior citizens",
+    "manifestoQuote": "Dedicated department/ministry for senior citizens",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.323Z",
+    "createdAt": "2026-05-19T19:54:55.323Z"
+  },
+  {
+    "id": "p7",
+    "slug": "bring-legislation-to-ensure-all-eligible-people-receive-social-security-pensions-7",
+    "title": "Bring legislation to ensure all eligible people receive social security pensions",
+    "titleMl": "Bring legislation to ensure all eligible people receive social security pensions",
+    "description": "Bring legislation to ensure all eligible people receive social security pensions",
+    "manifestoQuote": "Bring legislation to ensure all eligible people receive social security pensions",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.323Z",
+    "createdAt": "2026-05-19T19:54:55.323Z"
+  },
+  {
+    "id": "p8",
+    "slug": "revamp-welfare-fund-boards-8",
+    "title": "Revamp welfare fund boards",
+    "titleMl": "Revamp welfare fund boards",
+    "description": "Revamp welfare fund boards",
+    "manifestoQuote": "Revamp welfare fund boards",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.323Z",
+    "createdAt": "2026-05-19T19:54:55.323Z"
+  },
+  {
+    "id": "p9",
+    "slug": "clear-pending-arrears-of-welfare-fund-boards-9",
+    "title": "Clear pending arrears of welfare fund boards",
+    "titleMl": "Clear pending arrears of welfare fund boards",
+    "description": "Clear pending arrears of welfare fund boards",
+    "manifestoQuote": "Clear pending arrears of welfare fund boards",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.323Z",
+    "createdAt": "2026-05-19T19:54:55.323Z"
+  },
+  {
+    "id": "p10",
+    "slug": "expand-indira-canteens-10",
+    "title": "Expand Indira Canteens",
+    "titleMl": "Expand Indira Canteens",
+    "description": "Expand Indira Canteens",
+    "manifestoQuote": "Expand Indira Canteens",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p11",
+    "slug": "free-ration-support-for-eligible-groups-in-special-circumstances-regions-11",
+    "title": "Free ration support for eligible groups in special circumstances/regions",
+    "titleMl": "Free ration support for eligible groups in special circumstances/regions",
+    "description": "Free ration support for eligible groups in special circumstances/regions",
+    "manifestoQuote": "Free ration support for eligible groups in special circumstances/regions",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p12",
+    "slug": "launch-expand-nava-aashraya-second-phase-of-aashraya-scheme-12",
+    "title": "Launch/expand “Nava Aashraya,” second phase of Aashraya scheme",
+    "titleMl": "Launch/expand “Nava Aashraya,” second phase of Aashraya scheme",
+    "description": "Launch/expand “Nava Aashraya,” second phase of Aashraya scheme",
+    "manifestoQuote": "Launch/expand “Nava Aashraya,” second phase of Aashraya scheme",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p13",
+    "slug": "identify-and-support-the-most-vulnerable-sections-of-society-13",
+    "title": "Identify and support the most vulnerable sections of society",
+    "titleMl": "Identify and support the most vulnerable sections of society",
+    "description": "Identify and support the most vulnerable sections of society",
+    "manifestoQuote": "Identify and support the most vulnerable sections of society",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p14",
+    "slug": "special-action-plan-for-yellow-and-pink-ration-card-holders-14",
+    "title": "Special action plan for yellow and pink ration card holders",
+    "titleMl": "Special action plan for yellow and pink ration card holders",
+    "description": "Special action plan for yellow and pink ration card holders",
+    "manifestoQuote": "Special action plan for yellow and pink ration card holders",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p15",
+    "slug": "1-000-monthly-stipend-for-college-going-girls-15",
+    "title": "₹1,000 monthly stipend for college-going girls",
+    "titleMl": "₹1,000 monthly stipend for college-going girls",
+    "description": "₹1,000 monthly stipend for college-going girls",
+    "manifestoQuote": "₹1,000 monthly stipend for college-going girls",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p16",
+    "slug": "free-ksrtc-travel-for-women-16",
+    "title": "Free KSRTC travel for women",
+    "titleMl": "Free KSRTC travel for women",
+    "description": "Free KSRTC travel for women",
+    "manifestoQuote": "Free KSRTC travel for women",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p17",
+    "slug": "earmark-5-of-plan-outlay-for-young-people-under-yuva-shakti-naadin-sampath-17",
+    "title": "Earmark 5% of plan outlay for young people under “Yuva Shakti Naadin Sampath”",
+    "titleMl": "Earmark 5% of plan outlay for young people under “Yuva Shakti Naadin Sampath”",
+    "description": "Earmark 5% of plan outlay for young people under “Yuva Shakti Naadin Sampath”",
+    "manifestoQuote": "Earmark 5% of plan outlay for young people under “Yuva Shakti Naadin Sampath”",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p18",
+    "slug": "introduce-yuvashree-collectives-modelled-on-kudumbashree-18",
+    "title": "Introduce “Yuvashree” collectives modelled on Kudumbashree",
+    "titleMl": "Introduce “Yuvashree” collectives modelled on Kudumbashree",
+    "description": "Introduce “Yuvashree” collectives modelled on Kudumbashree",
+    "manifestoQuote": "Introduce “Yuvashree” collectives modelled on Kudumbashree",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p19",
+    "slug": "interest-free-loans-for-youth-entrepreneurs-19",
+    "title": "Interest-free loans for youth entrepreneurs",
+    "titleMl": "Interest-free loans for youth entrepreneurs",
+    "description": "Interest-free loans for youth entrepreneurs",
+    "manifestoQuote": "Interest-free loans for youth entrepreneurs",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p20",
+    "slug": "kr-narayanan-scholarships-for-meritorious-students-20",
+    "title": "KR Narayanan scholarships for meritorious students",
+    "titleMl": "KR Narayanan scholarships for meritorious students",
+    "description": "KR Narayanan scholarships for meritorious students",
+    "manifestoQuote": "KR Narayanan scholarships for meritorious students",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p21",
+    "slug": "education-loans-support-for-higher-studies-in-india-and-abroad-21",
+    "title": "Education loans/support for higher studies in India and abroad",
+    "titleMl": "Education loans/support for higher studies in India and abroad",
+    "description": "Education loans/support for higher studies in India and abroad",
+    "manifestoQuote": "Education loans/support for higher studies in India and abroad",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p22",
+    "slug": "oommen-chandy-health-insurance-up-to-25-lakh-22",
+    "title": "Oommen Chandy health insurance up to ₹25 lakh",
+    "titleMl": "Oommen Chandy health insurance up to ₹25 lakh",
+    "description": "Oommen Chandy health insurance up to ₹25 lakh",
+    "manifestoQuote": "Oommen Chandy health insurance up to ₹25 lakh",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p23",
+    "slug": "free-dialysis-for-bpl-families-23",
+    "title": "Free dialysis for BPL families",
+    "titleMl": "Free dialysis for BPL families",
+    "description": "Free dialysis for BPL families",
+    "manifestoQuote": "Free dialysis for BPL families",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p24",
+    "slug": "she-hospitals-for-women-and-children-24",
+    "title": "SHE hospitals for women and children",
+    "titleMl": "SHE hospitals for women and children",
+    "description": "SHE hospitals for women and children",
+    "manifestoQuote": "SHE hospitals for women and children",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p25",
+    "slug": "dedicated-health-centres-in-tribal-areas-25",
+    "title": "Dedicated health centres in tribal areas",
+    "titleMl": "Dedicated health centres in tribal areas",
+    "description": "Dedicated health centres in tribal areas",
+    "manifestoQuote": "Dedicated health centres in tribal areas",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p26",
+    "slug": "dedicated-health-centres-in-coastal-areas-26",
+    "title": "Dedicated health centres in coastal areas",
+    "titleMl": "Dedicated health centres in coastal areas",
+    "description": "Dedicated health centres in coastal areas",
+    "manifestoQuote": "Dedicated health centres in coastal areas",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p27",
+    "slug": "no-bill-bill-less-hospitals-27",
+    "title": "No-bill / bill-less hospitals",
+    "titleMl": "No-bill / bill-less hospitals",
+    "description": "No-bill / bill-less hospitals",
+    "manifestoQuote": "No-bill / bill-less hospitals",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p28",
+    "slug": "tribal-health-clusters-tribal-health-focus-28",
+    "title": "Tribal health clusters / tribal health focus",
+    "titleMl": "Tribal health clusters / tribal health focus",
+    "description": "Tribal health clusters / tribal health focus",
+    "manifestoQuote": "Tribal health clusters / tribal health focus",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p29",
+    "slug": "raise-asha-workers-daily-wage-to-at-least-700-29",
+    "title": "Raise ASHA workers’ daily wage to at least ₹700",
+    "titleMl": "Raise ASHA workers’ daily wage to at least ₹700",
+    "description": "Raise ASHA workers’ daily wage to at least ₹700",
+    "manifestoQuote": "Raise ASHA workers’ daily wage to at least ₹700",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p30",
+    "slug": "revise-wages-remuneration-of-anganwadi-workers-30",
+    "title": "Revise wages/remuneration of anganwadi workers",
+    "titleMl": "Revise wages/remuneration of anganwadi workers",
+    "description": "Revise wages/remuneration of anganwadi workers",
+    "manifestoQuote": "Revise wages/remuneration of anganwadi workers",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p31",
+    "slug": "revise-wages-remuneration-of-school-cooks-31",
+    "title": "Revise wages/remuneration of school cooks",
+    "titleMl": "Revise wages/remuneration of school cooks",
+    "description": "Revise wages/remuneration of school cooks",
+    "manifestoQuote": "Revise wages/remuneration of school cooks",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p32",
+    "slug": "improve-scheme-workers-access-to-benefits-32",
+    "title": "Improve scheme workers’ access to benefits",
+    "titleMl": "Improve scheme workers’ access to benefits",
+    "description": "Improve scheme workers’ access to benefits",
+    "manifestoQuote": "Improve scheme workers’ access to benefits",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p33",
+    "slug": "introduce-a-separate-agriculture-budget-33",
+    "title": "Introduce a separate agriculture budget",
+    "titleMl": "Introduce a separate agriculture budget",
+    "description": "Introduce a separate agriculture budget",
+    "manifestoQuote": "Introduce a separate agriculture budget",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p34",
+    "slug": "implement-m-s-swaminathan-commission-recommendations-on-msp-34",
+    "title": "Implement M. S. Swaminathan Commission recommendations on MSP",
+    "titleMl": "Implement M. S. Swaminathan Commission recommendations on MSP",
+    "description": "Implement M. S. Swaminathan Commission recommendations on MSP",
+    "manifestoQuote": "Implement M. S. Swaminathan Commission recommendations on MSP",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p35",
+    "slug": "assured-support-base-price-of-300-for-rubber-35",
+    "title": "Assured support/base price of ₹300 for rubber",
+    "titleMl": "Assured support/base price of ₹300 for rubber",
+    "description": "Assured support/base price of ₹300 for rubber",
+    "manifestoQuote": "Assured support/base price of ₹300 for rubber",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p36",
+    "slug": "set-up-a-rubber-company-on-the-cial-model-36",
+    "title": "Set up a Rubber Company on the CIAL model",
+    "titleMl": "Set up a Rubber Company on the CIAL model",
+    "description": "Set up a Rubber Company on the CIAL model",
+    "manifestoQuote": "Set up a Rubber Company on the CIAL model",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p37",
+    "slug": "paddy-procurement-price-of-35-kg-37",
+    "title": "Paddy procurement price of ₹35/kg",
+    "titleMl": "Paddy procurement price of ₹35/kg",
+    "description": "Paddy procurement price of ₹35/kg",
+    "manifestoQuote": "Paddy procurement price of ₹35/kg",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p38",
+    "slug": "directly-credit-paddy-payments-to-farmers-bank-accounts-38",
+    "title": "Directly credit paddy payments to farmers’ bank accounts",
+    "titleMl": "Directly credit paddy payments to farmers’ bank accounts",
+    "description": "Directly credit paddy payments to farmers’ bank accounts",
+    "manifestoQuote": "Directly credit paddy payments to farmers’ bank accounts",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p39",
+    "slug": "increase-support-price-for-coconut-39",
+    "title": "Increase support price for coconut",
+    "titleMl": "Increase support price for coconut",
+    "description": "Increase support price for coconut",
+    "manifestoQuote": "Increase support price for coconut",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p40",
+    "slug": "expand-procurement-centres-for-tender-coconut-40",
+    "title": "Expand procurement centres for tender coconut",
+    "titleMl": "Expand procurement centres for tender coconut",
+    "description": "Expand procurement centres for tender coconut",
+    "manifestoQuote": "Expand procurement centres for tender coconut",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p41",
+    "slug": "pressure-centre-to-include-cash-crops-under-agricultural-produce-41",
+    "title": "Pressure Centre to include cash crops under agricultural produce",
+    "titleMl": "Pressure Centre to include cash crops under agricultural produce",
+    "description": "Pressure Centre to include cash crops under agricultural produce",
+    "manifestoQuote": "Pressure Centre to include cash crops under agricultural produce",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p42",
+    "slug": "time-bound-resolution-of-migrant-farmers-land-related-issues-42",
+    "title": "Time-bound resolution of migrant farmers’ land-related issues",
+    "titleMl": "Time-bound resolution of migrant farmers’ land-related issues",
+    "description": "Time-bound resolution of migrant farmers’ land-related issues",
+    "manifestoQuote": "Time-bound resolution of migrant farmers’ land-related issues",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p43",
+    "slug": "use-drones-ai-iot-for-human-wildlife-conflict-alerts-43",
+    "title": "Use drones/AI/IoT for human-wildlife conflict alerts",
+    "titleMl": "Use drones/AI/IoT for human-wildlife conflict alerts",
+    "description": "Use drones/AI/IoT for human-wildlife conflict alerts",
+    "manifestoQuote": "Use drones/AI/IoT for human-wildlife conflict alerts",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p44",
+    "slug": "increase-compensation-by-50-for-deaths-in-wildlife-attacks-44",
+    "title": "Increase compensation by 50% for deaths in wildlife attacks",
+    "titleMl": "Increase compensation by 50% for deaths in wildlife attacks",
+    "description": "Increase compensation by 50% for deaths in wildlife attacks",
+    "manifestoQuote": "Increase compensation by 50% for deaths in wildlife attacks",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p45",
+    "slug": "build-five-lakh-houses-for-homeless-landless-families-within-five-years-45",
+    "title": "Build five lakh houses for homeless/landless families within five years",
+    "titleMl": "Build five lakh houses for homeless/landless families within five years",
+    "description": "Build five lakh houses for homeless/landless families within five years",
+    "manifestoQuote": "Build five lakh houses for homeless/landless families within five years",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p46",
+    "slug": "review-reform-life-mission-46",
+    "title": "Review/reform LIFE Mission",
+    "titleMl": "Review/reform LIFE Mission",
+    "description": "Review/reform LIFE Mission",
+    "manifestoQuote": "Review/reform LIFE Mission",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p47",
+    "slug": "mission-samudra-integrate-coastline-rivers-lakes-and-ports-into-maritime-economy-47",
+    "title": "Mission Samudra: integrate coastline, rivers, lakes and ports into maritime economy",
+    "titleMl": "Mission Samudra: integrate coastline, rivers, lakes and ports into maritime economy",
+    "description": "Mission Samudra: integrate coastline, rivers, lakes and ports into maritime economy",
+    "manifestoQuote": "Mission Samudra: integrate coastline, rivers, lakes and ports into maritime economy",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p48",
+    "slug": "integrated-water-transport-network-for-cargo-and-passengers-48",
+    "title": "Integrated water transport network for cargo and passengers",
+    "titleMl": "Integrated water transport network for cargo and passengers",
+    "description": "Integrated water transport network for cargo and passengers",
+    "manifestoQuote": "Integrated water transport network for cargo and passengers",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p49",
+    "slug": "high-speed-rail-corridor-in-partnership-with-indian-railways-centre-49",
+    "title": "High-speed rail corridor in partnership with Indian Railways/Centre",
+    "titleMl": "High-speed rail corridor in partnership with Indian Railways/Centre",
+    "description": "High-speed rail corridor in partnership with Indian Railways/Centre",
+    "manifestoQuote": "High-speed rail corridor in partnership with Indian Railways/Centre",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p50",
+    "slug": "metro-light-metro-in-thiruvananthapuram-50",
+    "title": "Metro/Light Metro in Thiruvananthapuram",
+    "titleMl": "Metro/Light Metro in Thiruvananthapuram",
+    "description": "Metro/Light Metro in Thiruvananthapuram",
+    "manifestoQuote": "Metro/Light Metro in Thiruvananthapuram",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.324Z",
+    "createdAt": "2026-05-19T19:54:55.324Z"
+  },
+  {
+    "id": "p51",
+    "slug": "metro-light-metro-in-kozhikode-51",
+    "title": "Metro/Light Metro in Kozhikode",
+    "titleMl": "Metro/Light Metro in Kozhikode",
+    "description": "Metro/Light Metro in Kozhikode",
+    "manifestoQuote": "Metro/Light Metro in Kozhikode",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.325Z",
+    "createdAt": "2026-05-19T19:54:55.325Z"
+  },
+  {
+    "id": "p52",
+    "slug": "denotify-land-acquired-for-silverline-52",
+    "title": "Denotify land acquired for SilverLine",
+    "titleMl": "Denotify land acquired for SilverLine",
+    "description": "Denotify land acquired for SilverLine",
+    "manifestoQuote": "Denotify land acquired for SilverLine",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.325Z",
+    "createdAt": "2026-05-19T19:54:55.325Z"
+  },
+  {
+    "id": "p53",
+    "slug": "not-implement-silverline-project-53",
+    "title": "Not implement SilverLine project",
+    "titleMl": "Not implement SilverLine project",
+    "description": "Not implement SilverLine project",
+    "manifestoQuote": "Not implement SilverLine project",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.325Z",
+    "createdAt": "2026-05-19T19:54:55.325Z"
+  },
+  {
+    "id": "p54",
+    "slug": "comprehensive-aviation-plan-54",
+    "title": "Comprehensive aviation plan",
+    "titleMl": "Comprehensive aviation plan",
+    "description": "Comprehensive aviation plan",
+    "manifestoQuote": "Comprehensive aviation plan",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.325Z",
+    "createdAt": "2026-05-19T19:54:55.325Z"
+  },
+  {
+    "id": "p55",
+    "slug": "second-runway-at-kochi-airport-55",
+    "title": "Second runway at Kochi Airport",
+    "titleMl": "Second runway at Kochi Airport",
+    "description": "Second runway at Kochi Airport",
+    "manifestoQuote": "Second runway at Kochi Airport",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.325Z",
+    "createdAt": "2026-05-19T19:54:55.325Z"
+  },
+  {
+    "id": "p56",
+    "slug": "expansion-of-terminal-and-apron-at-kannur-airport-56",
+    "title": "Expansion of terminal and apron at Kannur Airport",
+    "titleMl": "Expansion of terminal and apron at Kannur Airport",
+    "description": "Expansion of terminal and apron at Kannur Airport",
+    "manifestoQuote": "Expansion of terminal and apron at Kannur Airport",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.325Z",
+    "createdAt": "2026-05-19T19:54:55.325Z"
+  },
+  {
+    "id": "p57",
+    "slug": "maintenance-repair-and-operations-centres-57",
+    "title": "Maintenance, Repair and Operations centres",
+    "titleMl": "Maintenance, Repair and Operations centres",
+    "description": "Maintenance, Repair and Operations centres",
+    "manifestoQuote": "Maintenance, Repair and Operations centres",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.325Z",
+    "createdAt": "2026-05-19T19:54:55.325Z"
+  },
+  {
+    "id": "p58",
+    "slug": "route-development-and-connectivity-fund-for-new-flights-58",
+    "title": "Route Development and Connectivity Fund for new flights",
+    "titleMl": "Route Development and Connectivity Fund for new flights",
+    "description": "Route Development and Connectivity Fund for new flights",
+    "manifestoQuote": "Route Development and Connectivity Fund for new flights",
+    "sector": {
+      "id": "s99",
+      "name": "General Manifesto",
+      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "icon": "check-circle-2",
+      "color": "#64748B"
+    },
+    "status": "pending",
+    "icon": "check-circle-2",
+    "sources": [],
+    "lastUpdated": "2026-05-19T19:54:55.325Z",
+    "createdAt": "2026-05-19T19:54:55.325Z"
+  }
+]
