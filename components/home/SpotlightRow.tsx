@@ -4,7 +4,7 @@ import React, { useRef } from "react"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { StatusBadge } from "@/components/shared/StatusBadge"
-import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat } from "lucide-react"
+import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat, GraduationCap, Scale, Landmark } from "lucide-react"
 import Link from "next/link"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType } from "@/types"
@@ -17,6 +17,9 @@ const iconMap: Record<string, React.ReactNode> = {
   "ship": <Ship className="h-5 w-5" />,
   "tractor": <Tractor className="h-5 w-5" />,
   "hardhat": <HardHat className="h-5 w-5" />,
+  "graduation-cap": <GraduationCap className="h-5 w-5" />,
+  "scale": <Scale className="h-5 w-5" />,
+  "landmark": <Landmark className="h-5 w-5" />,
 }
 
 export function SpotlightRow() {

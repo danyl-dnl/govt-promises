@@ -336,10 +336,10 @@
   },
   {
     "id": "p12",
-    "slug": "nava-aashraya-scheme-12",
-    "title": "Nava Aashraya scheme",
-    "titleMl": "Nava Aashraya scheme",
-    "description": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.\n\n**Tracking Note:** Track scheme launch, beneficiary identification, local body implementation, and fund release.",
+    "slug": "nava-aashraya-project-12",
+    "title": "Nava Aashraya Project",
+    "titleMl": "Nava Aashraya Project",
+    "description": "Launch the Nava Aashraya Project as the formal second structural phase of the classic Aashraya poverty-alleviation program to support highly vulnerable families.\n\n**Tracking Note:** Track scheme launch, beneficiary identification, local body implementation, and fund release.",
     "manifestoQuote": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.",
     "sector": {
       "id": "s9",
@@ -360,7 +360,7 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "lastUpdated": "2026-05-19T21:18:19.105Z",
     "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
@@ -658,8 +658,8 @@
     "slug": "no-bill-hospitals-23",
     "title": "No-bill hospitals",
     "titleMl": "No-bill hospitals",
-    "description": "Introduce no-bill or bill-less hospitals for eligible patients/services.\n\n**Tracking Note:** Track official definition, covered hospitals, covered treatments, and patient billing data.",
-    "manifestoQuote": "Introduce no-bill or bill-less hospitals for eligible patients/services.",
+    "description": "Build zero-billing 'No-Bill' hospitals, modeled specifically after JIPMER (Jawaharlal Institute of Postgraduate Medical Education and Research), to provide completely free quality healthcare.\n\n**Tracking Note:** Track official definition, covered hospitals, covered treatments, and patient billing data.",
+    "manifestoQuote": "Build zero-billing facilities modeled specifically after JIPMER (Jawaharlal Institute of Postgraduate Medical Education and Research) to provide free healthcare.",
     "sector": {
       "id": "s3",
       "name": "Health",
@@ -679,7 +679,7 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
     "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
@@ -716,7 +716,7 @@
     "slug": "asha-wage-honorarium-hike-25",
     "title": "ASHA wage/honorarium hike",
     "titleMl": "ASHA wage/honorarium hike",
-    "description": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.\n\n**Tracking Note:** Mark Fulfilled after official order and revised payment reaches ASHA workers.",
+    "description": "Increase ASHA workers' remuneration/honorarium. While the manifesto promised a minimum daily base wage of ₹700, the cabinet briefing on May 18, 2026, announced implementation via an immediate ₹3,000 monthly honorarium hike.\n\n**Tracking Note:** Mark Fulfilled after official order and revised payment reaches ASHA workers.",
     "manifestoQuote": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.",
     "sector": {
       "id": "s16",
@@ -745,7 +745,7 @@
         "summary": "The UDF cabinet led by CM V.D. Satheesan approved an immediate ₹3,000 increase in the monthly honorarium for ASHA workers on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-05-19T20:43:06.774Z",
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
     "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
@@ -927,7 +927,7 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
     "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
@@ -1222,11 +1222,11 @@
   },
   {
     "id": "p42",
-    "slug": "review-or-reform-life-mission-42",
-    "title": "Review or reform LIFE Mission",
-    "titleMl": "Review or reform LIFE Mission",
-    "description": "Review and reform the LIFE Mission housing scheme.\n\n**Tracking Note:** Track review committee, revised guidelines, and integration with new housing promise.",
-    "manifestoQuote": "Review and reform the LIFE Mission housing scheme.",
+    "slug": "sneha-sumangali-housing-scheme-42",
+    "title": "Sneha Sumangali Housing Scheme",
+    "titleMl": "Sneha Sumangali Housing Scheme",
+    "description": "Phase out the previous government's LIFE Mission and transition it into a revamped public housing umbrella scheme called Sneha Sumangali.\n\n**Tracking Note:** Track LIFE Mission phasing out process, revised housing policy guidelines, and initial Sneha Sumangali allocations.",
+    "manifestoQuote": "Phase out LIFE Mission and transition it into a revamped public housing umbrella scheme called Sneha Sumangali.",
     "sector": {
       "id": "s23",
       "name": "Housing",
@@ -1246,7 +1246,7 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
     "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
@@ -1739,7 +1739,7 @@
         "summary": "On May 19, 2026, the Chief Minister chaired a high-level meeting with top finance officials and appointed an expert panel headed by former Cabinet Secretary K.M. Chandrasekhar to prepare a comprehensive white paper on the state's finances."
       }
     ],
-    "lastUpdated": "2026-05-19T20:57:59.757Z",
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
     "createdAt": "2026-05-19T20:57:59.758Z"
   },
   {
@@ -1815,5 +1815,137 @@
     ],
     "lastUpdated": "2026-05-19T21:06:30.616Z",
     "createdAt": "2026-05-19T21:06:30.617Z"
+  },
+  {
+    "id": "p62",
+    "slug": "sidharthan-anti-ragging-and-student-welfare-act-62",
+    "title": "Sidharthan Anti-Ragging and Student Welfare Act",
+    "titleMl": "സിദ്ധാർത്ഥൻ റാഗിംഗ് വിരുദ്ധ വിദ്യാർത്ഥി ക്ഷേമ നിയമം",
+    "description": "Manifesto promised a stringent anti-ragging law named after the 20-year-old student found dead in Wayanad, alongside a 'Sidharthan Student Distress App'.\n\n**Tracking Note:** Mark Fulfilled after the official enactment of the Act in the State Assembly and launching of the student distress helpline.",
+    "manifestoQuote": "Enact a stringent student welfare and anti-ragging law named after Sidharthan, and launch a student distress app.",
+    "sector": {
+      "id": "s36",
+      "name": "Education & Safety",
+      "nameMl": "വിദ്യാഭ്യാസവും സുരക്ഷയും",
+      "icon": "graduation-cap",
+      "color": "#0EA5E9"
+    },
+    "status": "pending",
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Sidharthan Anti-Ragging and Student Welfare Act promised by UDF",
+        "url": "#",
+        "publication": "The Hindu",
+        "date": "2026-04-02",
+        "tier": 2,
+        "summary": "UDF announced a stringent anti-ragging law and student distress app named after the deceased student Sidharthan."
+      },
+      {
+        "title": "UDF Manifesto highlights Sidharthan Anti-Ragging Act",
+        "url": "#",
+        "publication": "Mathrubhumi",
+        "date": "2026-04-02",
+        "tier": 2,
+        "summary": "Details of the promised anti-ragging legislation named after the Wayanad student."
+      }
+    ],
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
+    "createdAt": "2026-05-19T21:18:19.106Z"
+  },
+  {
+    "id": "p63",
+    "slug": "rohith-vemula-act-implementation-63",
+    "title": "Rohith Vemula Act implementation",
+    "titleMl": "രോഹിത് വെമുല നിയമം നടപ്പിലാക്കൽ",
+    "description": "Enact and implement the legislative safe-guards under the Rohith Vemula Act across state campuses to completely eliminate institutional discrimination against marginalized communities.\n\n**Tracking Note:** Track legislative progress, campus guidelines issued by the Higher Education department, and grievance cell setup.",
+    "manifestoQuote": "Enact legislative safe-guards across state campuses to completely eliminate institutional discrimination against marginalized communities under the Rohith Vemula Act.",
+    "sector": {
+      "id": "s37",
+      "name": "Education & Social Justice",
+      "nameMl": "വിദ്യാഭ്യാസവും സാമൂഹിക നീതിയും",
+      "icon": "scale",
+      "color": "#6366F1"
+    },
+    "status": "pending",
+    "icon": "scale",
+    "sources": [
+      {
+        "title": "UDF promises Rohith Vemula Act for state campus safety",
+        "url": "#",
+        "publication": "Mathrubhumi",
+        "date": "2026-04-02",
+        "tier": 2,
+        "summary": "UDF pledges campus legislative safeguards to protect marginalized students from institutional discrimination."
+      }
+    ],
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
+    "createdAt": "2026-05-19T21:18:19.106Z"
+  },
+  {
+    "id": "p64",
+    "slug": "break-the-drug-chain-campaign-64",
+    "title": "Break the Drug Chain Campaign",
+    "titleMl": "ബ്രേക്ക് ദി ഡ്രഗ് ചെയിൻ ക്യാമ്പയിൻ",
+    "description": "Launch a major anti-narcotics enforcement and rehabilitation framework targeting youth communities across the state to eliminate drug abuse.\n\n**Tracking Note:** Track official program launch, coordination with Excise/Police departments, and establishment of state-level youth rehab centres.",
+    "manifestoQuote": "Launch the Break the Drug Chain campaign for anti-narcotics enforcement and youth rehabilitation.",
+    "sector": {
+      "id": "s38",
+      "name": "Governance & Law",
+      "nameMl": "ഭരണവും നിയമപാലനവും",
+      "icon": "shield-check",
+      "color": "#F43F5E"
+    },
+    "status": "pending",
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "UDF Manifesto details Break the Drug Chain Campaign",
+        "url": "#",
+        "publication": "The Hindu",
+        "date": "2026-04-02",
+        "tier": 2,
+        "summary": "A comprehensive anti-narcotics campaign targeting youth and school campuses is detailed in the manifesto."
+      },
+      {
+        "title": "Anti-narcotics Break the Drug Chain campaign promised by UDF",
+        "url": "#",
+        "publication": "Mathrubhumi",
+        "date": "2026-04-02",
+        "tier": 2,
+        "summary": "Excise and social welfare integration proposed for anti-drug campaign."
+      }
+    ],
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
+    "createdAt": "2026-05-19T21:18:19.106Z"
+  },
+  {
+    "id": "p65",
+    "slug": "establishment-of-a-ministry-of-tolerance-and-a-peace-and-harmony-department-65",
+    "title": "Establishment of a Ministry of Tolerance and a Peace and Harmony Department",
+    "titleMl": "സഹിഷ്ണുത മന്ത്രാലയവും സമാധാന-സൗഹാർദ്ദ വകുപ്പും സ്ഥാപിക്കൽ",
+    "description": "Build a standalone department and a dedicated Ministry of Tolerance specifically dedicated to ensuring, tracking, and maintaining communal harmony in the state.\n\n**Tracking Note:** Track creation of the new portfolio, department gazette notification, and official peace-harmony programs.",
+    "manifestoQuote": "Establish a Ministry of Tolerance and a Peace and Harmony Department to ensure communal harmony.",
+    "sector": {
+      "id": "s32",
+      "name": "Governance",
+      "nameMl": "ഭരണം",
+      "icon": "landmark",
+      "color": "#374151"
+    },
+    "status": "pending",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "Ministry of Tolerance and Peace Department proposed by UDF",
+        "url": "#",
+        "publication": "Mathrubhumi",
+        "date": "2026-04-02",
+        "tier": 2,
+        "summary": "UDF pledges a dedicated department to foster communal harmony and monitor tolerance levels in the state."
+      }
+    ],
+    "lastUpdated": "2026-05-19T21:18:19.106Z",
+    "createdAt": "2026-05-19T21:18:19.106Z"
   }
 ]
