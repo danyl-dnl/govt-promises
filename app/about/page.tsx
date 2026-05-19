@@ -23,7 +23,7 @@ export default function AboutPage() {
             </div>
             <div className="space-y-4 text-slate-600 leading-relaxed">
               <p>
-                Vaakiv Paalicho is an independent, citizen-driven initiative designed to track the election promises made by the United Democratic Front (UDF) in Kerala. Our goal is to foster civic engagement and hold elected representatives accountable to their manifesto commitments.
+                Vaaku Paalicho is an independent, citizen-driven initiative designed to track the election promises made by the United Democratic Front (UDF) in Kerala. Our goal is to foster civic engagement and hold elected representatives accountable to their manifesto commitments.
               </p>
               <p>
                 We believe that democracy functions best when citizens have access to clear, unbiased, and verifiable information regarding the performance of their government.
@@ -73,7 +73,7 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div>
                 <h3 className="font-bold text-lg text-slate-900 mb-2">Is this website affiliated with the government?</h3>
-                <p className="text-slate-600">No. Vaakiv Paalicho is strictly an independent, non-partisan citizen initiative. We are not affiliated with the Election Commission of India, the Government of Kerala, or the UDF.</p>
+                <p className="text-slate-600">No. Vaaku Paalicho is strictly an independent, non-partisan citizen initiative. We are not affiliated with the Election Commission of India, the Government of Kerala, or the UDF.</p>
               </div>
               <div>
                 <h3 className="font-bold text-lg text-slate-900 mb-2">How can I suggest a correction?</h3>

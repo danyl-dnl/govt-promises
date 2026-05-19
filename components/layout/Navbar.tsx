@@ -2,12 +2,14 @@
 
 import React, { useState, useEffect } from "react"
 import Link from "next/link"
-import { Landmark } from "lucide-react"
+import { Landmark, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useSession, signIn } from "next-auth/react"
+import { motion, AnimatePresence } from "framer-motion"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
   const { data: session } = useSession()
 
   useEffect(() => {
@@ -21,18 +23,18 @@ export function Navbar() {
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        scrolled
+        scrolled || isOpen
           ? "bg-white/80 backdrop-blur-md border-b border-border shadow-sm"
           : "bg-transparent border-transparent"
       }`}
     >
       <div className="container mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
+        <Link href="/" className="flex items-center gap-2 group" onClick={() => setIsOpen(false)}>
           <div className="bg-udf-blue text-white p-1.5 rounded-md group-hover:bg-udf-blue-dark transition-colors">
             <Landmark className="h-5 w-5" />
           </div>
           <span className="font-display font-bold text-lg tracking-tight text-foreground hidden sm:inline-block">
-            Vaakiv Paalicho · <span className="text-muted-foreground font-normal">Kerala</span>
+            Vaaku Paalicho · <span className="text-muted-foreground font-normal">Kerala</span>
           </span>
         </Link>
         
@@ -50,11 +52,15 @@ export function Navbar() {
             </Button>
           </Link>
           {session ? (
-            <div className="flex items-center gap-2 bg-slate-100 rounded-full pr-4 pl-1 py-1 border border-slate-200">
+            <div className="flex items-center gap-2 sm:bg-slate-100 rounded-full sm:pr-4 sm:pl-1 sm:py-1 sm:border sm:border-slate-200">
               {session.user?.image ? (
-                <img src={session.user.image} alt="Profile" className="h-7 w-7 rounded-full" />
+                <img
+                  src={session.user.image}
+                  alt="Profile"
+                  className="h-8 w-8 rounded-full border border-slate-200 sm:border-none shadow-sm sm:shadow-none"
+                />
               ) : (
-                <div className="h-7 w-7 rounded-full bg-udf-blue text-white flex items-center justify-center text-xs font-bold">
+                <div className="h-8 w-8 rounded-full bg-udf-blue text-white flex items-center justify-center text-xs font-bold border border-slate-200 sm:border-none shadow-sm sm:shadow-none">
                   {session.user?.name?.charAt(0) || "U"}
                 </div>
               )}
@@ -67,8 +73,71 @@ export function Navbar() {
               Sign In
             </Button>
           )}
+
+          {/* Mobile menu toggle button */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="md:hidden p-2 -mr-1.5 text-slate-600 hover:text-slate-900 focus:outline-none"
+            aria-label="Toggle menu"
+          >
+            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
         </div>
       </div>
+
+      {/* Mobile Drawer Overlay */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.2, ease: "easeInOut" }}
+            className="md:hidden bg-white border-b border-border shadow-lg overflow-hidden w-full absolute top-16 left-0 z-40"
+          >
+            <div className="px-6 py-6 flex flex-col gap-4 text-base font-semibold text-slate-700">
+              <Link 
+                href="/promises" 
+                onClick={() => setIsOpen(false)}
+                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+              >
+                Promises
+              </Link>
+              <Link 
+                href="/sectors" 
+                onClick={() => setIsOpen(false)}
+                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+              >
+                Sectors
+              </Link>
+              <Link 
+                href="/updates" 
+                onClick={() => setIsOpen(false)}
+                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+              >
+                Updates
+              </Link>
+              <Link 
+                href="/about" 
+                onClick={() => setIsOpen(false)}
+                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+              >
+                About
+              </Link>
+              
+              <Link 
+                href="/submit" 
+                onClick={() => setIsOpen(false)}
+                className="mt-2 w-full"
+              >
+                <Button className="w-full bg-udf-blue hover:bg-udf-blue-dark text-white rounded-lg py-2.5 shadow-sm">
+                  Submit Update
+                </Button>
+              </Link>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   )
 }

@@ -26,10 +26,10 @@ const notoSansMalayalam = Noto_Sans_Malayalam({
 import AuthProvider from "@/components/auth/AuthProvider"
 
 export const metadata: Metadata = {
-  title: "Vaakiv Paalicho | UDF Promise Tracker",
+  title: "Vaaku Paalicho | UDF Promise Tracker",
   description: "An independent citizen-maintained ledger tracking the promises made by the UDF in Kerala.",
   openGraph: {
-    title: "Vaakiv Paalicho",
+    title: "Vaaku Paalicho",
     description: "Independent citizen-maintained ledger tracking UDF election promises.",
     type: "website",
   }
