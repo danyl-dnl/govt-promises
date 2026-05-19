@@ -1,1171 +1,1684 @@
 [
   {
     "id": "p1",
-    "slug": "free-travel-for-women-on-ksrtc-buses-1",
-    "title": "Free travel for women on KSRTC buses",
-    "titleMl": "Free travel for women on KSRTC buses",
-    "description": "Free travel for women on KSRTC buses",
-    "manifestoQuote": "Free travel for women on KSRTC buses",
+    "slug": "free-ksrtc-bus-travel-for-women-1",
+    "title": "Free KSRTC bus travel for women",
+    "titleMl": "Free KSRTC bus travel for women",
+    "description": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.\n\n**Tracking Note:** Mark Fulfilled only after official GO/scheme order and actual rollout begins.",
+    "manifestoQuote": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s1",
+      "name": "Women & Transport",
+      "nameMl": "Women & Transport",
+      "icon": "users",
+      "color": "#2563EB"
     },
-    "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.322Z",
-    "createdAt": "2026-05-19T19:54:55.323Z"
+    "status": "in-progress",
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto / Indira Guarantee; first cabinet approval reported."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.355Z",
+    "createdAt": "2026-05-19T19:59:47.356Z"
   },
   {
     "id": "p2",
-    "slug": "1-000-monthly-assistance-stipend-for-college-going-girl-students-2",
-    "title": "₹1,000 monthly assistance/stipend for college-going girl students",
-    "titleMl": "₹1,000 monthly assistance/stipend for college-going girl students",
-    "description": "₹1,000 monthly assistance/stipend for college-going girl students",
-    "manifestoQuote": "₹1,000 monthly assistance/stipend for college-going girl students",
+    "slug": "1-000-monthly-stipend-for-college-going-girl-students-2",
+    "title": "₹1,000 monthly stipend for college-going girl students",
+    "titleMl": "₹1,000 monthly stipend for college-going girl students",
+    "description": "Provide ₹1,000 per month as financial assistance to college-going girl students.\n\n**Tracking Note:** Track government order, eligibility rules, budget allocation, and first disbursal.",
+    "manifestoQuote": "Provide ₹1,000 per month as financial assistance to college-going girl students.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s2",
+      "name": "Students & Women",
+      "nameMl": "Students & Women",
+      "icon": "users",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.323Z",
-    "createdAt": "2026-05-19T19:54:55.323Z"
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto / Indira Guarantee."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.356Z",
+    "createdAt": "2026-05-19T19:59:47.356Z"
   },
   {
     "id": "p3",
-    "slug": "oommen-chandy-health-insurance-up-to-25-lakh-coverage-per-family-3",
-    "title": "Oommen Chandy Health Insurance: up to ₹25 lakh coverage per family",
-    "titleMl": "ഉമ്മൻ ചാണ്ടി ആരോഗ്യ ഇൻഷുറൻസ്",
-    "description": "Providing up to ₹25 lakh in free health insurance coverage per household.",
-    "manifestoQuote": "No family should fall into poverty due to medical bills. The Oommen Chandy Health Insurance scheme will provide up to ₹25 lakh coverage per family.",
+    "slug": "oommen-chandy-health-insurance-scheme-3",
+    "title": "Oommen Chandy Health Insurance Scheme",
+    "titleMl": "Oommen Chandy Health Insurance Scheme",
+    "description": "Provide health insurance coverage up to ₹25 lakh per household/family.\n\n**Tracking Note:** Track scheme notification, insurer/hospital network, eligibility, and claim availability.",
+    "manifestoQuote": "Provide health insurance coverage up to ₹25 lakh per household/family.",
     "sector": {
-      "id": "s2",
+      "id": "s3",
       "name": "Health",
-      "nameMl": "ആരോഗ്യം",
+      "nameMl": "Health",
       "icon": "heart-pulse",
       "color": "#15803D"
     },
-    "status": "in-progress",
-    "icon": "stethoscope",
+    "status": "pending",
+    "icon": "heart-pulse",
     "sources": [
       {
-        "title": "Health Insurance Awaiting State Budget",
+        "title": "Initial Manifesto Commitment",
         "url": "#",
-        "publication": "The Times of India",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "Specific execution dates for the ₹25-Lakh Health Insurance are awaiting the first state budget."
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto / Indira Guarantee."
       }
     ],
-    "lastUpdated": "2026-05-19T10:00:00Z",
-    "createdAt": "2026-05-18T10:00:00Z"
+    "lastUpdated": "2026-05-19T19:59:47.356Z",
+    "createdAt": "2026-05-19T19:59:47.356Z"
   },
   {
     "id": "p4",
-    "slug": "increase-welfare-social-security-pension-to-3-000-4",
-    "title": "Increase welfare/social security pension to ₹3,000",
-    "titleMl": "Increase welfare/social security pension to ₹3,000",
-    "description": "Increase welfare/social security pension to ₹3,000",
-    "manifestoQuote": "Increase welfare/social security pension to ₹3,000",
+    "slug": "increase-welfare-pension-to-3-000-4",
+    "title": "Increase welfare pension to ₹3,000",
+    "titleMl": "Increase welfare pension to ₹3,000",
+    "description": "Increase eligible social security and welfare pensions to ₹3,000 per month.\n\n**Tracking Note:** Track budget provision, pension order, and actual payment at revised rate.",
+    "manifestoQuote": "Increase eligible social security and welfare pensions to ₹3,000 per month.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s4",
+      "name": "Welfare",
+      "nameMl": "Welfare",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.323Z",
-    "createdAt": "2026-05-19T19:54:55.323Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto / Indira Guarantee."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.356Z",
+    "createdAt": "2026-05-19T19:59:47.356Z"
   },
   {
     "id": "p5",
-    "slug": "interest-free-loans-up-to-5-lakh-for-young-entrepreneurs-5",
-    "title": "Interest-free loans up to ₹5 lakh for young entrepreneurs",
-    "titleMl": "Interest-free loans up to ₹5 lakh for young entrepreneurs",
-    "description": "Interest-free loans up to ₹5 lakh for young entrepreneurs",
-    "manifestoQuote": "Interest-free loans up to ₹5 lakh for young entrepreneurs",
+    "slug": "interest-free-youth-entrepreneur-loans-5",
+    "title": "Interest-free youth entrepreneur loans",
+    "titleMl": "Interest-free youth entrepreneur loans",
+    "description": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.\n\n**Tracking Note:** Track scheme guidelines, nodal agency, application portal, sanctioned loans, and disbursement.",
+    "manifestoQuote": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameMl": "Youth & Employment",
+      "icon": "users",
+      "color": "#9333EA"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.323Z",
-    "createdAt": "2026-05-19T19:54:55.323Z"
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto / Indira Guarantee."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.356Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p6",
-    "slug": "dedicated-department-ministry-for-senior-citizens-6",
-    "title": "Dedicated department/ministry for senior citizens",
-    "titleMl": "Dedicated department/ministry for senior citizens",
-    "description": "Dedicated department/ministry for senior citizens",
-    "manifestoQuote": "Dedicated department/ministry for senior citizens",
+    "slug": "separate-department-for-senior-citizens-6",
+    "title": "Separate department for senior citizens",
+    "titleMl": "Separate department for senior citizens",
+    "description": "Create a dedicated government department for the welfare and protection of senior citizens.\n\n**Tracking Note:** Mark Fulfilled after official department creation order and allocation of portfolio/staff/budget.",
+    "manifestoQuote": "Create a dedicated government department for the welfare and protection of senior citizens.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s6",
+      "name": "Senior Citizens",
+      "nameMl": "Senior Citizens",
+      "icon": "users",
+      "color": "#475569"
     },
-    "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.323Z",
-    "createdAt": "2026-05-19T19:54:55.323Z"
+    "status": "in-progress",
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF manifesto promise; first cabinet decision reported."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p7",
-    "slug": "bring-legislation-to-ensure-all-eligible-people-receive-social-security-pensions-7",
-    "title": "Bring legislation to ensure all eligible people receive social security pensions",
-    "titleMl": "Bring legislation to ensure all eligible people receive social security pensions",
-    "description": "Bring legislation to ensure all eligible people receive social security pensions",
-    "manifestoQuote": "Bring legislation to ensure all eligible people receive social security pensions",
+    "slug": "law-to-protect-social-security-pensions-7",
+    "title": "Law to protect social security pensions",
+    "titleMl": "Law to protect social security pensions",
+    "description": "Bring legislation to ensure eligible people receive social security pensions.\n\n**Tracking Note:** Track bill introduction, assembly passage, gazette notification, and implementation rules.",
+    "manifestoQuote": "Bring legislation to ensure eligible people receive social security pensions.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s4",
+      "name": "Welfare",
+      "nameMl": "Welfare",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.323Z",
-    "createdAt": "2026-05-19T19:54:55.323Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p8",
     "slug": "revamp-welfare-fund-boards-8",
     "title": "Revamp welfare fund boards",
     "titleMl": "Revamp welfare fund boards",
-    "description": "Revamp welfare fund boards",
-    "manifestoQuote": "Revamp welfare fund boards",
+    "description": "Revamp welfare fund boards to improve functioning and delivery of benefits.\n\n**Tracking Note:** Track government order, board restructuring, benefit reforms, and financial allocation.",
+    "manifestoQuote": "Revamp welfare fund boards to improve functioning and delivery of benefits.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s7",
+      "name": "Welfare Boards",
+      "nameMl": "Welfare Boards",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.323Z",
-    "createdAt": "2026-05-19T19:54:55.323Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p9",
-    "slug": "clear-pending-arrears-of-welfare-fund-boards-9",
-    "title": "Clear pending arrears of welfare fund boards",
-    "titleMl": "Clear pending arrears of welfare fund boards",
-    "description": "Clear pending arrears of welfare fund boards",
-    "manifestoQuote": "Clear pending arrears of welfare fund boards",
+    "slug": "clear-welfare-board-arrears-9",
+    "title": "Clear welfare board arrears",
+    "titleMl": "Clear welfare board arrears",
+    "description": "Clear pending arrears related to welfare fund boards.\n\n**Tracking Note:** Track amount pending, amount released, beneficiary categories, and payment completion.",
+    "manifestoQuote": "Clear pending arrears related to welfare fund boards.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s7",
+      "name": "Welfare Boards",
+      "nameMl": "Welfare Boards",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.323Z",
-    "createdAt": "2026-05-19T19:54:55.323Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p10",
     "slug": "expand-indira-canteens-10",
     "title": "Expand Indira Canteens",
     "titleMl": "Expand Indira Canteens",
-    "description": "Expand Indira Canteens",
-    "manifestoQuote": "Expand Indira Canteens",
+    "description": "Expand Indira Canteens to provide affordable food support.\n\n**Tracking Note:** Track number of canteens opened, locations, meal pricing, and operating agencies.",
+    "manifestoQuote": "Expand Indira Canteens to provide affordable food support.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s8",
+      "name": "Food Security",
+      "nameMl": "Food Security",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p11",
-    "slug": "free-ration-support-for-eligible-groups-in-special-circumstances-regions-11",
-    "title": "Free ration support for eligible groups in special circumstances/regions",
-    "titleMl": "Free ration support for eligible groups in special circumstances/regions",
-    "description": "Free ration support for eligible groups in special circumstances/regions",
-    "manifestoQuote": "Free ration support for eligible groups in special circumstances/regions",
+    "slug": "free-ration-support-11",
+    "title": "Free ration support",
+    "titleMl": "Free ration support",
+    "description": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.\n\n**Tracking Note:** Track official eligibility criteria, ration quantity, duration, and implementation order.",
+    "manifestoQuote": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s8",
+      "name": "Food Security",
+      "nameMl": "Food Security",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p12",
-    "slug": "launch-expand-nava-aashraya-second-phase-of-aashraya-scheme-12",
-    "title": "Launch/expand “Nava Aashraya,” second phase of Aashraya scheme",
-    "titleMl": "Launch/expand “Nava Aashraya,” second phase of Aashraya scheme",
-    "description": "Launch/expand “Nava Aashraya,” second phase of Aashraya scheme",
-    "manifestoQuote": "Launch/expand “Nava Aashraya,” second phase of Aashraya scheme",
+    "slug": "nava-aashraya-scheme-12",
+    "title": "Nava Aashraya scheme",
+    "titleMl": "Nava Aashraya scheme",
+    "description": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.\n\n**Tracking Note:** Track scheme launch, beneficiary identification, local body implementation, and fund release.",
+    "manifestoQuote": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s9",
+      "name": "Poverty Alleviation",
+      "nameMl": "Poverty Alleviation",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p13",
-    "slug": "identify-and-support-the-most-vulnerable-sections-of-society-13",
-    "title": "Identify and support the most vulnerable sections of society",
-    "titleMl": "Identify and support the most vulnerable sections of society",
-    "description": "Identify and support the most vulnerable sections of society",
-    "manifestoQuote": "Identify and support the most vulnerable sections of society",
+    "slug": "support-for-most-vulnerable-sections-13",
+    "title": "Support for most vulnerable sections",
+    "titleMl": "Support for most vulnerable sections",
+    "description": "Identify and support the most vulnerable sections of society through targeted welfare measures.\n\n**Tracking Note:** Track survey/identification process, scheme notification, beneficiary list, and benefits delivered.",
+    "manifestoQuote": "Identify and support the most vulnerable sections of society through targeted welfare measures.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s9",
+      "name": "Poverty Alleviation",
+      "nameMl": "Poverty Alleviation",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p14",
-    "slug": "special-action-plan-for-yellow-and-pink-ration-card-holders-14",
-    "title": "Special action plan for yellow and pink ration card holders",
-    "titleMl": "Special action plan for yellow and pink ration card holders",
-    "description": "Special action plan for yellow and pink ration card holders",
-    "manifestoQuote": "Special action plan for yellow and pink ration card holders",
+    "slug": "special-plan-for-yellow-and-pink-ration-card-holders-14",
+    "title": "Special plan for yellow and pink ration card holders",
+    "titleMl": "Special plan for yellow and pink ration card holders",
+    "description": "Prepare a special action plan for yellow and pink ration card holders.\n\n**Tracking Note:** Track official action plan, benefits covered, target households, and implementation schedule.",
+    "manifestoQuote": "Prepare a special action plan for yellow and pink ration card holders.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s8",
+      "name": "Food Security",
+      "nameMl": "Food Security",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p15",
-    "slug": "1-000-monthly-stipend-for-college-going-girls-15",
-    "title": "₹1,000 monthly stipend for college-going girls",
-    "titleMl": "₹1,000 monthly stipend for college-going girls",
-    "description": "₹1,000 monthly stipend for college-going girls",
-    "manifestoQuote": "₹1,000 monthly stipend for college-going girls",
+    "slug": "yuva-shakti-naadin-sampath-15",
+    "title": "Yuva Shakti Naadin Sampath",
+    "titleMl": "Yuva Shakti Naadin Sampath",
+    "description": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.\n\n**Tracking Note:** Track budget documents showing 5% allocation and youth-focused expenditure.",
+    "manifestoQuote": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s10",
+      "name": "Youth",
+      "nameMl": "Youth",
+      "icon": "users",
+      "color": "#475569"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p16",
-    "slug": "free-ksrtc-travel-for-women-16",
-    "title": "Free KSRTC travel for women",
-    "titleMl": "Free KSRTC travel for women",
-    "description": "Free KSRTC travel for women",
-    "manifestoQuote": "Free KSRTC travel for women",
+    "slug": "yuvashree-collectives-16",
+    "title": "Yuvashree collectives",
+    "titleMl": "Yuvashree collectives",
+    "description": "Introduce Yuvashree collectives modelled on Kudumbashree.\n\n**Tracking Note:** Track scheme order, pilot districts, number of collectives formed, and funding.",
+    "manifestoQuote": "Introduce Yuvashree collectives modelled on Kudumbashree.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s11",
+      "name": "Youth & Community",
+      "nameMl": "Youth & Community",
+      "icon": "users",
+      "color": "#475569"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p17",
-    "slug": "earmark-5-of-plan-outlay-for-young-people-under-yuva-shakti-naadin-sampath-17",
-    "title": "Earmark 5% of plan outlay for young people under “Yuva Shakti Naadin Sampath”",
-    "titleMl": "Earmark 5% of plan outlay for young people under “Yuva Shakti Naadin Sampath”",
-    "description": "Earmark 5% of plan outlay for young people under “Yuva Shakti Naadin Sampath”",
-    "manifestoQuote": "Earmark 5% of plan outlay for young people under “Yuva Shakti Naadin Sampath”",
+    "slug": "k-r-narayanan-scholarships-17",
+    "title": "K. R. Narayanan scholarships",
+    "titleMl": "K. R. Narayanan scholarships",
+    "description": "Provide K. R. Narayanan scholarships for meritorious students.\n\n**Tracking Note:** Track scholarship rules, eligibility, application portal, number of students selected, and disbursal.",
+    "manifestoQuote": "Provide K. R. Narayanan scholarships for meritorious students.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s12",
+      "name": "Education",
+      "nameMl": "Education",
+      "icon": "graduation-cap",
+      "color": "#0284C7"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p18",
-    "slug": "introduce-yuvashree-collectives-modelled-on-kudumbashree-18",
-    "title": "Introduce “Yuvashree” collectives modelled on Kudumbashree",
-    "titleMl": "Introduce “Yuvashree” collectives modelled on Kudumbashree",
-    "description": "Introduce “Yuvashree” collectives modelled on Kudumbashree",
-    "manifestoQuote": "Introduce “Yuvashree” collectives modelled on Kudumbashree",
+    "slug": "higher-education-loan-support-18",
+    "title": "Higher education loan support",
+    "titleMl": "Higher education loan support",
+    "description": "Provide education loan support for higher studies in India and abroad.\n\n**Tracking Note:** Track interest subsidy, guarantee support, repayment assistance, or direct loan scheme order.",
+    "manifestoQuote": "Provide education loan support for higher studies in India and abroad.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s12",
+      "name": "Education",
+      "nameMl": "Education",
+      "icon": "graduation-cap",
+      "color": "#0284C7"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p19",
-    "slug": "interest-free-loans-for-youth-entrepreneurs-19",
-    "title": "Interest-free loans for youth entrepreneurs",
-    "titleMl": "Interest-free loans for youth entrepreneurs",
-    "description": "Interest-free loans for youth entrepreneurs",
-    "manifestoQuote": "Interest-free loans for youth entrepreneurs",
+    "slug": "free-dialysis-for-bpl-families-19",
+    "title": "Free dialysis for BPL families",
+    "titleMl": "Free dialysis for BPL families",
+    "description": "Provide free dialysis services for families below the poverty line.\n\n**Tracking Note:** Track hospital empanelment, eligibility rules, dialysis sessions covered, and actual usage.",
+    "manifestoQuote": "Provide free dialysis services for families below the poverty line.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s3",
+      "name": "Health",
+      "nameMl": "Health",
+      "icon": "heart-pulse",
+      "color": "#15803D"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "heart-pulse",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p20",
-    "slug": "kr-narayanan-scholarships-for-meritorious-students-20",
-    "title": "KR Narayanan scholarships for meritorious students",
-    "titleMl": "KR Narayanan scholarships for meritorious students",
-    "description": "KR Narayanan scholarships for meritorious students",
-    "manifestoQuote": "KR Narayanan scholarships for meritorious students",
+    "slug": "she-hospitals-20",
+    "title": "SHE Hospitals",
+    "titleMl": "SHE Hospitals",
+    "description": "Open SHE Hospitals dedicated to women and children.\n\n**Tracking Note:** Track hospital locations, construction/upgradation order, staffing, and opening date.",
+    "manifestoQuote": "Open SHE Hospitals dedicated to women and children.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s13",
+      "name": "Health & Women",
+      "nameMl": "Health & Women",
+      "icon": "users",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p21",
-    "slug": "education-loans-support-for-higher-studies-in-india-and-abroad-21",
-    "title": "Education loans/support for higher studies in India and abroad",
-    "titleMl": "Education loans/support for higher studies in India and abroad",
-    "description": "Education loans/support for higher studies in India and abroad",
-    "manifestoQuote": "Education loans/support for higher studies in India and abroad",
+    "slug": "health-centres-in-tribal-areas-21",
+    "title": "Health centres in tribal areas",
+    "titleMl": "Health centres in tribal areas",
+    "description": "Establish dedicated health centres in tribal areas.\n\n**Tracking Note:** Track number of centres announced, districts, staffing, budget, and operational status.",
+    "manifestoQuote": "Establish dedicated health centres in tribal areas.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s14",
+      "name": "Health & Tribal Welfare",
+      "nameMl": "Health & Tribal Welfare",
+      "icon": "heart-pulse",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "heart-pulse",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p22",
-    "slug": "oommen-chandy-health-insurance-up-to-25-lakh-22",
-    "title": "Oommen Chandy health insurance up to ₹25 lakh",
-    "titleMl": "Oommen Chandy health insurance up to ₹25 lakh",
-    "description": "Oommen Chandy health insurance up to ₹25 lakh",
-    "manifestoQuote": "Oommen Chandy health insurance up to ₹25 lakh",
+    "slug": "health-centres-in-coastal-areas-22",
+    "title": "Health centres in coastal areas",
+    "titleMl": "Health centres in coastal areas",
+    "description": "Establish dedicated health centres in coastal areas.\n\n**Tracking Note:** Track locations, coastal communities covered, staff appointments, and service availability.",
+    "manifestoQuote": "Establish dedicated health centres in coastal areas.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s15",
+      "name": "Health & Coastal Welfare",
+      "nameMl": "Health & Coastal Welfare",
+      "icon": "heart-pulse",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "heart-pulse",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p23",
-    "slug": "free-dialysis-for-bpl-families-23",
-    "title": "Free dialysis for BPL families",
-    "titleMl": "Free dialysis for BPL families",
-    "description": "Free dialysis for BPL families",
-    "manifestoQuote": "Free dialysis for BPL families",
+    "slug": "no-bill-hospitals-23",
+    "title": "No-bill hospitals",
+    "titleMl": "No-bill hospitals",
+    "description": "Introduce no-bill or bill-less hospitals for eligible patients/services.\n\n**Tracking Note:** Track official definition, covered hospitals, covered treatments, and patient billing data.",
+    "manifestoQuote": "Introduce no-bill or bill-less hospitals for eligible patients/services.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s3",
+      "name": "Health",
+      "nameMl": "Health",
+      "icon": "heart-pulse",
+      "color": "#15803D"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "heart-pulse",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p24",
-    "slug": "she-hospitals-for-women-and-children-24",
-    "title": "SHE hospitals for women and children",
-    "titleMl": "SHE hospitals for women and children",
-    "description": "SHE hospitals for women and children",
-    "manifestoQuote": "SHE hospitals for women and children",
+    "slug": "tribal-health-clusters-24",
+    "title": "Tribal health clusters",
+    "titleMl": "Tribal health clusters",
+    "description": "Establish tribal health clusters to improve healthcare access for tribal communities.\n\n**Tracking Note:** Track cluster locations, health teams, mobile units, and measurable service coverage.",
+    "manifestoQuote": "Establish tribal health clusters to improve healthcare access for tribal communities.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s14",
+      "name": "Health & Tribal Welfare",
+      "nameMl": "Health & Tribal Welfare",
+      "icon": "heart-pulse",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "heart-pulse",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p25",
-    "slug": "dedicated-health-centres-in-tribal-areas-25",
-    "title": "Dedicated health centres in tribal areas",
-    "titleMl": "Dedicated health centres in tribal areas",
-    "description": "Dedicated health centres in tribal areas",
-    "manifestoQuote": "Dedicated health centres in tribal areas",
+    "slug": "asha-wage-honorarium-hike-25",
+    "title": "ASHA wage/honorarium hike",
+    "titleMl": "ASHA wage/honorarium hike",
+    "description": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.\n\n**Tracking Note:** Mark Fulfilled after official order and revised payment reaches ASHA workers.",
+    "manifestoQuote": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s16",
+      "name": "Labour",
+      "nameMl": "Labour",
+      "icon": "briefcase",
+      "color": "#9333EA"
     },
-    "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF manifesto; first cabinet decision reported ₹3,000 honorarium hike."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p26",
-    "slug": "dedicated-health-centres-in-coastal-areas-26",
-    "title": "Dedicated health centres in coastal areas",
-    "titleMl": "Dedicated health centres in coastal areas",
-    "description": "Dedicated health centres in coastal areas",
-    "manifestoQuote": "Dedicated health centres in coastal areas",
+    "slug": "anganwadi-worker-wage-revision-26",
+    "title": "Anganwadi worker wage revision",
+    "titleMl": "Anganwadi worker wage revision",
+    "description": "Revise wages or honorarium of anganwadi workers.\n\n**Tracking Note:** Track official order, revised amount, and first payment.",
+    "manifestoQuote": "Revise wages or honorarium of anganwadi workers.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s16",
+      "name": "Labour",
+      "nameMl": "Labour",
+      "icon": "briefcase",
+      "color": "#9333EA"
     },
-    "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF manifesto; post-election cabinet announcements reported wage/honorarium hike."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p27",
-    "slug": "no-bill-bill-less-hospitals-27",
-    "title": "No-bill / bill-less hospitals",
-    "titleMl": "No-bill / bill-less hospitals",
-    "description": "No-bill / bill-less hospitals",
-    "manifestoQuote": "No-bill / bill-less hospitals",
+    "slug": "school-cook-wage-revision-27",
+    "title": "School cook wage revision",
+    "titleMl": "School cook wage revision",
+    "description": "Revise wages or honorarium of school cooks.\n\n**Tracking Note:** Track official order, revised amount, and first payment.",
+    "manifestoQuote": "Revise wages or honorarium of school cooks.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s16",
+      "name": "Labour",
+      "nameMl": "Labour",
+      "icon": "briefcase",
+      "color": "#9333EA"
     },
-    "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF manifesto; post-election cabinet announcements reported wage/honorarium hike."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p28",
-    "slug": "tribal-health-clusters-tribal-health-focus-28",
-    "title": "Tribal health clusters / tribal health focus",
-    "titleMl": "Tribal health clusters / tribal health focus",
-    "description": "Tribal health clusters / tribal health focus",
-    "manifestoQuote": "Tribal health clusters / tribal health focus",
+    "slug": "benefits-for-scheme-workers-28",
+    "title": "Benefits for scheme workers",
+    "titleMl": "Benefits for scheme workers",
+    "description": "Improve remuneration, welfare, or benefit access for scheme workers.\n\n**Tracking Note:** Track worker categories covered, benefit changes, welfare board linkage, and budget allocation.",
+    "manifestoQuote": "Improve remuneration, welfare, or benefit access for scheme workers.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s16",
+      "name": "Labour",
+      "nameMl": "Labour",
+      "icon": "briefcase",
+      "color": "#9333EA"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
     "id": "p29",
-    "slug": "raise-asha-workers-daily-wage-to-at-least-700-29",
-    "title": "Raise ASHA workers’ daily wage to at least ₹700",
-    "titleMl": "Raise ASHA workers’ daily wage to at least ₹700",
-    "description": "Raise ASHA workers’ daily wage to at least ₹700",
-    "manifestoQuote": "Raise ASHA workers’ daily wage to at least ₹700",
+    "slug": "separate-agriculture-budget-29",
+    "title": "Separate agriculture budget",
+    "titleMl": "Separate agriculture budget",
+    "description": "Present a separate Agricultural Budget along with the State Budget.\n\n**Tracking Note:** Track first state budget presentation and whether a separate agriculture budget document is tabled.",
+    "manifestoQuote": "Present a separate Agricultural Budget along with the State Budget.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s17",
+      "name": "Agriculture",
+      "nameMl": "Agriculture",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p30",
-    "slug": "revise-wages-remuneration-of-anganwadi-workers-30",
-    "title": "Revise wages/remuneration of anganwadi workers",
-    "titleMl": "Revise wages/remuneration of anganwadi workers",
-    "description": "Revise wages/remuneration of anganwadi workers",
-    "manifestoQuote": "Revise wages/remuneration of anganwadi workers",
+    "slug": "implement-swaminathan-commission-msp-recommendations-30",
+    "title": "Implement Swaminathan Commission MSP recommendations",
+    "titleMl": "Implement Swaminathan Commission MSP recommendations",
+    "description": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.\n\n**Tracking Note:** Track official MSP formula, state orders, crop coverage, and procurement rules.",
+    "manifestoQuote": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s17",
+      "name": "Agriculture",
+      "nameMl": "Agriculture",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p31",
-    "slug": "revise-wages-remuneration-of-school-cooks-31",
-    "title": "Revise wages/remuneration of school cooks",
-    "titleMl": "Revise wages/remuneration of school cooks",
-    "description": "Revise wages/remuneration of school cooks",
-    "manifestoQuote": "Revise wages/remuneration of school cooks",
+    "slug": "300-support-price-for-rubber-31",
+    "title": "₹300 support price for rubber",
+    "titleMl": "₹300 support price for rubber",
+    "description": "Set or assure support/base price of ₹300 per kg for rubber.\n\n**Tracking Note:** Track scheme order, eligibility, subsidy mechanism, and actual farmer payments.",
+    "manifestoQuote": "Set or assure support/base price of ₹300 per kg for rubber.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s18",
+      "name": "Agriculture & Rubber",
+      "nameMl": "Agriculture & Rubber",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p32",
-    "slug": "improve-scheme-workers-access-to-benefits-32",
-    "title": "Improve scheme workers’ access to benefits",
-    "titleMl": "Improve scheme workers’ access to benefits",
-    "description": "Improve scheme workers’ access to benefits",
-    "manifestoQuote": "Improve scheme workers’ access to benefits",
+    "slug": "rubber-company-on-cial-model-32",
+    "title": "Rubber Company on CIAL model",
+    "titleMl": "Rubber Company on CIAL model",
+    "description": "Set up a Rubber Company on the CIAL model.\n\n**Tracking Note:** Track company registration, ownership structure, capital allocation, and operational launch.",
+    "manifestoQuote": "Set up a Rubber Company on the CIAL model.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s18",
+      "name": "Agriculture & Rubber",
+      "nameMl": "Agriculture & Rubber",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p33",
-    "slug": "introduce-a-separate-agriculture-budget-33",
-    "title": "Introduce a separate agriculture budget",
-    "titleMl": "Introduce a separate agriculture budget",
-    "description": "Introduce a separate agriculture budget",
-    "manifestoQuote": "Introduce a separate agriculture budget",
+    "slug": "35-kg-paddy-procurement-price-33",
+    "title": "₹35/kg paddy procurement price",
+    "titleMl": "₹35/kg paddy procurement price",
+    "description": "Fix paddy procurement price at ₹35 per kg.\n\n**Tracking Note:** Track procurement order, season-wise rate, and farmer payment records.",
+    "manifestoQuote": "Fix paddy procurement price at ₹35 per kg.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s19",
+      "name": "Agriculture & Paddy",
+      "nameMl": "Agriculture & Paddy",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p34",
-    "slug": "implement-m-s-swaminathan-commission-recommendations-on-msp-34",
-    "title": "Implement M. S. Swaminathan Commission recommendations on MSP",
-    "titleMl": "Implement M. S. Swaminathan Commission recommendations on MSP",
-    "description": "Implement M. S. Swaminathan Commission recommendations on MSP",
-    "manifestoQuote": "Implement M. S. Swaminathan Commission recommendations on MSP",
+    "slug": "direct-paddy-payment-to-farmers-34",
+    "title": "Direct paddy payment to farmers",
+    "titleMl": "Direct paddy payment to farmers",
+    "description": "Directly credit paddy procurement payments to farmers' bank accounts.\n\n**Tracking Note:** Track payment mechanism, delay reduction, and direct bank transfer confirmation.",
+    "manifestoQuote": "Directly credit paddy procurement payments to farmers' bank accounts.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s19",
+      "name": "Agriculture & Paddy",
+      "nameMl": "Agriculture & Paddy",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p35",
-    "slug": "assured-support-base-price-of-300-for-rubber-35",
-    "title": "Assured support/base price of ₹300 for rubber",
-    "titleMl": "Assured support/base price of ₹300 for rubber",
-    "description": "Assured support/base price of ₹300 for rubber",
-    "manifestoQuote": "Assured support/base price of ₹300 for rubber",
+    "slug": "increase-coconut-support-price-35",
+    "title": "Increase coconut support price",
+    "titleMl": "Increase coconut support price",
+    "description": "Increase support price for coconut.\n\n**Tracking Note:** Track revised support price order and procurement/payment implementation.",
+    "manifestoQuote": "Increase support price for coconut.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s20",
+      "name": "Agriculture & Coconut",
+      "nameMl": "Agriculture & Coconut",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p36",
-    "slug": "set-up-a-rubber-company-on-the-cial-model-36",
-    "title": "Set up a Rubber Company on the CIAL model",
-    "titleMl": "Set up a Rubber Company on the CIAL model",
-    "description": "Set up a Rubber Company on the CIAL model",
-    "manifestoQuote": "Set up a Rubber Company on the CIAL model",
+    "slug": "tender-coconut-procurement-centres-36",
+    "title": "Tender coconut procurement centres",
+    "titleMl": "Tender coconut procurement centres",
+    "description": "Expand procurement centres for tender coconut.\n\n**Tracking Note:** Track number of centres opened, districts covered, and procurement volumes.",
+    "manifestoQuote": "Expand procurement centres for tender coconut.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s20",
+      "name": "Agriculture & Coconut",
+      "nameMl": "Agriculture & Coconut",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p37",
-    "slug": "paddy-procurement-price-of-35-kg-37",
-    "title": "Paddy procurement price of ₹35/kg",
-    "titleMl": "Paddy procurement price of ₹35/kg",
-    "description": "Paddy procurement price of ₹35/kg",
-    "manifestoQuote": "Paddy procurement price of ₹35/kg",
+    "slug": "cash-crops-under-agricultural-produce-37",
+    "title": "Cash crops under agricultural produce",
+    "titleMl": "Cash crops under agricultural produce",
+    "description": "Pressure the Union Government to include cash crops under agricultural produce.\n\n**Tracking Note:** Track official state memorandum, assembly resolution, or central-government correspondence.",
+    "manifestoQuote": "Pressure the Union Government to include cash crops under agricultural produce.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s17",
+      "name": "Agriculture",
+      "nameMl": "Agriculture",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p38",
-    "slug": "directly-credit-paddy-payments-to-farmers-bank-accounts-38",
-    "title": "Directly credit paddy payments to farmers’ bank accounts",
-    "titleMl": "Directly credit paddy payments to farmers’ bank accounts",
-    "description": "Directly credit paddy payments to farmers’ bank accounts",
-    "manifestoQuote": "Directly credit paddy payments to farmers’ bank accounts",
+    "slug": "resolve-migrant-farmers-land-issues-38",
+    "title": "Resolve migrant farmers' land issues",
+    "titleMl": "Resolve migrant farmers' land issues",
+    "description": "Resolve migrant farmers' land-related issues in a time-bound manner.\n\n**Tracking Note:** Track committee/order, affected areas, title/legal changes, and resolved cases.",
+    "manifestoQuote": "Resolve migrant farmers' land-related issues in a time-bound manner.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s21",
+      "name": "Farmers & Land",
+      "nameMl": "Farmers & Land",
+      "icon": "tractor",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p39",
-    "slug": "increase-support-price-for-coconut-39",
-    "title": "Increase support price for coconut",
-    "titleMl": "Increase support price for coconut",
-    "description": "Increase support price for coconut",
-    "manifestoQuote": "Increase support price for coconut",
+    "slug": "ai-drones-iot-for-wildlife-alerts-39",
+    "title": "AI/drones/IoT for wildlife alerts",
+    "titleMl": "AI/drones/IoT for wildlife alerts",
+    "description": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.\n\n**Tracking Note:** Track pilot projects, technology deployment areas, alert systems, and incident reduction.",
+    "manifestoQuote": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s22",
+      "name": "Wildlife Conflict",
+      "nameMl": "Wildlife Conflict",
+      "icon": "paw-print",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "paw-print",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p40",
-    "slug": "expand-procurement-centres-for-tender-coconut-40",
-    "title": "Expand procurement centres for tender coconut",
-    "titleMl": "Expand procurement centres for tender coconut",
-    "description": "Expand procurement centres for tender coconut",
-    "manifestoQuote": "Expand procurement centres for tender coconut",
+    "slug": "increase-wildlife-attack-death-compensation-by-50-40",
+    "title": "Increase wildlife attack death compensation by 50%",
+    "titleMl": "Increase wildlife attack death compensation by 50%",
+    "description": "Increase compensation by 50% for deaths caused by wildlife attacks.\n\n**Tracking Note:** Track revised compensation order and payments to affected families.",
+    "manifestoQuote": "Increase compensation by 50% for deaths caused by wildlife attacks.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s22",
+      "name": "Wildlife Conflict",
+      "nameMl": "Wildlife Conflict",
+      "icon": "paw-print",
+      "color": "#16A34A"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "paw-print",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p41",
-    "slug": "pressure-centre-to-include-cash-crops-under-agricultural-produce-41",
-    "title": "Pressure Centre to include cash crops under agricultural produce",
-    "titleMl": "Pressure Centre to include cash crops under agricultural produce",
-    "description": "Pressure Centre to include cash crops under agricultural produce",
-    "manifestoQuote": "Pressure Centre to include cash crops under agricultural produce",
+    "slug": "five-lakh-houses-in-five-years-41",
+    "title": "Five lakh houses in five years",
+    "titleMl": "Five lakh houses in five years",
+    "description": "Build five lakh houses over five years for landless and homeless families.\n\n**Tracking Note:** Track annual target, houses sanctioned, houses completed, and beneficiary handover.",
+    "manifestoQuote": "Build five lakh houses over five years for landless and homeless families.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s23",
+      "name": "Housing",
+      "nameMl": "Housing",
+      "icon": "home",
+      "color": "#D97706"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "home",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p42",
-    "slug": "time-bound-resolution-of-migrant-farmers-land-related-issues-42",
-    "title": "Time-bound resolution of migrant farmers’ land-related issues",
-    "titleMl": "Time-bound resolution of migrant farmers’ land-related issues",
-    "description": "Time-bound resolution of migrant farmers’ land-related issues",
-    "manifestoQuote": "Time-bound resolution of migrant farmers’ land-related issues",
+    "slug": "review-or-reform-life-mission-42",
+    "title": "Review or reform LIFE Mission",
+    "titleMl": "Review or reform LIFE Mission",
+    "description": "Review and reform the LIFE Mission housing scheme.\n\n**Tracking Note:** Track review committee, revised guidelines, and integration with new housing promise.",
+    "manifestoQuote": "Review and reform the LIFE Mission housing scheme.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s23",
+      "name": "Housing",
+      "nameMl": "Housing",
+      "icon": "home",
+      "color": "#D97706"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "home",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p43",
-    "slug": "use-drones-ai-iot-for-human-wildlife-conflict-alerts-43",
-    "title": "Use drones/AI/IoT for human-wildlife conflict alerts",
-    "titleMl": "Use drones/AI/IoT for human-wildlife conflict alerts",
-    "description": "Use drones/AI/IoT for human-wildlife conflict alerts",
-    "manifestoQuote": "Use drones/AI/IoT for human-wildlife conflict alerts",
+    "slug": "mission-samudra-43",
+    "title": "Mission Samudra",
+    "titleMl": "Mission Samudra",
+    "description": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.\n\n**Tracking Note:** Track mission document, nodal agency, budget, port/coastal projects, and implementation milestones.",
+    "manifestoQuote": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s24",
+      "name": "Maritime Economy",
+      "nameMl": "Maritime Economy",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p44",
-    "slug": "increase-compensation-by-50-for-deaths-in-wildlife-attacks-44",
-    "title": "Increase compensation by 50% for deaths in wildlife attacks",
-    "titleMl": "Increase compensation by 50% for deaths in wildlife attacks",
-    "description": "Increase compensation by 50% for deaths in wildlife attacks",
-    "manifestoQuote": "Increase compensation by 50% for deaths in wildlife attacks",
+    "slug": "integrated-water-transport-network-44",
+    "title": "Integrated water transport network",
+    "titleMl": "Integrated water transport network",
+    "description": "Develop an integrated water transport network for cargo and passengers.\n\n**Tracking Note:** Track routes, terminals, cargo/passenger service launch, and agency coordination.",
+    "manifestoQuote": "Develop an integrated water transport network for cargo and passengers.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s25",
+      "name": "Water Transport",
+      "nameMl": "Water Transport",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p45",
-    "slug": "build-five-lakh-houses-for-homeless-landless-families-within-five-years-45",
-    "title": "Build five lakh houses for homeless/landless families within five years",
-    "titleMl": "Build five lakh houses for homeless/landless families within five years",
-    "description": "Build five lakh houses for homeless/landless families within five years",
-    "manifestoQuote": "Build five lakh houses for homeless/landless families within five years",
+    "slug": "high-speed-rail-corridor-with-centre-railways-45",
+    "title": "High-speed rail corridor with Centre/Railways",
+    "titleMl": "High-speed rail corridor with Centre/Railways",
+    "description": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.\n\n**Tracking Note:** Track DPR, Centre-state agreement, railway approval, and project funding.",
+    "manifestoQuote": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s26",
+      "name": "Rail Infrastructure",
+      "nameMl": "Rail Infrastructure",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p46",
-    "slug": "review-reform-life-mission-46",
-    "title": "Review/reform LIFE Mission",
-    "titleMl": "Review/reform LIFE Mission",
-    "description": "Review/reform LIFE Mission",
-    "manifestoQuote": "Review/reform LIFE Mission",
+    "slug": "metro-light-metro-in-thiruvananthapuram-46",
+    "title": "Metro/Light Metro in Thiruvananthapuram",
+    "titleMl": "Metro/Light Metro in Thiruvananthapuram",
+    "description": "Launch Metro or Light Metro rail system in Thiruvananthapuram.\n\n**Tracking Note:** Track DPR approval, funding, land acquisition, tendering, and construction start.",
+    "manifestoQuote": "Launch Metro or Light Metro rail system in Thiruvananthapuram.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s27",
+      "name": "Urban Transport",
+      "nameMl": "Urban Transport",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p47",
-    "slug": "mission-samudra-integrate-coastline-rivers-lakes-and-ports-into-maritime-economy-47",
-    "title": "Mission Samudra: integrate coastline, rivers, lakes and ports into maritime economy",
-    "titleMl": "Mission Samudra: integrate coastline, rivers, lakes and ports into maritime economy",
-    "description": "Mission Samudra: integrate coastline, rivers, lakes and ports into maritime economy",
-    "manifestoQuote": "Mission Samudra: integrate coastline, rivers, lakes and ports into maritime economy",
+    "slug": "metro-light-metro-in-kozhikode-47",
+    "title": "Metro/Light Metro in Kozhikode",
+    "titleMl": "Metro/Light Metro in Kozhikode",
+    "description": "Launch Metro or Light Metro rail system in Kozhikode.\n\n**Tracking Note:** Track DPR approval, funding, land acquisition, tendering, and construction start.",
+    "manifestoQuote": "Launch Metro or Light Metro rail system in Kozhikode.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s27",
+      "name": "Urban Transport",
+      "nameMl": "Urban Transport",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p48",
-    "slug": "integrated-water-transport-network-for-cargo-and-passengers-48",
-    "title": "Integrated water transport network for cargo and passengers",
-    "titleMl": "Integrated water transport network for cargo and passengers",
-    "description": "Integrated water transport network for cargo and passengers",
-    "manifestoQuote": "Integrated water transport network for cargo and passengers",
+    "slug": "denotify-silverline-land-48",
+    "title": "Denotify SilverLine land",
+    "titleMl": "Denotify SilverLine land",
+    "description": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.\n\n**Tracking Note:** Track official denotification orders and affected survey numbers/land parcels.",
+    "manifestoQuote": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "id": "s28",
+      "name": "SilverLine",
+      "nameMl": "SilverLine",
       "icon": "check-circle-2",
-      "color": "#64748B"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p49",
-    "slug": "high-speed-rail-corridor-in-partnership-with-indian-railways-centre-49",
-    "title": "High-speed rail corridor in partnership with Indian Railways/Centre",
-    "titleMl": "High-speed rail corridor in partnership with Indian Railways/Centre",
-    "description": "High-speed rail corridor in partnership with Indian Railways/Centre",
-    "manifestoQuote": "High-speed rail corridor in partnership with Indian Railways/Centre",
+    "slug": "do-not-implement-silverline-49",
+    "title": "Do not implement SilverLine",
+    "titleMl": "Do not implement SilverLine",
+    "description": "Scrap or not implement the SilverLine semi-high-speed rail project.\n\n**Tracking Note:** Mark Fulfilled only after official cancellation/withdrawal of project approvals and land notifications.",
+    "manifestoQuote": "Scrap or not implement the SilverLine semi-high-speed rail project.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
+      "id": "s28",
+      "name": "SilverLine",
+      "nameMl": "SilverLine",
       "icon": "check-circle-2",
-      "color": "#64748B"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p50",
-    "slug": "metro-light-metro-in-thiruvananthapuram-50",
-    "title": "Metro/Light Metro in Thiruvananthapuram",
-    "titleMl": "Metro/Light Metro in Thiruvananthapuram",
-    "description": "Metro/Light Metro in Thiruvananthapuram",
-    "manifestoQuote": "Metro/Light Metro in Thiruvananthapuram",
+    "slug": "comprehensive-aviation-plan-50",
+    "title": "Comprehensive aviation plan",
+    "titleMl": "Comprehensive aviation plan",
+    "description": "Prepare and implement a comprehensive aviation plan for Kerala.\n\n**Tracking Note:** Track policy document, airport development plans, route incentives, and budget support.",
+    "manifestoQuote": "Prepare and implement a comprehensive aviation plan for Kerala.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s29",
+      "name": "Aviation",
+      "nameMl": "Aviation",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.324Z",
-    "createdAt": "2026-05-19T19:54:55.324Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p51",
-    "slug": "metro-light-metro-in-kozhikode-51",
-    "title": "Metro/Light Metro in Kozhikode",
-    "titleMl": "Metro/Light Metro in Kozhikode",
-    "description": "Metro/Light Metro in Kozhikode",
-    "manifestoQuote": "Metro/Light Metro in Kozhikode",
+    "slug": "second-runway-at-kochi-airport-51",
+    "title": "Second runway at Kochi Airport",
+    "titleMl": "Second runway at Kochi Airport",
+    "description": "Develop a second runway at Kochi Airport.\n\n**Tracking Note:** Track feasibility, land acquisition, CIAL board decision, approvals, and construction.",
+    "manifestoQuote": "Develop a second runway at Kochi Airport.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s29",
+      "name": "Aviation",
+      "nameMl": "Aviation",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.325Z",
-    "createdAt": "2026-05-19T19:54:55.325Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p52",
-    "slug": "denotify-land-acquired-for-silverline-52",
-    "title": "Denotify land acquired for SilverLine",
-    "titleMl": "Denotify land acquired for SilverLine",
-    "description": "Denotify land acquired for SilverLine",
-    "manifestoQuote": "Denotify land acquired for SilverLine",
+    "slug": "expand-kannur-airport-terminal-and-apron-52",
+    "title": "Expand Kannur Airport terminal and apron",
+    "titleMl": "Expand Kannur Airport terminal and apron",
+    "description": "Expand terminal and apron facilities at Kannur Airport.\n\n**Tracking Note:** Track airport expansion plan, funding, tender, and completion.",
+    "manifestoQuote": "Expand terminal and apron facilities at Kannur Airport.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s29",
+      "name": "Aviation",
+      "nameMl": "Aviation",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.325Z",
-    "createdAt": "2026-05-19T19:54:55.325Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p53",
-    "slug": "not-implement-silverline-project-53",
-    "title": "Not implement SilverLine project",
-    "titleMl": "Not implement SilverLine project",
-    "description": "Not implement SilverLine project",
-    "manifestoQuote": "Not implement SilverLine project",
+    "slug": "mro-centres-53",
+    "title": "MRO centres",
+    "titleMl": "MRO centres",
+    "description": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.\n\n**Tracking Note:** Track location, investor/agency, approvals, construction, and operational launch.",
+    "manifestoQuote": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s30",
+      "name": "Aviation & Industry",
+      "nameMl": "Aviation & Industry",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.325Z",
-    "createdAt": "2026-05-19T19:54:55.325Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p54",
-    "slug": "comprehensive-aviation-plan-54",
-    "title": "Comprehensive aviation plan",
-    "titleMl": "Comprehensive aviation plan",
-    "description": "Comprehensive aviation plan",
-    "manifestoQuote": "Comprehensive aviation plan",
+    "slug": "route-development-and-connectivity-fund-54",
+    "title": "Route Development and Connectivity Fund",
+    "titleMl": "Route Development and Connectivity Fund",
+    "description": "Create a Route Development and Connectivity Fund to support new flight routes.\n\n**Tracking Note:** Track fund creation, allocation, routes supported, and airline participation.",
+    "manifestoQuote": "Create a Route Development and Connectivity Fund to support new flight routes.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
+      "id": "s29",
+      "name": "Aviation",
+      "nameMl": "Aviation",
+      "icon": "building",
       "color": "#64748B"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.325Z",
-    "createdAt": "2026-05-19T19:54:55.325Z"
+    "icon": "building",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p55",
-    "slug": "second-runway-at-kochi-airport-55",
-    "title": "Second runway at Kochi Airport",
-    "titleMl": "Second runway at Kochi Airport",
-    "description": "Second runway at Kochi Airport",
-    "manifestoQuote": "Second runway at Kochi Airport",
+    "slug": "wayanad-tribal-university-55",
+    "title": "Wayanad Tribal University",
+    "titleMl": "Wayanad Tribal University",
+    "description": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.\n\n**Tracking Note:** Track university act/bill, land, budget, academic plan, and admissions.",
+    "manifestoQuote": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s31",
+      "name": "Education & Tribal Welfare",
+      "nameMl": "Education & Tribal Welfare",
+      "icon": "shield-check",
+      "color": "#2563EB"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.325Z",
-    "createdAt": "2026-05-19T19:54:55.325Z"
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p56",
-    "slug": "expansion-of-terminal-and-apron-at-kannur-airport-56",
-    "title": "Expansion of terminal and apron at Kannur Airport",
-    "titleMl": "Expansion of terminal and apron at Kannur Airport",
-    "description": "Expansion of terminal and apron at Kannur Airport",
-    "manifestoQuote": "Expansion of terminal and apron at Kannur Airport",
+    "slug": "independent-state-vigilance-commission-56",
+    "title": "Independent State Vigilance Commission",
+    "titleMl": "Independent State Vigilance Commission",
+    "description": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.\n\n**Tracking Note:** Track bill/order, commission structure, appointment process, powers, and operational status.",
+    "manifestoQuote": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s32",
+      "name": "Governance",
+      "nameMl": "Governance",
+      "icon": "landmark",
+      "color": "#475569"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.325Z",
-    "createdAt": "2026-05-19T19:54:55.325Z"
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p57",
-    "slug": "maintenance-repair-and-operations-centres-57",
-    "title": "Maintenance, Repair and Operations centres",
-    "titleMl": "Maintenance, Repair and Operations centres",
-    "description": "Maintenance, Repair and Operations centres",
-    "manifestoQuote": "Maintenance, Repair and Operations centres",
+    "slug": "ai-driven-auditing-tools-57",
+    "title": "AI-driven auditing tools",
+    "titleMl": "AI-driven auditing tools",
+    "description": "Deploy AI-driven auditing tools to improve transparency and governance.\n\n**Tracking Note:** Track procurement, departments covered, audit reports generated, and public disclosure.",
+    "manifestoQuote": "Deploy AI-driven auditing tools to improve transparency and governance.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s33",
+      "name": "Governance & Technology",
+      "nameMl": "Governance & Technology",
+      "icon": "landmark",
+      "color": "#475569"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.325Z",
-    "createdAt": "2026-05-19T19:54:55.325Z"
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   },
   {
     "id": "p58",
-    "slug": "route-development-and-connectivity-fund-for-new-flights-58",
-    "title": "Route Development and Connectivity Fund for new flights",
-    "titleMl": "Route Development and Connectivity Fund for new flights",
-    "description": "Route Development and Connectivity Fund for new flights",
-    "manifestoQuote": "Route Development and Connectivity Fund for new flights",
+    "slug": "create-10-000-enterprises-58",
+    "title": "Create 10,000 enterprises",
+    "titleMl": "Create 10,000 enterprises",
+    "description": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.\n\n**Tracking Note:** Track scheme details, enterprises registered, jobs created, and survival rate.",
+    "manifestoQuote": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.",
     "sector": {
-      "id": "s99",
-      "name": "General Manifesto",
-      "nameMl": "പൊതുവായ പ്രകടനപത്രിക",
-      "icon": "check-circle-2",
-      "color": "#64748B"
+      "id": "s34",
+      "name": "Industry & Employment",
+      "nameMl": "Industry & Employment",
+      "icon": "briefcase",
+      "color": "#9333EA"
     },
     "status": "pending",
-    "icon": "check-circle-2",
-    "sources": [],
-    "lastUpdated": "2026-05-19T19:54:55.325Z",
-    "createdAt": "2026-05-19T19:54:55.325Z"
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF manifesto media summary."
+      }
+    ],
+    "lastUpdated": "2026-05-19T19:59:47.358Z",
+    "createdAt": "2026-05-19T19:59:47.358Z"
   }
 ]
