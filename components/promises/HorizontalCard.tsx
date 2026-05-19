@@ -4,7 +4,7 @@ import React from "react"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { StatusBadge } from "@/components/shared/StatusBadge"
-import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor } from "lucide-react"
+import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat } from "lucide-react"
 import { Promise as PromiseType } from "@/types"
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -14,6 +14,7 @@ const iconMap: Record<string, React.ReactNode> = {
   "shield-check": <ShieldCheck className="h-4 w-4" />,
   "ship": <Ship className="h-4 w-4" />,
   "tractor": <Tractor className="h-4 w-4" />,
+  "hardhat": <HardHat className="h-4 w-4" />,
 }
 
 interface HorizontalCardProps {

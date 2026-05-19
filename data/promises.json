@@ -11,7 +11,7 @@
       "name": "Women & Transport",
       "nameMl": "Women & Transport",
       "icon": "users",
-      "color": "#2563EB"
+      "color": "#3B82F6"
     },
     "status": "in-progress",
     "icon": "users",
@@ -23,9 +23,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto / Indira Guarantee; first cabinet approval reported."
+      },
+      {
+        "title": "Kerala UDF Govt Approves Free Bus Travel for Women Starting June 15",
+        "url": "https://indianexpress.com/article/cities/thiruvananthapuram/kerala-udf-govt-free-bus-travel-women-june-15-2026",
+        "publication": "News Report",
+        "date": "2026-05-19",
+        "tier": 3,
+        "summary": "In its first cabinet meeting on May 18, 2026, the newly elected UDF government led by CM V.D. Satheesan officially approved the rollout of free KSRTC bus travel for women, effective from June 15, 2026. Guidelines and financial compensation for KSRTC are being finalized."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.355Z",
+    "lastUpdated": "2026-05-19T20:43:06.774Z",
     "createdAt": "2026-05-19T19:59:47.356Z"
   },
   {
@@ -40,7 +48,7 @@
       "name": "Students & Women",
       "nameMl": "Students & Women",
       "icon": "users",
-      "color": "#2563EB"
+      "color": "#EC4899"
     },
     "status": "pending",
     "icon": "users",
@@ -69,7 +77,7 @@
       "name": "Health",
       "nameMl": "Health",
       "icon": "heart-pulse",
-      "color": "#15803D"
+      "color": "#10B981"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -98,7 +106,7 @@
       "name": "Welfare",
       "nameMl": "Welfare",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#F59E0B"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -127,7 +135,7 @@
       "name": "Youth & Employment",
       "nameMl": "Youth & Employment",
       "icon": "users",
-      "color": "#9333EA"
+      "color": "#6366F1"
     },
     "status": "pending",
     "icon": "users",
@@ -156,7 +164,7 @@
       "name": "Senior Citizens",
       "nameMl": "Senior Citizens",
       "icon": "users",
-      "color": "#475569"
+      "color": "#6B7280"
     },
     "status": "in-progress",
     "icon": "users",
@@ -168,9 +176,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF manifesto promise; first cabinet decision reported."
+      },
+      {
+        "title": "New Department for Elderly Welfare Approved by Kerala Cabinet",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-approves-welfare-measures-2026",
+        "publication": "News Report",
+        "date": "2026-05-19",
+        "tier": 3,
+        "summary": "The newly elected Kerala Cabinet approved the creation of a dedicated department for the welfare and protection of senior citizens during its first meeting on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "lastUpdated": "2026-05-19T20:43:06.774Z",
     "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
@@ -185,7 +201,7 @@
       "name": "Welfare",
       "nameMl": "Welfare",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#F59E0B"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -214,7 +230,7 @@
       "name": "Welfare Boards",
       "nameMl": "Welfare Boards",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#F97316"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -243,7 +259,7 @@
       "name": "Welfare Boards",
       "nameMl": "Welfare Boards",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#F97316"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -272,7 +288,7 @@
       "name": "Food Security",
       "nameMl": "Food Security",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#EF4444"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -301,7 +317,7 @@
       "name": "Food Security",
       "nameMl": "Food Security",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#EF4444"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -330,7 +346,7 @@
       "name": "Poverty Alleviation",
       "nameMl": "Poverty Alleviation",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#14B8A6"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -359,7 +375,7 @@
       "name": "Poverty Alleviation",
       "nameMl": "Poverty Alleviation",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#14B8A6"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -388,7 +404,7 @@
       "name": "Food Security",
       "nameMl": "Food Security",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#EF4444"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -417,7 +433,7 @@
       "name": "Youth",
       "nameMl": "Youth",
       "icon": "users",
-      "color": "#475569"
+      "color": "#8B5CF6"
     },
     "status": "pending",
     "icon": "users",
@@ -446,7 +462,7 @@
       "name": "Youth & Community",
       "nameMl": "Youth & Community",
       "icon": "users",
-      "color": "#475569"
+      "color": "#A855F7"
     },
     "status": "pending",
     "icon": "users",
@@ -475,7 +491,7 @@
       "name": "Education",
       "nameMl": "Education",
       "icon": "graduation-cap",
-      "color": "#0284C7"
+      "color": "#0EA5E9"
     },
     "status": "pending",
     "icon": "graduation-cap",
@@ -504,7 +520,7 @@
       "name": "Education",
       "nameMl": "Education",
       "icon": "graduation-cap",
-      "color": "#0284C7"
+      "color": "#0EA5E9"
     },
     "status": "pending",
     "icon": "graduation-cap",
@@ -533,7 +549,7 @@
       "name": "Health",
       "nameMl": "Health",
       "icon": "heart-pulse",
-      "color": "#15803D"
+      "color": "#10B981"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -562,7 +578,7 @@
       "name": "Health & Women",
       "nameMl": "Health & Women",
       "icon": "users",
-      "color": "#2563EB"
+      "color": "#D946EF"
     },
     "status": "pending",
     "icon": "users",
@@ -591,7 +607,7 @@
       "name": "Health & Tribal Welfare",
       "nameMl": "Health & Tribal Welfare",
       "icon": "heart-pulse",
-      "color": "#2563EB"
+      "color": "#06B6D4"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -620,7 +636,7 @@
       "name": "Health & Coastal Welfare",
       "nameMl": "Health & Coastal Welfare",
       "icon": "heart-pulse",
-      "color": "#2563EB"
+      "color": "#0891B2"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -649,7 +665,7 @@
       "name": "Health",
       "nameMl": "Health",
       "icon": "heart-pulse",
-      "color": "#15803D"
+      "color": "#10B981"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -678,7 +694,7 @@
       "name": "Health & Tribal Welfare",
       "nameMl": "Health & Tribal Welfare",
       "icon": "heart-pulse",
-      "color": "#2563EB"
+      "color": "#06B6D4"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -707,7 +723,7 @@
       "name": "Labour",
       "nameMl": "Labour",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#7C3AED"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -719,9 +735,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF manifesto; first cabinet decision reported ₹3,000 honorarium hike."
+      },
+      {
+        "title": "Kerala Cabinet Approves Honorarium Hike for ASHA Workers",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/may/19/kerala-cabinet-asha-workers-honorarium-hike",
+        "publication": "News Report",
+        "date": "2026-05-19",
+        "tier": 3,
+        "summary": "The UDF cabinet led by CM V.D. Satheesan approved an immediate ₹3,000 increase in the monthly honorarium for ASHA workers on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "lastUpdated": "2026-05-19T20:43:06.774Z",
     "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
@@ -736,7 +760,7 @@
       "name": "Labour",
       "nameMl": "Labour",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#7C3AED"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -748,9 +772,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF manifesto; post-election cabinet announcements reported wage/honorarium hike."
+      },
+      {
+        "title": "Wage Hike for Anganwadi Workers Announced by Kerala Govt",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/may/19/anganwadi-wage-hike-kerala",
+        "publication": "News Report",
+        "date": "2026-05-19",
+        "tier": 3,
+        "summary": "The state cabinet has approved a ₹1,000 hike in wages for Anganwadi workers, helpers, and related staff as part of their initial decisions on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
+    "lastUpdated": "2026-05-19T20:43:06.774Z",
     "createdAt": "2026-05-19T19:59:47.357Z"
   },
   {
@@ -765,7 +797,7 @@
       "name": "Labour",
       "nameMl": "Labour",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#7C3AED"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -794,7 +826,7 @@
       "name": "Labour",
       "nameMl": "Labour",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#7C3AED"
     },
     "status": "pending",
     "icon": "briefcase",
@@ -823,7 +855,7 @@
       "name": "Agriculture",
       "nameMl": "Agriculture",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#22C55E"
     },
     "status": "pending",
     "icon": "tractor",
@@ -852,7 +884,7 @@
       "name": "Agriculture",
       "nameMl": "Agriculture",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#22C55E"
     },
     "status": "pending",
     "icon": "tractor",
@@ -939,7 +971,7 @@
       "name": "Agriculture & Paddy",
       "nameMl": "Agriculture & Paddy",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#15803D"
     },
     "status": "pending",
     "icon": "tractor",
@@ -968,7 +1000,7 @@
       "name": "Agriculture & Paddy",
       "nameMl": "Agriculture & Paddy",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#15803D"
     },
     "status": "pending",
     "icon": "tractor",
@@ -997,7 +1029,7 @@
       "name": "Agriculture & Coconut",
       "nameMl": "Agriculture & Coconut",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#86EFAC"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1026,7 +1058,7 @@
       "name": "Agriculture & Coconut",
       "nameMl": "Agriculture & Coconut",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#86EFAC"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1055,7 +1087,7 @@
       "name": "Agriculture",
       "nameMl": "Agriculture",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#22C55E"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1084,7 +1116,7 @@
       "name": "Farmers & Land",
       "nameMl": "Farmers & Land",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#4ADE80"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1113,7 +1145,7 @@
       "name": "Wildlife Conflict",
       "nameMl": "Wildlife Conflict",
       "icon": "paw-print",
-      "color": "#16A34A"
+      "color": "#0D9488"
     },
     "status": "pending",
     "icon": "paw-print",
@@ -1142,7 +1174,7 @@
       "name": "Wildlife Conflict",
       "nameMl": "Wildlife Conflict",
       "icon": "paw-print",
-      "color": "#16A34A"
+      "color": "#0D9488"
     },
     "status": "pending",
     "icon": "paw-print",
@@ -1171,7 +1203,7 @@
       "name": "Housing",
       "nameMl": "Housing",
       "icon": "home",
-      "color": "#D97706"
+      "color": "#B45309"
     },
     "status": "pending",
     "icon": "home",
@@ -1200,7 +1232,7 @@
       "name": "Housing",
       "nameMl": "Housing",
       "icon": "home",
-      "color": "#D97706"
+      "color": "#B45309"
     },
     "status": "pending",
     "icon": "home",
@@ -1229,7 +1261,7 @@
       "name": "Maritime Economy",
       "nameMl": "Maritime Economy",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0F766E"
     },
     "status": "pending",
     "icon": "building",
@@ -1258,7 +1290,7 @@
       "name": "Water Transport",
       "nameMl": "Water Transport",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#1D4ED8"
     },
     "status": "pending",
     "icon": "building",
@@ -1287,7 +1319,7 @@
       "name": "Rail Infrastructure",
       "nameMl": "Rail Infrastructure",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "building",
@@ -1316,7 +1348,7 @@
       "name": "Urban Transport",
       "nameMl": "Urban Transport",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "building",
@@ -1345,7 +1377,7 @@
       "name": "Urban Transport",
       "nameMl": "Urban Transport",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "building",
@@ -1374,7 +1406,7 @@
       "name": "SilverLine",
       "nameMl": "SilverLine",
       "icon": "check-circle-2",
-      "color": "#475569"
+      "color": "#E11D48"
     },
     "status": "pending",
     "icon": "check-circle-2",
@@ -1403,7 +1435,7 @@
       "name": "SilverLine",
       "nameMl": "SilverLine",
       "icon": "check-circle-2",
-      "color": "#475569"
+      "color": "#E11D48"
     },
     "status": "pending",
     "icon": "check-circle-2",
@@ -1432,7 +1464,7 @@
       "name": "Aviation",
       "nameMl": "Aviation",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "building",
@@ -1461,7 +1493,7 @@
       "name": "Aviation",
       "nameMl": "Aviation",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "building",
@@ -1490,7 +1522,7 @@
       "name": "Aviation",
       "nameMl": "Aviation",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "building",
@@ -1519,7 +1551,7 @@
       "name": "Aviation & Industry",
       "nameMl": "Aviation & Industry",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0369A1"
     },
     "status": "pending",
     "icon": "building",
@@ -1548,7 +1580,7 @@
       "name": "Aviation",
       "nameMl": "Aviation",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "building",
@@ -1577,7 +1609,7 @@
       "name": "Education & Tribal Welfare",
       "nameMl": "Education & Tribal Welfare",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#BE185D"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -1606,7 +1638,7 @@
       "name": "Governance",
       "nameMl": "Governance",
       "icon": "landmark",
-      "color": "#475569"
+      "color": "#374151"
     },
     "status": "pending",
     "icon": "landmark",
@@ -1635,7 +1667,7 @@
       "name": "Governance & Technology",
       "nameMl": "Governance & Technology",
       "icon": "landmark",
-      "color": "#475569"
+      "color": "#4B5563"
     },
     "status": "pending",
     "icon": "landmark",
@@ -1664,7 +1696,7 @@
       "name": "Industry & Employment",
       "nameMl": "Industry & Employment",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#6D28D9"
     },
     "status": "pending",
     "icon": "briefcase",
@@ -1680,5 +1712,108 @@
     ],
     "lastUpdated": "2026-05-19T19:59:47.358Z",
     "createdAt": "2026-05-19T19:59:47.358Z"
+  },
+  {
+    "id": "p59",
+    "slug": "financial-white-paper-on-keralas-economy-59",
+    "title": "Financial White Paper on Kerala's Economy",
+    "titleMl": "ധനകാര്യ ധവളപത്രം",
+    "description": "On May 19, 2026, the Chief Minister chaired a high-level meeting with top finance officials and appointed an expert panel headed by former Cabinet Secretary K.M. Chandrasekhar. This study is the mandatory first step required before the UDF can budget money for its expensive social promises or mathematically dismantle the K-Rail SilverLine project.",
+    "manifestoQuote": "Publish a comprehensive Financial White Paper on Kerala's Economy to assess the state's fiscal health.",
+    "sector": {
+      "id": "s32",
+      "name": "Governance",
+      "nameMl": "ഭരണം",
+      "icon": "landmark",
+      "color": "#374151"
+    },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "CM VD Satheesan Appoints Panel Under KM Chandrasekhar for Economic White Paper",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-economic-white-paper-2026",
+        "publication": "The Hindu / Mathrubhumi",
+        "date": "2026-05-19",
+        "tier": 3,
+        "summary": "On May 19, 2026, the Chief Minister chaired a high-level meeting with top finance officials and appointed an expert panel headed by former Cabinet Secretary K.M. Chandrasekhar to prepare a comprehensive white paper on the state's finances."
+      }
+    ],
+    "lastUpdated": "2026-05-19T20:57:59.757Z",
+    "createdAt": "2026-05-19T20:57:59.758Z"
+  },
+  {
+    "id": "p60",
+    "slug": "honorarium-hike-for-pre-primary-school-teachers-and-ayahs-60",
+    "title": "Honorarium hike for pre-primary school teachers and ayahs",
+    "titleMl": "പ്രീ-പ്രൈമറി അധ്യാപകർക്കും ആയാമാർക്കും ഓണറേറിയം വർദ്ധനവ്",
+    "description": "During the inaugural Cabinet meet on May 18, this group was officially grouped alongside school midday meal cooks to receive an immediate ₹1,000 monthly honorarium hike.",
+    "manifestoQuote": "Revise wages and honorarium for pre-primary school teachers and ayahs across the state.",
+    "sector": {
+      "id": "s16",
+      "name": "Labour",
+      "nameMl": "തൊഴിൽ",
+      "icon": "briefcase",
+      "color": "#7C3AED"
+    },
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Kerala Govt Announces ₹1,000 Honorarium Hike for Pre-Primary Teachers & Ayahs",
+        "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/kerala-govt-pre-primary-honorarium-hike-2026",
+        "publication": "Times of India / Onmanorama",
+        "date": "2026-05-18",
+        "tier": 3,
+        "summary": "During the inaugural UDF Cabinet meet on May 18, pre-primary school teachers and ayahs were officially grouped alongside midday meal cooks to receive an immediate ₹1,000 monthly honorarium hike."
+      }
+    ],
+    "lastUpdated": "2026-05-19T20:57:59.758Z",
+    "createdAt": "2026-05-19T20:57:59.758Z"
+  },
+  {
+    "id": "p61",
+    "slug": "legalizing-safe-vehicle-modifications-61",
+    "title": "Legalizing safe vehicle modifications",
+    "titleMl": "സുരക്ഷിതമായ വാഹന രൂപമാറ്റങ്ങൾ നിയമവിധേയമാക്കൽ",
+    "description": "Manifesto promised to permit non-hazardous vehicle customization. Chief Minister V.D. Satheesan reaffirmed the commitment right after the swearing-in ceremony, stating 'If we have promised to legalize, it will be done.'",
+    "manifestoQuote": "Permit non-hazardous vehicle customization and relax Motor Vehicle Department (MVD) rules for non-dangerous structural or cosmetic modifications.",
+    "sector": {
+      "id": "s35",
+      "name": "Youth & Transport",
+      "nameMl": "യുവജനങ്ങളും ഗതാഗതവും",
+      "icon": "hardhat",
+      "color": "#F97316"
+    },
+    "status": "pending",
+    "icon": "hardhat",
+    "sources": [
+      {
+        "title": "UDF Manifesto Commitment: Vehicle modifications to be legalized",
+        "url": "#",
+        "publication": "Mathrubhumi / UDF Manifesto",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "Manifesto promised to permit non-hazardous vehicle customization."
+      },
+      {
+        "title": "CM VD Satheesan Reaffirms Safe Vehicle Customization Commitment",
+        "url": "#",
+        "publication": "Livemint",
+        "date": "2026-05-19",
+        "tier": 3,
+        "summary": "Right after the swearing-in ceremony, CM V.D. Satheesan reaffirmed the commitment, stating: 'If we have promised to legalize, it will be done.'"
+      },
+      {
+        "title": "Relaxing MVD Customization Rules: What UDF Government's Stance Means",
+        "url": "#",
+        "publication": "NDTV Auto",
+        "date": "2026-05-20",
+        "tier": 3,
+        "summary": "Analysis of the promised changes to MVD guidelines for safe structural/cosmetic modifications."
+      }
+    ],
+    "lastUpdated": "2026-05-19T21:06:30.616Z",
+    "createdAt": "2026-05-19T21:06:30.617Z"
   }
 ]

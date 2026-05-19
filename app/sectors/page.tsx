@@ -5,7 +5,21 @@ import Link from "next/link"
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from "recharts"
 import { Card, CardContent } from "@/components/ui/card"
 import { SectorBar } from "@/components/shared/SectorBar"
-import { Users, HeartPulse, ShieldCheck, Building, Sprout, ArrowRight } from "lucide-react"
+import { 
+  Users, 
+  HeartPulse, 
+  ShieldCheck, 
+  Building, 
+  Sprout, 
+  Briefcase, 
+  BookOpen, 
+  GraduationCap, 
+  DollarSign, 
+  Scale, 
+  Landmark, 
+  HardHat,
+  ArrowRight 
+} from "lucide-react"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType } from "@/types"
 
@@ -15,6 +29,13 @@ const iconMap: Record<string, React.ReactNode> = {
   "shield-check": <ShieldCheck className="h-6 w-6" />,
   "building": <Building className="h-6 w-6" />,
   "sprout": <Sprout className="h-6 w-6" />,
+  "briefcase": <Briefcase className="h-6 w-6" />,
+  "book-open": <BookOpen className="h-6 w-6" />,
+  "graduation-cap": <GraduationCap className="h-6 w-6" />,
+  "dollar-sign": <DollarSign className="h-6 w-6" />,
+  "scale": <Scale className="h-6 w-6" />,
+  "landmark": <Landmark className="h-6 w-6" />,
+  "hardhat": <HardHat className="h-6 w-6" />,
 }
 
 export default function SectorsPage() {

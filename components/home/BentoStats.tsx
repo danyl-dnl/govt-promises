@@ -1,16 +1,47 @@
 "use client"
 
 import React, { useMemo } from "react"
+import Link from "next/link"
 import { motion, Variants } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { DonutChart } from "@/components/shared/DonutChart"
 import { CountdownTimer } from "@/components/shared/CountdownTimer"
-import { CheckCircle2, HeartPulse } from "lucide-react"
+import { 
+  CheckCircle2, 
+  HeartPulse, 
+  Users, 
+  ShieldCheck, 
+  Building, 
+  Sprout, 
+  Briefcase, 
+  BookOpen, 
+  GraduationCap, 
+  DollarSign, 
+  Scale, 
+  Landmark, 
+  HardHat,
+  ArrowRight 
+} from "lucide-react"
 import promisesData from "@/data/promises.json"
 
 const cardHoverVariants: Variants = {
   resting: { scale: 1, boxShadow: "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)" },
   hover: { scale: 1.015, boxShadow: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)" }
+}
+
+const iconMap: Record<string, React.ReactNode> = {
+  "users": <Users className="h-6 w-6" />,
+  "heart-pulse": <HeartPulse className="h-6 w-6" />,
+  "shield-check": <ShieldCheck className="h-6 w-6" />,
+  "building": <Building className="h-6 w-6" />,
+  "sprout": <Sprout className="h-6 w-6" />,
+  "briefcase": <Briefcase className="h-6 w-6" />,
+  "book-open": <BookOpen className="h-6 w-6" />,
+  "graduation-cap": <GraduationCap className="h-6 w-6" />,
+  "dollar-sign": <DollarSign className="h-6 w-6" />,
+  "scale": <Scale className="h-6 w-6" />,
+  "landmark": <Landmark className="h-6 w-6" />,
+  "hardhat": <HardHat className="h-6 w-6" />,
 }
 
 export function BentoStats() {
@@ -19,23 +50,30 @@ export function BentoStats() {
     let inProgress = 0;
     let evaded = 0;
     let pending = 0;
-    const sectorCounts: Record<string, number> = {};
+    const sectorCounts: Record<string, { count: number; sector: any }> = {};
+    
     promisesData.forEach(p => {
       if (p.status === 'fulfilled') fulfilled++;
       else if (p.status === 'in-progress') inProgress++;
       else if (p.status === 'evaded') evaded++;
       else pending++;
 
-      const sectorName = p.sector.name;
-      sectorCounts[sectorName] = (sectorCounts[sectorName] || 0) + 1;
+      const sectorId = p.sector.id;
+      if (!sectorCounts[sectorId]) {
+        sectorCounts[sectorId] = {
+          count: 0,
+          sector: p.sector
+        };
+      }
+      sectorCounts[sectorId].count++;
     });
 
-    let maxSectorName = "Health";
+    let maxSector = { id: "", name: "Health", icon: "heart-pulse", color: "#10B981" };
     let maxSectorCount = 0;
-    Object.entries(sectorCounts).forEach(([name, count]) => {
+    Object.values(sectorCounts).forEach(({ count, sector }) => {
       if (count > maxSectorCount) {
         maxSectorCount = count;
-        maxSectorName = name;
+        maxSector = sector;
       }
     });
     
@@ -51,7 +89,10 @@ export function BentoStats() {
         { name: "Pending", value: pending, color: "#6B7280" },
       ],
       mostActiveSector: {
-        name: maxSectorName,
+        id: maxSector.id,
+        name: maxSector.name,
+        icon: maxSector.icon,
+        color: maxSector.color,
         count: maxSectorCount
       }
     };
@@ -104,54 +145,122 @@ export function BentoStats() {
             </Card>
           </motion.div>
 
-          {/* Medium Cell: Most Active Sector (Static for now as Health) */}
+          {/* Medium Cell: Most Active Sector (Dynamic) */}
           <motion.div 
-            className="md:col-span-1 lg:col-span-1"
+            className="md:col-span-1 lg:col-span-1 cursor-pointer"
             variants={cardHoverVariants}
             initial="resting"
             whileHover="hover"
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
           >
-            <Card className="h-full flex flex-col justify-center bg-kerala-green-light border-kerala-green/20">
-              <CardHeader className="pb-2">
-                <CardTitle className="text-sm uppercase tracking-wider text-kerala-green">Most Active Sector</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center gap-3">
-                  <div className="bg-white p-3 rounded-full shadow-sm text-kerala-green">
-                    {/* Render icon dynamically if possible, falling back to HeartPulse */}
-                    <HeartPulse className="h-6 w-6" />
+            <Link href={`/promises?sector=${stats.mostActiveSector.id}`} className="block h-full">
+              <Card 
+                className="h-full flex flex-col justify-center transition-all border-l-4"
+                style={{ 
+                  borderLeftColor: stats.mostActiveSector.color,
+                  backgroundColor: `${stats.mostActiveSector.color}08`, 
+                }}
+              >
+                <CardHeader className="pb-2">
+                  <CardTitle 
+                    className="text-xs uppercase tracking-wider font-bold"
+                    style={{ color: stats.mostActiveSector.color }}
+                  >
+                    Most Active Sector
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex items-center gap-3">
+                    <div 
+                      className="p-3 rounded-full shadow-sm text-white flex items-center justify-center shrink-0"
+                      style={{ backgroundColor: stats.mostActiveSector.color }}
+                    >
+                      {iconMap[stats.mostActiveSector.icon] || <ShieldCheck className="h-6 w-6" />}
+                    </div>
+                    <div>
+                      <p className="font-display font-bold text-xl text-slate-900 leading-snug">{stats.mostActiveSector.name}</p>
+                      <p className="text-xs font-semibold" style={{ color: stats.mostActiveSector.color }}>
+                        Tracking {stats.mostActiveSector.count} promises
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <p className="font-display font-bold text-xl text-slate-900">{stats.mostActiveSector.name}</p>
-                    <p className="text-xs text-kerala-green font-medium">Tracking {stats.mostActiveSector.count} promises</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </Link>
           </motion.div>
 
           {/* Small Cells: Individual Counts */}
           <motion.div 
+            className="cursor-pointer"
             variants={cardHoverVariants} initial="resting" whileHover="hover"
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
           >
-            <Card className="h-full bg-white border-slate-200 flex flex-col justify-center">
-              <CardContent className="p-6 flex items-center justify-between">
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-1">Fulfilled</p>
-                  <p className="font-display font-bold text-3xl text-kerala-green">{stats.fulfilled}</p>
-                </div>
-                <CheckCircle2 className="h-8 w-8 text-kerala-green/20" />
-              </CardContent>
-            </Card>
+            <Link href="/promises?status=fulfilled" className="block h-full">
+              <Card className="h-full bg-white border-slate-200 hover:border-kerala-green/30 flex flex-col justify-center transition-all">
+                <CardContent className="p-6 flex items-center justify-between">
+                  <div>
+                    <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-1">Fulfilled</p>
+                    <p className="font-display font-bold text-3xl text-kerala-green">{stats.fulfilled}</p>
+                  </div>
+                  <CheckCircle2 className="h-8 w-8 text-kerala-green/20" />
+                </CardContent>
+              </Card>
+            </Link>
           </motion.div>
 
-          {/* Spacer cell for grid perfection on lg screens */}
           <motion.div 
-            className="hidden lg:block lg:col-span-2 xl:hidden"
+            className="cursor-pointer"
             variants={cardHoverVariants} initial="resting" whileHover="hover"
-          />
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+          >
+            <Link href="/promises?status=in-progress" className="block h-full">
+              <Card className="h-full bg-white border-slate-200 hover:border-udf-blue/30 flex flex-col justify-center transition-all">
+                <CardContent className="p-6 flex items-center justify-between">
+                  <div>
+                    <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-1">In Progress</p>
+                    <p className="font-display font-bold text-3xl text-udf-blue">{stats.inProgress}</p>
+                  </div>
+                  <Users className="h-8 w-8 text-udf-blue/20" />
+                </CardContent>
+              </Card>
+            </Link>
+          </motion.div>
+
+          <motion.div 
+            className="cursor-pointer"
+            variants={cardHoverVariants} initial="resting" whileHover="hover"
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+          >
+            <Link href="/promises?status=pending" className="block h-full">
+              <Card className="h-full bg-white border-slate-200 hover:border-slate-400/30 flex flex-col justify-center transition-all">
+                <CardContent className="p-6 flex items-center justify-between">
+                  <div>
+                    <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-1">Pending</p>
+                    <p className="font-display font-bold text-3xl text-slate-500">{stats.pending}</p>
+                  </div>
+                  <ShieldCheck className="h-8 w-8 text-slate-400/20" />
+                </CardContent>
+              </Card>
+            </Link>
+          </motion.div>
+
+          <motion.div 
+            className="cursor-pointer"
+            variants={cardHoverVariants} initial="resting" whileHover="hover"
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+          >
+            <Link href="/promises?status=evaded" className="block h-full">
+              <Card className="h-full bg-white border-slate-200 hover:border-red-500/30 flex flex-col justify-center transition-all">
+                <CardContent className="p-6 flex items-center justify-between">
+                  <div>
+                    <p className="text-xs uppercase tracking-wider text-muted-foreground font-semibold mb-1">Evaded</p>
+                    <p className="font-display font-bold text-3xl text-red-600">{stats.evaded}</p>
+                  </div>
+                  <Scale className="h-8 w-8 text-red-500/20" />
+                </CardContent>
+              </Card>
+            </Link>
+          </motion.div>
           
         </div>
       </div>

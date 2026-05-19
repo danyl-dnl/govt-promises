@@ -4,7 +4,7 @@ import React, { useRef } from "react"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { StatusBadge } from "@/components/shared/StatusBadge"
-import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor } from "lucide-react"
+import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat } from "lucide-react"
 import Link from "next/link"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType } from "@/types"
@@ -16,13 +16,25 @@ const iconMap: Record<string, React.ReactNode> = {
   "shield-check": <ShieldCheck className="h-5 w-5" />,
   "ship": <Ship className="h-5 w-5" />,
   "tractor": <Tractor className="h-5 w-5" />,
+  "hardhat": <HardHat className="h-5 w-5" />,
 }
 
 export function SpotlightRow() {
   const scrollRef = useRef<HTMLDivElement>(null)
   
-  // Take first 5 promises for spotlight
-  const spotlightPromises = (promisesData as PromiseType[]).slice(0, 5)
+  // Arrange spotlight promises: p1 first, p61 second, then fill with other top promises
+  const allPromises = promisesData as PromiseType[]
+  const ksrtc = allPromises.find(p => p.id === 'p1')
+  const vehicleMods = allPromises.find(p => p.id === 'p61')
+  const otherPromises = allPromises.filter(p => p.id !== 'p1' && p.id !== 'p61')
+
+  const spotlightPromises: PromiseType[] = []
+  if (ksrtc) spotlightPromises.push(ksrtc)
+  if (vehicleMods) spotlightPromises.push(vehicleMods)
+  
+  otherPromises.slice(0, 5 - spotlightPromises.length).forEach(p => {
+    spotlightPromises.push(p)
+  })
 
   return (
     <section className="py-16 bg-white border-b border-border overflow-hidden">

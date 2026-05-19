@@ -1,6 +1,7 @@
 "use client"
 
-import React, { useState, useMemo } from "react"
+import React, { useState, useMemo, useEffect, Suspense } from "react"
+import { useSearchParams } from "next/navigation"
 import { FilterSidebar } from "@/components/promises/FilterSidebar"
 import { HorizontalCard } from "@/components/promises/HorizontalCard"
 import { EmptyState } from "@/components/promises/EmptyState"
@@ -12,18 +13,54 @@ const uniqueSectors = Array.from(new Set(promisesData.map((p) => p.sector.id))).
   return promisesData.find((p) => p.sector.id === id)!.sector
 })
 
-export default function PromisesPage() {
+function PromisesPageContent() {
+  const searchParams = useSearchParams()
+  
   const [searchQuery, setSearchQuery] = useState("")
   const [statusFilter, setStatusFilter] = useState<Status | "all">("all")
   const [selectedSectors, setSelectedSectors] = useState<string[]>([])
   const [sortOption, setSortOption] = useState("newest")
 
+  // Sync state with URL search parameters on mount and when they change
+  useEffect(() => {
+    const sectorParam = searchParams.get("sector")
+    const statusParam = searchParams.get("status")
+    const searchParam = searchParams.get("q") || searchParams.get("search")
+    const sortParam = searchParams.get("sort")
+
+    if (sectorParam) {
+      const sectorsList = sectorParam.split(",")
+      setSelectedSectors(sectorsList)
+    } else {
+      setSelectedSectors([])
+    }
+    
+    if (statusParam && ["fulfilled", "in-progress", "evaded", "pending", "all"].includes(statusParam)) {
+      setStatusFilter(statusParam as Status | "all")
+    } else {
+      setStatusFilter("all")
+    }
+
+    if (searchParam) {
+      setSearchQuery(searchParam)
+    } else {
+      setSearchQuery("")
+    }
+
+    if (sortParam && ["newest", "oldest", "az", "status"].includes(sortParam)) {
+      setSortOption(sortParam)
+    } else {
+      setSortOption("newest")
+    }
+  }, [searchParams])
+
   const filteredPromises = useMemo(() => {
     return (promisesData as PromiseType[])
       .filter((promise) => {
         // Search filter
-        const matchesSearch = promise.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                              promise.description.toLowerCase().includes(searchQuery.toLowerCase())
+        const matchesSearch = 
+          promise.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+          promise.description.toLowerCase().includes(searchQuery.toLowerCase())
         
         // Status filter
         const matchesStatus = statusFilter === "all" || promise.status === statusFilter
@@ -89,5 +126,19 @@ export default function PromisesPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function PromisesPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-slate-50/50 flex items-center justify-center">
+        <div className="animate-pulse flex items-center gap-2 text-muted-foreground">
+          Loading promises...
+        </div>
+      </div>
+    }>
+      <PromisesPageContent />
+    </Suspense>
   )
 }

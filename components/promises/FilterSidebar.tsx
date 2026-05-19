@@ -78,7 +78,13 @@ export function FilterSidebar({
         <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-3">Sector</h3>
         <div className="space-y-2 max-h-60 overflow-y-auto pr-2">
           {sectors.map((sector) => (
-            <label key={sector.id} className="flex items-center gap-3 cursor-pointer group">
+            <div 
+              key={sector.id} 
+              onClick={() => toggleSector(sector.id)}
+              role="checkbox"
+              aria-checked={selectedSectors.includes(sector.id)}
+              className="flex items-center gap-3 cursor-pointer group select-none"
+            >
               <div className={`w-4 h-4 rounded border flex items-center justify-center transition-colors ${
                 selectedSectors.includes(sector.id) 
                   ? "bg-udf-blue border-udf-blue text-white" 
@@ -90,8 +96,10 @@ export function FilterSidebar({
                   </svg>
                 )}
               </div>
-              <span className="text-sm text-slate-700 group-hover:text-slate-900">{sector.name}</span>
-            </label>
+              <span className="text-sm text-slate-700 group-hover:text-slate-900 transition-colors">
+                {sector.name}
+              </span>
+            </div>
           ))}
         </div>
       </div>

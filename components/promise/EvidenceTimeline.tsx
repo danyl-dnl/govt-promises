@@ -53,8 +53,21 @@ export function EvidenceTimeline({ sources }: EvidenceTimelineProps) {
                 {source.summary}
               </p>
               
-              <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
-                Source: <span className="text-slate-600">{source.publication}</span>
+              <div className="flex flex-wrap items-center justify-between gap-4 mt-4 pt-4 border-t border-slate-100">
+                <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">
+                  Source: <span className="text-slate-700 font-extrabold">{source.publication}</span>
+                </div>
+                {source.url && source.url !== "#" && (
+                  <a 
+                    href={source.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-udf-blue hover:text-udf-blue-dark transition-colors group"
+                  >
+                    View Original Report
+                    <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </a>
+                )}
               </div>
             </div>
           </div>

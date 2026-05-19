@@ -6,7 +6,13 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { ArrowRight, ShieldCheck } from "lucide-react"
 
+import promisesData from "@/data/promises.json"
+
 export function HeroSection() {
+  const totalTracked = promisesData.length
+  const fulfilledCount = promisesData.filter(p => p.status === "fulfilled").length
+  const inProgressCount = promisesData.filter(p => p.status === "in-progress").length
+
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     show: {
@@ -75,23 +81,43 @@ export function HeroSection() {
             <div className="bg-white rounded-2xl border border-border shadow-xl p-8 transform hover:rotate-0 transition-transform duration-500">
               <h3 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-6 text-center">Current Status Overview</h3>
               
-              <div className="space-y-6">
-                <div className="flex justify-between items-center border-b border-border pb-4">
-                  <span className="text-slate-600 font-medium">Total Tracked</span>
-                  <span className="font-display font-bold text-3xl text-foreground">74</span>
-                </div>
-                <div className="flex justify-between items-center border-b border-border pb-4">
-                  <span className="text-kerala-green font-medium flex items-center gap-2">
+              <div className="space-y-4">
+                <Link 
+                  href="/promises" 
+                  className="flex justify-between items-center border-b border-border pb-3 hover:bg-slate-50 hover:px-3 hover:-mx-3 rounded-xl transition-all duration-300 group"
+                >
+                  <span className="text-slate-600 font-medium group-hover:text-slate-900 transition-colors">Total Tracked</span>
+                  <div className="flex items-center gap-1.5">
+                    <span className="font-display font-bold text-3xl text-foreground group-hover:text-udf-blue transition-colors group-hover:scale-105 transform origin-right duration-300">{totalTracked}</span>
+                    <ArrowRight className="h-4 w-4 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-udf-blue group-hover:translate-x-0.5 transition-all duration-300" />
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/promises?status=fulfilled" 
+                  className="flex justify-between items-center border-b border-border pb-3 hover:bg-slate-50 hover:px-3 hover:-mx-3 rounded-xl transition-all duration-300 group"
+                >
+                  <span className="text-kerala-green font-medium flex items-center gap-2 transition-colors">
                     <span className="w-2 h-2 rounded-full bg-kerala-green" /> Fulfilled
                   </span>
-                  <span className="font-display font-bold text-3xl text-kerala-green">2</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-udf-blue font-medium flex items-center gap-2">
+                  <div className="flex items-center gap-1.5">
+                    <span className="font-display font-bold text-3xl text-kerala-green group-hover:scale-105 transform origin-right duration-300">{fulfilledCount}</span>
+                    <ArrowRight className="h-4 w-4 text-kerala-green/30 opacity-0 group-hover:opacity-100 group-hover:text-kerala-green group-hover:translate-x-0.5 transition-all duration-300" />
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/promises?status=in-progress" 
+                  className="flex justify-between items-center hover:bg-slate-50 hover:px-3 hover:-mx-3 rounded-xl transition-all duration-300 group"
+                >
+                  <span className="text-udf-blue font-medium flex items-center gap-2 transition-colors">
                     <span className="w-2 h-2 rounded-full bg-udf-blue" /> In Progress
                   </span>
-                  <span className="font-display font-bold text-3xl text-udf-blue">1</span>
-                </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="font-display font-bold text-3xl text-udf-blue group-hover:scale-105 transform origin-right duration-300">{inProgressCount}</span>
+                    <ArrowRight className="h-4 w-4 text-udf-blue/30 opacity-0 group-hover:opacity-100 group-hover:text-udf-blue group-hover:translate-x-0.5 transition-all duration-300" />
+                  </div>
+                </Link>
               </div>
             </div>
             
