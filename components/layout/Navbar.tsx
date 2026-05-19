@@ -33,6 +33,9 @@ export function Navbar() {
           <div className="bg-udf-blue text-white p-1.5 rounded-md group-hover:bg-udf-blue-dark transition-colors">
             <Landmark className="h-5 w-5" />
           </div>
+          <span className="font-display font-bold text-lg tracking-tight text-foreground sm:hidden">
+            Vaaku Paalicho
+          </span>
           <span className="font-display font-bold text-lg tracking-tight text-foreground hidden sm:inline-block">
             Vaaku Paalicho · <span className="text-muted-foreground font-normal">Kerala</span>
           </span>
