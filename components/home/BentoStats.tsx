@@ -19,12 +19,24 @@ export function BentoStats() {
     let inProgress = 0;
     let evaded = 0;
     let pending = 0;
-    
+    const sectorCounts: Record<string, number> = {};
     promisesData.forEach(p => {
       if (p.status === 'fulfilled') fulfilled++;
       else if (p.status === 'in-progress') inProgress++;
       else if (p.status === 'evaded') evaded++;
       else pending++;
+
+      const sectorName = p.sector.name;
+      sectorCounts[sectorName] = (sectorCounts[sectorName] || 0) + 1;
+    });
+
+    let maxSectorName = "Health";
+    let maxSectorCount = 0;
+    Object.entries(sectorCounts).forEach(([name, count]) => {
+      if (count > maxSectorCount) {
+        maxSectorCount = count;
+        maxSectorName = name;
+      }
     });
     
     return {
@@ -37,7 +49,11 @@ export function BentoStats() {
         { name: "In Progress", value: inProgress, color: "#2563EB" },
         { name: "Evaded", value: evaded, color: "#DC2626" },
         { name: "Pending", value: pending, color: "#6B7280" },
-      ]
+      ],
+      mostActiveSector: {
+        name: maxSectorName,
+        count: maxSectorCount
+      }
     };
   }, []);
 
@@ -103,11 +119,12 @@ export function BentoStats() {
               <CardContent>
                 <div className="flex items-center gap-3">
                   <div className="bg-white p-3 rounded-full shadow-sm text-kerala-green">
+                    {/* Render icon dynamically if possible, falling back to HeartPulse */}
                     <HeartPulse className="h-6 w-6" />
                   </div>
                   <div>
-                    <p className="font-display font-bold text-xl text-slate-900">Health</p>
-                    <p className="text-xs text-kerala-green font-medium">Tracking {promisesData.filter(p => p.sector.name === 'Health').length} promises</p>
+                    <p className="font-display font-bold text-xl text-slate-900">{stats.mostActiveSector.name}</p>
+                    <p className="text-xs text-kerala-green font-medium">Tracking {stats.mostActiveSector.count} promises</p>
                   </div>
                 </div>
               </CardContent>

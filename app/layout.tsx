@@ -23,11 +23,13 @@ const notoSansMalayalam = Noto_Sans_Malayalam({
   display: "swap",
 })
 
+import AuthProvider from "@/components/auth/AuthProvider"
+
 export const metadata: Metadata = {
-  title: "Sarkar Watch · Kerala | UDF Promise Tracker",
+  title: "Vaakiv Paalicho | UDF Promise Tracker",
   description: "An independent citizen-maintained ledger tracking the promises made by the UDF in Kerala.",
   openGraph: {
-    title: "Sarkar Watch · Kerala",
+    title: "Vaakiv Paalicho",
     description: "Independent citizen-maintained ledger tracking UDF election promises.",
     type: "website",
   }
@@ -41,11 +43,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${dmSans.variable} ${playfairDisplay.variable} ${notoSansMalayalam.variable}`}>
       <body className="antialiased min-h-screen flex flex-col bg-background text-foreground font-ui">
-        <Navbar />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+        <AuthProvider>
+          <Navbar />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
   )

@@ -4,9 +4,11 @@ import React, { useState, useEffect } from "react"
 import Link from "next/link"
 import { Landmark } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { useSession, signIn } from "next-auth/react"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
+  const { data: session } = useSession()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,7 +32,7 @@ export function Navbar() {
             <Landmark className="h-5 w-5" />
           </div>
           <span className="font-display font-bold text-lg tracking-tight text-foreground hidden sm:inline-block">
-            Sarkar Watch · <span className="text-muted-foreground font-normal">Kerala</span>
+            Vaakiv Paalicho · <span className="text-muted-foreground font-normal">Kerala</span>
           </span>
         </Link>
         
@@ -47,9 +49,24 @@ export function Navbar() {
               Submit Update
             </Button>
           </Link>
-          <Button variant="default" className="bg-udf-blue hover:bg-udf-blue-dark text-white rounded-full px-5 shadow-sm">
-            Sign In
-          </Button>
+          {session ? (
+            <div className="flex items-center gap-2 bg-slate-100 rounded-full pr-4 pl-1 py-1 border border-slate-200">
+              {session.user?.image ? (
+                <img src={session.user.image} alt="Profile" className="h-7 w-7 rounded-full" />
+              ) : (
+                <div className="h-7 w-7 rounded-full bg-udf-blue text-white flex items-center justify-center text-xs font-bold">
+                  {session.user?.name?.charAt(0) || "U"}
+                </div>
+              )}
+              <span className="text-sm font-medium text-slate-700 hidden sm:inline-block">
+                {session.user?.name?.split(' ')[0]}
+              </span>
+            </div>
+          ) : (
+            <Button onClick={() => signIn("google")} variant="default" className="bg-udf-blue hover:bg-udf-blue-dark text-white rounded-full px-5 shadow-sm">
+              Sign In
+            </Button>
+          )}
         </div>
       </div>
     </header>
