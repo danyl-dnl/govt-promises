@@ -7,6 +7,7 @@ export interface Promise {
   title: string;
   titleMl: string;
   description: string;
+  trackingNote?: string | null;
   manifestoQuote: string;
   sector: Sector;
   status: Status;

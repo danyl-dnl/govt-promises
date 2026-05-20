@@ -20,7 +20,6 @@ import {
   Landmark,
   HardHat,
   ArrowRight,
-  Clock,
   TrendingUp,
 } from "lucide-react"
 import promisesData from "@/data/promises.json"
@@ -241,19 +240,8 @@ export function BentoStats() {
             viewport={{ once: true }}
             className="md:col-span-1"
           >
-            <div className="bg-white border border-slate-200 rounded-xl p-6 h-full flex flex-col justify-between">
-              <div className="flex items-center justify-between mb-4">
-                <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400">
-                  Time in Office
-                </p>
-                <Clock className="h-4 w-4 text-slate-300" />
-              </div>
-              <div className="flex-1 flex items-center">
-                <CountdownTimer startDate="2026-05-18T00:00:00Z" />
-              </div>
-              <p className="text-[11px] text-slate-400 font-medium mt-4 pt-4 border-t border-slate-100">
-                UDF government sworn in · May 18, 2026
-              </p>
+            <div className="bg-white border border-slate-200 rounded-xl p-6 h-full">
+              <CountdownTimer startDate="2026-05-18T00:00:00Z" />
             </div>
           </motion.div>
 

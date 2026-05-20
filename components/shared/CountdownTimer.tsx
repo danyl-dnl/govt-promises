@@ -3,59 +3,102 @@
 import React, { useEffect, useState } from "react"
 
 interface CountdownTimerProps {
-  startDate: string // ISO string
+  startDate: string
+  termEndDate?: string // optional: for progress bar
 }
 
-export function CountdownTimer({ startDate }: CountdownTimerProps) {
-  const [days, setDays] = useState(0)
-  const [hours, setHours] = useState(0)
-  const [minutes, setMinutes] = useState(0)
-  const [seconds, setSeconds] = useState(0)
+function useElapsed(startDate: string) {
+  const [elapsed, setElapsed] = useState(0)
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
     const start = new Date(startDate).getTime()
-
-    const updateTimer = () => {
-      const now = new Date().getTime()
-      const difference = now - start
-
-      if (difference > 0) {
-        setDays(Math.floor(difference / (1000 * 60 * 60 * 24)))
-        setHours(Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)))
-        setMinutes(Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)))
-        setSeconds(Math.floor((difference % (1000 * 60)) / 1000))
-      }
-    }
-
-    updateTimer()
-    const interval = setInterval(updateTimer, 1000)
-    return () => clearInterval(interval)
+    const tick = () => setElapsed(Math.max(0, Date.now() - start))
+    tick()
+    const id = setInterval(tick, 1000)
+    return () => clearInterval(id)
   }, [startDate])
+
+  return { elapsed, mounted }
+}
+
+export function CountdownTimer({
+  startDate,
+  termEndDate = "2031-05-18T00:00:00Z",
+}: CountdownTimerProps) {
+  const { elapsed, mounted } = useElapsed(startDate)
 
   if (!mounted) return null
 
-  const Unit = ({ value, label }: { value: string; label: string }) => (
-    <div className="flex flex-col items-center min-w-[48px]">
-      <span className="font-display font-bold text-3xl text-slate-900 tabular-nums leading-none">{value}</span>
-      <span className="text-[10px] uppercase tracking-[0.15em] text-slate-400 font-semibold mt-1">{label}</span>
-    </div>
-  )
+  const totalMs   = new Date(termEndDate).getTime() - new Date(startDate).getTime()
+  const pct       = Math.min(100, (elapsed / totalMs) * 100)
 
-  const Sep = () => (
-    <span className="font-bold text-2xl text-slate-200 leading-none pb-3 select-none">:</span>
-  )
+  const totalSec  = Math.floor(elapsed / 1000)
+  const days      = Math.floor(totalSec / 86400)
+  const hours     = Math.floor((totalSec % 86400) / 3600)
+  const minutes   = Math.floor((totalSec % 3600) / 60)
+  const seconds   = totalSec % 60
+
+  const pad = (n: number) => n.toString().padStart(2, "0")
 
   return (
-    <div className="flex items-end gap-1">
-      <Unit value={String(days)} label="Days" />
-      <Sep />
-      <Unit value={hours.toString().padStart(2, "0")} label="Hrs" />
-      <Sep />
-      <Unit value={minutes.toString().padStart(2, "0")} label="Min" />
-      <Sep />
-      <Unit value={seconds.toString().padStart(2, "0")} label="Sec" />
+    <div className="w-full">
+      {/* Primary: days */}
+      <div className="flex items-baseline gap-3 mb-1">
+        <span
+          className="font-display font-bold text-slate-900 tabular-nums leading-none"
+          style={{ fontSize: "clamp(2.5rem, 6vw, 3.5rem)", fontVariantNumeric: "tabular-nums" }}
+        >
+          {days}
+        </span>
+        <span className="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-1">
+          {days === 1 ? "day" : "days"} in office
+        </span>
+      </div>
+
+      {/* Secondary: h : m : s */}
+      <div className="flex items-center gap-1.5 mb-5">
+        {[
+          { v: pad(hours),   l: "hrs" },
+          { v: pad(minutes), l: "min" },
+          { v: pad(seconds), l: "sec" },
+        ].map(({ v, l }, i) => (
+          <React.Fragment key={l}>
+            {i > 0 && (
+              <span className="text-slate-200 font-bold text-sm select-none">:</span>
+            )}
+            <span className="tabular-nums text-sm font-bold text-slate-500 font-display" style={{ fontVariantNumeric: "tabular-nums" }}>
+              {v}
+              <span className="text-[10px] font-semibold text-slate-400 ml-0.5 uppercase tracking-wider">
+                {l}
+              </span>
+            </span>
+          </React.Fragment>
+        ))}
+      </div>
+
+      {/* Term progress */}
+      <div>
+        <div className="flex justify-between items-center mb-1.5">
+          <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+            Term progress
+          </span>
+          <span className="text-[10px] font-bold text-slate-500 tabular-nums">
+            {pct.toFixed(1)}%
+          </span>
+        </div>
+        <div className="h-[3px] w-full rounded-full bg-slate-100 overflow-hidden">
+          <div
+            className="h-full rounded-full bg-udf-blue transition-all duration-1000 ease-linear"
+            style={{ width: `${pct}%` }}
+          />
+        </div>
+        <div className="flex justify-between items-center mt-1.5">
+          <span className="text-[10px] text-slate-300 font-medium">May 18, 2026</span>
+          <span className="text-[10px] text-slate-300 font-medium">May 18, 2031</span>
+        </div>
+      </div>
     </div>
   )
 }

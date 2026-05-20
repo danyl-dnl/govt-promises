@@ -63,7 +63,8 @@ const formattedData = rawData.map((item, index) => {
     slug: slug,
     title: item.title,
     titleMl: item.title, // No ML provided in new dataset
-    description: item.promise + (item.tracking_note ? '\n\n**Tracking Note:** ' + item.tracking_note : ''),
+    description: item.promise,
+    trackingNote: item.tracking_note || null,
     manifestoQuote: item.promise,
     sector: getSector(item.category),
     status: finalStatus,

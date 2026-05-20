@@ -4,14 +4,15 @@
     "slug": "free-ksrtc-bus-travel-for-women-1",
     "title": "Free KSRTC bus travel for women",
     "titleMl": "Free KSRTC bus travel for women",
-    "description": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.\n\n**Tracking Note:** Mark Fulfilled only after official GO/scheme order and actual rollout begins.",
+    "description": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.",
+    "trackingNote": "Mark Fulfilled only after official GO/scheme order and actual rollout begins.",
     "manifestoQuote": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.",
     "sector": {
       "id": "s1",
       "name": "Women & Transport",
       "nameMl": "Women & Transport",
       "icon": "users",
-      "color": "#3B82F6"
+      "color": "#2563EB"
     },
     "status": "in-progress",
     "icon": "users",
@@ -23,32 +24,25 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto / Indira Guarantee; first cabinet approval reported."
-      },
-      {
-        "title": "Kerala UDF Govt Approves Free Bus Travel for Women Starting June 15",
-        "url": "https://indianexpress.com/article/cities/thiruvananthapuram/kerala-udf-govt-free-bus-travel-women-june-15-2026",
-        "publication": "News Report",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "In its first cabinet meeting on May 18, 2026, the newly elected UDF government led by CM V.D. Satheesan officially approved the rollout of free KSRTC bus travel for women, effective from June 15, 2026. Guidelines and financial compensation for KSRTC are being finalized."
       }
     ],
-    "lastUpdated": "2026-05-19T20:43:06.774Z",
-    "createdAt": "2026-05-19T19:59:47.356Z"
+    "lastUpdated": "2026-05-20T07:05:38.445Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p2",
     "slug": "1-000-monthly-stipend-for-college-going-girl-students-2",
     "title": "₹1,000 monthly stipend for college-going girl students",
     "titleMl": "₹1,000 monthly stipend for college-going girl students",
-    "description": "Provide ₹1,000 per month as financial assistance to college-going girl students.\n\n**Tracking Note:** Track government order, eligibility rules, budget allocation, and first disbursal.",
+    "description": "Provide ₹1,000 per month as financial assistance to college-going girl students.",
+    "trackingNote": "Track government order, eligibility rules, budget allocation, and first disbursal.",
     "manifestoQuote": "Provide ₹1,000 per month as financial assistance to college-going girl students.",
     "sector": {
       "id": "s2",
       "name": "Students & Women",
       "nameMl": "Students & Women",
       "icon": "users",
-      "color": "#EC4899"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "users",
@@ -62,22 +56,23 @@
         "summary": "UDF 2026 manifesto / Indira Guarantee."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.356Z",
-    "createdAt": "2026-05-19T19:59:47.356Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p3",
     "slug": "oommen-chandy-health-insurance-scheme-3",
     "title": "Oommen Chandy Health Insurance Scheme",
     "titleMl": "Oommen Chandy Health Insurance Scheme",
-    "description": "Provide health insurance coverage up to ₹25 lakh per household/family.\n\n**Tracking Note:** Track scheme notification, insurer/hospital network, eligibility, and claim availability.",
+    "description": "Provide health insurance coverage up to ₹25 lakh per household/family.",
+    "trackingNote": "Track scheme notification, insurer/hospital network, eligibility, and claim availability.",
     "manifestoQuote": "Provide health insurance coverage up to ₹25 lakh per household/family.",
     "sector": {
       "id": "s3",
       "name": "Health",
       "nameMl": "Health",
       "icon": "heart-pulse",
-      "color": "#10B981"
+      "color": "#15803D"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -91,22 +86,23 @@
         "summary": "UDF 2026 manifesto / Indira Guarantee."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.356Z",
-    "createdAt": "2026-05-19T19:59:47.356Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p4",
     "slug": "increase-welfare-pension-to-3-000-4",
     "title": "Increase welfare pension to ₹3,000",
     "titleMl": "Increase welfare pension to ₹3,000",
-    "description": "Increase eligible social security and welfare pensions to ₹3,000 per month.\n\n**Tracking Note:** Track budget provision, pension order, and actual payment at revised rate.",
+    "description": "Increase eligible social security and welfare pensions to ₹3,000 per month.",
+    "trackingNote": "Track budget provision, pension order, and actual payment at revised rate.",
     "manifestoQuote": "Increase eligible social security and welfare pensions to ₹3,000 per month.",
     "sector": {
       "id": "s4",
       "name": "Welfare",
       "nameMl": "Welfare",
       "icon": "shield-check",
-      "color": "#F59E0B"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -120,22 +116,23 @@
         "summary": "UDF 2026 manifesto / Indira Guarantee."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.356Z",
-    "createdAt": "2026-05-19T19:59:47.356Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p5",
     "slug": "interest-free-youth-entrepreneur-loans-5",
     "title": "Interest-free youth entrepreneur loans",
     "titleMl": "Interest-free youth entrepreneur loans",
-    "description": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.\n\n**Tracking Note:** Track scheme guidelines, nodal agency, application portal, sanctioned loans, and disbursement.",
+    "description": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.",
+    "trackingNote": "Track scheme guidelines, nodal agency, application portal, sanctioned loans, and disbursement.",
     "manifestoQuote": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.",
     "sector": {
       "id": "s5",
       "name": "Youth & Employment",
       "nameMl": "Youth & Employment",
       "icon": "users",
-      "color": "#6366F1"
+      "color": "#9333EA"
     },
     "status": "pending",
     "icon": "users",
@@ -149,22 +146,23 @@
         "summary": "UDF 2026 manifesto / Indira Guarantee."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.356Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p6",
     "slug": "separate-department-for-senior-citizens-6",
     "title": "Separate department for senior citizens",
     "titleMl": "Separate department for senior citizens",
-    "description": "Create a dedicated government department for the welfare and protection of senior citizens.\n\n**Tracking Note:** Mark Fulfilled after official department creation order and allocation of portfolio/staff/budget.",
+    "description": "Create a dedicated government department for the welfare and protection of senior citizens.",
+    "trackingNote": "Mark Fulfilled after official department creation order and allocation of portfolio/staff/budget.",
     "manifestoQuote": "Create a dedicated government department for the welfare and protection of senior citizens.",
     "sector": {
       "id": "s6",
       "name": "Senior Citizens",
       "nameMl": "Senior Citizens",
       "icon": "users",
-      "color": "#6B7280"
+      "color": "#475569"
     },
     "status": "in-progress",
     "icon": "users",
@@ -176,32 +174,25 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF manifesto promise; first cabinet decision reported."
-      },
-      {
-        "title": "New Department for Elderly Welfare Approved by Kerala Cabinet",
-        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-approves-welfare-measures-2026",
-        "publication": "News Report",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "The newly elected Kerala Cabinet approved the creation of a dedicated department for the welfare and protection of senior citizens during its first meeting on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-05-19T20:43:06.774Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p7",
     "slug": "law-to-protect-social-security-pensions-7",
     "title": "Law to protect social security pensions",
     "titleMl": "Law to protect social security pensions",
-    "description": "Bring legislation to ensure eligible people receive social security pensions.\n\n**Tracking Note:** Track bill introduction, assembly passage, gazette notification, and implementation rules.",
+    "description": "Bring legislation to ensure eligible people receive social security pensions.",
+    "trackingNote": "Track bill introduction, assembly passage, gazette notification, and implementation rules.",
     "manifestoQuote": "Bring legislation to ensure eligible people receive social security pensions.",
     "sector": {
       "id": "s4",
       "name": "Welfare",
       "nameMl": "Welfare",
       "icon": "shield-check",
-      "color": "#F59E0B"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -215,22 +206,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p8",
     "slug": "revamp-welfare-fund-boards-8",
     "title": "Revamp welfare fund boards",
     "titleMl": "Revamp welfare fund boards",
-    "description": "Revamp welfare fund boards to improve functioning and delivery of benefits.\n\n**Tracking Note:** Track government order, board restructuring, benefit reforms, and financial allocation.",
+    "description": "Revamp welfare fund boards to improve functioning and delivery of benefits.",
+    "trackingNote": "Track government order, board restructuring, benefit reforms, and financial allocation.",
     "manifestoQuote": "Revamp welfare fund boards to improve functioning and delivery of benefits.",
     "sector": {
       "id": "s7",
       "name": "Welfare Boards",
       "nameMl": "Welfare Boards",
       "icon": "shield-check",
-      "color": "#F97316"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -244,22 +236,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p9",
     "slug": "clear-welfare-board-arrears-9",
     "title": "Clear welfare board arrears",
     "titleMl": "Clear welfare board arrears",
-    "description": "Clear pending arrears related to welfare fund boards.\n\n**Tracking Note:** Track amount pending, amount released, beneficiary categories, and payment completion.",
+    "description": "Clear pending arrears related to welfare fund boards.",
+    "trackingNote": "Track amount pending, amount released, beneficiary categories, and payment completion.",
     "manifestoQuote": "Clear pending arrears related to welfare fund boards.",
     "sector": {
       "id": "s7",
       "name": "Welfare Boards",
       "nameMl": "Welfare Boards",
       "icon": "shield-check",
-      "color": "#F97316"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -273,22 +266,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p10",
     "slug": "expand-indira-canteens-10",
     "title": "Expand Indira Canteens",
     "titleMl": "Expand Indira Canteens",
-    "description": "Expand Indira Canteens to provide affordable food support.\n\n**Tracking Note:** Track number of canteens opened, locations, meal pricing, and operating agencies.",
+    "description": "Expand Indira Canteens to provide affordable food support.",
+    "trackingNote": "Track number of canteens opened, locations, meal pricing, and operating agencies.",
     "manifestoQuote": "Expand Indira Canteens to provide affordable food support.",
     "sector": {
       "id": "s8",
       "name": "Food Security",
       "nameMl": "Food Security",
       "icon": "shield-check",
-      "color": "#EF4444"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -302,22 +296,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p11",
     "slug": "free-ration-support-11",
     "title": "Free ration support",
     "titleMl": "Free ration support",
-    "description": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.\n\n**Tracking Note:** Track official eligibility criteria, ration quantity, duration, and implementation order.",
+    "description": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.",
+    "trackingNote": "Track official eligibility criteria, ration quantity, duration, and implementation order.",
     "manifestoQuote": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.",
     "sector": {
       "id": "s8",
       "name": "Food Security",
       "nameMl": "Food Security",
       "icon": "shield-check",
-      "color": "#EF4444"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -331,22 +326,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p12",
-    "slug": "nava-aashraya-project-12",
-    "title": "Nava Aashraya Project",
-    "titleMl": "Nava Aashraya Project",
-    "description": "Launch the Nava Aashraya Project as the formal second structural phase of the classic Aashraya poverty-alleviation program to support highly vulnerable families.\n\n**Tracking Note:** Track scheme launch, beneficiary identification, local body implementation, and fund release.",
+    "slug": "nava-aashraya-scheme-12",
+    "title": "Nava Aashraya scheme",
+    "titleMl": "Nava Aashraya scheme",
+    "description": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.",
+    "trackingNote": "Track scheme launch, beneficiary identification, local body implementation, and fund release.",
     "manifestoQuote": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.",
     "sector": {
       "id": "s9",
       "name": "Poverty Alleviation",
       "nameMl": "Poverty Alleviation",
       "icon": "shield-check",
-      "color": "#14B8A6"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -360,22 +356,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T21:18:19.105Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p13",
     "slug": "support-for-most-vulnerable-sections-13",
     "title": "Support for most vulnerable sections",
     "titleMl": "Support for most vulnerable sections",
-    "description": "Identify and support the most vulnerable sections of society through targeted welfare measures.\n\n**Tracking Note:** Track survey/identification process, scheme notification, beneficiary list, and benefits delivered.",
+    "description": "Identify and support the most vulnerable sections of society through targeted welfare measures.",
+    "trackingNote": "Track survey/identification process, scheme notification, beneficiary list, and benefits delivered.",
     "manifestoQuote": "Identify and support the most vulnerable sections of society through targeted welfare measures.",
     "sector": {
       "id": "s9",
       "name": "Poverty Alleviation",
       "nameMl": "Poverty Alleviation",
       "icon": "shield-check",
-      "color": "#14B8A6"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -389,22 +386,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p14",
     "slug": "special-plan-for-yellow-and-pink-ration-card-holders-14",
     "title": "Special plan for yellow and pink ration card holders",
     "titleMl": "Special plan for yellow and pink ration card holders",
-    "description": "Prepare a special action plan for yellow and pink ration card holders.\n\n**Tracking Note:** Track official action plan, benefits covered, target households, and implementation schedule.",
+    "description": "Prepare a special action plan for yellow and pink ration card holders.",
+    "trackingNote": "Track official action plan, benefits covered, target households, and implementation schedule.",
     "manifestoQuote": "Prepare a special action plan for yellow and pink ration card holders.",
     "sector": {
       "id": "s8",
       "name": "Food Security",
       "nameMl": "Food Security",
       "icon": "shield-check",
-      "color": "#EF4444"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -418,22 +416,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p15",
     "slug": "yuva-shakti-naadin-sampath-15",
     "title": "Yuva Shakti Naadin Sampath",
     "titleMl": "Yuva Shakti Naadin Sampath",
-    "description": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.\n\n**Tracking Note:** Track budget documents showing 5% allocation and youth-focused expenditure.",
+    "description": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.",
+    "trackingNote": "Track budget documents showing 5% allocation and youth-focused expenditure.",
     "manifestoQuote": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.",
     "sector": {
       "id": "s10",
       "name": "Youth",
       "nameMl": "Youth",
       "icon": "users",
-      "color": "#8B5CF6"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "users",
@@ -447,22 +446,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p16",
     "slug": "yuvashree-collectives-16",
     "title": "Yuvashree collectives",
     "titleMl": "Yuvashree collectives",
-    "description": "Introduce Yuvashree collectives modelled on Kudumbashree.\n\n**Tracking Note:** Track scheme order, pilot districts, number of collectives formed, and funding.",
+    "description": "Introduce Yuvashree collectives modelled on Kudumbashree.",
+    "trackingNote": "Track scheme order, pilot districts, number of collectives formed, and funding.",
     "manifestoQuote": "Introduce Yuvashree collectives modelled on Kudumbashree.",
     "sector": {
       "id": "s11",
       "name": "Youth & Community",
       "nameMl": "Youth & Community",
       "icon": "users",
-      "color": "#A855F7"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "users",
@@ -476,22 +476,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p17",
     "slug": "k-r-narayanan-scholarships-17",
     "title": "K. R. Narayanan scholarships",
     "titleMl": "K. R. Narayanan scholarships",
-    "description": "Provide K. R. Narayanan scholarships for meritorious students.\n\n**Tracking Note:** Track scholarship rules, eligibility, application portal, number of students selected, and disbursal.",
+    "description": "Provide K. R. Narayanan scholarships for meritorious students.",
+    "trackingNote": "Track scholarship rules, eligibility, application portal, number of students selected, and disbursal.",
     "manifestoQuote": "Provide K. R. Narayanan scholarships for meritorious students.",
     "sector": {
       "id": "s12",
       "name": "Education",
       "nameMl": "Education",
       "icon": "graduation-cap",
-      "color": "#0EA5E9"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "graduation-cap",
@@ -505,22 +506,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p18",
     "slug": "higher-education-loan-support-18",
     "title": "Higher education loan support",
     "titleMl": "Higher education loan support",
-    "description": "Provide education loan support for higher studies in India and abroad.\n\n**Tracking Note:** Track interest subsidy, guarantee support, repayment assistance, or direct loan scheme order.",
+    "description": "Provide education loan support for higher studies in India and abroad.",
+    "trackingNote": "Track interest subsidy, guarantee support, repayment assistance, or direct loan scheme order.",
     "manifestoQuote": "Provide education loan support for higher studies in India and abroad.",
     "sector": {
       "id": "s12",
       "name": "Education",
       "nameMl": "Education",
       "icon": "graduation-cap",
-      "color": "#0EA5E9"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "graduation-cap",
@@ -534,22 +536,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p19",
     "slug": "free-dialysis-for-bpl-families-19",
     "title": "Free dialysis for BPL families",
     "titleMl": "Free dialysis for BPL families",
-    "description": "Provide free dialysis services for families below the poverty line.\n\n**Tracking Note:** Track hospital empanelment, eligibility rules, dialysis sessions covered, and actual usage.",
+    "description": "Provide free dialysis services for families below the poverty line.",
+    "trackingNote": "Track hospital empanelment, eligibility rules, dialysis sessions covered, and actual usage.",
     "manifestoQuote": "Provide free dialysis services for families below the poverty line.",
     "sector": {
       "id": "s3",
       "name": "Health",
       "nameMl": "Health",
       "icon": "heart-pulse",
-      "color": "#10B981"
+      "color": "#15803D"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -563,22 +566,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p20",
     "slug": "she-hospitals-20",
     "title": "SHE Hospitals",
     "titleMl": "SHE Hospitals",
-    "description": "Open SHE Hospitals dedicated to women and children.\n\n**Tracking Note:** Track hospital locations, construction/upgradation order, staffing, and opening date.",
+    "description": "Open SHE Hospitals dedicated to women and children.",
+    "trackingNote": "Track hospital locations, construction/upgradation order, staffing, and opening date.",
     "manifestoQuote": "Open SHE Hospitals dedicated to women and children.",
     "sector": {
       "id": "s13",
       "name": "Health & Women",
       "nameMl": "Health & Women",
       "icon": "users",
-      "color": "#D946EF"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "users",
@@ -592,22 +596,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p21",
     "slug": "health-centres-in-tribal-areas-21",
     "title": "Health centres in tribal areas",
     "titleMl": "Health centres in tribal areas",
-    "description": "Establish dedicated health centres in tribal areas.\n\n**Tracking Note:** Track number of centres announced, districts, staffing, budget, and operational status.",
+    "description": "Establish dedicated health centres in tribal areas.",
+    "trackingNote": "Track number of centres announced, districts, staffing, budget, and operational status.",
     "manifestoQuote": "Establish dedicated health centres in tribal areas.",
     "sector": {
       "id": "s14",
       "name": "Health & Tribal Welfare",
       "nameMl": "Health & Tribal Welfare",
       "icon": "heart-pulse",
-      "color": "#06B6D4"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -621,22 +626,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
     "id": "p22",
     "slug": "health-centres-in-coastal-areas-22",
     "title": "Health centres in coastal areas",
     "titleMl": "Health centres in coastal areas",
-    "description": "Establish dedicated health centres in coastal areas.\n\n**Tracking Note:** Track locations, coastal communities covered, staff appointments, and service availability.",
+    "description": "Establish dedicated health centres in coastal areas.",
+    "trackingNote": "Track locations, coastal communities covered, staff appointments, and service availability.",
     "manifestoQuote": "Establish dedicated health centres in coastal areas.",
     "sector": {
       "id": "s15",
       "name": "Health & Coastal Welfare",
       "nameMl": "Health & Coastal Welfare",
       "icon": "heart-pulse",
-      "color": "#0891B2"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -650,22 +656,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p23",
     "slug": "no-bill-hospitals-23",
     "title": "No-bill hospitals",
     "titleMl": "No-bill hospitals",
-    "description": "Build zero-billing 'No-Bill' hospitals, modeled specifically after JIPMER (Jawaharlal Institute of Postgraduate Medical Education and Research), to provide completely free quality healthcare.\n\n**Tracking Note:** Track official definition, covered hospitals, covered treatments, and patient billing data.",
-    "manifestoQuote": "Build zero-billing facilities modeled specifically after JIPMER (Jawaharlal Institute of Postgraduate Medical Education and Research) to provide free healthcare.",
+    "description": "Introduce no-bill or bill-less hospitals for eligible patients/services.",
+    "trackingNote": "Track official definition, covered hospitals, covered treatments, and patient billing data.",
+    "manifestoQuote": "Introduce no-bill or bill-less hospitals for eligible patients/services.",
     "sector": {
       "id": "s3",
       "name": "Health",
       "nameMl": "Health",
       "icon": "heart-pulse",
-      "color": "#10B981"
+      "color": "#15803D"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -679,22 +686,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p24",
     "slug": "tribal-health-clusters-24",
     "title": "Tribal health clusters",
     "titleMl": "Tribal health clusters",
-    "description": "Establish tribal health clusters to improve healthcare access for tribal communities.\n\n**Tracking Note:** Track cluster locations, health teams, mobile units, and measurable service coverage.",
+    "description": "Establish tribal health clusters to improve healthcare access for tribal communities.",
+    "trackingNote": "Track cluster locations, health teams, mobile units, and measurable service coverage.",
     "manifestoQuote": "Establish tribal health clusters to improve healthcare access for tribal communities.",
     "sector": {
       "id": "s14",
       "name": "Health & Tribal Welfare",
       "nameMl": "Health & Tribal Welfare",
       "icon": "heart-pulse",
-      "color": "#06B6D4"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -708,22 +716,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p25",
     "slug": "asha-wage-honorarium-hike-25",
     "title": "ASHA wage/honorarium hike",
     "titleMl": "ASHA wage/honorarium hike",
-    "description": "Increase ASHA workers' remuneration/honorarium. While the manifesto promised a minimum daily base wage of ₹700, the cabinet briefing on May 18, 2026, announced implementation via an immediate ₹3,000 monthly honorarium hike.\n\n**Tracking Note:** Mark Fulfilled after official order and revised payment reaches ASHA workers.",
+    "description": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.",
+    "trackingNote": "Mark Fulfilled after official order and revised payment reaches ASHA workers.",
     "manifestoQuote": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.",
     "sector": {
       "id": "s16",
       "name": "Labour",
       "nameMl": "Labour",
       "icon": "briefcase",
-      "color": "#7C3AED"
+      "color": "#9333EA"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -735,32 +744,25 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF manifesto; first cabinet decision reported ₹3,000 honorarium hike."
-      },
-      {
-        "title": "Kerala Cabinet Approves Honorarium Hike for ASHA Workers",
-        "url": "https://www.newindianexpress.com/states/kerala/2026/may/19/kerala-cabinet-asha-workers-honorarium-hike",
-        "publication": "News Report",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "The UDF cabinet led by CM V.D. Satheesan approved an immediate ₹3,000 increase in the monthly honorarium for ASHA workers on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p26",
     "slug": "anganwadi-worker-wage-revision-26",
     "title": "Anganwadi worker wage revision",
     "titleMl": "Anganwadi worker wage revision",
-    "description": "Revise wages or honorarium of anganwadi workers.\n\n**Tracking Note:** Track official order, revised amount, and first payment.",
+    "description": "Revise wages or honorarium of anganwadi workers.",
+    "trackingNote": "Track official order, revised amount, and first payment.",
     "manifestoQuote": "Revise wages or honorarium of anganwadi workers.",
     "sector": {
       "id": "s16",
       "name": "Labour",
       "nameMl": "Labour",
       "icon": "briefcase",
-      "color": "#7C3AED"
+      "color": "#9333EA"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -772,32 +774,25 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF manifesto; post-election cabinet announcements reported wage/honorarium hike."
-      },
-      {
-        "title": "Wage Hike for Anganwadi Workers Announced by Kerala Govt",
-        "url": "https://www.newindianexpress.com/states/kerala/2026/may/19/anganwadi-wage-hike-kerala",
-        "publication": "News Report",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "The state cabinet has approved a ₹1,000 hike in wages for Anganwadi workers, helpers, and related staff as part of their initial decisions on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-05-19T20:43:06.774Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p27",
     "slug": "school-cook-wage-revision-27",
     "title": "School cook wage revision",
     "titleMl": "School cook wage revision",
-    "description": "Revise wages or honorarium of school cooks.\n\n**Tracking Note:** Track official order, revised amount, and first payment.",
+    "description": "Revise wages or honorarium of school cooks.",
+    "trackingNote": "Track official order, revised amount, and first payment.",
     "manifestoQuote": "Revise wages or honorarium of school cooks.",
     "sector": {
       "id": "s16",
       "name": "Labour",
       "nameMl": "Labour",
       "icon": "briefcase",
-      "color": "#7C3AED"
+      "color": "#9333EA"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -811,22 +806,23 @@
         "summary": "UDF manifesto; post-election cabinet announcements reported wage/honorarium hike."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p28",
     "slug": "benefits-for-scheme-workers-28",
     "title": "Benefits for scheme workers",
     "titleMl": "Benefits for scheme workers",
-    "description": "Improve remuneration, welfare, or benefit access for scheme workers.\n\n**Tracking Note:** Track worker categories covered, benefit changes, welfare board linkage, and budget allocation.",
+    "description": "Improve remuneration, welfare, or benefit access for scheme workers.",
+    "trackingNote": "Track worker categories covered, benefit changes, welfare board linkage, and budget allocation.",
     "manifestoQuote": "Improve remuneration, welfare, or benefit access for scheme workers.",
     "sector": {
       "id": "s16",
       "name": "Labour",
       "nameMl": "Labour",
       "icon": "briefcase",
-      "color": "#7C3AED"
+      "color": "#9333EA"
     },
     "status": "pending",
     "icon": "briefcase",
@@ -840,22 +836,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.357Z",
-    "createdAt": "2026-05-19T19:59:47.357Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p29",
     "slug": "separate-agriculture-budget-29",
     "title": "Separate agriculture budget",
     "titleMl": "Separate agriculture budget",
-    "description": "Present a separate Agricultural Budget along with the State Budget.\n\n**Tracking Note:** Track first state budget presentation and whether a separate agriculture budget document is tabled.",
+    "description": "Present a separate Agricultural Budget along with the State Budget.",
+    "trackingNote": "Track first state budget presentation and whether a separate agriculture budget document is tabled.",
     "manifestoQuote": "Present a separate Agricultural Budget along with the State Budget.",
     "sector": {
       "id": "s17",
       "name": "Agriculture",
       "nameMl": "Agriculture",
       "icon": "tractor",
-      "color": "#22C55E"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "tractor",
@@ -869,22 +866,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p30",
     "slug": "implement-swaminathan-commission-msp-recommendations-30",
     "title": "Implement Swaminathan Commission MSP recommendations",
     "titleMl": "Implement Swaminathan Commission MSP recommendations",
-    "description": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.\n\n**Tracking Note:** Track official MSP formula, state orders, crop coverage, and procurement rules.",
+    "description": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.",
+    "trackingNote": "Track official MSP formula, state orders, crop coverage, and procurement rules.",
     "manifestoQuote": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.",
     "sector": {
       "id": "s17",
       "name": "Agriculture",
       "nameMl": "Agriculture",
       "icon": "tractor",
-      "color": "#22C55E"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "tractor",
@@ -898,15 +896,16 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p31",
     "slug": "300-support-price-for-rubber-31",
     "title": "₹300 support price for rubber",
     "titleMl": "₹300 support price for rubber",
-    "description": "Set or assure support/base price of ₹300 per kg for rubber.\n\n**Tracking Note:** Track scheme order, eligibility, subsidy mechanism, and actual farmer payments.",
+    "description": "Set or assure support/base price of ₹300 per kg for rubber.",
+    "trackingNote": "Track scheme order, eligibility, subsidy mechanism, and actual farmer payments.",
     "manifestoQuote": "Set or assure support/base price of ₹300 per kg for rubber.",
     "sector": {
       "id": "s18",
@@ -927,15 +926,16 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p32",
     "slug": "rubber-company-on-cial-model-32",
     "title": "Rubber Company on CIAL model",
     "titleMl": "Rubber Company on CIAL model",
-    "description": "Set up a Rubber Company on the CIAL model.\n\n**Tracking Note:** Track company registration, ownership structure, capital allocation, and operational launch.",
+    "description": "Set up a Rubber Company on the CIAL model.",
+    "trackingNote": "Track company registration, ownership structure, capital allocation, and operational launch.",
     "manifestoQuote": "Set up a Rubber Company on the CIAL model.",
     "sector": {
       "id": "s18",
@@ -956,22 +956,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p33",
     "slug": "35-kg-paddy-procurement-price-33",
     "title": "₹35/kg paddy procurement price",
     "titleMl": "₹35/kg paddy procurement price",
-    "description": "Fix paddy procurement price at ₹35 per kg.\n\n**Tracking Note:** Track procurement order, season-wise rate, and farmer payment records.",
+    "description": "Fix paddy procurement price at ₹35 per kg.",
+    "trackingNote": "Track procurement order, season-wise rate, and farmer payment records.",
     "manifestoQuote": "Fix paddy procurement price at ₹35 per kg.",
     "sector": {
       "id": "s19",
       "name": "Agriculture & Paddy",
       "nameMl": "Agriculture & Paddy",
       "icon": "tractor",
-      "color": "#15803D"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "tractor",
@@ -985,22 +986,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p34",
     "slug": "direct-paddy-payment-to-farmers-34",
     "title": "Direct paddy payment to farmers",
     "titleMl": "Direct paddy payment to farmers",
-    "description": "Directly credit paddy procurement payments to farmers' bank accounts.\n\n**Tracking Note:** Track payment mechanism, delay reduction, and direct bank transfer confirmation.",
+    "description": "Directly credit paddy procurement payments to farmers' bank accounts.",
+    "trackingNote": "Track payment mechanism, delay reduction, and direct bank transfer confirmation.",
     "manifestoQuote": "Directly credit paddy procurement payments to farmers' bank accounts.",
     "sector": {
       "id": "s19",
       "name": "Agriculture & Paddy",
       "nameMl": "Agriculture & Paddy",
       "icon": "tractor",
-      "color": "#15803D"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1014,22 +1016,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p35",
     "slug": "increase-coconut-support-price-35",
     "title": "Increase coconut support price",
     "titleMl": "Increase coconut support price",
-    "description": "Increase support price for coconut.\n\n**Tracking Note:** Track revised support price order and procurement/payment implementation.",
+    "description": "Increase support price for coconut.",
+    "trackingNote": "Track revised support price order and procurement/payment implementation.",
     "manifestoQuote": "Increase support price for coconut.",
     "sector": {
       "id": "s20",
       "name": "Agriculture & Coconut",
       "nameMl": "Agriculture & Coconut",
       "icon": "tractor",
-      "color": "#86EFAC"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1043,22 +1046,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p36",
     "slug": "tender-coconut-procurement-centres-36",
     "title": "Tender coconut procurement centres",
     "titleMl": "Tender coconut procurement centres",
-    "description": "Expand procurement centres for tender coconut.\n\n**Tracking Note:** Track number of centres opened, districts covered, and procurement volumes.",
+    "description": "Expand procurement centres for tender coconut.",
+    "trackingNote": "Track number of centres opened, districts covered, and procurement volumes.",
     "manifestoQuote": "Expand procurement centres for tender coconut.",
     "sector": {
       "id": "s20",
       "name": "Agriculture & Coconut",
       "nameMl": "Agriculture & Coconut",
       "icon": "tractor",
-      "color": "#86EFAC"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1072,22 +1076,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p37",
     "slug": "cash-crops-under-agricultural-produce-37",
     "title": "Cash crops under agricultural produce",
     "titleMl": "Cash crops under agricultural produce",
-    "description": "Pressure the Union Government to include cash crops under agricultural produce.\n\n**Tracking Note:** Track official state memorandum, assembly resolution, or central-government correspondence.",
+    "description": "Pressure the Union Government to include cash crops under agricultural produce.",
+    "trackingNote": "Track official state memorandum, assembly resolution, or central-government correspondence.",
     "manifestoQuote": "Pressure the Union Government to include cash crops under agricultural produce.",
     "sector": {
       "id": "s17",
       "name": "Agriculture",
       "nameMl": "Agriculture",
       "icon": "tractor",
-      "color": "#22C55E"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1101,22 +1106,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p38",
     "slug": "resolve-migrant-farmers-land-issues-38",
     "title": "Resolve migrant farmers' land issues",
     "titleMl": "Resolve migrant farmers' land issues",
-    "description": "Resolve migrant farmers' land-related issues in a time-bound manner.\n\n**Tracking Note:** Track committee/order, affected areas, title/legal changes, and resolved cases.",
+    "description": "Resolve migrant farmers' land-related issues in a time-bound manner.",
+    "trackingNote": "Track committee/order, affected areas, title/legal changes, and resolved cases.",
     "manifestoQuote": "Resolve migrant farmers' land-related issues in a time-bound manner.",
     "sector": {
       "id": "s21",
       "name": "Farmers & Land",
       "nameMl": "Farmers & Land",
       "icon": "tractor",
-      "color": "#4ADE80"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1130,22 +1136,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p39",
     "slug": "ai-drones-iot-for-wildlife-alerts-39",
     "title": "AI/drones/IoT for wildlife alerts",
     "titleMl": "AI/drones/IoT for wildlife alerts",
-    "description": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.\n\n**Tracking Note:** Track pilot projects, technology deployment areas, alert systems, and incident reduction.",
+    "description": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.",
+    "trackingNote": "Track pilot projects, technology deployment areas, alert systems, and incident reduction.",
     "manifestoQuote": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.",
     "sector": {
       "id": "s22",
       "name": "Wildlife Conflict",
       "nameMl": "Wildlife Conflict",
       "icon": "paw-print",
-      "color": "#0D9488"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "paw-print",
@@ -1159,22 +1166,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p40",
     "slug": "increase-wildlife-attack-death-compensation-by-50-40",
     "title": "Increase wildlife attack death compensation by 50%",
     "titleMl": "Increase wildlife attack death compensation by 50%",
-    "description": "Increase compensation by 50% for deaths caused by wildlife attacks.\n\n**Tracking Note:** Track revised compensation order and payments to affected families.",
+    "description": "Increase compensation by 50% for deaths caused by wildlife attacks.",
+    "trackingNote": "Track revised compensation order and payments to affected families.",
     "manifestoQuote": "Increase compensation by 50% for deaths caused by wildlife attacks.",
     "sector": {
       "id": "s22",
       "name": "Wildlife Conflict",
       "nameMl": "Wildlife Conflict",
       "icon": "paw-print",
-      "color": "#0D9488"
+      "color": "#16A34A"
     },
     "status": "pending",
     "icon": "paw-print",
@@ -1188,22 +1196,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p41",
     "slug": "five-lakh-houses-in-five-years-41",
     "title": "Five lakh houses in five years",
     "titleMl": "Five lakh houses in five years",
-    "description": "Build five lakh houses over five years for landless and homeless families.\n\n**Tracking Note:** Track annual target, houses sanctioned, houses completed, and beneficiary handover.",
+    "description": "Build five lakh houses over five years for landless and homeless families.",
+    "trackingNote": "Track annual target, houses sanctioned, houses completed, and beneficiary handover.",
     "manifestoQuote": "Build five lakh houses over five years for landless and homeless families.",
     "sector": {
       "id": "s23",
       "name": "Housing",
       "nameMl": "Housing",
       "icon": "home",
-      "color": "#B45309"
+      "color": "#D97706"
     },
     "status": "pending",
     "icon": "home",
@@ -1217,22 +1226,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p42",
-    "slug": "sneha-sumangali-housing-scheme-42",
-    "title": "Sneha Sumangali Housing Scheme",
-    "titleMl": "Sneha Sumangali Housing Scheme",
-    "description": "Phase out the previous government's LIFE Mission and transition it into a revamped public housing umbrella scheme called Sneha Sumangali.\n\n**Tracking Note:** Track LIFE Mission phasing out process, revised housing policy guidelines, and initial Sneha Sumangali allocations.",
-    "manifestoQuote": "Phase out LIFE Mission and transition it into a revamped public housing umbrella scheme called Sneha Sumangali.",
+    "slug": "review-or-reform-life-mission-42",
+    "title": "Review or reform LIFE Mission",
+    "titleMl": "Review or reform LIFE Mission",
+    "description": "Review and reform the LIFE Mission housing scheme.",
+    "trackingNote": "Track review committee, revised guidelines, and integration with new housing promise.",
+    "manifestoQuote": "Review and reform the LIFE Mission housing scheme.",
     "sector": {
       "id": "s23",
       "name": "Housing",
       "nameMl": "Housing",
       "icon": "home",
-      "color": "#B45309"
+      "color": "#D97706"
     },
     "status": "pending",
     "icon": "home",
@@ -1246,22 +1256,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p43",
     "slug": "mission-samudra-43",
     "title": "Mission Samudra",
     "titleMl": "Mission Samudra",
-    "description": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.\n\n**Tracking Note:** Track mission document, nodal agency, budget, port/coastal projects, and implementation milestones.",
+    "description": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.",
+    "trackingNote": "Track mission document, nodal agency, budget, port/coastal projects, and implementation milestones.",
     "manifestoQuote": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.",
     "sector": {
       "id": "s24",
       "name": "Maritime Economy",
       "nameMl": "Maritime Economy",
       "icon": "building",
-      "color": "#0F766E"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1275,22 +1286,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p44",
     "slug": "integrated-water-transport-network-44",
     "title": "Integrated water transport network",
     "titleMl": "Integrated water transport network",
-    "description": "Develop an integrated water transport network for cargo and passengers.\n\n**Tracking Note:** Track routes, terminals, cargo/passenger service launch, and agency coordination.",
+    "description": "Develop an integrated water transport network for cargo and passengers.",
+    "trackingNote": "Track routes, terminals, cargo/passenger service launch, and agency coordination.",
     "manifestoQuote": "Develop an integrated water transport network for cargo and passengers.",
     "sector": {
       "id": "s25",
       "name": "Water Transport",
       "nameMl": "Water Transport",
       "icon": "building",
-      "color": "#1D4ED8"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1304,22 +1316,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p45",
     "slug": "high-speed-rail-corridor-with-centre-railways-45",
     "title": "High-speed rail corridor with Centre/Railways",
     "titleMl": "High-speed rail corridor with Centre/Railways",
-    "description": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.\n\n**Tracking Note:** Track DPR, Centre-state agreement, railway approval, and project funding.",
+    "description": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.",
+    "trackingNote": "Track DPR, Centre-state agreement, railway approval, and project funding.",
     "manifestoQuote": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.",
     "sector": {
       "id": "s26",
       "name": "Rail Infrastructure",
       "nameMl": "Rail Infrastructure",
       "icon": "building",
-      "color": "#475569"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1333,22 +1346,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p46",
     "slug": "metro-light-metro-in-thiruvananthapuram-46",
     "title": "Metro/Light Metro in Thiruvananthapuram",
     "titleMl": "Metro/Light Metro in Thiruvananthapuram",
-    "description": "Launch Metro or Light Metro rail system in Thiruvananthapuram.\n\n**Tracking Note:** Track DPR approval, funding, land acquisition, tendering, and construction start.",
+    "description": "Launch Metro or Light Metro rail system in Thiruvananthapuram.",
+    "trackingNote": "Track DPR approval, funding, land acquisition, tendering, and construction start.",
     "manifestoQuote": "Launch Metro or Light Metro rail system in Thiruvananthapuram.",
     "sector": {
       "id": "s27",
       "name": "Urban Transport",
       "nameMl": "Urban Transport",
       "icon": "building",
-      "color": "#2563EB"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1362,22 +1376,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p47",
     "slug": "metro-light-metro-in-kozhikode-47",
     "title": "Metro/Light Metro in Kozhikode",
     "titleMl": "Metro/Light Metro in Kozhikode",
-    "description": "Launch Metro or Light Metro rail system in Kozhikode.\n\n**Tracking Note:** Track DPR approval, funding, land acquisition, tendering, and construction start.",
+    "description": "Launch Metro or Light Metro rail system in Kozhikode.",
+    "trackingNote": "Track DPR approval, funding, land acquisition, tendering, and construction start.",
     "manifestoQuote": "Launch Metro or Light Metro rail system in Kozhikode.",
     "sector": {
       "id": "s27",
       "name": "Urban Transport",
       "nameMl": "Urban Transport",
       "icon": "building",
-      "color": "#2563EB"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1391,22 +1406,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p48",
     "slug": "denotify-silverline-land-48",
     "title": "Denotify SilverLine land",
     "titleMl": "Denotify SilverLine land",
-    "description": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.\n\n**Tracking Note:** Track official denotification orders and affected survey numbers/land parcels.",
+    "description": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.",
+    "trackingNote": "Track official denotification orders and affected survey numbers/land parcels.",
     "manifestoQuote": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.",
     "sector": {
       "id": "s28",
       "name": "SilverLine",
       "nameMl": "SilverLine",
       "icon": "check-circle-2",
-      "color": "#E11D48"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "check-circle-2",
@@ -1420,22 +1436,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p49",
     "slug": "do-not-implement-silverline-49",
     "title": "Do not implement SilverLine",
     "titleMl": "Do not implement SilverLine",
-    "description": "Scrap or not implement the SilverLine semi-high-speed rail project.\n\n**Tracking Note:** Mark Fulfilled only after official cancellation/withdrawal of project approvals and land notifications.",
+    "description": "Scrap or not implement the SilverLine semi-high-speed rail project.",
+    "trackingNote": "Mark Fulfilled only after official cancellation/withdrawal of project approvals and land notifications.",
     "manifestoQuote": "Scrap or not implement the SilverLine semi-high-speed rail project.",
     "sector": {
       "id": "s28",
       "name": "SilverLine",
       "nameMl": "SilverLine",
       "icon": "check-circle-2",
-      "color": "#E11D48"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "check-circle-2",
@@ -1449,22 +1466,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p50",
     "slug": "comprehensive-aviation-plan-50",
     "title": "Comprehensive aviation plan",
     "titleMl": "Comprehensive aviation plan",
-    "description": "Prepare and implement a comprehensive aviation plan for Kerala.\n\n**Tracking Note:** Track policy document, airport development plans, route incentives, and budget support.",
+    "description": "Prepare and implement a comprehensive aviation plan for Kerala.",
+    "trackingNote": "Track policy document, airport development plans, route incentives, and budget support.",
     "manifestoQuote": "Prepare and implement a comprehensive aviation plan for Kerala.",
     "sector": {
       "id": "s29",
       "name": "Aviation",
       "nameMl": "Aviation",
       "icon": "building",
-      "color": "#0284C7"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1478,22 +1496,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p51",
     "slug": "second-runway-at-kochi-airport-51",
     "title": "Second runway at Kochi Airport",
     "titleMl": "Second runway at Kochi Airport",
-    "description": "Develop a second runway at Kochi Airport.\n\n**Tracking Note:** Track feasibility, land acquisition, CIAL board decision, approvals, and construction.",
+    "description": "Develop a second runway at Kochi Airport.",
+    "trackingNote": "Track feasibility, land acquisition, CIAL board decision, approvals, and construction.",
     "manifestoQuote": "Develop a second runway at Kochi Airport.",
     "sector": {
       "id": "s29",
       "name": "Aviation",
       "nameMl": "Aviation",
       "icon": "building",
-      "color": "#0284C7"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1507,22 +1526,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p52",
     "slug": "expand-kannur-airport-terminal-and-apron-52",
     "title": "Expand Kannur Airport terminal and apron",
     "titleMl": "Expand Kannur Airport terminal and apron",
-    "description": "Expand terminal and apron facilities at Kannur Airport.\n\n**Tracking Note:** Track airport expansion plan, funding, tender, and completion.",
+    "description": "Expand terminal and apron facilities at Kannur Airport.",
+    "trackingNote": "Track airport expansion plan, funding, tender, and completion.",
     "manifestoQuote": "Expand terminal and apron facilities at Kannur Airport.",
     "sector": {
       "id": "s29",
       "name": "Aviation",
       "nameMl": "Aviation",
       "icon": "building",
-      "color": "#0284C7"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1536,22 +1556,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p53",
     "slug": "mro-centres-53",
     "title": "MRO centres",
     "titleMl": "MRO centres",
-    "description": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.\n\n**Tracking Note:** Track location, investor/agency, approvals, construction, and operational launch.",
+    "description": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.",
+    "trackingNote": "Track location, investor/agency, approvals, construction, and operational launch.",
     "manifestoQuote": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.",
     "sector": {
       "id": "s30",
       "name": "Aviation & Industry",
       "nameMl": "Aviation & Industry",
       "icon": "building",
-      "color": "#0369A1"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1565,22 +1586,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p54",
     "slug": "route-development-and-connectivity-fund-54",
     "title": "Route Development and Connectivity Fund",
     "titleMl": "Route Development and Connectivity Fund",
-    "description": "Create a Route Development and Connectivity Fund to support new flight routes.\n\n**Tracking Note:** Track fund creation, allocation, routes supported, and airline participation.",
+    "description": "Create a Route Development and Connectivity Fund to support new flight routes.",
+    "trackingNote": "Track fund creation, allocation, routes supported, and airline participation.",
     "manifestoQuote": "Create a Route Development and Connectivity Fund to support new flight routes.",
     "sector": {
       "id": "s29",
       "name": "Aviation",
       "nameMl": "Aviation",
       "icon": "building",
-      "color": "#0284C7"
+      "color": "#64748B"
     },
     "status": "pending",
     "icon": "building",
@@ -1594,22 +1616,23 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p55",
     "slug": "wayanad-tribal-university-55",
     "title": "Wayanad Tribal University",
     "titleMl": "Wayanad Tribal University",
-    "description": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.\n\n**Tracking Note:** Track university act/bill, land, budget, academic plan, and admissions.",
+    "description": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.",
+    "trackingNote": "Track university act/bill, land, budget, academic plan, and admissions.",
     "manifestoQuote": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.",
     "sector": {
       "id": "s31",
       "name": "Education & Tribal Welfare",
       "nameMl": "Education & Tribal Welfare",
       "icon": "shield-check",
-      "color": "#BE185D"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -1623,22 +1646,23 @@
         "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p56",
     "slug": "independent-state-vigilance-commission-56",
     "title": "Independent State Vigilance Commission",
     "titleMl": "Independent State Vigilance Commission",
-    "description": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.\n\n**Tracking Note:** Track bill/order, commission structure, appointment process, powers, and operational status.",
+    "description": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.",
+    "trackingNote": "Track bill/order, commission structure, appointment process, powers, and operational status.",
     "manifestoQuote": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.",
     "sector": {
       "id": "s32",
       "name": "Governance",
       "nameMl": "Governance",
       "icon": "landmark",
-      "color": "#374151"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "landmark",
@@ -1652,22 +1676,23 @@
         "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p57",
     "slug": "ai-driven-auditing-tools-57",
     "title": "AI-driven auditing tools",
     "titleMl": "AI-driven auditing tools",
-    "description": "Deploy AI-driven auditing tools to improve transparency and governance.\n\n**Tracking Note:** Track procurement, departments covered, audit reports generated, and public disclosure.",
+    "description": "Deploy AI-driven auditing tools to improve transparency and governance.",
+    "trackingNote": "Track procurement, departments covered, audit reports generated, and public disclosure.",
     "manifestoQuote": "Deploy AI-driven auditing tools to improve transparency and governance.",
     "sector": {
       "id": "s33",
       "name": "Governance & Technology",
       "nameMl": "Governance & Technology",
       "icon": "landmark",
-      "color": "#4B5563"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "landmark",
@@ -1681,22 +1706,23 @@
         "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
     "id": "p58",
     "slug": "create-10-000-enterprises-58",
     "title": "Create 10,000 enterprises",
     "titleMl": "Create 10,000 enterprises",
-    "description": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.\n\n**Tracking Note:** Track scheme details, enterprises registered, jobs created, and survival rate.",
+    "description": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.",
+    "trackingNote": "Track scheme details, enterprises registered, jobs created, and survival rate.",
     "manifestoQuote": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.",
     "sector": {
       "id": "s34",
       "name": "Industry & Employment",
       "nameMl": "Industry & Employment",
       "icon": "briefcase",
-      "color": "#6D28D9"
+      "color": "#9333EA"
     },
     "status": "pending",
     "icon": "briefcase",
@@ -1710,242 +1736,7 @@
         "summary": "UDF manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-19T19:59:47.358Z",
-    "createdAt": "2026-05-19T19:59:47.358Z"
-  },
-  {
-    "id": "p59",
-    "slug": "financial-white-paper-on-keralas-economy-59",
-    "title": "Financial White Paper on Kerala's Economy",
-    "titleMl": "ധനകാര്യ ധവളപത്രം",
-    "description": "On May 19, 2026, the Chief Minister chaired a high-level meeting with top finance officials and appointed an expert panel headed by former Cabinet Secretary K.M. Chandrasekhar. This study is the mandatory first step required before the UDF can budget money for its expensive social promises or mathematically dismantle the K-Rail SilverLine project.",
-    "manifestoQuote": "Publish a comprehensive Financial White Paper on Kerala's Economy to assess the state's fiscal health.",
-    "sector": {
-      "id": "s32",
-      "name": "Governance",
-      "nameMl": "ഭരണം",
-      "icon": "landmark",
-      "color": "#374151"
-    },
-    "status": "in-progress",
-    "icon": "landmark",
-    "sources": [
-      {
-        "title": "CM VD Satheesan Appoints Panel Under KM Chandrasekhar for Economic White Paper",
-        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-economic-white-paper-2026",
-        "publication": "The Hindu / Mathrubhumi",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "On May 19, 2026, the Chief Minister chaired a high-level meeting with top finance officials and appointed an expert panel headed by former Cabinet Secretary K.M. Chandrasekhar to prepare a comprehensive white paper on the state's finances."
-      }
-    ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T20:57:59.758Z"
-  },
-  {
-    "id": "p60",
-    "slug": "honorarium-hike-for-pre-primary-school-teachers-and-ayahs-60",
-    "title": "Honorarium hike for pre-primary school teachers and ayahs",
-    "titleMl": "പ്രീ-പ്രൈമറി അധ്യാപകർക്കും ആയാമാർക്കും ഓണറേറിയം വർദ്ധനവ്",
-    "description": "During the inaugural Cabinet meet on May 18, this group was officially grouped alongside school midday meal cooks to receive an immediate ₹1,000 monthly honorarium hike.",
-    "manifestoQuote": "Revise wages and honorarium for pre-primary school teachers and ayahs across the state.",
-    "sector": {
-      "id": "s16",
-      "name": "Labour",
-      "nameMl": "തൊഴിൽ",
-      "icon": "briefcase",
-      "color": "#7C3AED"
-    },
-    "status": "in-progress",
-    "icon": "briefcase",
-    "sources": [
-      {
-        "title": "Kerala Govt Announces ₹1,000 Honorarium Hike for Pre-Primary Teachers & Ayahs",
-        "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/kerala-govt-pre-primary-honorarium-hike-2026",
-        "publication": "Times of India / Onmanorama",
-        "date": "2026-05-18",
-        "tier": 3,
-        "summary": "During the inaugural UDF Cabinet meet on May 18, pre-primary school teachers and ayahs were officially grouped alongside midday meal cooks to receive an immediate ₹1,000 monthly honorarium hike."
-      }
-    ],
-    "lastUpdated": "2026-05-19T20:57:59.758Z",
-    "createdAt": "2026-05-19T20:57:59.758Z"
-  },
-  {
-    "id": "p61",
-    "slug": "legalizing-safe-vehicle-modifications-61",
-    "title": "Legalizing safe vehicle modifications",
-    "titleMl": "സുരക്ഷിതമായ വാഹന രൂപമാറ്റങ്ങൾ നിയമവിധേയമാക്കൽ",
-    "description": "Manifesto promised to permit non-hazardous vehicle customization. Chief Minister V.D. Satheesan reaffirmed the commitment right after the swearing-in ceremony, stating 'If we have promised to legalize, it will be done.'",
-    "manifestoQuote": "Permit non-hazardous vehicle customization and relax Motor Vehicle Department (MVD) rules for non-dangerous structural or cosmetic modifications.",
-    "sector": {
-      "id": "s35",
-      "name": "Youth & Transport",
-      "nameMl": "യുവജനങ്ങളും ഗതാഗതവും",
-      "icon": "hardhat",
-      "color": "#F97316"
-    },
-    "status": "pending",
-    "icon": "hardhat",
-    "sources": [
-      {
-        "title": "UDF Manifesto Commitment: Vehicle modifications to be legalized",
-        "url": "#",
-        "publication": "Mathrubhumi / UDF Manifesto",
-        "date": "2026-05-18",
-        "tier": 2,
-        "summary": "Manifesto promised to permit non-hazardous vehicle customization."
-      },
-      {
-        "title": "CM VD Satheesan Reaffirms Safe Vehicle Customization Commitment",
-        "url": "#",
-        "publication": "Livemint",
-        "date": "2026-05-19",
-        "tier": 3,
-        "summary": "Right after the swearing-in ceremony, CM V.D. Satheesan reaffirmed the commitment, stating: 'If we have promised to legalize, it will be done.'"
-      },
-      {
-        "title": "Relaxing MVD Customization Rules: What UDF Government's Stance Means",
-        "url": "#",
-        "publication": "NDTV Auto",
-        "date": "2026-05-20",
-        "tier": 3,
-        "summary": "Analysis of the promised changes to MVD guidelines for safe structural/cosmetic modifications."
-      }
-    ],
-    "lastUpdated": "2026-05-19T21:06:30.616Z",
-    "createdAt": "2026-05-19T21:06:30.617Z"
-  },
-  {
-    "id": "p62",
-    "slug": "sidharthan-anti-ragging-and-student-welfare-act-62",
-    "title": "Sidharthan Anti-Ragging and Student Welfare Act",
-    "titleMl": "സിദ്ധാർത്ഥൻ റാഗിംഗ് വിരുദ്ധ വിദ്യാർത്ഥി ക്ഷേമ നിയമം",
-    "description": "Manifesto promised a stringent anti-ragging law named after the 20-year-old student found dead in Wayanad, alongside a 'Sidharthan Student Distress App'.\n\n**Tracking Note:** Mark Fulfilled after the official enactment of the Act in the State Assembly and launching of the student distress helpline.",
-    "manifestoQuote": "Enact a stringent student welfare and anti-ragging law named after Sidharthan, and launch a student distress app.",
-    "sector": {
-      "id": "s36",
-      "name": "Education & Safety",
-      "nameMl": "വിദ്യാഭ്യാസവും സുരക്ഷയും",
-      "icon": "graduation-cap",
-      "color": "#0EA5E9"
-    },
-    "status": "pending",
-    "icon": "graduation-cap",
-    "sources": [
-      {
-        "title": "Sidharthan Anti-Ragging and Student Welfare Act promised by UDF",
-        "url": "#",
-        "publication": "The Hindu",
-        "date": "2026-04-02",
-        "tier": 2,
-        "summary": "UDF announced a stringent anti-ragging law and student distress app named after the deceased student Sidharthan."
-      },
-      {
-        "title": "UDF Manifesto highlights Sidharthan Anti-Ragging Act",
-        "url": "#",
-        "publication": "Mathrubhumi",
-        "date": "2026-04-02",
-        "tier": 2,
-        "summary": "Details of the promised anti-ragging legislation named after the Wayanad student."
-      }
-    ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T21:18:19.106Z"
-  },
-  {
-    "id": "p63",
-    "slug": "rohith-vemula-act-implementation-63",
-    "title": "Rohith Vemula Act implementation",
-    "titleMl": "രോഹിത് വെമുല നിയമം നടപ്പിലാക്കൽ",
-    "description": "Enact and implement the legislative safe-guards under the Rohith Vemula Act across state campuses to completely eliminate institutional discrimination against marginalized communities.\n\n**Tracking Note:** Track legislative progress, campus guidelines issued by the Higher Education department, and grievance cell setup.",
-    "manifestoQuote": "Enact legislative safe-guards across state campuses to completely eliminate institutional discrimination against marginalized communities under the Rohith Vemula Act.",
-    "sector": {
-      "id": "s37",
-      "name": "Education & Social Justice",
-      "nameMl": "വിദ്യാഭ്യാസവും സാമൂഹിക നീതിയും",
-      "icon": "scale",
-      "color": "#6366F1"
-    },
-    "status": "pending",
-    "icon": "scale",
-    "sources": [
-      {
-        "title": "UDF promises Rohith Vemula Act for state campus safety",
-        "url": "#",
-        "publication": "Mathrubhumi",
-        "date": "2026-04-02",
-        "tier": 2,
-        "summary": "UDF pledges campus legislative safeguards to protect marginalized students from institutional discrimination."
-      }
-    ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T21:18:19.106Z"
-  },
-  {
-    "id": "p64",
-    "slug": "break-the-drug-chain-campaign-64",
-    "title": "Break the Drug Chain Campaign",
-    "titleMl": "ബ്രേക്ക് ദി ഡ്രഗ് ചെയിൻ ക്യാമ്പയിൻ",
-    "description": "Launch a major anti-narcotics enforcement and rehabilitation framework targeting youth communities across the state to eliminate drug abuse.\n\n**Tracking Note:** Track official program launch, coordination with Excise/Police departments, and establishment of state-level youth rehab centres.",
-    "manifestoQuote": "Launch the Break the Drug Chain campaign for anti-narcotics enforcement and youth rehabilitation.",
-    "sector": {
-      "id": "s38",
-      "name": "Governance & Law",
-      "nameMl": "ഭരണവും നിയമപാലനവും",
-      "icon": "shield-check",
-      "color": "#F43F5E"
-    },
-    "status": "pending",
-    "icon": "shield-check",
-    "sources": [
-      {
-        "title": "UDF Manifesto details Break the Drug Chain Campaign",
-        "url": "#",
-        "publication": "The Hindu",
-        "date": "2026-04-02",
-        "tier": 2,
-        "summary": "A comprehensive anti-narcotics campaign targeting youth and school campuses is detailed in the manifesto."
-      },
-      {
-        "title": "Anti-narcotics Break the Drug Chain campaign promised by UDF",
-        "url": "#",
-        "publication": "Mathrubhumi",
-        "date": "2026-04-02",
-        "tier": 2,
-        "summary": "Excise and social welfare integration proposed for anti-drug campaign."
-      }
-    ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T21:18:19.106Z"
-  },
-  {
-    "id": "p65",
-    "slug": "establishment-of-a-ministry-of-tolerance-and-a-peace-and-harmony-department-65",
-    "title": "Establishment of a Ministry of Tolerance and a Peace and Harmony Department",
-    "titleMl": "സഹിഷ്ണുത മന്ത്രാലയവും സമാധാന-സൗഹാർദ്ദ വകുപ്പും സ്ഥാപിക്കൽ",
-    "description": "Build a standalone department and a dedicated Ministry of Tolerance specifically dedicated to ensuring, tracking, and maintaining communal harmony in the state.\n\n**Tracking Note:** Track creation of the new portfolio, department gazette notification, and official peace-harmony programs.",
-    "manifestoQuote": "Establish a Ministry of Tolerance and a Peace and Harmony Department to ensure communal harmony.",
-    "sector": {
-      "id": "s32",
-      "name": "Governance",
-      "nameMl": "ഭരണം",
-      "icon": "landmark",
-      "color": "#374151"
-    },
-    "status": "pending",
-    "icon": "landmark",
-    "sources": [
-      {
-        "title": "Ministry of Tolerance and Peace Department proposed by UDF",
-        "url": "#",
-        "publication": "Mathrubhumi",
-        "date": "2026-04-02",
-        "tier": 2,
-        "summary": "UDF pledges a dedicated department to foster communal harmony and monitor tolerance levels in the state."
-      }
-    ],
-    "lastUpdated": "2026-05-19T21:18:19.106Z",
-    "createdAt": "2026-05-19T21:18:19.106Z"
+    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "createdAt": "2026-05-20T07:05:38.447Z"
   }
 ]
