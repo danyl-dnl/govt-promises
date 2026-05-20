@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useEffect, useState } from "react"
-import { Card, CardContent } from "@/components/ui/card"
 
 interface CountdownTimerProps {
   startDate: string // ISO string
@@ -37,24 +36,26 @@ export function CountdownTimer({ startDate }: CountdownTimerProps) {
 
   if (!mounted) return null
 
+  const Unit = ({ value, label }: { value: string; label: string }) => (
+    <div className="flex flex-col items-center min-w-[48px]">
+      <span className="font-display font-bold text-3xl text-slate-900 tabular-nums leading-none">{value}</span>
+      <span className="text-[10px] uppercase tracking-[0.15em] text-slate-400 font-semibold mt-1">{label}</span>
+    </div>
+  )
+
+  const Sep = () => (
+    <span className="font-bold text-2xl text-slate-200 leading-none pb-3 select-none">:</span>
+  )
+
   return (
-    <div className="flex justify-between w-full max-w-sm mx-auto text-center gap-2">
-      <div className="flex flex-col items-center bg-udf-blue-bg rounded-lg p-2 flex-1 border border-udf-blue/20 shadow-sm">
-        <span className="text-2xl font-bold font-display text-udf-blue">{days}</span>
-        <span className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold">Days</span>
-      </div>
-      <div className="flex flex-col items-center bg-udf-blue-bg rounded-lg p-2 flex-1 border border-udf-blue/20 shadow-sm">
-        <span className="text-2xl font-bold font-display text-udf-blue">{hours.toString().padStart(2, '0')}</span>
-        <span className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold">Hrs</span>
-      </div>
-      <div className="flex flex-col items-center bg-udf-blue-bg rounded-lg p-2 flex-1 border border-udf-blue/20 shadow-sm">
-        <span className="text-2xl font-bold font-display text-udf-blue">{minutes.toString().padStart(2, '0')}</span>
-        <span className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold">Min</span>
-      </div>
-      <div className="flex flex-col items-center bg-udf-blue-bg rounded-lg p-2 flex-1 border border-udf-blue/20 shadow-sm">
-        <span className="text-2xl font-bold font-display text-udf-blue">{seconds.toString().padStart(2, '0')}</span>
-        <span className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold">Sec</span>
-      </div>
+    <div className="flex items-end gap-1">
+      <Unit value={String(days)} label="Days" />
+      <Sep />
+      <Unit value={hours.toString().padStart(2, "0")} label="Hrs" />
+      <Sep />
+      <Unit value={minutes.toString().padStart(2, "0")} label="Min" />
+      <Sep />
+      <Unit value={seconds.toString().padStart(2, "0")} label="Sec" />
     </div>
   )
 }
