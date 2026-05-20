@@ -81,7 +81,9 @@ export default function SectorsPage() {
         {/* Bar Chart Section */}
         <div className="bg-white rounded-2xl border border-border shadow-sm p-6 md:p-8 mb-12">
           <h2 className="text-lg font-bold text-slate-900 mb-6 uppercase tracking-wider">Overall Completion by Sector</h2>
-          <div className="h-80 w-full">
+          
+          {/* Desktop view: Recharts Bar Chart */}
+          <div className="hidden md:block h-80 w-full">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={sectorStats}
@@ -115,6 +117,29 @@ export default function SectorsPage() {
                 </Bar>
               </BarChart>
             </ResponsiveContainer>
+          </div>
+
+          {/* Mobile view: Beautiful Legible List of Progress Bars */}
+          <div className="block md:hidden flex flex-col gap-5">
+            {sectorStats.map((sector) => (
+              <Link key={`mobile-chart-${sector.id}`} href={`/promises?sector=${sector.id}`} className="group block">
+                <div className="flex justify-between items-center mb-1.5">
+                  <div className="flex items-center gap-2">
+                    <div 
+                      className="w-2.5 h-2.5 rounded-full shrink-0" 
+                      style={{ backgroundColor: sector.color }}
+                    />
+                    <span className="text-sm font-semibold text-slate-700 group-hover:text-udf-blue transition-colors">
+                      {sector.name}
+                    </span>
+                  </div>
+                  <span className="text-xs font-bold text-slate-900 bg-slate-50 px-2 py-0.5 rounded border border-slate-100 shrink-0">
+                    {sector.completionPercent}%
+                  </span>
+                </div>
+                <SectorBar percentage={sector.completionPercent} color={sector.color} />
+              </Link>
+            ))}
           </div>
         </div>
 
