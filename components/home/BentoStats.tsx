@@ -102,94 +102,24 @@ export function BentoStats() {
     }
   }, [])
 
-  const statCards = [
-    {
-      href: "/promises?status=fulfilled",
-      label: "Fulfilled",
-      value: stats.fulfilled,
-      color: "text-kerala-green",
-      dot: "bg-kerala-green",
-      pct: Math.round((stats.fulfilled / stats.total) * 100),
-    },
-    {
-      href: "/promises?status=in-progress",
-      label: "In Progress",
-      value: stats.inProgress,
-      color: "text-udf-blue",
-      dot: "bg-udf-blue",
-      pct: Math.round((stats.inProgress / stats.total) * 100),
-    },
-    {
-      href: "/promises?status=pending",
-      label: "Pending",
-      value: stats.pending,
-      color: "text-slate-500",
-      dot: "bg-slate-300",
-      pct: Math.round((stats.pending / stats.total) * 100),
-    },
-    {
-      href: "/promises?status=evaded",
-      label: "Evaded",
-      value: stats.evaded,
-      color: "text-red-600",
-      dot: "bg-red-500",
-      pct: Math.round((stats.evaded / stats.total) * 100),
-    },
-  ]
-
   return (
     <section className="py-14 bg-white border-b border-slate-100">
       <div className="container mx-auto px-4 md:px-8">
 
         {/* Section header */}
-        <div className="mb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-2">
+        <div className="mb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
           <div>
             <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400 mb-1">Dashboard</p>
             <h2 className="font-display font-bold text-2xl md:text-3xl text-slate-900 tracking-tight">
               Project Overview
             </h2>
+            <p className="text-xs text-slate-400 mt-1 max-w-xl">
+              Click any status category or active sector card below to instantly view and filter relevant promises.
+            </p>
           </div>
-          <p className="text-sm text-slate-400 font-medium">
+          <p className="text-sm text-slate-400 font-medium shrink-0">
             Tracking <span className="text-slate-700 font-semibold">{stats.total}</span> core promises
           </p>
-        </div>
-
-        {/* ── Row 1: 4 stat chips ── */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
-          {statCards.map((s, i) => (
-            <motion.div
-              key={s.label}
-              custom={i}
-              variants={fadeUp}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: true }}
-            >
-              <Link
-                href={s.href}
-                className="group block bg-white border border-slate-200 rounded-xl p-5 hover:border-slate-300 hover:shadow-sm transition-all duration-200"
-              >
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex items-center gap-2">
-                    <span className={`w-2 h-2 rounded-full flex-shrink-0 ${s.dot}`} />
-                    <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">{s.label}</span>
-                  </div>
-                  <ArrowRight className="h-3.5 w-3.5 text-slate-300 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
-                </div>
-                <p className={`font-display font-bold text-3xl tabular-nums ${s.color}`}>{s.value}</p>
-                <div className="mt-3 h-[2px] rounded-full bg-slate-100 overflow-hidden">
-                  <motion.div
-                    className={`h-full rounded-full ${s.dot}`}
-                    initial={{ width: 0 }}
-                    whileInView={{ width: `${s.pct}%` }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.9, delay: 0.3 + i * 0.08, ease: "easeOut" }}
-                  />
-                </div>
-                <p className="text-[10px] text-slate-400 font-medium mt-1">{s.pct}% of total</p>
-              </Link>
-            </motion.div>
-          ))}
         </div>
 
         {/* ── Row 2: Donut + Timer + Sector ── */}
@@ -213,18 +143,26 @@ export function BentoStats() {
                   <DonutChart data={stats.donutData} />
                 </div>
                 {/* Legend */}
-                <div className="flex flex-col gap-2.5 flex-1">
+                <div className="flex flex-col gap-2 flex-1">
                   {stats.donutData.map((d) => (
-                    <div key={d.name} className="flex items-center justify-between">
+                    <Link
+                      key={d.name}
+                      href={`/promises?status=${d.name.toLowerCase().replace(" ", "-")}`}
+                      className="group flex items-center justify-between p-1.5 hover:bg-slate-50 rounded-lg transition-colors"
+                    >
                       <div className="flex items-center gap-2">
                         <span
                           className="w-2 h-2 rounded-full flex-shrink-0"
                           style={{ backgroundColor: d.color }}
                         />
-                        <span className="text-xs text-slate-500 font-medium">{d.name}</span>
+                        <span className="text-xs text-slate-500 font-medium group-hover:text-slate-900 group-hover:font-semibold transition-colors">
+                          {d.name}
+                        </span>
                       </div>
-                      <span className="text-xs font-bold text-slate-700 tabular-nums">{d.value}</span>
-                    </div>
+                      <span className="text-xs font-bold text-slate-700 tabular-nums group-hover:text-udf-blue transition-colors">
+                        {d.value}
+                      </span>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -240,8 +178,13 @@ export function BentoStats() {
             viewport={{ once: true }}
             className="md:col-span-1"
           >
-            <div className="bg-white border border-slate-200 rounded-xl p-6 h-full">
-              <CountdownTimer startDate="2026-05-18T00:00:00Z" />
+            <div className="bg-white border border-slate-200 rounded-xl p-6 h-full flex flex-col">
+              <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400 mb-4 flex-shrink-0">
+                Cabinet Term Progress
+              </p>
+              <div className="flex-grow flex items-center">
+                <CountdownTimer startDate="2026-05-18T00:00:00Z" />
+              </div>
             </div>
           </motion.div>
 

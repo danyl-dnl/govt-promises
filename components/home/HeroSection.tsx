@@ -52,20 +52,46 @@ export function HeroSection() {
               Holding Power <br /> <span className="text-udf-blue">Accountable.</span>
             </motion.h1>
             
-            <motion.p variants={itemVariants} className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 leading-relaxed">
+            <motion.p variants={itemVariants} className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-6 leading-relaxed">
               An independent, evidence-based ledger tracking the core election promises made by the UDF in Kerala. Built for transparency, trusted by citizens.
             </motion.p>
+
+            {/* Direct Search Bar for Quick Onboarding */}
+            <motion.div variants={itemVariants} className="w-full max-w-lg mb-6 relative">
+              <form 
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  const formData = new FormData(e.currentTarget);
+                  const query = formData.get('search');
+                  if (query) {
+                    window.location.href = `/promises?q=${encodeURIComponent(query.toString())}`;
+                  }
+                }} 
+                className="flex items-center gap-2 bg-slate-50 border border-slate-200 rounded-full p-1.5 focus-within:border-udf-blue focus-within:bg-white focus-within:ring-4 focus-within:ring-udf-blue/5 transition-all duration-300 shadow-sm"
+              >
+                <input
+                  type="text"
+                  name="search"
+                  placeholder="Search promises (e.g. 'pension', 'ASHA', 'KSRTC')..."
+                  className="flex-1 bg-transparent px-4 py-2 text-sm text-slate-800 placeholder-slate-400 focus:outline-none"
+                  required
+                />
+                <Button type="submit" size="sm" className="bg-udf-blue hover:bg-udf-blue-dark text-white rounded-full px-5 h-9 text-xs font-semibold shrink-0">
+                  Search
+                </Button>
+              </form>
+            </motion.div>
             
-            <motion.div variants={itemVariants} className="flex flex-wrap items-center gap-4">
+            <motion.div variants={itemVariants} className="flex flex-wrap items-center gap-3">
               <Link href="/promises">
-                <Button size="lg" className="bg-udf-blue hover:bg-udf-blue-dark text-white rounded-full px-8 h-12 text-base shadow-md group">
-                  Explore Promises 
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                <Button size="default" className="bg-slate-100 hover:bg-slate-200 text-slate-800 rounded-full px-6 h-10 text-sm font-semibold shadow-sm border border-slate-200 group">
+                  Browse All Promises 
+                  <ArrowRight className="ml-1.5 h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
                 </Button>
               </Link>
               <Link href="/about">
-                <Button variant="ghost" size="lg" className="rounded-full px-6 h-12 text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100">
-                  <ShieldCheck className="mr-2 h-4 w-4 text-slate-400" />
+                <Button variant="ghost" size="default" className="rounded-full px-5 h-10 text-sm font-semibold text-slate-500 hover:text-slate-800 hover:bg-slate-100">
+                  <ShieldCheck className="mr-1.5 h-3.5 w-3.5 text-slate-400" />
                   How We Verify
                 </Button>
               </Link>
