@@ -78,51 +78,93 @@ export function HeroSection() {
             animate={{ opacity: 1, rotate: -1.5, y: 0 }}
             transition={{ type: "spring", stiffness: 200, damping: 20, delay: 0.2 }}
           >
-            <div className="bg-white rounded-2xl border border-border shadow-xl p-8 transform hover:rotate-0 transition-transform duration-500">
-              <h3 className="text-sm font-bold uppercase tracking-widest text-muted-foreground mb-6 text-center">Current Status Overview</h3>
-              
-              <div className="space-y-4">
-                <Link 
-                  href="/promises" 
-                  className="flex justify-between items-center border-b border-border pb-3 hover:bg-slate-50 hover:px-3 hover:-mx-3 rounded-xl transition-all duration-300 group"
-                >
-                  <span className="text-slate-600 font-medium group-hover:text-slate-900 transition-colors">Total Tracked</span>
-                  <div className="flex items-center gap-1.5">
-                    <span className="font-display font-bold text-3xl text-foreground group-hover:text-udf-blue transition-colors group-hover:scale-105 transform origin-right duration-300">{totalTracked}</span>
-                    <ArrowRight className="h-4 w-4 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-udf-blue group-hover:translate-x-0.5 transition-all duration-300" />
-                  </div>
-                </Link>
-                
-                <Link 
-                  href="/promises?status=fulfilled" 
-                  className="flex justify-between items-center border-b border-border pb-3 hover:bg-slate-50 hover:px-3 hover:-mx-3 rounded-xl transition-all duration-300 group"
-                >
-                  <span className="text-kerala-green font-medium flex items-center gap-2 transition-colors">
-                    <span className="w-2 h-2 rounded-full bg-kerala-green" /> Fulfilled
-                  </span>
-                  <div className="flex items-center gap-1.5">
-                    <span className="font-display font-bold text-3xl text-kerala-green group-hover:scale-105 transform origin-right duration-300">{fulfilledCount}</span>
-                    <ArrowRight className="h-4 w-4 text-kerala-green/30 opacity-0 group-hover:opacity-100 group-hover:text-kerala-green group-hover:translate-x-0.5 transition-all duration-300" />
-                  </div>
-                </Link>
-                
-                <Link 
-                  href="/promises?status=in-progress" 
-                  className="flex justify-between items-center hover:bg-slate-50 hover:px-3 hover:-mx-3 rounded-xl transition-all duration-300 group"
-                >
-                  <span className="text-udf-blue font-medium flex items-center gap-2 transition-colors">
-                    <span className="w-2 h-2 rounded-full bg-udf-blue" /> In Progress
-                  </span>
-                  <div className="flex items-center gap-1.5">
-                    <span className="font-display font-bold text-3xl text-udf-blue group-hover:scale-105 transform origin-right duration-300">{inProgressCount}</span>
-                    <ArrowRight className="h-4 w-4 text-udf-blue/30 opacity-0 group-hover:opacity-100 group-hover:text-udf-blue group-hover:translate-x-0.5 transition-all duration-300" />
-                  </div>
-                </Link>
+            {/* Professional Status Card */}
+            <div className="relative bg-white rounded-xl border border-slate-200 shadow-lg overflow-hidden transform hover:rotate-0 transition-transform duration-500">
+
+              {/* Blue top accent line */}
+              <div className="h-[3px] w-full bg-udf-blue" />
+
+              {/* Header */}
+              <div className="px-6 pt-5 pb-4 flex items-center justify-between border-b border-slate-100">
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-400 mb-0.5">Live Tracker</p>
+                  <h3 className="text-sm font-bold text-slate-900 tracking-tight">Current Status Overview</h3>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-kerala-green animate-pulse" />
+                  <span className="text-[10px] font-semibold text-kerala-green uppercase tracking-wider">Live</span>
+                </div>
               </div>
+
+              {/* Stats */}
+              <div className="divide-y divide-slate-100">
+
+                {/* Total Tracked */}
+                <Link
+                  href="/promises"
+                  className="group flex items-center justify-between px-6 py-4 hover:bg-slate-50 transition-colors duration-200"
+                >
+                  <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">Total Tracked</span>
+                  <div className="flex items-center gap-2">
+                    <span className="font-display font-bold text-2xl text-slate-900 tabular-nums group-hover:text-udf-blue transition-colors duration-200">{totalTracked}</span>
+                    <ArrowRight className="h-3.5 w-3.5 text-slate-300 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-udf-blue transition-all duration-200" />
+                  </div>
+                </Link>
+
+                {/* Fulfilled */}
+                <Link
+                  href="/promises?status=fulfilled"
+                  className="group flex items-center justify-between px-6 py-4 hover:bg-slate-50 transition-colors duration-200"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <span className="w-2 h-2 rounded-full bg-kerala-green flex-shrink-0" />
+                    <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">Fulfilled</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="font-display font-bold text-2xl text-kerala-green tabular-nums">{fulfilledCount}</span>
+                    <ArrowRight className="h-3.5 w-3.5 text-kerala-green/30 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-kerala-green transition-all duration-200" />
+                  </div>
+                </Link>
+
+                {/* In Progress */}
+                <Link
+                  href="/promises?status=in-progress"
+                  className="group flex items-center justify-between px-6 py-4 hover:bg-slate-50 transition-colors duration-200"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <span className="w-2 h-2 rounded-full bg-udf-blue flex-shrink-0" />
+                    <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">In Progress</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="font-display font-bold text-2xl text-udf-blue tabular-nums">{inProgressCount}</span>
+                    <ArrowRight className="h-3.5 w-3.5 text-udf-blue/30 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-udf-blue transition-all duration-200" />
+                  </div>
+                </Link>
+
+              </div>
+
+              {/* Fulfillment bar footer */}
+              <div className="px-6 py-4 border-t border-slate-100 bg-slate-50/60">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider">Fulfillment Rate</span>
+                  <span className="text-[11px] font-bold text-slate-700">
+                    {totalTracked > 0 ? Math.round((fulfilledCount / totalTracked) * 100) : 0}%
+                  </span>
+                </div>
+                <div className="h-1 rounded-full bg-slate-200 overflow-hidden">
+                  <motion.div
+                    className="h-full rounded-full bg-kerala-green"
+                    initial={{ width: 0 }}
+                    animate={{ width: `${totalTracked > 0 ? (fulfilledCount / totalTracked) * 100 : 0}%` }}
+                    transition={{ duration: 1.1, delay: 0.5, ease: "easeOut" }}
+                  />
+                </div>
+              </div>
+
             </div>
-            
-            {/* Soft shadow below card */}
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-3/4 h-6 bg-slate-900/5 blur-xl rounded-full" />
+
+            {/* Subtle drop shadow */}
+            <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-3/4 h-6 bg-slate-900/8 blur-xl rounded-full" />
           </motion.div>
 
         </div>
