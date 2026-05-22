@@ -10,7 +10,10 @@ export function EmptyState() {
       <h3 className="font-malayalam font-bold text-2xl text-slate-800 mb-2 tracking-normal">
         ഒന്നും കണ്ടെത്തിയില്ല
       </h3>
-      <p className="text-muted-foreground max-w-sm">
+      <p className="font-malayalam text-slate-500 max-w-sm mb-2 text-sm leading-normal">
+        നിങ്ങൾ തിരഞ്ഞെടുത്ത ഫിൽട്ടറുകളുമായി പൊരുത്തപ്പെടുന്ന വാഗ്ദാനങ്ങളൊന്നും കണ്ടെത്താൻ കഴിഞ്ഞില്ല. തിരയൽ പദങ്ങളിലോ ഫിൽട്ടറുകളിലോ മാറ്റം വരുത്തി വീണ്ടും ശ്രമിക്കുക.
+      </p>
+      <p className="text-slate-400 max-w-sm text-xs">
         No promises found matching your current filters. Try adjusting your search or clearing some filters.
       </p>
     </div>

@@ -55,9 +55,14 @@ export function HorizontalCard({ promise }: HorizontalCardProps) {
               </span>
             </div>
             
-            <h3 className="font-bold text-lg text-slate-900 group-hover:text-udf-blue transition-colors mb-1">
+            <h3 className="font-bold text-lg text-slate-900 group-hover:text-udf-blue transition-colors mb-0.5">
               {promise.title}
             </h3>
+            {promise.titleMl && promise.titleMl !== promise.title && (
+              <p className="font-malayalam text-sm text-slate-500 font-semibold group-hover:text-udf-blue/80 transition-colors mb-1 leading-normal">
+                {promise.titleMl}
+              </p>
+            )}
             <p className="text-sm text-muted-foreground line-clamp-2 md:line-clamp-1 max-w-3xl">
               {promise.description}
             </p>

@@ -1,8 +1,9 @@
 import React from "react"
 import Link from "next/link"
-import { ChevronRight, ExternalLink } from "lucide-react"
+import { ChevronRight } from "lucide-react"
 import { StatusBadge } from "@/components/shared/StatusBadge"
 import { Promise as PromiseType } from "@/types"
+import { HighlightJargon } from "@/components/shared/JargonHelper"
 
 interface DetailHeaderProps {
   promise: PromiseType
@@ -40,12 +41,18 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
               </span>
             </div>
             
-            <h1 className="font-display font-extrabold text-3xl md:text-5xl text-slate-900 leading-tight mb-4 tracking-[-0.02em]">
+            <h1 className="font-display font-extrabold text-3xl md:text-5xl text-slate-900 leading-tight mb-2 tracking-[-0.02em]">
               {promise.title}
             </h1>
+
+            {promise.titleMl && promise.titleMl !== promise.title && (
+              <p className="font-malayalam text-xl md:text-2xl text-slate-500 font-semibold mb-4 leading-normal">
+                {promise.titleMl}
+              </p>
+            )}
             
-            <p className="text-lg text-slate-600 max-w-3xl leading-relaxed">
-              {promise.description}
+            <p className="text-lg text-slate-600 max-w-3xl leading-relaxed mt-2">
+              <HighlightJargon text={promise.description} />
             </p>
           </div>
           
@@ -70,7 +77,7 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
             </svg>
           </div>
           <p className="font-display italic text-lg md:text-xl text-slate-700 relative z-10">
-            "{promise.manifestoQuote}"
+            "<HighlightJargon text={promise.manifestoQuote} />"
           </p>
           <div className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-500">
             — UDF Election Manifesto 2026

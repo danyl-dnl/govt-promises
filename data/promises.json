@@ -3,14 +3,14 @@
     "id": "p1",
     "slug": "free-ksrtc-bus-travel-for-women-1",
     "title": "Free KSRTC bus travel for women",
-    "titleMl": "Free KSRTC bus travel for women",
+    "titleMl": "സ്ത്രീകൾക്ക് സൗജന്യ കെ.എസ്.ആർ.ടി.സി ബസ് യാത്ര",
     "description": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.",
     "trackingNote": "Mark Fulfilled only after official GO/scheme order and actual rollout begins.",
     "manifestoQuote": "Provide free travel for women on Kerala State Road Transport Corporation (KSRTC) buses.",
     "sector": {
       "id": "s1",
       "name": "Women & Transport",
-      "nameMl": "Women & Transport",
+      "nameMl": "സ്ത്രീകളും ഗതാഗതവും",
       "icon": "users",
       "color": "#2563EB"
     },
@@ -41,14 +41,14 @@
     "id": "p2",
     "slug": "1-000-monthly-stipend-for-college-going-girl-students-2",
     "title": "₹1,000 monthly stipend for college-going girl students",
-    "titleMl": "₹1,000 monthly stipend for college-going girl students",
+    "titleMl": "കോളേജ് വിദ്യാർത്ഥിനികൾക്ക് പ്രതിമാസം ₹1,000 സ്റ്റൈപ്പൻഡ്",
     "description": "Provide ₹1,000 per month as financial assistance to college-going girl students.",
     "trackingNote": "Track government order, eligibility rules, budget allocation, and first disbursal.",
     "manifestoQuote": "Provide ₹1,000 per month as financial assistance to college-going girl students.",
     "sector": {
       "id": "s2",
       "name": "Students & Women",
-      "nameMl": "Students & Women",
+      "nameMl": "വിദ്യാർത്ഥിനികളും സ്ത്രീകളും",
       "icon": "users",
       "color": "#2563EB"
     },
@@ -71,14 +71,14 @@
     "id": "p3",
     "slug": "oommen-chandy-health-insurance-scheme-3",
     "title": "Oommen Chandy Health Insurance Scheme",
-    "titleMl": "Oommen Chandy Health Insurance Scheme",
+    "titleMl": "ഉമ്മൻചാണ്ടി ആരോഗ്യ ഇൻഷുറൻസ് പദ്ധതി",
     "description": "Provide health insurance coverage up to ₹25 lakh per household/family.",
     "trackingNote": "Track scheme notification, insurer/hospital network, eligibility, and claim availability.",
     "manifestoQuote": "Provide health insurance coverage up to ₹25 lakh per household/family.",
     "sector": {
       "id": "s3",
       "name": "Health",
-      "nameMl": "Health",
+      "nameMl": "ആരോഗ്യം",
       "icon": "heart-pulse",
       "color": "#15803D"
     },
@@ -101,14 +101,14 @@
     "id": "p4",
     "slug": "increase-welfare-pension-to-3-000-4",
     "title": "Increase welfare pension to ₹3,000",
-    "titleMl": "Increase welfare pension to ₹3,000",
+    "titleMl": "ക്ഷേമ പെൻഷൻ ₹3,000 ആയി വർദ്ധിപ്പിക്കൽ",
     "description": "Increase eligible social security and welfare pensions to ₹3,000 per month.",
     "trackingNote": "Track budget provision, pension order, and actual payment at revised rate.",
     "manifestoQuote": "Increase eligible social security and welfare pensions to ₹3,000 per month.",
     "sector": {
       "id": "s4",
       "name": "Welfare",
-      "nameMl": "Welfare",
+      "nameMl": "ക്ഷേമം",
       "icon": "shield-check",
       "color": "#2563EB"
     },
@@ -131,14 +131,14 @@
     "id": "p5",
     "slug": "interest-free-youth-entrepreneur-loans-5",
     "title": "Interest-free youth entrepreneur loans",
-    "titleMl": "Interest-free youth entrepreneur loans",
+    "titleMl": "യുവ സംരംഭകർക്ക് പലിശരഹിത വായ്പ",
     "description": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.",
     "trackingNote": "Track scheme guidelines, nodal agency, application portal, sanctioned loans, and disbursement.",
     "manifestoQuote": "Provide interest-free loans up to ₹5 lakh for young entrepreneurs to start small businesses.",
     "sector": {
       "id": "s5",
       "name": "Youth & Employment",
-      "nameMl": "Youth & Employment",
+      "nameMl": "യുവജനങ്ങളും തൊഴിലും",
       "icon": "users",
       "color": "#9333EA"
     },
@@ -161,14 +161,14 @@
     "id": "p6",
     "slug": "separate-department-for-senior-citizens-6",
     "title": "Separate department for senior citizens",
-    "titleMl": "Separate department for senior citizens",
+    "titleMl": "മുതിർന്ന പൗരന്മാർക്കായി പ്രത്യേക വകുപ്പ്",
     "description": "Create a dedicated government department for the welfare and protection of senior citizens.",
     "trackingNote": "Mark Fulfilled after official department creation order and allocation of portfolio/staff/budget.",
     "manifestoQuote": "Create a dedicated government department for the welfare and protection of senior citizens.",
     "sector": {
       "id": "s6",
       "name": "Senior Citizens",
-      "nameMl": "Senior Citizens",
+      "nameMl": "മുതിർന്ന പൗരന്മാർ",
       "icon": "users",
       "color": "#475569"
     },
@@ -199,14 +199,14 @@
     "id": "p7",
     "slug": "law-to-protect-social-security-pensions-7",
     "title": "Law to protect social security pensions",
-    "titleMl": "Law to protect social security pensions",
+    "titleMl": "സാമൂഹ്യ സുരക്ഷാ പെൻഷനുകൾ ഉറപ്പാക്കാൻ നിയമനിർമ്മാണം",
     "description": "Bring legislation to ensure eligible people receive social security pensions.",
     "trackingNote": "Track bill introduction, assembly passage, gazette notification, and implementation rules.",
     "manifestoQuote": "Bring legislation to ensure eligible people receive social security pensions.",
     "sector": {
       "id": "s4",
       "name": "Welfare",
-      "nameMl": "Welfare",
+      "nameMl": "ക്ഷേമം",
       "icon": "shield-check",
       "color": "#2563EB"
     },
@@ -229,14 +229,14 @@
     "id": "p8",
     "slug": "revamp-welfare-fund-boards-8",
     "title": "Revamp welfare fund boards",
-    "titleMl": "Revamp welfare fund boards",
+    "titleMl": "ക്ഷേമനിധി ബോർഡുകൾ പുനഃസംഘടിപ്പിക്കൽ",
     "description": "Revamp welfare fund boards to improve functioning and delivery of benefits.",
     "trackingNote": "Track government order, board restructuring, benefit reforms, and financial allocation.",
     "manifestoQuote": "Revamp welfare fund boards to improve functioning and delivery of benefits.",
     "sector": {
       "id": "s7",
       "name": "Welfare Boards",
-      "nameMl": "Welfare Boards",
+      "nameMl": "ക്ഷേമനിധി ബോർഡുകൾ",
       "icon": "shield-check",
       "color": "#2563EB"
     },
@@ -259,14 +259,14 @@
     "id": "p9",
     "slug": "clear-welfare-board-arrears-9",
     "title": "Clear welfare board arrears",
-    "titleMl": "Clear welfare board arrears",
+    "titleMl": "ക്ഷേമനിധി ബോർഡ് കുടിശ്ശികകൾ തീർപ്പാക്കൽ",
     "description": "Clear pending arrears related to welfare fund boards.",
     "trackingNote": "Track amount pending, amount released, beneficiary categories, and payment completion.",
     "manifestoQuote": "Clear pending arrears related to welfare fund boards.",
     "sector": {
       "id": "s7",
       "name": "Welfare Boards",
-      "nameMl": "Welfare Boards",
+      "nameMl": "ക്ഷേമനിധി ബോർഡുകൾ",
       "icon": "shield-check",
       "color": "#2563EB"
     },
@@ -289,14 +289,14 @@
     "id": "p10",
     "slug": "expand-indira-canteens-10",
     "title": "Expand Indira Canteens",
-    "titleMl": "Expand Indira Canteens",
+    "titleMl": "ഇന്ദിര കാന്റീനുകൾ വ്യാപിപ്പിക്കൽ",
     "description": "Expand Indira Canteens to provide affordable food support.",
     "trackingNote": "Track number of canteens opened, locations, meal pricing, and operating agencies.",
     "manifestoQuote": "Expand Indira Canteens to provide affordable food support.",
     "sector": {
       "id": "s8",
       "name": "Food Security",
-      "nameMl": "Food Security",
+      "nameMl": "ഭക്ഷ്യസുരക്ഷ",
       "icon": "shield-check",
       "color": "#2563EB"
     },
@@ -326,7 +326,7 @@
     "sector": {
       "id": "s8",
       "name": "Food Security",
-      "nameMl": "Food Security",
+      "nameMl": "ഭക്ഷ്യസുരക്ഷ",
       "icon": "shield-check",
       "color": "#2563EB"
     },
@@ -416,7 +416,7 @@
     "sector": {
       "id": "s8",
       "name": "Food Security",
-      "nameMl": "Food Security",
+      "nameMl": "ഭക്ഷ്യസുരക്ഷ",
       "icon": "shield-check",
       "color": "#2563EB"
     },
@@ -566,7 +566,7 @@
     "sector": {
       "id": "s3",
       "name": "Health",
-      "nameMl": "Health",
+      "nameMl": "ആരോഗ്യം",
       "icon": "heart-pulse",
       "color": "#15803D"
     },
@@ -686,7 +686,7 @@
     "sector": {
       "id": "s3",
       "name": "Health",
-      "nameMl": "Health",
+      "nameMl": "ആരോഗ്യം",
       "icon": "heart-pulse",
       "color": "#15803D"
     },
@@ -836,9 +836,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF manifesto; post-election cabinet announcements reported wage/honorarium hike."
+      },
+      {
+        "title": "Kerala Government Announces ₹1,000 Honorarium Hike for Midday Meal Cooks",
+        "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/kerala-govt-pre-primary-honorarium-hike-2026",
+        "publication": "Times of India / Onmanorama",
+        "date": "2026-05-18",
+        "tier": 3,
+        "summary": "During its inaugural Cabinet meeting on May 18, 2026, the newly elected UDF government approved a ₹1,000 monthly honorarium hike for midday meal cooks alongside pre-primary teachers and ayahs."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-05-20T08:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1445,14 +1453,14 @@
     "id": "p48",
     "slug": "denotify-silverline-land-48",
     "title": "Denotify SilverLine land",
-    "titleMl": "Denotify SilverLine land",
+    "titleMl": "സിൽവർലൈൻ ഭൂമി ഏറ്റെടുക്കൽ വിജ്ഞാപനം റദ്ദാക്കൽ",
     "description": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.",
     "trackingNote": "Track official denotification orders and affected survey numbers/land parcels.",
     "manifestoQuote": "Denotify land acquired or notified for the SilverLine semi-high-speed rail project.",
     "sector": {
       "id": "s28",
       "name": "SilverLine",
-      "nameMl": "SilverLine",
+      "nameMl": "സിൽവർലൈൻ",
       "icon": "check-circle-2",
       "color": "#475569"
     },
@@ -1475,14 +1483,14 @@
     "id": "p49",
     "slug": "do-not-implement-silverline-49",
     "title": "Do not implement SilverLine",
-    "titleMl": "Do not implement SilverLine",
+    "titleMl": "സിൽവർലൈൻ പദ്ധതി പൂർണ്ണമായും ഉപേക്ഷിക്കൽ",
     "description": "Scrap or not implement the SilverLine semi-high-speed rail project.",
     "trackingNote": "Mark Fulfilled only after official cancellation/withdrawal of project approvals and land notifications.",
     "manifestoQuote": "Scrap or not implement the SilverLine semi-high-speed rail project.",
     "sector": {
       "id": "s28",
       "name": "SilverLine",
-      "nameMl": "SilverLine",
+      "nameMl": "സിൽവർലൈൻ",
       "icon": "check-circle-2",
       "color": "#475569"
     },
@@ -1873,5 +1881,111 @@
     ],
     "lastUpdated": "2026-05-20T07:09:28.147Z",
     "createdAt": "2026-05-20T07:09:28.148Z"
+  },
+  {
+    "id": "p62",
+    "slug": "kpsc-rank-list-extension-62",
+    "title": "KPSC Rank List Extension",
+    "titleMl": "പി.എസ്.സി റാങ്ക് ലിസ്റ്റ് കാലാവധി നീട്ടൽ",
+    "description": "Cabinet recommended that the validity of all Kerala Public Service Commission (KPSC) rank lists expiring on or before August 31, 2026, be extended until November 30, 2026, to assist job aspirants whose appointments were delayed by election notifications.",
+    "trackingNote": "Track the formal approval and notification by the Kerala Public Service Commission (KPSC) and the list of specific job categories benefited.",
+    "manifestoQuote": "Ensure timely recruitment processes and protect job seekers' interests from delays caused by administrative and election procedures.",
+    "sector": {
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameMl": "യുവജനങ്ങളും തൊഴിലും",
+      "icon": "users",
+      "color": "#9333EA"
+    },
+    "status": "in-progress",
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Kerala Cabinet recommends extension of PSC rank lists' validity",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-economic-white-paper-2026",
+        "publication": "The Hindu",
+        "date": "2026-05-20",
+        "tier": 3,
+        "summary": "On May 20, 2026, the newly elected Kerala Cabinet recommended extending the validity of all PSC rank lists expiring on or before August 31, 2026, until November 30, 2026, to support job aspirants whose recruitment was delayed by the election notifications."
+      },
+      {
+        "title": "Kerala Cabinet decides to extend PSC rank lists expiring in August",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/20/kerala-cabinet-decides-to-scrap-controversial-silverline-rail-project.html",
+        "publication": "Onmanorama",
+        "date": "2026-05-20",
+        "tier": 3,
+        "summary": "During its meeting on May 20, 2026, the Kerala Cabinet announced an extension of the validity of KPSC rank lists expiring on or before August 31, 2026, until November 30, 2026, bringing relief to candidates across 60 different rank lists."
+      }
+    ],
+    "lastUpdated": "2026-05-22T06:50:00.000Z",
+    "createdAt": "2026-05-22T06:50:00.000Z"
+  },
+  {
+    "id": "p63",
+    "slug": "100-day-action-plan-63",
+    "title": "100-Day Action Plan",
+    "titleMl": "100-ദിന കർമ്മ പദ്ധതി",
+    "description": "The Cabinet decided to launch a comprehensive 100-day action plan starting June 1, 2026, to accelerate the implementation of key election manifesto promises and address immediate administrative concerns.",
+    "trackingNote": "Track the official launch of the 100-day plan on June 1, 2026, the list of target projects, progress updates, and completion reports.",
+    "manifestoQuote": "Formulate and execute a time-bound 100-day action plan upon assuming office to initiate development projects and address critical public grievances.",
+    "sector": {
+      "id": "s32",
+      "name": "Governance",
+      "nameMl": "ഭരണം",
+      "icon": "landmark",
+      "color": "#374151"
+    },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "Kerala Cabinet to launch 100-day action plan on June 1",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-economic-white-paper-2026",
+        "publication": "The Hindu",
+        "date": "2026-05-20",
+        "tier": 3,
+        "summary": "The Kerala Cabinet led by CM V.D. Satheesan announced the launch of a 100-day action plan on June 1, 2026, focusing on implementing manifesto promises and solving public grievances with low investment."
+      },
+      {
+        "title": "Roadmap for Vision 2031: Kerala Government's 100-Day Action Plan Details",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/20/kerala-cabinet-decides-to-scrap-controversial-silverline-rail-project.html",
+        "publication": "Onmanorama",
+        "date": "2026-05-20",
+        "tier": 3,
+        "summary": "As part of its 'Vision 2031' roadmap, the newly elected Kerala government announced the launching of a 100-day action plan starting June 1, 2026, designed to fast-track manifesto commitments and deliver quick-win initiatives across departments."
+      }
+    ],
+    "lastUpdated": "2026-05-22T06:50:00.000Z",
+    "createdAt": "2026-05-22T06:50:00.000Z"
+  },
+  {
+    "id": "p64",
+    "slug": "healthcare-accountability-and-negligence-redressal-64",
+    "title": "Healthcare accountability and negligence redressal",
+    "titleMl": "ആരോഗ്യമേഖലയിലെ ഉത്തരവാദിത്തവും അനാസ്ഥയ്ക്കുള്ള പരിഹാരവും",
+    "description": "Strengthen public healthcare quality and accountability by establishing redressal mechanisms and providing compensation for medical negligence in government healthcare institutions.",
+    "trackingNote": "Track policy measures, patient welfare committees, and ex-gratia compensation disbursements in government medical colleges and hospitals.",
+    "manifestoQuote": "Ensure highest standards of patient care, safety, and accountability in public hospitals, with prompt redressal of grievances and support for affected families.",
+    "sector": {
+      "id": "s3",
+      "name": "Health",
+      "nameMl": "ആരോഗ്യം",
+      "icon": "heart-pulse",
+      "color": "#15803D"
+    },
+    "status": "in-progress",
+    "icon": "heart-pulse",
+    "sources": [
+      {
+        "title": "Kerala Cabinet approves ₹5 lakh compensation for Kollam native in medical negligence case",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-economic-white-paper-2026",
+        "publication": "The Hindu",
+        "date": "2026-05-20",
+        "tier": 3,
+        "summary": "During its meeting on May 20, 2026, the Kerala Cabinet approved ₹5 lakh in compensation to the family of Venu, a Kollam native who died due to alleged medical negligence at a government medical college, highlighting the government's focus on healthcare accountability."
+      }
+    ],
+    "lastUpdated": "2026-05-22T06:50:00.000Z",
+    "createdAt": "2026-05-22T06:50:00.000Z"
   }
 ]

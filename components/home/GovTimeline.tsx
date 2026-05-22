@@ -23,6 +23,12 @@ const timelineEvents = [
     status: "in-progress"
   },
   {
+    date: "MAY 20, 2026",
+    title: "Landmark Cabinet Decisions",
+    description: "Cabinet recommended KPSC rank list extensions, officially scrapped the controversial SilverLine project, announced a 100-day action plan, and approved a ₹5 lakh medical negligence compensation.",
+    status: "in-progress"
+  },
+  {
     date: "JUN 01, 2026",
     title: "First Policy Address",
     description: "Expected Governor's address outlining the legislative agenda and welfare rollout timeline.",
