@@ -21,7 +21,7 @@ import {
   ArrowRight 
 } from "lucide-react"
 import promisesData from "@/data/promises.json"
-import { Promise as PromiseType } from "@/types"
+import { Promise as PromiseType, Sector } from "@/types"
 
 const iconMap: Record<string, React.ReactNode> = {
   "users": <Users className="h-6 w-6" />,
@@ -38,9 +38,17 @@ const iconMap: Record<string, React.ReactNode> = {
   "hardhat": <HardHat className="h-6 w-6" />,
 }
 
+interface SectorStats extends Sector {
+  total: number
+  fulfilled: number
+  inProgress: number
+  evaded: number
+  pending: number
+}
+
 export default function SectorsPage() {
   const sectorStats = useMemo(() => {
-    const stats: Record<string, any> = {}
+    const stats: Record<string, SectorStats> = {}
     
     ;(promisesData as PromiseType[]).forEach(promise => {
       const sectorId = promise.sector.id
@@ -108,6 +116,7 @@ export default function SectorsPage() {
                 <Tooltip 
                   cursor={{ fill: '#F8FAFC' }}
                   contentStyle={{ borderRadius: '8px', border: '1px solid #E2E8F0', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   formatter={(value: any) => [`${value}%`, 'Completion Score']}
                 />
                 <Bar dataKey="completionPercent" radius={[4, 4, 0, 0]}>

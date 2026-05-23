@@ -12,6 +12,7 @@ function useElapsed(startDate: string) {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true)
     const start = new Date(startDate).getTime()
     const tick = () => setElapsed(Math.max(0, Date.now() - start))

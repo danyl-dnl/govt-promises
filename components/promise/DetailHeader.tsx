@@ -77,7 +77,7 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
             </svg>
           </div>
           <p className="font-display italic text-lg md:text-xl text-slate-700 relative z-10">
-            "<HighlightJargon text={promise.manifestoQuote} />"
+            &ldquo;<HighlightJargon text={promise.manifestoQuote} />&rdquo;
           </p>
           <div className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-500">
             — UDF Election Manifesto 2026

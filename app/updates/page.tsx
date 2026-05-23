@@ -2,7 +2,7 @@ import React from "react"
 import { ExternalLink, Rss } from "lucide-react"
 import { TierBadge } from "@/components/promise/TierBadge"
 import promisesData from "@/data/promises.json"
-import { Source, SourceTier } from "@/types"
+import { SourceTier } from "@/types"
 import Link from "next/link"
 
 // Extract all sources and flatten them into a single timeline feed

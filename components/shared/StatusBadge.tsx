@@ -12,7 +12,7 @@ export function StatusBadge({ status, className }: StatusBadgeProps) {
   switch (status) {
     case "fulfilled":
       return (
-        <Badge variant="outline" className={`bg-kerala-green-light text-kerala-green border-kerala-green/20 ${className}`}>
+        <Badge variant="outline" className={`bg-kerala-green-bg text-kerala-green border-kerala-green/20 ${className}`}>
           <CheckCircle2 className="mr-1 h-3 w-3" />
           Fulfilled
         </Badge>

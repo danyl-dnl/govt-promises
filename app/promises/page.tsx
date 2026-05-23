@@ -23,6 +23,7 @@ function PromisesPageContent() {
 
   // Sync state with URL search parameters on mount and when they change
   useEffect(() => {
+    /* eslint-disable react-hooks/set-state-in-effect */
     const sectorParam = searchParams.get("sector")
     const statusParam = searchParams.get("status")
     const searchParam = searchParams.get("q") || searchParams.get("search")
@@ -52,6 +53,7 @@ function PromisesPageContent() {
     } else {
       setSortOption("newest")
     }
+    /* eslint-enable react-hooks/set-state-in-effect */
   }, [searchParams])
 
   const filteredPromises = useMemo(() => {

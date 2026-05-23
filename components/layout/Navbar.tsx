@@ -6,6 +6,7 @@ import { Landmark, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useSession, signIn } from "next-auth/react"
 import { motion, AnimatePresence } from "framer-motion"
+import Image from "next/image"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -57,10 +58,13 @@ export function Navbar() {
           {session ? (
             <div className="flex items-center gap-2 sm:bg-slate-100 rounded-full sm:pr-4 sm:pl-1 sm:py-1 sm:border sm:border-slate-200">
               {session.user?.image ? (
-                <img
+                <Image
                   src={session.user.image}
                   alt="Profile"
+                  width={32}
+                  height={32}
                   className="h-8 w-8 rounded-full border border-slate-200 sm:border-none shadow-sm sm:shadow-none"
+                  unoptimized
                 />
               ) : (
                 <div className="h-8 w-8 rounded-full bg-udf-blue text-white flex items-center justify-center text-xs font-bold border border-slate-200 sm:border-none shadow-sm sm:shadow-none">

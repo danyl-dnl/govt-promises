@@ -3,12 +3,14 @@
 import React, { useState, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import { useSession, signIn, signOut } from "next-auth/react"
+import { Session } from "next-auth"
+import Image from "next/image"
 import { motion } from "framer-motion"
-import { Send, AlertCircle, FileText, Link as LinkIcon, CheckCircle2, LogIn, LogOut } from "lucide-react"
+import { Send, AlertCircle, FileText, Link as LinkIcon, CheckCircle2, LogOut } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Disclaimer } from "@/components/shared/Disclaimer"
 
-function SubmitForm({ session }: { session: any }) {
+function SubmitForm({ session }: { session: Session }) {
   const searchParams = useSearchParams()
   const promiseId = searchParams.get('promiseId') || ""
   
@@ -33,7 +35,7 @@ function SubmitForm({ session }: { session: any }) {
         animate={{ opacity: 1, scale: 1 }}
         className="text-center py-12"
       >
-        <div className="bg-kerala-green-light w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+        <div className="bg-kerala-green-bg w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
           <CheckCircle2 className="h-10 w-10 text-kerala-green" />
         </div>
         <h2 className="text-2xl font-display font-bold text-slate-900 mb-2">Thank you for your contribution!</h2>
@@ -57,7 +59,14 @@ function SubmitForm({ session }: { session: any }) {
       <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           {session.user?.image ? (
-            <img src={session.user.image} alt={session.user.name || "User"} className="h-10 w-10 rounded-full" />
+            <Image
+              src={session.user.image}
+              alt={session.user.name || "User"}
+              width={40}
+              height={40}
+              className="h-10 w-10 rounded-full"
+              unoptimized
+            />
           ) : (
             <div className="h-10 w-10 rounded-full bg-slate-200 flex items-center justify-center">
               <span className="text-slate-500 font-bold">{session.user?.name?.charAt(0) || "U"}</span>
@@ -175,6 +184,7 @@ function AuthWrapper() {
     )
   }
 
+  if (!session) return null
   return <SubmitForm session={session} />
 }
 

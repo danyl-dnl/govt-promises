@@ -31,9 +31,9 @@ export default function AboutPage() {
             </div>
           </section>
 
-          <section className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm">
+          <section id="methodology" className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm scroll-mt-20">
             <div className="flex items-center gap-4 mb-6">
-              <div className="bg-kerala-green-light p-3 rounded-xl text-kerala-green">
+              <div className="bg-kerala-green-bg p-3 rounded-xl text-kerala-green">
                 <ShieldCheck className="h-6 w-6" />
               </div>
               <h2 className="font-display font-bold text-2xl text-slate-900">Methodology & Sources</h2>
@@ -52,7 +52,7 @@ export default function AboutPage() {
                   </li>
                   <li className="flex gap-4">
                     <span className="font-bold text-udf-blue w-16 shrink-0">Tier 2</span>
-                    <span><strong>Govt Press Releases:</strong> Official statements from the Chief Minister's Office (CMO) or departmental press releases.</span>
+                    <span><strong>Govt Press Releases:</strong> Official statements from the Chief Minister&apos;s Office (CMO) or departmental press releases.</span>
                   </li>
                   <li className="flex gap-4">
                     <span className="font-bold text-slate-500 w-16 shrink-0">Tier 3</span>

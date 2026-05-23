@@ -6,7 +6,6 @@ import { motion, Variants } from "framer-motion"
 import { DonutChart } from "@/components/shared/DonutChart"
 import { CountdownTimer } from "@/components/shared/CountdownTimer"
 import {
-  CheckCircle2,
   HeartPulse,
   Users,
   ShieldCheck,
@@ -23,6 +22,7 @@ import {
   TrendingUp,
 } from "lucide-react"
 import promisesData from "@/data/promises.json"
+import { Sector, Promise as PromiseType } from "@/types"
 
 const iconMap: Record<string, React.ReactNode> = {
   "users": <Users className="h-4 w-4" />,
@@ -54,9 +54,9 @@ export function BentoStats() {
     let inProgress = 0
     let evaded = 0
     let pending = 0
-    const sectorCounts: Record<string, { count: number; sector: any }> = {}
+    const sectorCounts: Record<string, { count: number; sector: Sector }> = {};
 
-    promisesData.forEach((p) => {
+    (promisesData as PromiseType[]).forEach((p) => {
       if (p.status === "fulfilled") fulfilled++
       else if (p.status === "in-progress") inProgress++
       else if (p.status === "evaded") evaded++

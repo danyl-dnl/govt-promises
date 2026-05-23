@@ -69,13 +69,10 @@ export function GovTimeline() {
             const isInProgress = event.status === "in-progress"
             
             let bulletColor = "bg-slate-300"
-            let borderColor = "border-slate-200"
             if (isFulfilled) {
               bulletColor = "bg-kerala-green"
-              borderColor = "border-kerala-green"
             } else if (isInProgress) {
               bulletColor = "bg-udf-blue"
-              borderColor = "border-udf-blue"
             }
 
             return (
