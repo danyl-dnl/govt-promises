@@ -49,7 +49,7 @@ export function HeroSection() {
             
             <motion.h1 variants={itemVariants} className="font-display font-extrabold text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-4 tracking-[-0.04em]">
               <span className="block text-4xl md:text-5xl text-slate-500 font-malayalam font-semibold mb-2 tracking-normal">യു.ഡി.എഫ് വാഗ്ദാനങ്ങൾ</span>
-              Holding Power <br /> <span className="text-udf-blue">Accountable.</span>
+              UDF Manifesto <br /> <span className="text-udf-blue">Tracker.</span>
             </motion.h1>
             
             <motion.p variants={itemVariants} className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-6 leading-relaxed">
