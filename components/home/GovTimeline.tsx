@@ -29,6 +29,18 @@ const timelineEvents = [
     status: "in-progress"
   },
   {
+    date: "MAY 21, 2026",
+    title: "Cabinet Portfolio Allocation",
+    description: "Official portfolio distribution approved by the Governor. CM V.D. Satheesan retains Finance, Law, and Ports, while Ramesh Chennithala is assigned Home and K. Muraleedharan gets Health.",
+    status: "fulfilled"
+  },
+  {
+    date: "MAY 23, 2026",
+    title: "Delhi Governance Meet",
+    description: "CM V.D. Satheesan visits New Delhi to coordinate with central leaders on welfare rollouts, legislative strategy, and high-priority infrastructure development.",
+    status: "fulfilled"
+  },
+  {
     date: "JUN 01, 2026",
     title: "First Policy Address",
     description: "Expected Governor's address outlining the legislative agenda and welfare rollout timeline.",
