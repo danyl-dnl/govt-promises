@@ -55,6 +55,7 @@ export function Navbar() {
               Submit Update
             </Button>
           </Link>
+
           {session ? (
             <div className="flex items-center gap-2 sm:bg-slate-100 rounded-full sm:pr-4 sm:pl-1 sm:py-1 sm:border sm:border-slate-200">
               {session.user?.image ? (
@@ -148,3 +149,4 @@ export function Navbar() {
     </header>
   )
 }
+

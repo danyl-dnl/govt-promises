@@ -87,7 +87,7 @@ export default function SectorsPage() {
         </div>
 
         {/* Bar Chart Section */}
-        <div className="bg-white rounded-2xl border border-border shadow-sm p-6 md:p-8 mb-12">
+        <div className="bg-white rounded-2xl border border-border shadow-sm p-6 md:p-8 mb-12 transition-colors duration-300">
           <h2 className="text-lg font-bold text-slate-900 mb-6 uppercase tracking-wider">Overall Completion by Sector</h2>
           
           {/* Desktop view: Recharts Bar Chart */}
@@ -97,12 +97,12 @@ export default function SectorsPage() {
                 data={sectorStats}
                 margin={{ top: 20, right: 30, left: 0, bottom: 40 }}
               >
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
+                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--color-border, #E2E8F0)" />
                 <XAxis 
                   dataKey="name" 
                   axisLine={false}
                   tickLine={false}
-                  tick={{ fontSize: 12, fill: '#64748B' }}
+                  tick={{ fontSize: 12, fill: 'var(--color-muted-foreground, #64748B)' }}
                   interval={0}
                   angle={-45}
                   textAnchor="end"
@@ -110,12 +110,19 @@ export default function SectorsPage() {
                 <YAxis 
                   axisLine={false}
                   tickLine={false}
-                  tick={{ fontSize: 12, fill: '#64748B' }}
+                  tick={{ fontSize: 12, fill: 'var(--color-muted-foreground, #64748B)' }}
                   tickFormatter={(val) => `${val}%`}
                 />
                 <Tooltip 
-                  cursor={{ fill: '#F8FAFC' }}
-                  contentStyle={{ borderRadius: '8px', border: '1px solid #E2E8F0', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
+                  cursor={{ fill: 'rgba(148, 163, 184, 0.04)' }}
+                  contentStyle={{ 
+                    borderRadius: '8px', 
+                    border: '1px solid var(--color-border, #E2E8F0)', 
+                    backgroundColor: 'var(--color-card, #ffffff)',
+                    color: 'var(--color-foreground, #000000)',
+                    boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' 
+                  }}
+                  itemStyle={{ color: 'var(--color-foreground, #000000)' }}
                   // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   formatter={(value: any) => [`${value}%`, 'Completion Score']}
                 />
@@ -131,7 +138,7 @@ export default function SectorsPage() {
           {/* Mobile view: Beautiful Legible List of Progress Bars */}
           <div className="block md:hidden flex flex-col gap-5">
             {sectorStats.map((sector) => (
-              <Link key={`mobile-chart-${sector.id}`} href={`/promises?sector=${sector.id}`} className="group block">
+              <Link key={`mobile-chart-${sector.id}`} href={`/promises?sector=${sector.id}`} className="group block cursor-pointer">
                 <div className="flex justify-between items-center mb-1.5">
                   <div className="flex items-center gap-2">
                     <div 
@@ -165,8 +172,8 @@ export default function SectorsPage() {
                 <CardContent className="p-6 flex-grow flex flex-col">
                   <div className="flex justify-between items-start mb-6">
                     <div 
-                      className="p-3 rounded-xl text-white shadow-sm"
-                      style={{ backgroundColor: sector.color }}
+                      className="p-3 rounded-xl text-white shadow-sm animate-pulse"
+                      style={{ backgroundColor: sector.color, animationDuration: '4s' }}
                     >
                       {iconMap[sector.icon] || <ShieldCheck className="h-6 w-6" />}
                     </div>

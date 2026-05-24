@@ -12,7 +12,7 @@ interface EvidenceTimelineProps {
 export function EvidenceTimeline({ sources }: EvidenceTimelineProps) {
   if (sources.length === 0) {
     return (
-      <div className="bg-slate-50 border border-dashed border-slate-200 rounded-xl p-8 text-center">
+      <div className="bg-slate-50 border border-dashed border-slate-200 rounded-xl p-8 text-center transition-colors duration-300">
         <p className="text-muted-foreground">No verifiable evidence has been recorded for this promise yet.</p>
       </div>
     )
@@ -35,7 +35,7 @@ export function EvidenceTimeline({ sources }: EvidenceTimelineProps) {
               <TierBadge tier={source.tier} />
             </div>
             
-            <div className="bg-white p-5 rounded-xl border border-border shadow-sm">
+            <div className="bg-white p-5 rounded-xl border border-border shadow-sm transition-colors duration-300">
               <div className="flex justify-between items-start gap-4 mb-3">
                 <h3 className="font-bold text-lg text-slate-900">{source.title}</h3>
                 <a 

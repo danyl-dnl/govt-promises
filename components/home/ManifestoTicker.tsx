@@ -16,7 +16,7 @@ const MANIFESTO_ITEMS = [
 
 export function ManifestoTicker() {
   return (
-    <div className="w-full bg-slate-100 border-b border-border overflow-hidden py-3">
+    <div className="w-full bg-slate-100 border-b border-border overflow-hidden py-3 transition-colors duration-300">
       <div className="flex whitespace-nowrap overflow-hidden">
         {/* We use two identical lists for seamless CSS animation */}
         <div className="flex animate-marquee min-w-full shrink-0">

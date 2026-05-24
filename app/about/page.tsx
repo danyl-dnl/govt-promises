@@ -4,17 +4,17 @@ import { Disclaimer } from "@/components/shared/Disclaimer"
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-slate-50/50 pt-8 pb-20">
+    <div className="min-h-screen bg-slate-50/50 pt-8 pb-20 transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8 max-w-4xl">
         <div className="mb-12">
-          <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-4">About the Tracker</h1>
+          <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-4">About the Tracker</h1>
           <p className="text-muted-foreground text-lg">
             Understanding our mission, methodology, and the standards we uphold to ensure transparency.
           </p>
         </div>
 
         <div className="space-y-12">
-          <section className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm">
+          <section className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm transition-colors duration-300">
             <div className="flex items-center gap-4 mb-6">
               <div className="bg-udf-blue-bg p-3 rounded-xl text-udf-blue">
                 <BookOpen className="h-6 w-6" />
@@ -31,7 +31,7 @@ export default function AboutPage() {
             </div>
           </section>
 
-          <section id="methodology" className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm scroll-mt-20">
+          <section id="methodology" className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm scroll-mt-20 transition-colors duration-300">
             <div className="flex items-center gap-4 mb-6">
               <div className="bg-kerala-green-bg p-3 rounded-xl text-kerala-green">
                 <ShieldCheck className="h-6 w-6" />
@@ -43,27 +43,27 @@ export default function AboutPage() {
                 Every promise tracked on this platform is sourced directly from the official UDF 2026 Election Manifesto. The status of each promise is updated based exclusively on publicly verifiable evidence.
               </p>
               
-              <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 mt-6">
+              <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 mt-6 transition-colors duration-300">
                 <h3 className="font-bold text-slate-900 mb-4 uppercase tracking-wider text-sm">Evidence Tiers</h3>
                 <ul className="space-y-4">
                   <li className="flex gap-4">
                     <span className="font-bold text-kerala-green w-16 shrink-0">Tier 1</span>
-                    <span><strong>Official Gazette & GOs:</strong> Government Orders, Gazette notifications, and passed legislative bills. (Highest Reliability)</span>
+                    <span className="text-slate-700"><strong className="text-slate-900">Official Gazette & GOs:</strong> Government Orders, Gazette notifications, and passed legislative bills. (Highest Reliability)</span>
                   </li>
                   <li className="flex gap-4">
                     <span className="font-bold text-udf-blue w-16 shrink-0">Tier 2</span>
-                    <span><strong>Govt Press Releases:</strong> Official statements from the Chief Minister&apos;s Office (CMO) or departmental press releases.</span>
+                    <span className="text-slate-700"><strong className="text-slate-900">Govt Press Releases:</strong> Official statements from the Chief Minister&apos;s Office (CMO) or departmental press releases.</span>
                   </li>
                   <li className="flex gap-4">
                     <span className="font-bold text-slate-500 w-16 shrink-0">Tier 3</span>
-                    <span><strong>National Wire & News:</strong> Reports from recognized, credible journalism platforms and wire agencies (PTI, UNI).</span>
+                    <span className="text-slate-700"><strong className="text-slate-900">National Wire & News:</strong> Reports from recognized, credible journalism platforms and wire agencies (PTI, UNI).</span>
                   </li>
                 </ul>
               </div>
             </div>
           </section>
 
-          <section className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm">
+          <section className="bg-white rounded-2xl p-8 md:p-10 border border-border shadow-sm transition-colors duration-300">
             <div className="flex items-center gap-4 mb-6">
               <div className="bg-slate-100 p-3 rounded-xl text-slate-500">
                 <AlertCircle className="h-6 w-6" />
@@ -77,7 +77,7 @@ export default function AboutPage() {
               </div>
               <div>
                 <h3 className="font-bold text-lg text-slate-900 mb-2">How can I suggest a correction?</h3>
-                <p className="text-slate-600">If you find inaccurate information or have new evidence regarding a promise, please use our <a href="/submit" className="text-udf-blue hover:underline">Submit Update</a> form. All submissions require verifiable Tier 1-3 links to be considered.</p>
+                <p className="text-slate-600">If you find inaccurate information or have new evidence regarding a promise, please use our <a href="/submit" className="text-udf-blue hover:underline cursor-pointer">Submit Update</a> form. All submissions require verifiable Tier 1-3 links to be considered.</p>
               </div>
             </div>
           </section>

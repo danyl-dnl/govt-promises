@@ -103,7 +103,7 @@ export function BentoStats() {
   }, [])
 
   return (
-    <section className="py-14 bg-white border-b border-slate-100">
+    <section className="py-14 bg-white border-b border-slate-100 transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8">
 
         {/* Section header */}
@@ -134,7 +134,7 @@ export function BentoStats() {
             viewport={{ once: true }}
             className="md:col-span-1"
           >
-            <div className="bg-white border border-slate-200 rounded-xl p-6 h-full">
+            <div className="bg-white border border-slate-200 rounded-xl p-6 h-full transition-colors duration-300">
               <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400 mb-4">
                 Status Distribution
               </p>
@@ -148,7 +148,7 @@ export function BentoStats() {
                     <Link
                       key={d.name}
                       href={`/promises?status=${d.name.toLowerCase().replace(" ", "-")}`}
-                      className="group flex items-center justify-between p-1.5 hover:bg-slate-50 rounded-lg transition-colors"
+                      className="group flex items-center justify-between p-1.5 hover:bg-slate-50 rounded-lg transition-colors cursor-pointer"
                     >
                       <div className="flex items-center gap-2">
                         <span
@@ -178,7 +178,7 @@ export function BentoStats() {
             viewport={{ once: true }}
             className="md:col-span-1"
           >
-            <div className="bg-white border border-slate-200 rounded-xl p-6 h-full flex flex-col">
+            <div className="bg-white border border-slate-200 rounded-xl p-6 h-full flex flex-col transition-colors duration-300">
               <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400 mb-4 flex-shrink-0">
                 Cabinet Term Progress
               </p>
@@ -199,7 +199,7 @@ export function BentoStats() {
           >
             <Link
               href={`/promises?sector=${stats.mostActiveSector.id}`}
-              className="group block bg-white border border-slate-200 rounded-xl p-6 h-full hover:border-slate-300 hover:shadow-sm transition-all duration-200"
+              className="group block bg-white border border-slate-200 rounded-xl p-6 h-full hover:border-slate-300 hover:shadow-sm transition-all duration-200 cursor-pointer"
             >
               <div className="flex items-center justify-between mb-4">
                 <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400">

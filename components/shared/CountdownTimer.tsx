@@ -30,7 +30,39 @@ export function CountdownTimer({
 }: CountdownTimerProps) {
   const { elapsed, mounted } = useElapsed(startDate)
 
-  if (!mounted) return null
+  if (!mounted) {
+    return (
+      <div className="w-full animate-pulse select-none" aria-hidden="true">
+        {/* Skeleton days */}
+        <div className="flex items-baseline gap-3 mb-1">
+          <div className="h-10 w-24 bg-slate-100 rounded-lg mb-1" />
+          <div className="h-4 w-32 bg-slate-100 rounded" />
+        </div>
+
+        {/* Skeleton h : m : s */}
+        <div className="flex items-center gap-1.5 mb-5">
+          <div className="h-5 w-16 bg-slate-100 rounded" />
+          <span className="text-slate-200 font-bold text-sm">:</span>
+          <div className="h-5 w-16 bg-slate-100 rounded" />
+          <span className="text-slate-200 font-bold text-sm">:</span>
+          <div className="h-5 w-16 bg-slate-100 rounded" />
+        </div>
+
+        {/* Skeleton progress */}
+        <div>
+          <div className="flex justify-between items-center mb-1.5">
+            <div className="h-3 w-20 bg-slate-100 rounded" />
+            <div className="h-3 w-8 bg-slate-100 rounded" />
+          </div>
+          <div className="h-[3px] w-full rounded-full bg-slate-100" />
+          <div className="flex justify-between items-center mt-1.5">
+            <div className="h-3 w-16 bg-slate-100 rounded" />
+            <div className="h-3 w-16 bg-slate-100 rounded" />
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   const totalMs   = new Date(termEndDate).getTime() - new Date(startDate).getTime()
   const pct       = Math.min(100, (elapsed / totalMs) * 100)

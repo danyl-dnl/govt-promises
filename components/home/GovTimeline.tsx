@@ -56,10 +56,10 @@ const timelineEvents = [
 
 export function GovTimeline() {
   return (
-    <section className="py-20 bg-slate-50 border-b border-border">
+    <section className="py-20 bg-slate-50 border-b border-border transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8 max-w-4xl">
         <div className="mb-12 text-center md:text-left">
-          <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground">Governance Timeline</h2>
+          <h2 className="font-display font-bold text-3xl md:text-4xl text-slate-900">Governance Timeline</h2>
           <p className="text-muted-foreground mt-2">Key milestones and policy implementations since day one.</p>
         </div>
 
@@ -68,11 +68,11 @@ export function GovTimeline() {
             const isFulfilled = event.status === "fulfilled"
             const isInProgress = event.status === "in-progress"
             
-            let bulletColor = "bg-slate-300"
+            let bulletColor = "bg-slate-300 "
             if (isFulfilled) {
-              bulletColor = "bg-kerala-green"
+              bulletColor = "bg-kerala-green "
             } else if (isInProgress) {
-              bulletColor = "bg-udf-blue"
+              bulletColor = "bg-udf-blue "
             }
 
             return (
@@ -95,12 +95,12 @@ export function GovTimeline() {
                 <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-0">
                   {/* Date label - absolutely positioned on desktop to the left */}
                   <div className="md:absolute md:-left-[140px] md:top-0.5 md:w-[100px] md:text-right">
-                    <span className={`text-xs font-bold uppercase tracking-widest ${isFulfilled ? 'text-kerala-green' : isInProgress ? 'text-udf-blue' : 'text-slate-400'}`}>
+                    <span className={`text-xs font-bold uppercase tracking-widest ${isFulfilled ? 'text-kerala-green ' : isInProgress ? 'text-udf-blue ' : 'text-slate-400 '}`}>
                       {event.date}
                     </span>
                   </div>
                   
-                  <div className="bg-white p-5 rounded-xl border border-slate-100 shadow-sm flex-1 ml-0 hover:shadow-md transition-shadow">
+                  <div className="bg-white p-5 rounded-xl border border-slate-100 shadow-sm flex-1 ml-0 hover:shadow-md transition-all duration-300">
                     <h3 className="font-bold text-lg text-slate-900 mb-1">{event.title}</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">{event.description}</p>
                   </div>

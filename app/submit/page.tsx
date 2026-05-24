@@ -12,8 +12,11 @@ import { Disclaimer } from "@/components/shared/Disclaimer"
 
 function SubmitForm({ session }: { session: Session }) {
   const searchParams = useSearchParams()
-  const promiseId = searchParams.get('promiseId') || ""
+  const defaultPromiseId = searchParams.get('promiseId') || ""
   
+  const [promiseId, setPromiseId] = useState(defaultPromiseId)
+  const [evidenceUrl, setEvidenceUrl] = useState("")
+  const [details, setDetails] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
 
@@ -28,6 +31,12 @@ function SubmitForm({ session }: { session: Session }) {
     }, 1500)
   }
 
+  const handleResetForm = () => {
+    setEvidenceUrl("")
+    setDetails("")
+    setIsSuccess(false)
+  }
+
   if (isSuccess) {
     return (
       <motion.div 
@@ -35,7 +44,7 @@ function SubmitForm({ session }: { session: Session }) {
         animate={{ opacity: 1, scale: 1 }}
         className="text-center py-12"
       >
-        <div className="bg-kerala-green-bg w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+        <div className="bg-kerala-green-bg w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 transition-colors">
           <CheckCircle2 className="h-10 w-10 text-kerala-green" />
         </div>
         <h2 className="text-2xl font-display font-bold text-slate-900 mb-2">Thank you for your contribution!</h2>
@@ -43,8 +52,8 @@ function SubmitForm({ session }: { session: Session }) {
           Our editorial team will review your submitted evidence. If it is verified and credible, the promise tracker will be updated.
         </p>
         <button 
-          onClick={() => setIsSuccess(false)}
-          className="bg-udf-blue hover:bg-udf-blue-dark text-white px-6 py-2.5 rounded-lg font-medium transition-colors"
+          onClick={handleResetForm}
+          className="bg-udf-blue hover:bg-udf-blue-dark text-white px-6 py-2.5 rounded-lg font-medium transition-colors cursor-pointer"
         >
           Submit Another Update
         </button>
@@ -56,7 +65,7 @@ function SubmitForm({ session }: { session: Session }) {
     <form onSubmit={handleSubmit} className="space-y-6">
       
       {/* Read-only Auth profile badge */}
-      <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 flex items-center justify-between">
+      <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 flex items-center justify-between transition-colors">
         <div className="flex items-center gap-3">
           {session.user?.image ? (
             <Image
@@ -80,7 +89,7 @@ function SubmitForm({ session }: { session: Session }) {
         <button 
           type="button" 
           onClick={() => signOut()}
-          className="text-xs font-semibold text-slate-500 hover:text-slate-900 flex items-center gap-1 transition-colors"
+          className="text-xs font-semibold text-slate-500 hover:text-slate-900 flex items-center gap-1 transition-colors cursor-pointer"
         >
           <LogOut className="h-3 w-3" />
           Sign Out
@@ -94,9 +103,10 @@ function SubmitForm({ session }: { session: Session }) {
         </label>
         <input 
           type="text" 
-          defaultValue={promiseId}
+          value={promiseId}
+          onChange={(e) => setPromiseId(e.target.value)}
           placeholder="e.g. UDF-2026-001"
-          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all bg-slate-50"
+          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all bg-slate-50 text-slate-900"
         />
         <p className="text-xs text-muted-foreground">If you are submitting evidence for a specific promise, enter its ID.</p>
       </div>
@@ -109,8 +119,10 @@ function SubmitForm({ session }: { session: Session }) {
         <input 
           required
           type="url" 
+          value={evidenceUrl}
+          onChange={(e) => setEvidenceUrl(e.target.value)}
           placeholder="https://news-site.com/article"
-          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all"
+          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all bg-white text-slate-900"
         />
       </div>
 
@@ -122,15 +134,17 @@ function SubmitForm({ session }: { session: Session }) {
         <textarea 
           required
           rows={5}
+          value={details}
+          onChange={(e) => setDetails(e.target.value)}
           placeholder="Please describe the update, cabinet decision, or GO number associated with this evidence..."
-          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all resize-none"
+          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all resize-none bg-white text-slate-900"
         ></textarea>
       </div>
 
       <button 
         type="submit" 
         disabled={isSubmitting}
-        className="w-full bg-udf-blue hover:bg-udf-blue-dark text-white font-medium py-3 rounded-lg flex items-center justify-center gap-2 transition-all disabled:opacity-70 disabled:cursor-not-allowed"
+        className="w-full bg-udf-blue hover:bg-udf-blue-dark text-white font-medium py-3 rounded-lg flex items-center justify-center gap-2 transition-all disabled:opacity-70 disabled:cursor-not-allowed cursor-pointer"
       >
         {isSubmitting ? (
           <div className="h-5 w-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
@@ -152,7 +166,7 @@ function AuthWrapper() {
     return (
       <div className="h-64 flex items-center justify-center">
         <div className="animate-pulse flex items-center gap-2 text-muted-foreground">
-          <AlertCircle className="h-5 w-5" /> Checking authentication...
+          <AlertCircle className="h-5 w-5 animate-spin" /> Checking authentication...
         </div>
       </div>
     )
@@ -170,7 +184,7 @@ function AuthWrapper() {
         </p>
         <button 
           onClick={() => signIn("google")}
-          className="bg-white border border-slate-200 hover:bg-slate-50 text-slate-900 px-6 py-2.5 rounded-lg font-medium transition-colors flex items-center gap-3 mx-auto shadow-sm"
+          className="bg-white border border-slate-200 hover:bg-slate-50 text-slate-900 px-6 py-2.5 rounded-lg font-medium transition-colors flex items-center gap-3 mx-auto shadow-sm cursor-pointer"
         >
           <svg className="h-5 w-5" viewBox="0 0 24 24">
             <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
@@ -190,7 +204,7 @@ function AuthWrapper() {
 
 export default function SubmitPage() {
   return (
-    <div className="min-h-screen bg-slate-50/50 py-12 md:py-20">
+    <div className="min-h-screen bg-slate-50/50 py-12 md:py-20 transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8 max-w-3xl">
         <div className="text-center mb-10">
           <h1 className="font-display font-bold text-3xl md:text-4xl text-slate-900 mb-4">Submit Evidence</h1>
@@ -199,9 +213,9 @@ export default function SubmitPage() {
           </p>
         </div>
 
-        <Card className="bg-white border-slate-200 shadow-sm mb-8">
+        <Card className="bg-white border-slate-200 shadow-sm mb-8 transition-colors duration-300">
           <CardHeader className="pb-4 border-b border-slate-100 mb-6">
-            <CardTitle className="text-xl">Correction & Update Form</CardTitle>
+            <CardTitle className="text-xl text-slate-900">Correction & Update Form</CardTitle>
             <CardDescription>All submissions are manually verified by our editorial team before publishing.</CardDescription>
           </CardHeader>
           <CardContent>

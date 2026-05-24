@@ -40,13 +40,13 @@ export function SpotlightRow() {
   })
 
   return (
-    <section className="py-16 bg-white border-b border-border overflow-hidden">
+    <section className="py-16 bg-white border-b border-border overflow-hidden transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8 mb-8 flex justify-between items-end">
         <div>
-          <h2 className="font-display font-bold text-3xl text-foreground">Promises in the Spotlight</h2>
+          <h2 className="font-display font-bold text-3xl text-slate-900">Promises in the Spotlight</h2>
           <p className="text-muted-foreground mt-2">Key guarantees currently under active monitoring.</p>
         </div>
-        <Link href="/promises" className="hidden md:flex items-center text-udf-blue font-medium hover:text-udf-blue-dark transition-colors group">
+        <Link href="/promises" className="hidden md:flex items-center text-udf-blue font-medium hover:text-udf-blue-dark transition-colors group cursor-pointer">
           View All Promises
           <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
         </Link>
@@ -69,7 +69,7 @@ export function SpotlightRow() {
               whileHover={{ y: -5 }}
             >
               <Link href={`/promises/${promise.slug}`}>
-                <Card className="h-full cursor-pointer hover:shadow-md transition-all duration-300 border-slate-200 bg-surface flex flex-col group">
+                <Card className="h-full cursor-pointer hover:shadow-md transition-all duration-300 border-slate-200 bg-white flex flex-col group">
                   <CardContent className="p-6 flex flex-col h-full">
                     <div className="flex justify-between items-start mb-4">
                       <div 
@@ -106,7 +106,7 @@ export function SpotlightRow() {
           ))}
 
           <div className="snap-start shrink-0 w-[280px] md:w-[320px] flex items-center justify-center p-6">
-            <Link href="/promises" className="flex flex-col items-center justify-center gap-3 text-muted-foreground hover:text-udf-blue transition-colors group">
+            <Link href="/promises" className="flex flex-col items-center justify-center gap-3 text-muted-foreground hover:text-udf-blue transition-colors group cursor-pointer">
               <div className="w-16 h-16 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center group-hover:border-udf-blue group-hover:bg-udf-blue-bg transition-colors">
                 <ArrowRight className="h-6 w-6" />
               </div>

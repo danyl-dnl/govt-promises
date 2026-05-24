@@ -31,13 +31,14 @@ export function DonutChart({ data }: DonutChartProps) {
           <Tooltip
             contentStyle={{
               borderRadius: "6px",
-              border: "1px solid #e2e8f0",
+              border: "1px solid var(--color-border, #e2e8f0)",
+              backgroundColor: "var(--color-card, #ffffff)",
               boxShadow: "0 4px 6px -1px rgb(0 0 0 / 0.07)",
               fontSize: "12px",
               fontWeight: 600,
               padding: "6px 10px",
             }}
-            itemStyle={{ color: "#334155" }}
+            itemStyle={{ color: "var(--color-foreground, #334155)" }}
           />
         </PieChart>
       </ResponsiveContainer>

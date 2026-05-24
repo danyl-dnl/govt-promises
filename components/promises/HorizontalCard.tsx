@@ -37,7 +37,7 @@ export function HorizontalCard({ promise }: HorizontalCardProps) {
       whileHover={{ x: 2 }}
       transition={{ duration: 0.2 }}
     >
-      <Link href={`/promises/${promise.slug}`}>
+      <Link href={`/promises/${promise.slug}`} className="cursor-pointer">
         <div className="group relative bg-white rounded-xl border border-border shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col md:flex-row">
           {/* Status Color Stripe */}
           <div 
@@ -68,7 +68,7 @@ export function HorizontalCard({ promise }: HorizontalCardProps) {
             </p>
           </div>
           
-          <div className="p-5 pl-6 md:p-6 md:pl-4 flex flex-row md:flex-col justify-between md:justify-center items-center md:items-end gap-4 border-t md:border-t-0 md:border-l border-slate-100 bg-slate-50/50 min-w-[180px]">
+          <div className="p-5 pl-6 md:p-6 md:pl-4 flex flex-row md:flex-col justify-between md:justify-center items-center md:items-end gap-4 border-t md:border-t-0 md:border-l border-slate-100 bg-slate-50/50 min-w-[180px] transition-colors duration-300">
             <StatusBadge status={promise.status} />
             <div className="flex items-center text-xs text-slate-500 font-medium uppercase tracking-wider group-hover:text-udf-blue transition-colors">
               View Details

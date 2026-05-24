@@ -16,7 +16,7 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
   else if (promise.status === "evaded") statusColor = "#DC2626"
 
   return (
-    <div className="relative bg-white border-b border-border">
+    <div className="relative bg-white border-b border-border transition-colors duration-300">
       {/* Top Status Band */}
       <div 
         className="absolute top-0 left-0 right-0 h-1"
@@ -26,9 +26,9 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
       <div className="container mx-auto px-4 md:px-8 pt-8 pb-12">
         {/* Breadcrumb */}
         <nav className="flex items-center text-xs font-medium text-slate-500 mb-8">
-          <Link href="/" className="hover:text-udf-blue transition-colors">Home</Link>
+          <Link href="/" className="hover:text-udf-blue transition-colors cursor-pointer">Home</Link>
           <ChevronRight className="h-3 w-3 mx-2" />
-          <Link href="/promises" className="hover:text-udf-blue transition-colors">Promises</Link>
+          <Link href="/promises" className="hover:text-udf-blue transition-colors cursor-pointer">Promises</Link>
           <ChevronRight className="h-3 w-3 mx-2" />
           <span className="text-slate-800 line-clamp-1 max-w-[200px] md:max-w-none">{promise.title}</span>
         </nav>
@@ -70,7 +70,7 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
         </div>
 
         {/* Verbatim Manifesto Quote */}
-        <div className="bg-slate-50 rounded-xl p-6 md:p-8 border-l-4 border-slate-300 relative">
+        <div className="bg-slate-50 rounded-xl p-6 md:p-8 border-l-4 border-slate-300 relative transition-colors duration-300">
           <div className="absolute top-0 right-0 p-4 text-slate-300 opacity-50">
             <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />

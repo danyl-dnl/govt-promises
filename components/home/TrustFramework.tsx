@@ -11,35 +11,35 @@ const frameworkCards = [
     title: "100% Manifesto Sourced",
     titleMl: "പൂർണ്ണമായും മാനിഫെസ്റ്റോ അധിഷ്ഠിതം",
     description: "Every single tracked commitment is directly extracted from the official UDF 2026 Election Manifesto. No rumors, no political spin, and no external bias.",
-    bgClass: "bg-blue-50/50 hover:bg-blue-50/80 border-blue-100",
-    iconBg: "bg-blue-100"
+    bgClass: "bg-blue-50/50  hover:bg-blue-50/80  border-blue-100 ",
+    iconBg: "bg-blue-100 "
   },
   {
     icon: <Layers className="h-6 w-6 text-indigo-600" />,
     title: "Objective Status Lifecycle",
     titleMl: "സുതാര്യമായ പുരോഗതി ഘട്ടങ്ങൾ",
     description: "Promises transition objectively through Pending, In Progress, Fulfilled, or Evaded statuses based strictly on legislative and physical execution progress.",
-    bgClass: "bg-indigo-50/50 hover:bg-indigo-50/80 border-indigo-100",
-    iconBg: "bg-indigo-100"
+    bgClass: "bg-indigo-50/50  hover:bg-indigo-50/80  border-indigo-100 ",
+    iconBg: "bg-indigo-100 "
   },
   {
     icon: <ShieldCheck className="h-6 w-6 text-kerala-green" />,
     title: "Strict 3-Tier Verification",
     titleMl: "കർശനമായ 3-ഘട്ട പരിശോധന",
     description: "Every status transition is backed by publicly verifiable links classified into Tiers: Gazette Orders (Tier 1), CMO Press Releases (Tier 2), or Credible Media Wires (Tier 3).",
-    bgClass: "bg-kerala-green-bg hover:bg-kerala-green-bg/80 border-emerald-100",
-    iconBg: "bg-emerald-100"
+    bgClass: "bg-kerala-green-bg  hover:bg-kerala-green-bg/80  border-emerald-100 ",
+    iconBg: "bg-emerald-100 "
   }
 ]
 
 export function TrustFramework() {
   return (
-    <section className="py-16 bg-slate-50/30 border-b border-slate-100">
+    <section className="py-16 bg-slate-50/30 border-b border-slate-100 transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8">
         
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 mb-4">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 mb-4 transition-colors duration-300">
             <span className="w-1.5 h-1.5 rounded-full bg-udf-blue" />
             <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500">Methodology & Transparency</span>
           </div>
@@ -87,7 +87,7 @@ export function TrustFramework() {
                 <div className="mt-8 pt-4 border-t border-slate-100 flex items-center">
                   <Link 
                     href="/about#methodology" 
-                    className="inline-flex items-center gap-1.5 text-xs font-bold text-kerala-green uppercase tracking-wider hover:text-emerald-700 transition-colors group"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-kerala-green uppercase tracking-wider hover:text-emerald-700 transition-colors group cursor-pointer"
                   >
                     Explore Evidence Tiers
                     <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />

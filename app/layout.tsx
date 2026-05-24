@@ -45,7 +45,7 @@ export default function RootLayout({
       <body className="antialiased min-h-screen flex flex-col bg-background text-foreground font-ui">
         <AuthProvider>
           <Navbar />
-          <main className="flex-grow">
+          <main className="flex-grow bg-slate-50/30">
             {children}
           </main>
           <Footer />

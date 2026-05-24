@@ -89,10 +89,10 @@ function PromisesPageContent() {
   }, [searchQuery, statusFilter, selectedSectors, sortOption])
 
   return (
-    <div className="min-h-screen bg-slate-50/50 pt-8 pb-20">
+    <div className="min-h-screen bg-slate-50/50 pt-8 pb-20 transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8">
         <div className="mb-10">
-          <h1 className="font-display font-bold text-4xl md:text-5xl text-foreground mb-4">All Promises</h1>
+          <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-4">All Promises</h1>
           <p className="text-muted-foreground text-lg max-w-2xl">
             Browse, filter, and search through the complete ledger of UDF election promises. 
             Currently tracking {promisesData.length} commitments.
@@ -134,7 +134,7 @@ function PromisesPageContent() {
 export default function PromisesPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-slate-50/50 flex items-center justify-center">
+      <div className="min-h-screen bg-slate-50/50 flex items-center justify-center transition-colors duration-300">
         <div className="animate-pulse flex items-center gap-2 text-muted-foreground">
           Loading promises...
         </div>
