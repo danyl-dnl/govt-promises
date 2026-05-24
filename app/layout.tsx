@@ -42,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable} ${notoSansMalayalam.variable}`} suppressHydrationWarning>
-      <body className="antialiased min-h-screen flex flex-col bg-background text-foreground font-ui">
+      <body className="antialiased min-h-screen flex flex-col bg-background text-foreground font-ui" suppressHydrationWarning>
         <AuthProvider>
           <Navbar />
           <main className="flex-grow bg-slate-50/30">
