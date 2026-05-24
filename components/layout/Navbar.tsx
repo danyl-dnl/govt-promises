@@ -46,6 +46,7 @@ export function Navbar() {
           <Link href="/promises" className="hover:text-foreground transition-colors">Promises</Link>
           <Link href="/sectors" className="hover:text-foreground transition-colors">Sectors</Link>
           <Link href="/updates" className="hover:text-foreground transition-colors">Updates</Link>
+          <Link href="/impact" className="hover:text-foreground transition-colors">Impact</Link>
           <Link href="/about" className="hover:text-foreground transition-colors">About</Link>
         </nav>
 
@@ -124,6 +125,13 @@ export function Navbar() {
                 className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
               >
                 Updates
+              </Link>
+              <Link 
+                href="/impact" 
+                onClick={() => setIsOpen(false)}
+                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+              >
+                Impact
               </Link>
               <Link 
                 href="/about" 
