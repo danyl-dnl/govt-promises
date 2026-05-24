@@ -50,6 +50,12 @@ const BENEFIT_MAPPINGS = [
 
 export function BenefitCalculator() {
   const [selectedIds, setSelectedIds] = useState<string[]>([])
+  const [customValues, setCustomValues] = useState<{ [key: string]: number }>({
+    woman: 800,
+    student: 1000,
+    pensioner: 1000,
+    farmer: 4000,
+  })
   const [displayValue, setDisplayValue] = useState(0)
 
   // Calculate targets based on selected demographics
@@ -60,7 +66,7 @@ export function BenefitCalculator() {
     selectedIds.forEach((id) => {
       const config = BENEFIT_MAPPINGS.find((b) => b.id === id)
       if (config) {
-        benefitSum += config.benefitValue
+        benefitSum += customValues[id] ?? config.benefitValue
         matchedSlugs.push(config.promiseSlug)
       }
     })
@@ -74,7 +80,7 @@ export function BenefitCalculator() {
       totalBenefit: benefitSum,
       matchedPromises: promisesList
     }
-  }, [selectedIds])
+  }, [selectedIds, customValues])
 
   // Framer Motion rolling number counter logic
   useEffect(() => {
@@ -106,7 +112,7 @@ export function BenefitCalculator() {
             Manifesto Impact Estimator
           </h2>
           <p className="text-sm md:text-base text-slate-500 max-w-xl mx-auto mt-3 leading-relaxed">
-            Select your demographic attributes to calculate your estimated monthly savings and benefits under the UDF manifesto commitments, and track their live execution statuses!
+            Select your demographic attributes to calculate your estimated monthly savings and benefits under the UDF manifesto commitments, customize the values to match your household, and track their live execution statuses!
           </p>
         </div>
 
@@ -126,39 +132,69 @@ export function BenefitCalculator() {
                   <div
                     key={item.id}
                     onClick={() => toggleSelection(item.id)}
-                    className={`p-4 rounded-xl border-2 text-left cursor-pointer transition-all select-none flex items-center justify-between ${
+                    className={`p-4 rounded-xl border-2 text-left cursor-pointer transition-all select-none flex flex-col gap-2 ${
                       isSelected
                         ? "border-udf-blue bg-blue-50/20 shadow-sm"
                         : "border-slate-100 bg-slate-50/50 hover:border-slate-200 hover:bg-slate-50"
                     }`}
                   >
-                    <div className="flex items-start gap-3.5">
-                      <div
-                        className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all mt-0.5 ${
-                          isSelected
-                            ? "bg-udf-blue border-udf-blue text-white"
-                            : "border-slate-300 bg-white"
-                        }`}
-                      >
-                        {isSelected && <Check className="h-3.5 w-3.5 stroke-[3]" />}
-                      </div>
-                      <div>
-                        <div className="flex items-baseline gap-2">
-                          <p className="font-bold text-sm text-slate-800 leading-tight">
-                            {item.label}
-                          </p>
-                          <span className="font-malayalam text-[10px] font-semibold text-slate-400">
-                            {item.labelMl}
-                          </span>
+                    <div className="flex items-center justify-between w-full">
+                      <div className="flex items-start gap-3.5">
+                        <div
+                          className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all mt-0.5 ${
+                            isSelected
+                              ? "bg-udf-blue border-udf-blue text-white"
+                              : "border-slate-300 bg-white"
+                          }`}
+                        >
+                          {isSelected && <Check className="h-3.5 w-3.5 stroke-[3]" />}
                         </div>
-                        <p className="text-xs text-slate-400 mt-1 leading-normal">
-                          {item.description}
-                        </p>
+                        <div>
+                          <div className="flex items-baseline gap-2">
+                            <p className="font-bold text-sm text-slate-800 leading-tight">
+                              {item.label}
+                            </p>
+                            <span className="font-malayalam text-[10px] font-semibold text-slate-400">
+                              {item.labelMl}
+                            </span>
+                          </div>
+                          <p className="text-xs text-slate-400 mt-1 leading-normal">
+                            {item.description}
+                          </p>
+                        </div>
                       </div>
+                      <span className="text-xs font-bold text-slate-700 bg-white border border-slate-200 rounded px-2.5 py-1.5 shadow-xs shrink-0 ml-4 tabular-nums">
+                        +₹{isSelected ? customValues[item.id] : item.benefitValue}/mo
+                      </span>
                     </div>
-                    <span className="text-xs font-bold text-slate-700 bg-white border border-slate-200 rounded px-2.5 py-1.5 shadow-xs shrink-0 ml-4 tabular-nums">
-                      +₹{item.benefitValue}/mo
-                    </span>
+
+                    {/* Expandable Custom Value Editor */}
+                    <AnimatePresence>
+                      {isSelected && (
+                        <motion.div
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: "auto" }}
+                          exit={{ opacity: 0, height: 0 }}
+                          className="pt-3 border-t border-slate-200/50 flex items-center gap-3 overflow-hidden"
+                          onClick={(e) => e.stopPropagation()} // Prevent toggling when clicking input
+                        >
+                          <span className="text-xs font-semibold text-slate-500">Your custom value:</span>
+                          <div className="relative flex items-center flex-1 max-w-[130px]">
+                            <span className="absolute left-2.5 text-xs font-bold text-slate-400">₹</span>
+                            <input
+                              type="number"
+                              value={customValues[item.id]}
+                              onChange={(e) => {
+                                const val = Math.max(0, parseInt(e.target.value) || 0)
+                                setCustomValues((prev) => ({ ...prev, [item.id]: val }))
+                              }}
+                              className="w-full bg-white border border-slate-200 rounded-lg pl-6 pr-2 py-1 text-xs font-bold text-slate-800 focus:outline-none focus:border-udf-blue focus:ring-1 focus:ring-udf-blue transition-all"
+                            />
+                          </div>
+                          <span className="text-[10px] text-slate-400">/ month</span>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
                   </div>
                 )
               })}
@@ -167,7 +203,7 @@ export function BenefitCalculator() {
             <div className="flex items-start gap-2 bg-slate-50 p-4 rounded-xl border border-slate-100 mt-2 transition-colors">
               <Info className="h-4 w-4 text-slate-400 shrink-0 mt-0.5" />
               <p className="text-[11px] text-slate-400 leading-relaxed">
-                Calculations are objective estimates based on proposed policy terms. Bus travel assumes regular daily commutes; rubber support prices assume standard monthly yields.
+                Calculations are objective estimates based on proposed policy terms. Customize the estimated values or yields to directly fit your budget and scenario.
               </p>
             </div>
           </div>
@@ -216,7 +252,7 @@ export function BenefitCalculator() {
                           >
                             <div className="flex-1 min-w-0 pr-4">
                               <span className="text-[9px] font-bold text-udf-blue uppercase tracking-wider block mb-0.5">
-                                {benefitInfo?.benefitLabel}
+                                {benefitInfo?.benefitLabel} (+₹{(benefitInfo ? customValues[benefitInfo.id] : 0).toLocaleString("en-IN")}/mo)
                               </span>
                               <Link 
                                 href={`/promises/${promise.slug}`}
