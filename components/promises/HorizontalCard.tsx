@@ -24,6 +24,19 @@ interface HorizontalCardProps {
   promise: PromiseType
 }
 
+export const cardVariants = {
+  hidden: { opacity: 0, y: 15 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring" as const,
+      stiffness: 240,
+      damping: 22
+    }
+  }
+}
+
 export function HorizontalCard({ promise }: HorizontalCardProps) {
   let statusColor = "#64748B"
   if (promise.status === "fulfilled") statusColor = "#15803D"
@@ -32,10 +45,8 @@ export function HorizontalCard({ promise }: HorizontalCardProps) {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
+      variants={cardVariants}
       whileHover={{ x: 2 }}
-      transition={{ duration: 0.2 }}
     >
       <Link href={`/promises/${promise.slug}`} className="cursor-pointer">
         <div className="group relative bg-white rounded-xl border border-border shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col md:flex-row">

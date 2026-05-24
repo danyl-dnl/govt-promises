@@ -23,6 +23,31 @@ import {
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType, Sector } from "@/types"
 
+import { motion } from "framer-motion"
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.05
+    }
+  }
+}
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 15 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring" as const,
+      stiffness: 260,
+      damping: 24
+    }
+  }
+}
+
 const iconMap: Record<string, React.ReactNode> = {
   "users": <Users className="h-6 w-6" />,
   "heart-pulse": <HeartPulse className="h-6 w-6" />,
@@ -161,52 +186,60 @@ export default function SectorsPage() {
 
         {/* Sector Cards Grid */}
         <h2 className="text-lg font-bold text-slate-900 mb-6 uppercase tracking-wider">Detailed Sectors</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <motion.div 
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-50px" }}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
           {sectorStats.map(sector => (
-            <Link key={sector.id} href={`/promises?sector=${sector.id}`}>
-              <Card className="h-full bg-white border-slate-200 hover:shadow-md transition-all duration-300 group cursor-pointer relative overflow-hidden flex flex-col">
-                <div 
-                  className="absolute top-0 left-0 w-full h-1 transition-all duration-300 opacity-80 group-hover:opacity-100"
-                  style={{ backgroundColor: sector.color }}
-                />
-                <CardContent className="p-6 flex-grow flex flex-col">
-                  <div className="flex justify-between items-start mb-6">
-                    <div 
-                      className="p-3 rounded-xl text-white shadow-sm animate-pulse"
-                      style={{ backgroundColor: sector.color, animationDuration: '4s' }}
-                    >
-                      {iconMap[sector.icon] || <ShieldCheck className="h-6 w-6" />}
+            <motion.div key={sector.id} variants={itemVariants}>
+              <Link href={`/promises?sector=${sector.id}`}>
+                <Card className="h-full bg-white border-slate-200 hover:shadow-md transition-all duration-300 group cursor-pointer relative overflow-hidden flex flex-col">
+                  <div 
+                    className="absolute top-0 left-0 w-full h-1 transition-all duration-300 opacity-80 group-hover:opacity-100"
+                    style={{ backgroundColor: sector.color }}
+                  />
+                  <CardContent className="p-6 flex-grow flex flex-col">
+                    <div className="flex justify-between items-start mb-6">
+                      <div 
+                        className="p-3 rounded-xl text-white shadow-sm animate-pulse"
+                        style={{ backgroundColor: sector.color, animationDuration: '4s' }}
+                      >
+                        {iconMap[sector.icon] || <ShieldCheck className="h-6 w-6" />}
+                      </div>
+                      <div className="text-right">
+                        <span className="text-sm font-bold text-slate-400 uppercase tracking-wider">Completion</span>
+                        <p className="font-display font-bold text-2xl text-slate-900">{sector.completionPercent}%</p>
+                      </div>
                     </div>
-                    <div className="text-right">
-                      <span className="text-sm font-bold text-slate-400 uppercase tracking-wider">Completion</span>
-                      <p className="font-display font-bold text-2xl text-slate-900">{sector.completionPercent}%</p>
+                    
+                    <h3 className="font-bold text-xl text-slate-900 mb-1 group-hover:text-udf-blue transition-colors">
+                      {sector.name}
+                    </h3>
+                    <p className="font-malayalam text-sm text-slate-500 mb-6">
+                      {sector.nameMl}
+                    </p>
+                    
+                    <div className="mt-auto">
+                      <div className="flex justify-between text-xs font-semibold text-slate-500 mb-2">
+                        <span>Progress</span>
+                        <span>{sector.fulfilled} / {sector.total} Fulfilled</span>
+                      </div>
+                      <SectorBar percentage={sector.completionPercent} color={sector.color} />
                     </div>
-                  </div>
-                  
-                  <h3 className="font-bold text-xl text-slate-900 mb-1 group-hover:text-udf-blue transition-colors">
-                    {sector.name}
-                  </h3>
-                  <p className="font-malayalam text-sm text-slate-500 mb-6">
-                    {sector.nameMl}
-                  </p>
-                  
-                  <div className="mt-auto">
-                    <div className="flex justify-between text-xs font-semibold text-slate-500 mb-2">
-                      <span>Progress</span>
-                      <span>{sector.fulfilled} / {sector.total} Fulfilled</span>
+                    
+                    <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500 group-hover:text-udf-blue transition-colors">
+                      <span>View all {sector.total} promises</span>
+                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </div>
-                    <SectorBar percentage={sector.completionPercent} color={sector.color} />
-                  </div>
-                  
-                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500 group-hover:text-udf-blue transition-colors">
-                    <span>View all {sector.total} promises</span>
-                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </div>
-                </CardContent>
-              </Card>
-            </Link>
+                  </CardContent>
+                </Card>
+              </Link>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   )

@@ -8,6 +8,18 @@ import { EmptyState } from "@/components/promises/EmptyState"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType, Status } from "@/types"
 
+import { motion } from "framer-motion"
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.03
+    }
+  }
+}
+
 // Extract unique sectors from data
 const uniqueSectors = Array.from(new Set(promisesData.map((p) => p.sector.id))).map((id) => {
   return promisesData.find((p) => p.sector.id === id)!.sector
@@ -118,9 +130,17 @@ function PromisesPageContent() {
             </div>
             
             {filteredPromises.length > 0 ? (
-              filteredPromises.map((promise) => (
-                <HorizontalCard key={promise.id} promise={promise} />
-              ))
+              <motion.div
+                key={`${searchQuery}-${statusFilter}-${selectedSectors.join(",")}-${sortOption}`} // Drive full re-animation on updates
+                variants={containerVariants}
+                initial="hidden"
+                animate="show"
+                className="flex flex-col gap-4"
+              >
+                {filteredPromises.map((promise) => (
+                  <HorizontalCard key={promise.id} promise={promise} />
+                ))}
+              </motion.div>
             ) : (
               <EmptyState />
             )}
