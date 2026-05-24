@@ -12,7 +12,7 @@
       "name": "Women & Transport",
       "nameMl": "സ്ത്രീകളും ഗതാഗതവും",
       "icon": "users",
-      "color": "#2563EB"
+      "color": "#3B82F6"
     },
     "status": "in-progress",
     "icon": "users",
@@ -50,7 +50,7 @@
       "name": "Students & Women",
       "nameMl": "വിദ്യാർത്ഥിനികളും സ്ത്രീകളും",
       "icon": "users",
-      "color": "#2563EB"
+      "color": "#EC4899"
     },
     "status": "pending",
     "icon": "users",
@@ -80,7 +80,7 @@
       "name": "Health",
       "nameMl": "ആരോഗ്യം",
       "icon": "heart-pulse",
-      "color": "#15803D"
+      "color": "#10B981"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -110,7 +110,7 @@
       "name": "Welfare",
       "nameMl": "ക്ഷേമം",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#F59E0B"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -148,7 +148,7 @@
       "name": "Youth & Employment",
       "nameMl": "യുവജനങ്ങളും തൊഴിലും",
       "icon": "users",
-      "color": "#9333EA"
+      "color": "#6366F1"
     },
     "status": "pending",
     "icon": "users",
@@ -178,7 +178,7 @@
       "name": "Senior Citizens",
       "nameMl": "മുതിർന്ന പൗരന്മാർ",
       "icon": "users",
-      "color": "#475569"
+      "color": "#6B7280"
     },
     "status": "in-progress",
     "icon": "users",
@@ -216,7 +216,7 @@
       "name": "Welfare",
       "nameMl": "ക്ഷേമം",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#F59E0B"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -246,7 +246,7 @@
       "name": "Welfare Boards",
       "nameMl": "ക്ഷേമനിധി ബോർഡുകൾ",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#F97316"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -276,7 +276,7 @@
       "name": "Welfare Boards",
       "nameMl": "ക്ഷേമനിധി ബോർഡുകൾ",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#F97316"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -306,7 +306,7 @@
       "name": "Food Security",
       "nameMl": "ഭക്ഷ്യസുരക്ഷ",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#EF4444"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -327,7 +327,7 @@
     "id": "p11",
     "slug": "free-ration-support-11",
     "title": "Free ration support",
-    "titleMl": "Free ration support",
+    "titleMl": "സൗജന്യ റേഷൻ പദ്ധതി",
     "description": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.",
     "trackingNote": "Track official eligibility criteria, ration quantity, duration, and implementation order.",
     "manifestoQuote": "Provide free ration support for eligible groups in special circumstances or vulnerable regions.",
@@ -336,7 +336,7 @@
       "name": "Food Security",
       "nameMl": "ഭക്ഷ്യസുരക്ഷ",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#EF4444"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -357,16 +357,16 @@
     "id": "p12",
     "slug": "nava-aashraya-scheme-12",
     "title": "Nava Aashraya scheme",
-    "titleMl": "Nava Aashraya scheme",
+    "titleMl": "നവ ആശ്രയ പദ്ധതി",
     "description": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.",
     "trackingNote": "Track scheme launch, beneficiary identification, local body implementation, and fund release.",
     "manifestoQuote": "Launch or expand Nava Aashraya as the second phase of the Aashraya scheme for vulnerable families.",
     "sector": {
       "id": "s9",
       "name": "Poverty Alleviation",
-      "nameMl": "Poverty Alleviation",
+      "nameMl": "ദാരിദ്ര്യ നിർമ്മാർജ്ജനം",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#14B8A6"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -387,16 +387,16 @@
     "id": "p13",
     "slug": "support-for-most-vulnerable-sections-13",
     "title": "Support for most vulnerable sections",
-    "titleMl": "Support for most vulnerable sections",
+    "titleMl": "ഏറ്റവും ദുർബല വിഭാഗങ്ങൾക്കുള്ള പിന്തുണ",
     "description": "Identify and support the most vulnerable sections of society through targeted welfare measures.",
     "trackingNote": "Track survey/identification process, scheme notification, beneficiary list, and benefits delivered.",
     "manifestoQuote": "Identify and support the most vulnerable sections of society through targeted welfare measures.",
     "sector": {
       "id": "s9",
       "name": "Poverty Alleviation",
-      "nameMl": "Poverty Alleviation",
+      "nameMl": "ദാരിദ്ര്യ നിർമ്മാർജ്ജനം",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#14B8A6"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -417,7 +417,7 @@
     "id": "p14",
     "slug": "special-plan-for-yellow-and-pink-ration-card-holders-14",
     "title": "Special plan for yellow and pink ration card holders",
-    "titleMl": "Special plan for yellow and pink ration card holders",
+    "titleMl": "മഞ്ഞ, പിങ്ക് റേഷൻ കാർഡ് ഉടമകൾക്കായി പ്രത്യേക പദ്ധതി",
     "description": "Prepare a special action plan for yellow and pink ration card holders.",
     "trackingNote": "Track official action plan, benefits covered, target households, and implementation schedule.",
     "manifestoQuote": "Prepare a special action plan for yellow and pink ration card holders.",
@@ -426,7 +426,7 @@
       "name": "Food Security",
       "nameMl": "ഭക്ഷ്യസുരക്ഷ",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#EF4444"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -447,16 +447,16 @@
     "id": "p15",
     "slug": "yuva-shakti-naadin-sampath-15",
     "title": "Yuva Shakti Naadin Sampath",
-    "titleMl": "Yuva Shakti Naadin Sampath",
+    "titleMl": "യുവശക്തി നാടിൻ സമ്പത്ത് പദ്ധതി",
     "description": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.",
     "trackingNote": "Track budget documents showing 5% allocation and youth-focused expenditure.",
     "manifestoQuote": "Earmark 5% of plan outlay for young people under the Yuva Shakti Naadin Sampath initiative.",
     "sector": {
       "id": "s10",
       "name": "Youth",
-      "nameMl": "Youth",
+      "nameMl": "യുവജനക്ഷേമം",
       "icon": "users",
-      "color": "#475569"
+      "color": "#8B5CF6"
     },
     "status": "pending",
     "icon": "users",
@@ -477,16 +477,16 @@
     "id": "p16",
     "slug": "yuvashree-collectives-16",
     "title": "Yuvashree collectives",
-    "titleMl": "Yuvashree collectives",
+    "titleMl": "യുവശ്രീ കൂട്ടായ്മകൾ",
     "description": "Introduce Yuvashree collectives modelled on Kudumbashree.",
     "trackingNote": "Track scheme order, pilot districts, number of collectives formed, and funding.",
     "manifestoQuote": "Introduce Yuvashree collectives modelled on Kudumbashree.",
     "sector": {
       "id": "s11",
       "name": "Youth & Community",
-      "nameMl": "Youth & Community",
+      "nameMl": "യുവജനങ്ങളും കൂട്ടായ്മയും",
       "icon": "users",
-      "color": "#475569"
+      "color": "#A855F7"
     },
     "status": "pending",
     "icon": "users",
@@ -507,16 +507,16 @@
     "id": "p17",
     "slug": "k-r-narayanan-scholarships-17",
     "title": "K. R. Narayanan scholarships",
-    "titleMl": "K. R. Narayanan scholarships",
+    "titleMl": "കെ. ആർ. നാരായണൻ സ്കോളർഷിപ്പ്",
     "description": "Provide K. R. Narayanan scholarships for meritorious students.",
     "trackingNote": "Track scholarship rules, eligibility, application portal, number of students selected, and disbursal.",
     "manifestoQuote": "Provide K. R. Narayanan scholarships for meritorious students.",
     "sector": {
       "id": "s12",
       "name": "Education",
-      "nameMl": "Education",
+      "nameMl": "വിദ്യാഭ്യാസം",
       "icon": "graduation-cap",
-      "color": "#0284C7"
+      "color": "#0EA5E9"
     },
     "status": "pending",
     "icon": "graduation-cap",
@@ -537,16 +537,16 @@
     "id": "p18",
     "slug": "higher-education-loan-support-18",
     "title": "Higher education loan support",
-    "titleMl": "Higher education loan support",
+    "titleMl": "ഉന്നത വിദ്യാഭ്യാസ വായ്പാ സഹായം",
     "description": "Provide education loan support for higher studies in India and abroad.",
     "trackingNote": "Track interest subsidy, guarantee support, repayment assistance, or direct loan scheme order.",
     "manifestoQuote": "Provide education loan support for higher studies in India and abroad.",
     "sector": {
       "id": "s12",
       "name": "Education",
-      "nameMl": "Education",
+      "nameMl": "വിദ്യാഭ്യാസം",
       "icon": "graduation-cap",
-      "color": "#0284C7"
+      "color": "#0EA5E9"
     },
     "status": "pending",
     "icon": "graduation-cap",
@@ -567,7 +567,7 @@
     "id": "p19",
     "slug": "free-dialysis-for-bpl-families-19",
     "title": "Free dialysis for BPL families",
-    "titleMl": "Free dialysis for BPL families",
+    "titleMl": "ബി.പി.എൽ കുടുംബങ്ങൾക്ക് സൗജന്യ ഡയാലിസിസ്",
     "description": "Provide free dialysis services for families below the poverty line.",
     "trackingNote": "Track hospital empanelment, eligibility rules, dialysis sessions covered, and actual usage.",
     "manifestoQuote": "Provide free dialysis services for families below the poverty line.",
@@ -576,7 +576,7 @@
       "name": "Health",
       "nameMl": "ആരോഗ്യം",
       "icon": "heart-pulse",
-      "color": "#15803D"
+      "color": "#10B981"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -597,16 +597,16 @@
     "id": "p20",
     "slug": "she-hospitals-20",
     "title": "SHE Hospitals",
-    "titleMl": "SHE Hospitals",
+    "titleMl": "സ്ത്രീകൾക്കായുള്ള ഷി (SHE) ആശുപത്രികൾ",
     "description": "Open SHE Hospitals dedicated to women and children.",
     "trackingNote": "Track hospital locations, construction/upgradation order, staffing, and opening date.",
     "manifestoQuote": "Open SHE Hospitals dedicated to women and children.",
     "sector": {
       "id": "s13",
       "name": "Health & Women",
-      "nameMl": "Health & Women",
+      "nameMl": "ആരോഗ്യവും സ്ത്രീകളും",
       "icon": "users",
-      "color": "#2563EB"
+      "color": "#D946EF"
     },
     "status": "pending",
     "icon": "users",
@@ -627,16 +627,16 @@
     "id": "p21",
     "slug": "health-centres-in-tribal-areas-21",
     "title": "Health centres in tribal areas",
-    "titleMl": "Health centres in tribal areas",
+    "titleMl": "ആദിവാസി മേഖലകളിൽ ആരോഗ്യ കേന്ദ്രങ്ങൾ",
     "description": "Establish dedicated health centres in tribal areas.",
     "trackingNote": "Track number of centres announced, districts, staffing, budget, and operational status.",
     "manifestoQuote": "Establish dedicated health centres in tribal areas.",
     "sector": {
       "id": "s14",
       "name": "Health & Tribal Welfare",
-      "nameMl": "Health & Tribal Welfare",
+      "nameMl": "ആരോഗ്യവും ഗോത്രവർഗ്ഗ ക്ഷേമവും",
       "icon": "heart-pulse",
-      "color": "#2563EB"
+      "color": "#06B6D4"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -657,16 +657,16 @@
     "id": "p22",
     "slug": "health-centres-in-coastal-areas-22",
     "title": "Health centres in coastal areas",
-    "titleMl": "Health centres in coastal areas",
+    "titleMl": "തീരദേശ മേഖലകളിൽ ആരോഗ്യ കേന്ദ്രങ്ങൾ",
     "description": "Establish dedicated health centres in coastal areas.",
     "trackingNote": "Track locations, coastal communities covered, staff appointments, and service availability.",
     "manifestoQuote": "Establish dedicated health centres in coastal areas.",
     "sector": {
       "id": "s15",
       "name": "Health & Coastal Welfare",
-      "nameMl": "Health & Coastal Welfare",
+      "nameMl": "ആരോഗ്യവും തീരദേശ ക്ഷേമവും",
       "icon": "heart-pulse",
-      "color": "#2563EB"
+      "color": "#0891B2"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -687,7 +687,7 @@
     "id": "p23",
     "slug": "no-bill-hospitals-23",
     "title": "No-bill hospitals",
-    "titleMl": "No-bill hospitals",
+    "titleMl": "നോ-ബിൽ ആശുപത്രികൾ",
     "description": "Introduce no-bill or bill-less hospitals for eligible patients/services.",
     "trackingNote": "Track official definition, covered hospitals, covered treatments, and patient billing data.",
     "manifestoQuote": "Introduce no-bill or bill-less hospitals for eligible patients/services.",
@@ -696,7 +696,7 @@
       "name": "Health",
       "nameMl": "ആരോഗ്യം",
       "icon": "heart-pulse",
-      "color": "#15803D"
+      "color": "#10B981"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -717,16 +717,16 @@
     "id": "p24",
     "slug": "tribal-health-clusters-24",
     "title": "Tribal health clusters",
-    "titleMl": "Tribal health clusters",
+    "titleMl": "ആദിവാസി ആരോഗ്യ ക്ലസ്റ്ററുകൾ",
     "description": "Establish tribal health clusters to improve healthcare access for tribal communities.",
     "trackingNote": "Track cluster locations, health teams, mobile units, and measurable service coverage.",
     "manifestoQuote": "Establish tribal health clusters to improve healthcare access for tribal communities.",
     "sector": {
       "id": "s14",
       "name": "Health & Tribal Welfare",
-      "nameMl": "Health & Tribal Welfare",
+      "nameMl": "ആരോഗ്യവും ഗോത്രവർഗ്ഗ ക്ഷേമവും",
       "icon": "heart-pulse",
-      "color": "#2563EB"
+      "color": "#06B6D4"
     },
     "status": "pending",
     "icon": "heart-pulse",
@@ -747,16 +747,16 @@
     "id": "p25",
     "slug": "asha-wage-honorarium-hike-25",
     "title": "ASHA wage/honorarium hike",
-    "titleMl": "ASHA wage/honorarium hike",
+    "titleMl": "ആശ വർക്കർമാരുടെ വേതന/ഓണറേറിയം വർദ്ധനവ്",
     "description": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.",
     "trackingNote": "Mark Fulfilled after official order and revised payment reaches ASHA workers.",
     "manifestoQuote": "Increase ASHA workers' remuneration/honorarium, including a promised improvement in wages.",
     "sector": {
       "id": "s16",
       "name": "Labour",
-      "nameMl": "Labour",
+      "nameMl": "തൊഴിൽ",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#7C3AED"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -785,16 +785,16 @@
     "id": "p26",
     "slug": "anganwadi-worker-wage-revision-26",
     "title": "Anganwadi worker wage revision",
-    "titleMl": "Anganwadi worker wage revision",
+    "titleMl": "അങ്കണവാടി ജീവനക്കാരുടെ വേതന പരിഷ്കരണം",
     "description": "Revise wages or honorarium of anganwadi workers.",
     "trackingNote": "Track official order, revised amount, and first payment.",
     "manifestoQuote": "Revise wages or honorarium of anganwadi workers.",
     "sector": {
       "id": "s16",
       "name": "Labour",
-      "nameMl": "Labour",
+      "nameMl": "തൊഴിൽ",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#7C3AED"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -823,16 +823,16 @@
     "id": "p27",
     "slug": "school-cook-wage-revision-27",
     "title": "School cook wage revision",
-    "titleMl": "School cook wage revision",
+    "titleMl": "സ്കൂൾ പാചകക്കാരുടെ വേതന പരിഷ്കരണം",
     "description": "Revise wages or honorarium of school cooks.",
     "trackingNote": "Track official order, revised amount, and first payment.",
     "manifestoQuote": "Revise wages or honorarium of school cooks.",
     "sector": {
       "id": "s16",
       "name": "Labour",
-      "nameMl": "Labour",
+      "nameMl": "തൊഴിൽ",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#7C3AED"
     },
     "status": "in-progress",
     "icon": "briefcase",
@@ -861,16 +861,16 @@
     "id": "p28",
     "slug": "benefits-for-scheme-workers-28",
     "title": "Benefits for scheme workers",
-    "titleMl": "Benefits for scheme workers",
+    "titleMl": "സ്കീം തൊഴിലാളികൾക്കുള്ള ആനുകൂല്യങ്ങൾ",
     "description": "Improve remuneration, welfare, or benefit access for scheme workers.",
     "trackingNote": "Track worker categories covered, benefit changes, welfare board linkage, and budget allocation.",
     "manifestoQuote": "Improve remuneration, welfare, or benefit access for scheme workers.",
     "sector": {
       "id": "s16",
       "name": "Labour",
-      "nameMl": "Labour",
+      "nameMl": "തൊഴിൽ",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#7C3AED"
     },
     "status": "pending",
     "icon": "briefcase",
@@ -891,16 +891,16 @@
     "id": "p29",
     "slug": "separate-agriculture-budget-29",
     "title": "Separate agriculture budget",
-    "titleMl": "Separate agriculture budget",
+    "titleMl": "പ്രത്യേക കാർഷിക ബജറ്റ്",
     "description": "Present a separate Agricultural Budget along with the State Budget.",
     "trackingNote": "Track first state budget presentation and whether a separate agriculture budget document is tabled.",
     "manifestoQuote": "Present a separate Agricultural Budget along with the State Budget.",
     "sector": {
       "id": "s17",
       "name": "Agriculture",
-      "nameMl": "Agriculture",
+      "nameMl": "കൃഷി",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#22C55E"
     },
     "status": "pending",
     "icon": "tractor",
@@ -921,16 +921,16 @@
     "id": "p30",
     "slug": "implement-swaminathan-commission-msp-recommendations-30",
     "title": "Implement Swaminathan Commission MSP recommendations",
-    "titleMl": "Implement Swaminathan Commission MSP recommendations",
+    "titleMl": "സ്വാമിനാഥൻ കമ്മീഷൻ ശുപാർശകൾ നടപ്പിലാക്കൽ",
     "description": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.",
     "trackingNote": "Track official MSP formula, state orders, crop coverage, and procurement rules.",
     "manifestoQuote": "Implement M. S. Swaminathan Commission recommendations related to minimum support price.",
     "sector": {
       "id": "s17",
       "name": "Agriculture",
-      "nameMl": "Agriculture",
+      "nameMl": "കൃഷി",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#22C55E"
     },
     "status": "pending",
     "icon": "tractor",
@@ -951,14 +951,14 @@
     "id": "p31",
     "slug": "300-support-price-for-rubber-31",
     "title": "₹300 support price for rubber",
-    "titleMl": "₹300 support price for rubber",
+    "titleMl": "റബ്ബറിന് ₹300 തറവില",
     "description": "Set or assure support/base price of ₹300 per kg for rubber.",
     "trackingNote": "Track scheme order, eligibility, subsidy mechanism, and actual farmer payments.",
     "manifestoQuote": "Set or assure support/base price of ₹300 per kg for rubber.",
     "sector": {
       "id": "s18",
       "name": "Agriculture & Rubber",
-      "nameMl": "Agriculture & Rubber",
+      "nameMl": "കൃഷിയും റബ്ബറും",
       "icon": "tractor",
       "color": "#16A34A"
     },
@@ -981,14 +981,14 @@
     "id": "p32",
     "slug": "rubber-company-on-cial-model-32",
     "title": "Rubber Company on CIAL model",
-    "titleMl": "Rubber Company on CIAL model",
+    "titleMl": "CIAL മാതൃകയിൽ റബ്ബർ കമ്പനി",
     "description": "Set up a Rubber Company on the CIAL model.",
     "trackingNote": "Track company registration, ownership structure, capital allocation, and operational launch.",
     "manifestoQuote": "Set up a Rubber Company on the CIAL model.",
     "sector": {
       "id": "s18",
       "name": "Agriculture & Rubber",
-      "nameMl": "Agriculture & Rubber",
+      "nameMl": "കൃഷിയും റബ്ബറും",
       "icon": "tractor",
       "color": "#16A34A"
     },
@@ -1011,16 +1011,16 @@
     "id": "p33",
     "slug": "35-kg-paddy-procurement-price-33",
     "title": "₹35/kg paddy procurement price",
-    "titleMl": "₹35/kg paddy procurement price",
+    "titleMl": "നെല്ലിന്റെ സംഭരണവില കിലോയ്ക്ക് ₹35 ആക്കൽ",
     "description": "Fix paddy procurement price at ₹35 per kg.",
     "trackingNote": "Track procurement order, season-wise rate, and farmer payment records.",
     "manifestoQuote": "Fix paddy procurement price at ₹35 per kg.",
     "sector": {
       "id": "s19",
       "name": "Agriculture & Paddy",
-      "nameMl": "Agriculture & Paddy",
+      "nameMl": "കൃഷിയും നെല്ലും",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#15803D"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1041,16 +1041,16 @@
     "id": "p34",
     "slug": "direct-paddy-payment-to-farmers-34",
     "title": "Direct paddy payment to farmers",
-    "titleMl": "Direct paddy payment to farmers",
+    "titleMl": "കർഷകർക്ക് നെല്ല് സംഭരണ തുക നേരിട്ട് നൽകൽ",
     "description": "Directly credit paddy procurement payments to farmers' bank accounts.",
     "trackingNote": "Track payment mechanism, delay reduction, and direct bank transfer confirmation.",
     "manifestoQuote": "Directly credit paddy procurement payments to farmers' bank accounts.",
     "sector": {
       "id": "s19",
       "name": "Agriculture & Paddy",
-      "nameMl": "Agriculture & Paddy",
+      "nameMl": "കൃഷിയും നെല്ലും",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#15803D"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1071,16 +1071,16 @@
     "id": "p35",
     "slug": "increase-coconut-support-price-35",
     "title": "Increase coconut support price",
-    "titleMl": "Increase coconut support price",
+    "titleMl": "തേങ്ങയുടെ തറവില വർദ്ധിപ്പിക്കൽ",
     "description": "Increase support price for coconut.",
     "trackingNote": "Track revised support price order and procurement/payment implementation.",
     "manifestoQuote": "Increase support price for coconut.",
     "sector": {
       "id": "s20",
       "name": "Agriculture & Coconut",
-      "nameMl": "Agriculture & Coconut",
+      "nameMl": "കൃഷിയും നാളികേരവും",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#86EFAC"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1101,16 +1101,16 @@
     "id": "p36",
     "slug": "tender-coconut-procurement-centres-36",
     "title": "Tender coconut procurement centres",
-    "titleMl": "Tender coconut procurement centres",
+    "titleMl": "കരിക്ക് സംഭരണ കേന്ദ്രങ്ങൾ",
     "description": "Expand procurement centres for tender coconut.",
     "trackingNote": "Track number of centres opened, districts covered, and procurement volumes.",
     "manifestoQuote": "Expand procurement centres for tender coconut.",
     "sector": {
       "id": "s20",
       "name": "Agriculture & Coconut",
-      "nameMl": "Agriculture & Coconut",
+      "nameMl": "കൃഷിയും നാളികേരവും",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#86EFAC"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1131,16 +1131,16 @@
     "id": "p37",
     "slug": "cash-crops-under-agricultural-produce-37",
     "title": "Cash crops under agricultural produce",
-    "titleMl": "Cash crops under agricultural produce",
+    "titleMl": "നാണ്യവിളകളെ കാർഷിക വിളകളുടെ പരിധിയിൽ കൊണ്ടുവരൽ",
     "description": "Pressure the Union Government to include cash crops under agricultural produce.",
     "trackingNote": "Track official state memorandum, assembly resolution, or central-government correspondence.",
     "manifestoQuote": "Pressure the Union Government to include cash crops under agricultural produce.",
     "sector": {
       "id": "s17",
       "name": "Agriculture",
-      "nameMl": "Agriculture",
+      "nameMl": "കൃഷി",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#22C55E"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1161,16 +1161,16 @@
     "id": "p38",
     "slug": "resolve-migrant-farmers-land-issues-38",
     "title": "Resolve migrant farmers' land issues",
-    "titleMl": "Resolve migrant farmers' land issues",
+    "titleMl": "കുടിയേറ്റ കർഷകരുടെ ഭൂമി പ്രശ്നങ്ങൾ പരിഹരിക്കൽ",
     "description": "Resolve migrant farmers' land-related issues in a time-bound manner.",
     "trackingNote": "Track committee/order, affected areas, title/legal changes, and resolved cases.",
     "manifestoQuote": "Resolve migrant farmers' land-related issues in a time-bound manner.",
     "sector": {
       "id": "s21",
       "name": "Farmers & Land",
-      "nameMl": "Farmers & Land",
+      "nameMl": "കർഷകരും ഭൂമിയും",
       "icon": "tractor",
-      "color": "#16A34A"
+      "color": "#4ADE80"
     },
     "status": "pending",
     "icon": "tractor",
@@ -1191,16 +1191,16 @@
     "id": "p39",
     "slug": "ai-drones-iot-for-wildlife-alerts-39",
     "title": "AI/drones/IoT for wildlife alerts",
-    "titleMl": "AI/drones/IoT for wildlife alerts",
+    "titleMl": "വന്യജീവി ആക്രമണ മുന്നറിയിപ്പിന് എ.ഐ/ഡ്രോൺ/ഐ.ഓ.ടി സാങ്കേതികവിദ്യ",
     "description": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.",
     "trackingNote": "Track pilot projects, technology deployment areas, alert systems, and incident reduction.",
     "manifestoQuote": "Use drones, AI, and IoT systems for human-wildlife conflict alerts.",
     "sector": {
       "id": "s22",
       "name": "Wildlife Conflict",
-      "nameMl": "Wildlife Conflict",
+      "nameMl": "വന്യജീവി ആക്രമണം",
       "icon": "paw-print",
-      "color": "#16A34A"
+      "color": "#0D9488"
     },
     "status": "pending",
     "icon": "paw-print",
@@ -1221,16 +1221,16 @@
     "id": "p40",
     "slug": "increase-wildlife-attack-death-compensation-by-50-40",
     "title": "Increase wildlife attack death compensation by 50%",
-    "titleMl": "Increase wildlife attack death compensation by 50%",
+    "titleMl": "വന്യജീവി ആക്രമണ മരണങ്ങൾക്കുള്ള നഷ്ടപരിഹാരം 50% വർദ്ധിപ്പിക്കൽ",
     "description": "Increase compensation by 50% for deaths caused by wildlife attacks.",
     "trackingNote": "Track revised compensation order and payments to affected families.",
     "manifestoQuote": "Increase compensation by 50% for deaths caused by wildlife attacks.",
     "sector": {
       "id": "s22",
       "name": "Wildlife Conflict",
-      "nameMl": "Wildlife Conflict",
+      "nameMl": "വന്യജീവി ആക്രമണം",
       "icon": "paw-print",
-      "color": "#16A34A"
+      "color": "#0D9488"
     },
     "status": "pending",
     "icon": "paw-print",
@@ -1251,16 +1251,16 @@
     "id": "p41",
     "slug": "five-lakh-houses-in-five-years-41",
     "title": "Five lakh houses in five years",
-    "titleMl": "Five lakh houses in five years",
+    "titleMl": "അഞ്ച് വർഷത്തിനുള്ളിൽ അഞ്ച് ലക്ഷം വീടുകൾ",
     "description": "Build five lakh houses over five years for landless and homeless families.",
     "trackingNote": "Track annual target, houses sanctioned, houses completed, and beneficiary handover.",
     "manifestoQuote": "Build five lakh houses over five years for landless and homeless families.",
     "sector": {
       "id": "s23",
       "name": "Housing",
-      "nameMl": "Housing",
+      "nameMl": "ഭവനനിർമ്മാണം",
       "icon": "home",
-      "color": "#D97706"
+      "color": "#B45309"
     },
     "status": "pending",
     "icon": "home",
@@ -1281,16 +1281,16 @@
     "id": "p42",
     "slug": "review-or-reform-life-mission-42",
     "title": "Review or reform LIFE Mission",
-    "titleMl": "Review or reform LIFE Mission",
+    "titleMl": "ലൈഫ് മിഷൻ പദ്ധതി പുനഃപരിശോധിക്കുകയോ പരിഷ്കരിക്കുകയോ ചെയ്യൽ",
     "description": "Review and reform the LIFE Mission housing scheme.",
     "trackingNote": "Track review committee, revised guidelines, and integration with new housing promise.",
     "manifestoQuote": "Review and reform the LIFE Mission housing scheme.",
     "sector": {
       "id": "s23",
       "name": "Housing",
-      "nameMl": "Housing",
+      "nameMl": "ഭവനനിർമ്മാണം",
       "icon": "home",
-      "color": "#D97706"
+      "color": "#B45309"
     },
     "status": "pending",
     "icon": "home",
@@ -1311,16 +1311,16 @@
     "id": "p43",
     "slug": "mission-samudra-43",
     "title": "Mission Samudra",
-    "titleMl": "Mission Samudra",
+    "titleMl": "മിഷൻ സമുദ്ര",
     "description": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.",
     "trackingNote": "Track mission document, nodal agency, budget, port/coastal projects, and implementation milestones.",
     "manifestoQuote": "Launch Mission Samudra to integrate Kerala's coastline, rivers, lakes, ports, and maritime economy.",
     "sector": {
       "id": "s24",
       "name": "Maritime Economy",
-      "nameMl": "Maritime Economy",
+      "nameMl": "സമുദ്ര സമ്പദ്‌വ്യവസ്ഥ",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0F766E"
     },
     "status": "pending",
     "icon": "building",
@@ -1341,16 +1341,16 @@
     "id": "p44",
     "slug": "integrated-water-transport-network-44",
     "title": "Integrated water transport network",
-    "titleMl": "Integrated water transport network",
+    "titleMl": "സംയോജിത ജലഗതാഗത ശൃംഖല",
     "description": "Develop an integrated water transport network for cargo and passengers.",
     "trackingNote": "Track routes, terminals, cargo/passenger service launch, and agency coordination.",
     "manifestoQuote": "Develop an integrated water transport network for cargo and passengers.",
     "sector": {
       "id": "s25",
       "name": "Water Transport",
-      "nameMl": "Water Transport",
+      "nameMl": "ജലഗതാഗതം",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#1D4ED8"
     },
     "status": "pending",
     "icon": "building",
@@ -1371,16 +1371,16 @@
     "id": "p45",
     "slug": "high-speed-rail-corridor-with-centre-railways-45",
     "title": "High-speed rail corridor with Centre/Railways",
-    "titleMl": "High-speed rail corridor with Centre/Railways",
+    "titleMl": "കേന്ദ്ര സർക്കാരുമായി ചേർന്ന് അതിവേഗ റെയിൽ ഇടനാഴി",
     "description": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.",
     "trackingNote": "Track DPR, Centre-state agreement, railway approval, and project funding.",
     "manifestoQuote": "Develop a high-speed rail corridor in partnership with Indian Railways and the Union Government.",
     "sector": {
       "id": "s26",
       "name": "Rail Infrastructure",
-      "nameMl": "Rail Infrastructure",
+      "nameMl": "റെയിൽ അടിസ്ഥാന സൗകര്യങ്ങൾ",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#475569"
     },
     "status": "pending",
     "icon": "building",
@@ -1401,16 +1401,16 @@
     "id": "p46",
     "slug": "metro-light-metro-in-thiruvananthapuram-46",
     "title": "Metro/Light Metro in Thiruvananthapuram",
-    "titleMl": "Metro/Light Metro in Thiruvananthapuram",
+    "titleMl": "തിരുവനന്തപുരത്ത് മെട്രോ/ലൈറ്റ് മെട്രോ പദ്ധതി",
     "description": "Launch Metro or Light Metro rail system in Thiruvananthapuram.",
     "trackingNote": "Track DPR approval, funding, land acquisition, tendering, and construction start.",
     "manifestoQuote": "Launch Metro or Light Metro rail system in Thiruvananthapuram.",
     "sector": {
       "id": "s27",
       "name": "Urban Transport",
-      "nameMl": "Urban Transport",
+      "nameMl": "നഗര ഗതാഗതം",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "building",
@@ -1431,16 +1431,16 @@
     "id": "p47",
     "slug": "metro-light-metro-in-kozhikode-47",
     "title": "Metro/Light Metro in Kozhikode",
-    "titleMl": "Metro/Light Metro in Kozhikode",
+    "titleMl": "കോഴിക്കോട്ട് മെട്രോ/ലൈറ്റ് മെട്രോ പദ്ധതി",
     "description": "Launch Metro or Light Metro rail system in Kozhikode.",
     "trackingNote": "Track DPR approval, funding, land acquisition, tendering, and construction start.",
     "manifestoQuote": "Launch Metro or Light Metro rail system in Kozhikode.",
     "sector": {
       "id": "s27",
       "name": "Urban Transport",
-      "nameMl": "Urban Transport",
+      "nameMl": "നഗര ഗതാഗതം",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#2563EB"
     },
     "status": "pending",
     "icon": "building",
@@ -1470,7 +1470,7 @@
       "name": "SilverLine",
       "nameMl": "സിൽവർലൈൻ",
       "icon": "check-circle-2",
-      "color": "#475569"
+      "color": "#E11D48"
     },
     "status": "in-progress",
     "icon": "check-circle-2",
@@ -1500,7 +1500,7 @@
       "name": "SilverLine",
       "nameMl": "സിൽവർലൈൻ",
       "icon": "check-circle-2",
-      "color": "#475569"
+      "color": "#E11D48"
     },
     "status": "fulfilled",
     "icon": "check-circle-2",
@@ -1521,16 +1521,16 @@
     "id": "p50",
     "slug": "comprehensive-aviation-plan-50",
     "title": "Comprehensive aviation plan",
-    "titleMl": "Comprehensive aviation plan",
+    "titleMl": "സമഗ്ര വ്യോമയാന പദ്ധതി",
     "description": "Prepare and implement a comprehensive aviation plan for Kerala.",
     "trackingNote": "Track policy document, airport development plans, route incentives, and budget support.",
     "manifestoQuote": "Prepare and implement a comprehensive aviation plan for Kerala.",
     "sector": {
       "id": "s29",
       "name": "Aviation",
-      "nameMl": "Aviation",
+      "nameMl": "വ്യോമയാനം",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "building",
@@ -1551,16 +1551,16 @@
     "id": "p51",
     "slug": "second-runway-at-kochi-airport-51",
     "title": "Second runway at Kochi Airport",
-    "titleMl": "Second runway at Kochi Airport",
+    "titleMl": "കൊച്ചി വിമാനത്താവളത്തിൽ രണ്ടാം റൺവേ",
     "description": "Develop a second runway at Kochi Airport.",
     "trackingNote": "Track feasibility, land acquisition, CIAL board decision, approvals, and construction.",
     "manifestoQuote": "Develop a second runway at Kochi Airport.",
     "sector": {
       "id": "s29",
       "name": "Aviation",
-      "nameMl": "Aviation",
+      "nameMl": "വ്യോമയാനം",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "building",
@@ -1581,16 +1581,16 @@
     "id": "p52",
     "slug": "expand-kannur-airport-terminal-and-apron-52",
     "title": "Expand Kannur Airport terminal and apron",
-    "titleMl": "Expand Kannur Airport terminal and apron",
+    "titleMl": "കണ്ണൂർ വിമാനത്താവള ടെർമിനലും ഏപ്രണും വികസിപ്പിക്കൽ",
     "description": "Expand terminal and apron facilities at Kannur Airport.",
     "trackingNote": "Track airport expansion plan, funding, tender, and completion.",
     "manifestoQuote": "Expand terminal and apron facilities at Kannur Airport.",
     "sector": {
       "id": "s29",
       "name": "Aviation",
-      "nameMl": "Aviation",
+      "nameMl": "വ്യോമയാനം",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "building",
@@ -1611,16 +1611,16 @@
     "id": "p53",
     "slug": "mro-centres-53",
     "title": "MRO centres",
-    "titleMl": "MRO centres",
+    "titleMl": "എം.ആർ.ഓ (മെയിന്റനൻസ്, റിപ്പയർ & ഓവർഹോൾ) കേന്ദ്രങ്ങൾ",
     "description": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.",
     "trackingNote": "Track location, investor/agency, approvals, construction, and operational launch.",
     "manifestoQuote": "Establish Maintenance, Repair and Overhaul/Operations centres in Kerala.",
     "sector": {
       "id": "s30",
       "name": "Aviation & Industry",
-      "nameMl": "Aviation & Industry",
+      "nameMl": "വ്യോമയാനവും വ്യവസായവും",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0369A1"
     },
     "status": "pending",
     "icon": "building",
@@ -1641,16 +1641,16 @@
     "id": "p54",
     "slug": "route-development-and-connectivity-fund-54",
     "title": "Route Development and Connectivity Fund",
-    "titleMl": "Route Development and Connectivity Fund",
+    "titleMl": "റൂട്ട് ഡെവലപ്‌മെന്റ് ആൻഡ് കണക്റ്റിവിറ്റി ഫണ്ട്",
     "description": "Create a Route Development and Connectivity Fund to support new flight routes.",
     "trackingNote": "Track fund creation, allocation, routes supported, and airline participation.",
     "manifestoQuote": "Create a Route Development and Connectivity Fund to support new flight routes.",
     "sector": {
       "id": "s29",
       "name": "Aviation",
-      "nameMl": "Aviation",
+      "nameMl": "വ്യോമയാനം",
       "icon": "building",
-      "color": "#64748B"
+      "color": "#0284C7"
     },
     "status": "pending",
     "icon": "building",
@@ -1671,16 +1671,16 @@
     "id": "p55",
     "slug": "wayanad-tribal-university-55",
     "title": "Wayanad Tribal University",
-    "titleMl": "Wayanad Tribal University",
+    "titleMl": "വയനാട് ട്രൈബൽ യൂണിവേഴ്സിറ്റി",
     "description": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.",
     "trackingNote": "Track university act/bill, land, budget, academic plan, and admissions.",
     "manifestoQuote": "Construct or establish a dedicated university in Wayanad focused on tribal communities' social, educational, and cultural development.",
     "sector": {
       "id": "s31",
       "name": "Education & Tribal Welfare",
-      "nameMl": "Education & Tribal Welfare",
+      "nameMl": "വിദ്യാഭ്യാസവും ഗോത്രവർഗ്ഗ ക്ഷേമവും",
       "icon": "shield-check",
-      "color": "#2563EB"
+      "color": "#BE185D"
     },
     "status": "pending",
     "icon": "shield-check",
@@ -1701,16 +1701,16 @@
     "id": "p56",
     "slug": "independent-state-vigilance-commission-56",
     "title": "Independent State Vigilance Commission",
-    "titleMl": "Independent State Vigilance Commission",
+    "titleMl": "സ്വതന്ത്ര സംസ്ഥാന വിജിലൻസ് കമ്മീഷൻ",
     "description": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.",
     "trackingNote": "Track bill/order, commission structure, appointment process, powers, and operational status.",
     "manifestoQuote": "Set up an independent State Vigilance Commission to strengthen anti-corruption mechanisms.",
     "sector": {
       "id": "s32",
       "name": "Governance",
-      "nameMl": "Governance",
+      "nameMl": "ഭരണം",
       "icon": "landmark",
-      "color": "#475569"
+      "color": "#374151"
     },
     "status": "pending",
     "icon": "landmark",
@@ -1731,16 +1731,16 @@
     "id": "p57",
     "slug": "ai-driven-auditing-tools-57",
     "title": "AI-driven auditing tools",
-    "titleMl": "AI-driven auditing tools",
+    "titleMl": "എ.ഐ അധിഷ്ഠിത ഓഡിറ്റിംഗ് ഉപകരണങ്ങൾ",
     "description": "Deploy AI-driven auditing tools to improve transparency and governance.",
     "trackingNote": "Track procurement, departments covered, audit reports generated, and public disclosure.",
     "manifestoQuote": "Deploy AI-driven auditing tools to improve transparency and governance.",
     "sector": {
       "id": "s33",
       "name": "Governance & Technology",
-      "nameMl": "Governance & Technology",
+      "nameMl": "ഭരണവും സാങ്കേതികവിദ്യയും",
       "icon": "landmark",
-      "color": "#475569"
+      "color": "#4B5563"
     },
     "status": "pending",
     "icon": "landmark",
@@ -1761,16 +1761,16 @@
     "id": "p58",
     "slug": "create-10-000-enterprises-58",
     "title": "Create 10,000 enterprises",
-    "titleMl": "Create 10,000 enterprises",
+    "titleMl": "പതിനായിരം സംരംഭങ്ങൾ ആരംഭിക്കൽ",
     "description": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.",
     "trackingNote": "Track scheme details, enterprises registered, jobs created, and survival rate.",
     "manifestoQuote": "Support creation of 10,000 enterprises as part of economic and employment generation initiatives.",
     "sector": {
       "id": "s34",
       "name": "Industry & Employment",
-      "nameMl": "Industry & Employment",
+      "nameMl": "വ്യവസായവും തൊഴിലും",
       "icon": "briefcase",
-      "color": "#9333EA"
+      "color": "#6D28D9"
     },
     "status": "pending",
     "icon": "briefcase",
@@ -1903,7 +1903,7 @@
       "name": "Youth & Employment",
       "nameMl": "യുവജനങ്ങളും തൊഴിലും",
       "icon": "users",
-      "color": "#9333EA"
+      "color": "#6366F1"
     },
     "status": "in-progress",
     "icon": "users",
@@ -1979,7 +1979,7 @@
       "name": "Health",
       "nameMl": "ആരോഗ്യം",
       "icon": "heart-pulse",
-      "color": "#15803D"
+      "color": "#10B981"
     },
     "status": "in-progress",
     "icon": "heart-pulse",
@@ -1995,5 +1995,185 @@
     ],
     "lastUpdated": "2026-05-22T06:50:00.000Z",
     "createdAt": "2026-05-22T06:50:00.000Z"
+  },
+  {
+    "id": "p65",
+    "slug": "kerala-farmer-income-guarantee-scheme-65",
+    "title": "Kerala Farmer Income Guarantee Scheme",
+    "titleMl": "കേരള കർഷക വരുമാന ഉറപ്പ് പദ്ധതി",
+    "description": "Establish the Kerala Farmer Income Guarantee scheme to ensure a minimum monthly income support of ₹12,000 to all eligible small and marginal farmers across the state.",
+    "trackingNote": "Monitor the scheme notification, eligibility guidelines, initial registrations, budget outlays, and first direct benefit transfer (DBT) rolls.",
+    "manifestoQuote": "Introduce the Kerala Farmer Income Guarantee Scheme, securing a minimum monthly livelihood support of ₹12,000 for our hard-working farming households.",
+    "sector": {
+      "id": "s17",
+      "name": "Agriculture",
+      "nameMl": "കൃഷി",
+      "icon": "tractor",
+      "color": "#22C55E"
+    },
+    "status": "pending",
+    "icon": "tractor",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto / Agriculture Guarantees."
+      }
+    ],
+    "lastUpdated": "2026-05-24T13:06:36.935Z",
+    "createdAt": "2026-05-24T13:06:36.935Z"
+  },
+  {
+    "id": "p66",
+    "slug": "sidharthan-anti-ragging-and-student-welfare-act-66",
+    "title": "Sidharthan Anti-Ragging and Student Welfare Act",
+    "titleMl": "സിദ്ധാർത്ഥൻ ആന്റി റാഗിംഗ് ആൻഡ് സ്റ്റുഡന്റ് വെൽഫെയർ ആക്റ്റ്",
+    "description": "Enact a comprehensive student welfare legislation named after J.S. Sidharthan (the 20-year-old student who died following brutal campus ragging in Wayanad) to enforce strict anti-ragging measures and secure student campuses.",
+    "trackingNote": "Track the draft bill drafting, introduction in the Kerala Legislative Assembly, passage, Governor assent, and MVD/University rule updates.",
+    "manifestoQuote": "Enact the Sidharthan Anti-Ragging and Student Welfare Act to structurally reform campus safety and put a permanent, legally binding end to campus violence and ragging.",
+    "sector": {
+      "id": "s12",
+      "name": "Education",
+      "nameMl": "വിദ്യാഭ്യാസം",
+      "icon": "graduation-cap",
+      "color": "#0EA5E9"
+    },
+    "status": "pending",
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto campus welfare reform."
+      }
+    ],
+    "lastUpdated": "2026-05-24T13:06:36.935Z",
+    "createdAt": "2026-05-24T13:06:36.935Z"
+  },
+  {
+    "id": "p67",
+    "slug": "rohith-vemula-act-67",
+    "title": "Rohith Vemula Act",
+    "titleMl": "രോഹിത് വെമുല നിയമം",
+    "description": "Enact the Rohith Vemula Act in higher education institutions to address and combat caste-based discrimination, bias, and institutional inequality against students from marginalized communities.",
+    "trackingNote": "Track bill introduction, legislative debates, assembly approvals, and rules regarding the establishment of grievance redressal cells.",
+    "manifestoQuote": "Introduce the Rohith Vemula Act to systematically stamp out caste discrimination and institutional bias on higher education campuses.",
+    "sector": {
+      "id": "s12",
+      "name": "Education",
+      "nameMl": "വിദ്യാഭ്യാസം",
+      "icon": "graduation-cap",
+      "color": "#0EA5E9"
+    },
+    "status": "pending",
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto student rights reform."
+      }
+    ],
+    "lastUpdated": "2026-05-24T13:06:36.935Z",
+    "createdAt": "2026-05-24T13:06:36.935Z"
+  },
+  {
+    "id": "p68",
+    "slug": "ammawadi-project-for-elderly-women-68",
+    "title": "Ammawadi Project for Elderly Women",
+    "titleMl": "അമ്മവാടി പദ്ധതി",
+    "description": "Introduce the \"Ammawadi\" project specifically aimed at the social security, healthcare, housing, and general welfare of elderly women in Kerala.",
+    "trackingNote": "Track project guidelines, local body fund distributions, care facility constructions, and beneficiary lists.",
+    "manifestoQuote": "Launch the Ammawadi Project to provide comprehensive social protection, nutrition, and specialized care to aged and vulnerable women.",
+    "sector": {
+      "id": "s6",
+      "name": "Senior Citizens",
+      "nameMl": "മുതിർന്ന പൗരന്മാർ",
+      "icon": "users",
+      "color": "#6B7280"
+    },
+    "status": "pending",
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto elderly protection project."
+      }
+    ],
+    "lastUpdated": "2026-05-24T13:06:36.935Z",
+    "createdAt": "2026-05-24T13:06:36.935Z"
+  },
+  {
+    "id": "p69",
+    "slug": "job-watch-tower-69",
+    "title": "Job Watch Tower for Global Placements",
+    "titleMl": "ജോബ് വാച്ച് ടവർ",
+    "description": "Establish a state-level \"Job Watch Tower\" to track real-time global employment trends and shifting skill requirements in the international job market, aligning the state's higher education curriculum accordingly.",
+    "trackingNote": "Monitor the establishment of the expert coordination council, data tracking framework, and actual curriculum revisions in Kerala universities.",
+    "manifestoQuote": "Establish a global 'Job Watch Tower' to bridge the gap between Kerala's graduates and international employment trends by modernizing academic curricula.",
+    "sector": {
+      "id": "s5",
+      "name": "Youth & Employment",
+      "nameMl": "യുവജനങ്ങളും തൊഴിലും",
+      "icon": "users",
+      "color": "#6366F1"
+    },
+    "status": "pending",
+    "icon": "users",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto placement initiative."
+      }
+    ],
+    "lastUpdated": "2026-05-24T13:06:36.935Z",
+    "createdAt": "2026-05-24T13:06:36.935Z"
+  },
+  {
+    "id": "p70",
+    "slug": "daily-minimum-wage-of-700-for-asha-workers-70",
+    "title": "₹700 daily minimum wage for ASHA workers",
+    "titleMl": "ആശ വർക്കർമാർക്ക് ₹700 പ്രതിദിന കുറഞ്ഞ വേതനം",
+    "description": "Structurally reform remuneration for ASHA workers by fixing a minimum daily wage of ₹700 to ensure fair labor practices and stable income.",
+    "trackingNote": "Track official pay revisions, daily conversion calculations, and actual bank transfer receipts.",
+    "manifestoQuote": "Fix the minimum wage of our dedicated ASHA workers at ₹700 per day to ensure stable livelihoods and respect for grassroots health warriors.",
+    "sector": {
+      "id": "s16",
+      "name": "Labour",
+      "nameMl": "തൊഴിൽ",
+      "icon": "briefcase",
+      "color": "#7C3AED"
+    },
+    "status": "pending",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "Initial Manifesto Commitment",
+        "url": "#",
+        "publication": "UDF Manifesto / Media Report",
+        "date": "2026-05-18",
+        "tier": 2,
+        "summary": "UDF 2026 manifesto labor reform."
+      }
+    ],
+    "lastUpdated": "2026-05-24T13:06:36.935Z",
+    "createdAt": "2026-05-24T13:06:36.935Z"
   }
 ]

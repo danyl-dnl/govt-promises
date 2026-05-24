@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${lora.variable} ${notoSansMalayalam.variable}`}>
+    <html lang="en" className={`${inter.variable} ${lora.variable} ${notoSansMalayalam.variable}`} suppressHydrationWarning>
       <body className="antialiased min-h-screen flex flex-col bg-background text-foreground font-ui">
         <AuthProvider>
           <Navbar />
