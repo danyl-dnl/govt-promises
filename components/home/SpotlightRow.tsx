@@ -69,8 +69,11 @@ export function SpotlightRow() {
               whileHover={{ y: -5 }}
             >
               <Link href={`/promises/${promise.slug}`}>
-                <Card className="h-full cursor-pointer hover:shadow-md transition-all duration-300 border-slate-200 bg-white flex flex-col group">
-                  <CardContent className="p-6 flex flex-col h-full">
+                <Card 
+                  className="h-full cursor-pointer hover:shadow-md transition-all duration-300 border-slate-200 bg-white flex flex-col group"
+                  style={{ '--sector-color': promise.sector.color } as React.CSSProperties}
+                >
+                  <CardContent className="p-6 flex-grow flex flex-col h-full">
                     <div className="flex justify-between items-start mb-4">
                       <div 
                         className="p-2.5 rounded-lg text-white"
@@ -87,7 +90,7 @@ export function SpotlightRow() {
                       </span>
                     </div>
                     
-                    <h3 className="font-bold text-lg text-slate-900 mb-2 line-clamp-2 group-hover:text-udf-blue transition-colors">
+                    <h3 className="font-bold text-lg text-slate-900 mb-2 line-clamp-2 group-hover:text-[var(--sector-color)] transition-colors">
                       {promise.title}
                     </h3>
                     
@@ -95,7 +98,7 @@ export function SpotlightRow() {
                       {promise.description}
                     </p>
                     
-                    <div className="pt-4 border-t border-slate-100 flex items-center text-xs text-slate-500 font-medium uppercase tracking-wider group-hover:text-udf-blue transition-colors mt-auto">
+                    <div className="pt-4 border-t border-slate-100 flex items-center text-xs text-slate-500 font-medium uppercase tracking-wider group-hover:text-[var(--sector-color)] transition-colors mt-auto">
                       View Details
                       <ArrowRight className="ml-auto h-3 w-3 transition-transform group-hover:translate-x-1" />
                     </div>

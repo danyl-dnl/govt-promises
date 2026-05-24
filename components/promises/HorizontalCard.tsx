@@ -49,7 +49,10 @@ export function HorizontalCard({ promise }: HorizontalCardProps) {
       whileHover={{ x: 2 }}
     >
       <Link href={`/promises/${promise.slug}`} className="cursor-pointer">
-        <div className="group relative bg-white rounded-xl border border-border shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col md:flex-row">
+        <div 
+          className="group relative bg-white rounded-xl border border-border shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden flex flex-col md:flex-row"
+          style={{ '--sector-color': promise.sector.color } as React.CSSProperties}
+        >
           {/* Status Color Stripe */}
           <div 
             className="absolute left-0 top-0 bottom-0 w-1 group-hover:w-1.5 transition-all duration-200"
@@ -66,11 +69,11 @@ export function HorizontalCard({ promise }: HorizontalCardProps) {
               </span>
             </div>
             
-            <h3 className="font-bold text-lg text-slate-900 group-hover:text-udf-blue transition-colors mb-0.5">
+            <h3 className="font-bold text-lg text-slate-900 group-hover:text-[var(--sector-color)] transition-colors mb-0.5">
               {promise.title}
             </h3>
             {promise.titleMl && promise.titleMl !== promise.title && (
-              <p className="font-malayalam text-sm text-slate-500 font-semibold group-hover:text-udf-blue/80 transition-colors mb-1 leading-normal">
+              <p className="font-malayalam text-sm text-slate-500 font-semibold group-hover:text-[var(--sector-color)] transition-colors mb-1 leading-normal">
                 {promise.titleMl}
               </p>
             )}
@@ -81,7 +84,7 @@ export function HorizontalCard({ promise }: HorizontalCardProps) {
           
           <div className="p-5 pl-6 md:p-6 md:pl-4 flex flex-row md:flex-col justify-between md:justify-center items-center md:items-end gap-4 border-t md:border-t-0 md:border-l border-slate-100 bg-slate-50/50 min-w-[180px] transition-colors duration-300">
             <StatusBadge status={promise.status} />
-            <div className="flex items-center text-xs text-slate-500 font-medium uppercase tracking-wider group-hover:text-udf-blue transition-colors">
+            <div className="flex items-center text-xs text-slate-500 font-medium uppercase tracking-wider group-hover:text-[var(--sector-color)] transition-colors">
               View Details
               <ArrowRight className="ml-1 h-3 w-3 transition-transform group-hover:translate-x-1" />
             </div>
