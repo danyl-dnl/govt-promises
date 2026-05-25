@@ -1292,7 +1292,7 @@
       "icon": "home",
       "color": "#B45309"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "home",
     "sources": [
       {
@@ -1302,9 +1302,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto media summary."
+      },
+      {
+        "title": "Kerala Government will not scrap LIFE Mission, says LSGD Minister K. M. Shaji",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/may/25/kerala-government-not-scrapping-life-mission",
+        "publication": "The New Indian Express / The Hindu",
+        "date": "2026-05-25",
+        "tier": 3,
+        "summary": "LSGD Minister K. M. Shaji clarified that the newly elected UDF government has no plans to scrap the LIFE Mission housing project. Instead, the government will reform the scheme by restoring and strengthening the powers of grama panchayats and grama sabhas to select beneficiaries, aligning with the principles of Gandhian Gram Swaraj."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-05-25T09:04:33.933Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
