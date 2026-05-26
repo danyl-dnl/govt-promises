@@ -226,7 +226,7 @@
       "icon": "shield-check",
       "color": "#F59E0B"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "shield-check",
     "sources": [
       {
@@ -236,9 +236,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto media summary."
+      },
+      {
+        "title": "UDF Government Unveils 'Vision 2031' Policy Roadmap, Proposes Statutory Social Security Pensions",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/25/kerala-udf-govt-vision-2031-roadmap-pensions.html",
+        "publication": "Onmanorama / The Hindu",
+        "date": "2026-05-25",
+        "tier": 3,
+        "summary": "The newly elected UDF government in Kerala unveiled its comprehensive 'Vision 2031' policy roadmap on May 25, 2026, which proposes to declare welfare pensions as a statutory right for citizens and establish a regulatory commission to manage and safeguard pension distribution."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-05-26T13:21:17.706Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -1428,7 +1436,7 @@
       "icon": "building",
       "color": "#2563EB"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "building",
     "sources": [
       {
@@ -1438,9 +1446,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto media summary."
+      },
+      {
+        "title": "UDF's 'Vision 2031' Roadmap Pledges Light Metro Projects in Thiruvananthapuram and Kozhikode",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/25/kerala-udf-govt-vision-2031-roadmap-pensions.html",
+        "publication": "Onmanorama / The Hindu",
+        "date": "2026-05-25",
+        "tier": 3,
+        "summary": "The UDF government's 'Vision 2031' development policy roadmap, announced on May 25, 2026, formally incorporates the launch and swift implementation of metro and light metro projects in Thiruvananthapuram and Kozhikode."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-05-26T13:21:17.706Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1458,7 +1474,7 @@
       "icon": "building",
       "color": "#2563EB"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "building",
     "sources": [
       {
@@ -1468,9 +1484,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto media summary."
+      },
+      {
+        "title": "UDF's 'Vision 2031' Roadmap Pledges Light Metro Projects in Thiruvananthapuram and Kozhikode",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/25/kerala-udf-govt-vision-2031-roadmap-pensions.html",
+        "publication": "Onmanorama / The Hindu",
+        "date": "2026-05-25",
+        "tier": 3,
+        "summary": "The UDF government's 'Vision 2031' development policy roadmap, announced on May 25, 2026, formally incorporates the launch and swift implementation of metro and light metro projects in Thiruvananthapuram and Kozhikode."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-05-26T13:21:17.706Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1488,7 +1512,7 @@
       "icon": "check-circle-2",
       "color": "#E11D48"
     },
-    "status": "in-progress",
+    "status": "fulfilled",
     "icon": "check-circle-2",
     "sources": [
       {
@@ -1498,9 +1522,17 @@
         "date": "2026-05-20",
         "tier": 3,
         "summary": "Following the cabinet meeting on May 20, 2026, the Kerala government ordered the Revenue Department to denotify all land acquisition orders related to the K-Rail SilverLine project and remove all installed survey demarcation stones."
+      },
+      {
+        "title": "Kerala Revenue Department Officially Cancels SilverLine Land Acquisition Notifications",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/25/kerala-revenue-department-cancels-silverline-land-acquisition-notifications.html",
+        "publication": "Onmanorama / The Hindu",
+        "date": "2026-05-25",
+        "tier": 3,
+        "summary": "On May 25, 2026, the Kerala Revenue Department officially issued orders cancelling the land acquisition notifications previously published for the SilverLine semi-high-speed rail project across various districts. Concurrently, the Home Department ordered compiling of registered protest cases to facilitate their withdrawal, successfully fulfilling the land denotification promise."
       }
     ],
-    "lastUpdated": "2026-05-20T07:09:39.068Z",
+    "lastUpdated": "2026-05-26T13:21:17.706Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1728,7 +1760,7 @@
       "icon": "landmark",
       "color": "#374151"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "landmark",
     "sources": [
       {
@@ -1738,9 +1770,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
+      },
+      {
+        "title": "UDF's 'Vision 2031' Roadmap Focuses on Anti-Corruption, Proposes Independent State Vigilance Commission",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/25/kerala-udf-govt-vision-2031-roadmap-pensions.html",
+        "publication": "Onmanorama / The Hindu",
+        "date": "2026-05-25",
+        "tier": 3,
+        "summary": "As part of its 'Vision 2031' policy plan presented on May 25, 2026, the UDF government announced plans to establish an independent State Vigilance Commission, to be headed by a sitting High Court judge, as part of an effort to strengthen anti-corruption systems."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-05-26T13:21:17.706Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
