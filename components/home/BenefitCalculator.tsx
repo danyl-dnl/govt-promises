@@ -104,10 +104,6 @@ export function BenefitCalculator() {
         
         {/* Title */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 mb-4 transition-colors">
-            <Calculator className="h-3.5 w-3.5 text-udf-blue" />
-            <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500">Citizen Impact Widget</span>
-          </div>
           <h2 className="font-display font-extrabold text-3xl md:text-4xl text-slate-900 tracking-tight leading-tight">
             Manifesto Impact Estimator
           </h2>
