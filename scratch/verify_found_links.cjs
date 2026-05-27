@@ -6,16 +6,13 @@ const urlModule = require('url');
 const jsonPath = path.join(__dirname, '../data/promises.json');
 const promises = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
 
-// The 11 target promise IDs
-const targetPromiseIds = ['p1', 'p4', 'p6', 'p7', 'p25', 'p26', 'p27', 'p42', 'p48', 'p49', 'p59'];
-
 const urlsToVerify = [];
 
 promises.forEach((p) => {
-  if (targetPromiseIds.includes(p.id)) {
+  if (p.sources && Array.isArray(p.sources)) {
     p.sources.forEach((s) => {
       // Exclude initial manifesto commitments which use "#"
-      if (s.url && s.url !== '#') {
+      if (s.url && s.url.startsWith('http')) {
         urlsToVerify.push({
           promiseId: p.id,
           title: p.title,
