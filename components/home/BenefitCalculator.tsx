@@ -102,16 +102,6 @@ export function BenefitCalculator() {
     <section className="py-16 bg-slate-50 border-b border-border transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8 max-w-5xl">
         
-        {/* Title */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <h2 className="font-display font-extrabold text-3xl md:text-4xl text-slate-900 tracking-tight leading-tight">
-            Manifesto Impact Estimator
-          </h2>
-          <p className="text-sm md:text-base text-slate-500 max-w-xl mx-auto mt-3 leading-relaxed">
-            Select your demographic attributes to calculate your estimated monthly savings and benefits under the UDF manifesto commitments, customize the values to match your household, and track their live execution statuses!
-          </p>
-        </div>
-
         {/* Bento Grid Panel */}
         <div className="bg-white rounded-2xl border border-slate-200/80 shadow-md p-6 md:p-10 grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-10 transition-colors duration-300">
           
