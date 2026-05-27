@@ -1,8 +1,52 @@
 import { NextRequest, NextResponse } from "next/server"
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/auth"
-import fs from "fs"
-import path from "path"
+
+const KV_REST_API_URL = process.env.KV_REST_API_URL
+const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN
+
+// Helper to fetch submissions from Vercel KV
+async function getKVSubmissions(): Promise<any[]> {
+  if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
+    throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
+  }
+
+  const res = await fetch(`${KV_REST_API_URL}/get/submissions`, {
+    headers: {
+      Authorization: `Bearer ${KV_REST_API_TOKEN}`,
+    },
+    cache: "no-store",
+  })
+
+  if (!res.ok) {
+    throw new Error(`Vercel KV read failed: ${res.statusText}`)
+  }
+
+  const data = await res.json()
+  const val = data.result
+  if (!val) return []
+  return typeof val === "string" ? JSON.parse(val) : val
+}
+
+// Helper to write submissions back to Vercel KV
+async function saveKVSubmissions(submissions: any[]): Promise<void> {
+  if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
+    throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
+  }
+
+  const res = await fetch(`${KV_REST_API_URL}/set/submissions`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${KV_REST_API_TOKEN}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(submissions),
+  })
+
+  if (!res.ok) {
+    throw new Error(`Vercel KV write failed: ${res.statusText}`)
+  }
+}
 
 // Helper function to check if the session user is an authorized admin
 function isAdmin(email?: string | null): boolean {
@@ -25,17 +69,7 @@ export async function GET() {
       )
     }
 
-    const dbPath = path.join(process.cwd(), "data", "submissions.json")
-    let submissions = []
-
-    if (fs.existsSync(dbPath)) {
-      try {
-        const fileData = fs.readFileSync(dbPath, "utf8")
-        submissions = JSON.parse(fileData)
-      } catch (err) {
-        console.error("Error reading submissions database:", err)
-      }
-    }
+    const submissions = await getKVSubmissions()
 
     // Sort submissions newest first
     submissions.sort(
@@ -44,10 +78,10 @@ export async function GET() {
     )
 
     return NextResponse.json({ success: true, submissions })
-  } catch (error) {
+  } catch (error: any) {
     console.error("Admin Submissions GET Error:", error)
     return NextResponse.json(
-      { error: "An internal server error occurred." },
+      { error: `Internal Server Error: ${error?.message || error}` },
       { status: 500 }
     )
   }
@@ -83,25 +117,7 @@ export async function PATCH(req: NextRequest) {
       )
     }
 
-    const dbPath = path.join(process.cwd(), "data", "submissions.json")
-    if (!fs.existsSync(dbPath)) {
-      return NextResponse.json(
-        { error: "Submissions database file not found." },
-        { status: 404 }
-      )
-    }
-
-    let submissions = []
-    try {
-      const fileData = fs.readFileSync(dbPath, "utf8")
-      submissions = JSON.parse(fileData)
-    } catch (err) {
-      console.error("Error reading submissions database:", err)
-      return NextResponse.json(
-        { error: "Error reading data file." },
-        { status: 500 }
-      )
-    }
+    const submissions = await getKVSubmissions()
 
     // Find and update target submission
     const index = submissions.findIndex((sub: any) => sub.id === id)
@@ -116,17 +132,17 @@ export async function PATCH(req: NextRequest) {
     submissions[index].lastUpdatedBy = session.user.email
     submissions[index].lastUpdatedAt = new Date().toISOString()
 
-    // Write back to file
-    fs.writeFileSync(dbPath, JSON.stringify(submissions, null, 2), "utf8")
+    // Write back to Vercel KV
+    await saveKVSubmissions(submissions)
 
     return NextResponse.json({
       success: true,
       submission: submissions[index],
     })
-  } catch (error) {
+  } catch (error: any) {
     console.error("Admin Submissions PATCH Error:", error)
     return NextResponse.json(
-      { error: "An internal server error occurred while updating the status." },
+      { error: `Internal Server Error: ${error?.message || error}` },
       { status: 500 }
     )
   }

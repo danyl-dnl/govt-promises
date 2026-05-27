@@ -1,8 +1,52 @@
 import { NextRequest, NextResponse } from "next/server"
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/auth"
-import fs from "fs"
-import path from "path"
+
+const KV_REST_API_URL = process.env.KV_REST_API_URL
+const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN
+
+// Helper to fetch submissions from Vercel KV
+async function getKVSubmissions(): Promise<any[]> {
+  if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
+    throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
+  }
+
+  const res = await fetch(`${KV_REST_API_URL}/get/submissions`, {
+    headers: {
+      Authorization: `Bearer ${KV_REST_API_TOKEN}`,
+    },
+    cache: "no-store",
+  })
+
+  if (!res.ok) {
+    throw new Error(`Vercel KV read failed: ${res.statusText}`)
+  }
+
+  const data = await res.json()
+  const val = data.result
+  if (!val) return []
+  return typeof val === "string" ? JSON.parse(val) : val
+}
+
+// Helper to write submissions back to Vercel KV
+async function saveKVSubmissions(submissions: any[]): Promise<void> {
+  if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
+    throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
+  }
+
+  const res = await fetch(`${KV_REST_API_URL}/set/submissions`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${KV_REST_API_TOKEN}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(submissions),
+  })
+
+  if (!res.ok) {
+    throw new Error(`Vercel KV write failed: ${res.statusText}`)
+  }
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -43,19 +87,8 @@ export async function POST(req: NextRequest) {
       )
     }
 
-    // 4. File system operations to write to local database
-    const dbPath = path.join(process.cwd(), "data", "submissions.json")
-    let submissions = []
-
-    if (fs.existsSync(dbPath)) {
-      try {
-        const fileData = fs.readFileSync(dbPath, "utf8")
-        submissions = JSON.parse(fileData)
-      } catch (err) {
-        console.error("Error reading submissions database:", err)
-        submissions = []
-      }
-    }
+    // 4. Retrieve existing submissions from Vercel KV
+    const submissions = await getKVSubmissions()
 
     // Create unique ID using timestamp and random hex
     const submissionId = `sub_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`
@@ -76,8 +109,8 @@ export async function POST(req: NextRequest) {
 
     submissions.push(newSubmission)
 
-    // Write back to file
-    fs.writeFileSync(dbPath, JSON.stringify(submissions, null, 2), "utf8")
+    // 5. Write back to Vercel KV database
+    await saveKVSubmissions(submissions)
 
     return NextResponse.json(
       { success: true, submission: newSubmission },
