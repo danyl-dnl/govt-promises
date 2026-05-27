@@ -162,6 +162,7 @@ function SubmitForm({ session }: { session: Session }) {
           value={details}
           onChange={(e) => setDetails(e.target.value)}
           placeholder="Please describe the update, cabinet decision, or GO number associated with this evidence..."
+          className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all resize-none bg-white text-slate-900 text-sm leading-relaxed placeholder:text-slate-400 font-ui shadow-xs"
         ></textarea>
       </div>
       {errorMessage && (
