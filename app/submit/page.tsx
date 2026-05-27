@@ -19,23 +19,48 @@ function SubmitForm({ session }: { session: Session }) {
   const [details, setDetails] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
+  const [errorMessage, setErrorMessage] = useState("")
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+    setErrorMessage("")
     
-    // Simulate network request since there is no backend connected yet
-    setTimeout(() => {
-      setIsSubmitting(false)
+    try {
+      const response = await fetch("/api/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          promiseId,
+          evidenceUrl,
+          details,
+        }),
+      })
+      
+      const data = await response.json()
+      
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to submit evidence.")
+      }
+      
       setIsSuccess(true)
-    }, 1500)
+    } catch (err: any) {
+      console.error("Submission error:", err)
+      setErrorMessage(err.message || "An unexpected error occurred. Please try again.")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleResetForm = () => {
     setEvidenceUrl("")
     setDetails("")
+    setErrorMessage("")
     setIsSuccess(false)
   }
+
 
   if (isSuccess) {
     return (
@@ -137,9 +162,14 @@ function SubmitForm({ session }: { session: Session }) {
           value={details}
           onChange={(e) => setDetails(e.target.value)}
           placeholder="Please describe the update, cabinet decision, or GO number associated with this evidence..."
-          className="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:border-udf-blue focus:ring-1 focus:ring-udf-blue outline-none transition-all resize-none bg-white text-slate-900"
         ></textarea>
       </div>
+      {errorMessage && (
+        <div className="bg-red-50 border border-red-200 text-red-600 text-xs rounded-lg p-3.5 flex items-center gap-2.5 transition-colors animate-in fade-in slide-in-from-bottom-2 duration-200">
+          <AlertCircle className="h-4 w-4 shrink-0 text-red-500" />
+          <span>{errorMessage}</span>
+        </div>
+      )}
 
       <button 
         type="submit" 

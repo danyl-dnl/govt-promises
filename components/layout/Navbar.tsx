@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react"
 import Link from "next/link"
-import { Landmark, Menu, X } from "lucide-react"
+import { Landmark, Menu, X, ShieldCheck } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useSession, signIn } from "next-auth/react"
 import { motion, AnimatePresence } from "framer-motion"
@@ -12,6 +12,8 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
   const { data: session } = useSession()
+
+  const isAdmin = session?.user?.email?.toLowerCase() === "danyldt07@gmail.com"
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,9 +50,19 @@ export function Navbar() {
           <Link href="/updates" className="hover:text-foreground transition-colors">Updates</Link>
           <Link href="/impact" className="hover:text-foreground transition-colors">Impact</Link>
           <Link href="/about" className="hover:text-foreground transition-colors">About</Link>
+          {isAdmin && (
+            <Link 
+              href="/admin/submissions" 
+              className="text-amber-600 hover:text-amber-700 font-bold flex items-center gap-1 transition-all border border-amber-200/50 bg-amber-50/40 rounded-full px-3 py-1 hover:bg-amber-50 hover:border-amber-300"
+            >
+              <ShieldCheck className="h-3.5 w-3.5" />
+              Admin Panel
+            </Link>
+          )}
         </nav>
 
         <div className="flex items-center gap-3">
+
           <Link href="/submit">
             <Button variant="ghost" className="hidden sm:flex text-udf-blue hover:text-udf-blue-dark hover:bg-udf-blue-bg">
               Submit Update
@@ -140,6 +152,17 @@ export function Navbar() {
               >
                 About
               </Link>
+              
+              {isAdmin && (
+                <Link 
+                  href="/admin/submissions" 
+                  onClick={() => setIsOpen(false)}
+                  className="text-amber-600 hover:text-amber-700 py-2 border-b border-slate-100 transition-colors flex items-center gap-1.5"
+                >
+                  <ShieldCheck className="h-4 w-4" />
+                  Admin Panel
+                </Link>
+              )}
               
               <Link 
                 href="/submit" 
