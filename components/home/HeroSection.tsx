@@ -45,11 +45,6 @@ export function HeroSection() {
             initial="hidden"
             animate="show"
           >
-            <motion.div variants={itemVariants} className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-100 border border-slate-200 mb-6 transition-colors duration-300">
-              <span className="w-2 h-2 rounded-full bg-kerala-green animate-pulse" />
-              <span className="text-xs font-semibold text-slate-600 uppercase tracking-wider">Live Tracker</span>
-            </motion.div>
-            
             <motion.h1 variants={itemVariants} className="font-display font-extrabold text-5xl md:text-6xl lg:text-7xl leading-tight text-slate-900 mb-4 tracking-[-0.04em]">
               <span className="block text-4xl md:text-5xl text-slate-500 font-malayalam font-semibold mb-2 tracking-normal">യു.ഡി.എഫ് വാഗ്ദാനങ്ങൾ</span>
               UDF Manifesto <br /> <span className="text-udf-blue">Tracker.</span>
