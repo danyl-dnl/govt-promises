@@ -83,10 +83,10 @@ export async function POST(req: NextRequest) {
       { success: true, submission: newSubmission },
       { status: 201 }
     )
-  } catch (error) {
+  } catch (error: any) {
     console.error("Submission API Error:", error)
     return NextResponse.json(
-      { error: "An internal server error occurred while processing your submission." },
+      { error: `Internal Server Error: ${error?.message || error}` },
       { status: 500 }
     )
   }
