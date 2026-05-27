@@ -38,7 +38,7 @@ export default async function PromiseDetailPage({ params }: PromiseDetailPagePro
         <div className="lg:col-span-8">
           <div className="mb-10">
             <h2 className="font-display font-bold text-2xl text-slate-900 mb-6">Evidence & Timeline</h2>
-            <EvidenceTimeline sources={promise.sources} />
+            <EvidenceTimeline sources={promise.sources} promiseId={promise.id} />
           </div>
           
           <div className="mt-16 pt-8 border-t border-slate-200">

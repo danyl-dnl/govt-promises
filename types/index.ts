@@ -20,6 +20,7 @@ export interface Promise {
 export interface Source {
   title: string;
   url: string;
+  archiveUrl?: string; // Fallback web archive link (Wayback Machine / archive.today)
   publication: string;
   date: string;
   tier: SourceTier;
