@@ -32,9 +32,17 @@
         "date": "2026-05-18",
         "tier": 3,
         "summary": "In its first cabinet meeting on May 18, 2026, the newly elected UDF government approved the rollout of free KSRTC bus travel for women alongside wage hikes for scheme workers."
+      },
+      {
+        "title": "KSRTC free travel for women confirmed from June 15; gender ticketing system introduced",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/27/ksrtc-free-travel-women-update.html",
+        "publication": "Manorama Online / Mathrubhumi",
+        "date": "2026-05-27",
+        "tier": 3,
+        "summary": "KSRTC confirmed that free bus travel for women will begin June 15, 2026, covering ordinary, limited-stop, city circular, and fast-passenger services (premium excluded). A 'gender ticketing' system was introduced on May 9 to enable the rollout. Final operational guidelines are being finalized."
       }
     ],
-    "lastUpdated": "2026-05-20T07:09:08.666Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -94,7 +102,7 @@
         "summary": "UDF 2026 manifesto / Indira Guarantee."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-05-28T17:01:16.091Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -132,7 +140,7 @@
         "summary": "The state government allocated ₹1,070 crore for the distribution of social security and welfare pensions to 62 lakh beneficiaries starting May 25, 2026. The monthly payout remains at the existing rate of ₹2,000, as the promised hike to ₹3,000 has not yet been implemented."
       }
     ],
-    "lastUpdated": "2026-05-23T18:00:00.000Z",
+    "lastUpdated": "2026-05-28T17:01:16.093Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -336,7 +344,7 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-05-28T17:01:16.093Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -1260,7 +1268,7 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1532,7 +1540,7 @@
         "summary": "The Kerala Revenue Department issued formal orders cancelling the land acquisition notifications previously published for the SilverLine rail project across various districts, fulfilling the land denotification promise."
       }
     ],
-    "lastUpdated": "2026-05-26T13:21:17.706Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1742,7 +1750,7 @@
         "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1778,9 +1786,25 @@
         "date": "2026-05-25",
         "tier": 3,
         "summary": "As part of its 'Vision 2031' policy plan presented on May 25, 2026, the UDF government announced plans to establish an independent State Vigilance Commission, to be headed by a sitting High Court judge, as part of an effort to strengthen anti-corruption systems."
+      },
+      {
+        "title": "Home Minister Chennithala launches 'Project Zero' anti-corruption initiative",
+        "url": "https://www.thehindu.com/news/national/kerala/project-zero-anti-corruption-kerala-2026",
+        "publication": "The Hindu / The Statesman / Onmanorama",
+        "date": "2026-05-26",
+        "tier": 2,
+        "summary": "Home Minister Ramesh Chennithala launched 'Project Zero', a major anti-corruption initiative with zero-tolerance policy. Key features include ₹5,000 rewards for citizens providing verifiable video evidence of corruption, whistleblower identity protection, digital complaint systems, AI-assisted monitoring, comprehensive revision of the 1969 Vigilance Manual, and increased trap cases and surprise inspections."
+      },
+      {
+        "title": "First Project Zero arrest: DySP caught accepting ₹50,000 bribe in Alappuzha",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/27/project-zero-first-arrest-dysp-bribe.html",
+        "publication": "Onmanorama / Kerala Kaumudi / PTI",
+        "date": "2026-05-27",
+        "tier": 3,
+        "summary": "In the first case under Project Zero, DySP T. Anilkumar of Cherthala, Alappuzha was arrested by the Kerala Vigilance and Anti-Corruption Bureau (VACB) for accepting a ₹50,000 bribe (first installment of a ₹2 lakh demand) from a waste management firm owner. He attempted to flee by jumping from the first floor of his villa but was overpowered and remanded to judicial custody."
       }
     ],
-    "lastUpdated": "2026-05-26T13:21:17.706Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1798,7 +1822,7 @@
       "icon": "landmark",
       "color": "#4B5563"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "landmark",
     "sources": [
       {
@@ -1808,9 +1832,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
+      },
+      {
+        "title": "Project Zero incorporates AI-assisted monitoring and digital complaint systems",
+        "url": "https://www.thehindu.com/news/national/kerala/project-zero-anti-corruption-kerala-2026",
+        "publication": "The Hindu / Deccan Chronicle",
+        "date": "2026-05-26",
+        "tier": 3,
+        "summary": "The Project Zero anti-corruption initiative launched on May 26, 2026 includes AI-assisted monitoring systems and digital complaint platforms as core components, marking the first concrete step toward the manifesto promise of AI-driven auditing tools for governance transparency."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -1867,9 +1899,17 @@
         "date": "2026-05-19",
         "tier": 3,
         "summary": "On May 19, 2026, the newly sworn-in UDF government in Kerala constituted an expert committee chaired by former Cabinet Secretary K.M. Chandrasekhar to prepare a comprehensive White Paper on the state’s financial situation, off-budget borrowings, and liabilities."
+      },
+      {
+        "title": "CM Satheesan meets PM Modi; White Paper to be released first week of June",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/may/26/cm-satheesan-meets-pm-modi-fiscal-issues",
+        "publication": "The New Indian Express / Onmanorama",
+        "date": "2026-05-26",
+        "tier": 3,
+        "summary": "CM Satheesan held his first official meeting with PM Modi and FM Sitharaman after taking office. He requested that ₹5,580 crore spent on NH land acquisition be excluded from Kerala's net borrowing ceiling, and discussed Centre-State fiscal relations. The Financial White Paper is expected in the first week of June 2026. The expert committee is chaired by Dr. K.M. Chandrasekhar (former Cabinet Secretary) with K.R. Jyothilal as Convener, and includes economists Dr. D. Narayana and Dr. C. Veeramani."
       }
     ],
-    "lastUpdated": "2026-05-20T07:09:21.703Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-20T07:09:21.704Z"
   },
   {
@@ -1961,7 +2001,7 @@
       "icon": "users",
       "color": "#6366F1"
     },
-    "status": "in-progress",
+    "status": "fulfilled",
     "icon": "users",
     "sources": [
       {
@@ -1979,9 +2019,17 @@
         "date": "2026-05-20",
         "tier": 3,
         "summary": "During its meeting on May 20, 2026, the Kerala Cabinet announced an extension of the validity of KPSC rank lists expiring on or before August 31, 2026, until November 30, 2026, bringing relief to candidates across 60 different rank lists."
+      },
+      {
+        "title": "Kerala PSC extends 289 rank lists covering 30,845 candidates until November 2026",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/25/kpsc-rank-list-extension-289-lists.html",
+        "publication": "Onmanorama / Kerala Kaumudi / Gold FM",
+        "date": "2026-05-25",
+        "tier": 2,
+        "summary": "Kerala PSC officially approved the extension of 289 rank lists covering 30,845 candidates on May 25, 2026, following a Cabinet recommendation. All rank lists scheduled to expire between May 25 and August 31, 2026 have been extended until November 30, 2026, covering state-level posts (Assistant Professors, Special Branch Assistants, Fisheries Assistants) and district-level posts (HSTs, Junior Public Health Nurse, etc.)."
       }
     ],
-    "lastUpdated": "2026-05-22T06:50:00.000Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-22T06:50:00.000Z"
   },
   {
@@ -2017,9 +2065,17 @@
         "date": "2026-05-20",
         "tier": 3,
         "summary": "As part of its 'Vision 2031' roadmap, the newly elected Kerala government announced the launching of a 100-day action plan starting June 1, 2026, designed to fast-track manifesto commitments and deliver quick-win initiatives across departments."
+      },
+      {
+        "title": "Kerala 100-Day Action Plan to commence June 1; state budget set for June 19",
+        "url": "https://www.onmanorama.com/news/kerala/2026/05/27/kerala-100-day-action-plan-budget.html",
+        "publication": "Onmanorama / The New Indian Express",
+        "date": "2026-05-27",
+        "tier": 2,
+        "summary": "All government departments have been directed to draft project proposals for the 100-Day Action Plan commencing June 1, 2026. The state budget will be presented on June 19, 2026, with focus areas including economic revival, health, education, and infrastructure. CM Satheesan plans to transform Kerala into a 'port and aviation hub'."
       }
     ],
-    "lastUpdated": "2026-05-22T06:50:00.000Z",
+    "lastUpdated": "2026-05-28T17:01:16.094Z",
     "createdAt": "2026-05-22T06:50:00.000Z"
   },
   {
