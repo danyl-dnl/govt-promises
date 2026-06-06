@@ -1140,7 +1140,7 @@
       "icon": "tractor",
       "color": "#15803D"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "tractor",
     "sources": [
       {
@@ -1150,9 +1150,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto media summary."
+      },
+      {
+        "title": "Kerala government to exempt primary cooperative societies from PRS loans process: CM Satheesan",
+        "url": "https://www.aninews.in/news/national/general-news/kerala-govt-to-exempt-primary-cooperative-societies-from-prs-loans-process-cm-satheesan20260604201844/",
+        "publication": "ANI News / Kerala Kaumudi",
+        "date": "2026-06-04",
+        "tier": 3,
+        "summary": "The State Cabinet decided to completely exempt primary cooperative societies from the Paddy Receipt Sheet (PRS) loan sanctioning process to expedite payment disbursements. This structural change enables direct and immediate procurement dues transfer to farmers' bank accounts, resolving administrative delays."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
+    "lastUpdated": "2026-06-06T10:18:00.000Z",
     "createdAt": "2026-05-20T07:05:38.447Z"
   },
   {
@@ -2049,7 +2057,7 @@
       "icon": "landmark",
       "color": "#374151"
     },
-    "status": "in-progress",
+    "status": "fulfilled",
     "icon": "landmark",
     "sources": [
       {
@@ -2083,9 +2091,17 @@
         "date": "2026-05-31",
         "tier": 3,
         "summary": "The expert committee chaired by Dr. K.M. Chandrasekhar is expected to release the Financial White Paper in the first week of June 2026. The state budget will follow on June 19, 2026. Budget is expected to include provisions for welfare pension hikes, Oommen Chandy Health Insurance, KSRTC free travel, and interest-free youth entrepreneur loans, pending the fiscal picture presented in the white paper."
+      },
+      {
+        "title": "White Paper on Kerala finances tabled in Assembly",
+        "url": "https://www.thehindu.com/news/national/kerala/white-paper-on-kerala-finances-tabled-in-assembly/article71060934.ece",
+        "publication": "The Hindu",
+        "date": "2026-06-04",
+        "tier": 3,
+        "summary": "The expert committee chaired by former Cabinet Secretary Dr. K.M. Chandrasekhar officially presented the Financial White Paper, revealing a severe fiscal crisis with ₹5.07 lakh crore in outstanding liabilities and ₹48,733 crore in arrears. The report recommends structural audits of KIIFB and restructuring of non-strategic public sector enterprises."
       }
     ],
-    "lastUpdated": "2026-06-01T14:00:00.000Z",
+    "lastUpdated": "2026-06-06T10:18:00.000Z",
     "createdAt": "2026-05-20T07:09:21.704Z"
   },
   {
