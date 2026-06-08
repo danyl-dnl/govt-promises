@@ -2,6 +2,8 @@
 
 import React from "react"
 import { motion } from "framer-motion"
+import promisesData from "@/data/promises.json"
+import { Promise as PromiseType } from "@/types"
 
 const timelineEvents = [
   {
@@ -67,6 +69,35 @@ const timelineEvents = [
 ]
 
 export function GovTimeline() {
+  // Get latest 5 promise updates
+  const recentPromiseUpdates = (promisesData as PromiseType[])
+    .flatMap(p => {
+      if (!p.updates) return []
+      return p.updates.map(u => ({
+        ...u,
+        promiseTitle: p.title
+      }))
+    })
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 5)
+    .map(u => {
+      const d = new Date(u.date)
+      const month = d.toLocaleString('en-US', { month: 'short' }).toUpperCase()
+      const day = d.getDate().toString().padStart(2, '0')
+      return {
+        date: `${month} ${day}, ${d.getFullYear()}`,
+        rawDate: d.getTime(),
+        title: `Update: ${u.promiseTitle}`,
+        description: u.summary || u.title,
+        status: "in-progress"
+      }
+    })
+
+  const allEvents = [
+    ...timelineEvents.map(e => ({ ...e, rawDate: new Date(e.date).getTime() })), 
+    ...recentPromiseUpdates
+  ].sort((a, b) => a.rawDate - b.rawDate)
+
   return (
     <section className="py-20 bg-slate-50 border-b border-border transition-colors duration-300">
       <div className="container mx-auto px-4 md:px-8 max-w-4xl">
@@ -76,7 +107,7 @@ export function GovTimeline() {
         </div>
 
         <div className="relative border-l-2 border-slate-200 ml-4 md:ml-[120px]">
-          {timelineEvents.map((event, index) => {
+          {allEvents.map((event, index) => {
             const isFulfilled = event.status === "fulfilled"
             const isInProgress = event.status === "in-progress"
             

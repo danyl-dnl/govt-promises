@@ -8,7 +8,7 @@ import { HorizontalCard } from "@/components/promises/HorizontalCard"
 import { EmptyState } from "@/components/promises/EmptyState"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType, Status } from "@/types"
-import { Search, SlidersHorizontal } from "lucide-react"
+import { Search, SlidersHorizontal, X } from "lucide-react"
 
 import { motion } from "framer-motion"
 
@@ -158,33 +158,47 @@ function PromisesPageContent() {
           <div className="flex items-center gap-3">
             <button
               onClick={() => setIsMobileDrawerOpen(true)}
-              className="flex items-center gap-2 px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors shrink-0 shadow-xs"
+              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors shadow-xs"
             >
               <SlidersHorizontal className="h-4 w-4 text-slate-500" />
-              <span>Filters</span>
+              <span>Filter & Sort</span>
               {activeFilterCount > 0 && (
                 <span className="flex items-center justify-center bg-udf-blue text-white text-[10px] font-bold h-5 px-1.5 rounded-full min-w-5">
                   {activeFilterCount}
                 </span>
               )}
             </button>
-
-            <div className="flex-1 overflow-x-auto scrollbar-none flex gap-2 py-0.5 -my-0.5">
-              {["all", "fulfilled", "in-progress", "evaded", "pending"].map((status) => (
-                <button
-                  key={status}
-                  onClick={() => setStatusFilter(status as Status | "all")}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-semibold capitalize transition-all shrink-0 ${
-                    statusFilter === status 
-                      ? "bg-slate-900 text-white shadow-xs" 
-                      : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50"
-                  }`}
-                >
-                  {status.replace("-", " ")}
-                </button>
-              ))}
-            </div>
           </div>
+          
+          {/* Active Filters Display */}
+          {activeFilterCount > 0 && (
+            <div className="flex flex-wrap items-center gap-2 pt-1">
+              <span className="text-xs text-slate-500 font-medium">Active:</span>
+              {statusFilter !== "all" && (
+                <span className="px-2.5 py-1 bg-udf-blue/10 text-udf-blue text-xs font-semibold rounded-lg flex items-center gap-1">
+                  {statusFilter.replace("-", " ")}
+                  <X className="h-3 w-3 cursor-pointer hover:text-red-500 transition-colors" onClick={() => setStatusFilter("all")} />
+                </span>
+              )}
+              {selectedSectors.map(sectorId => {
+                const sName = uniqueSectors.find(s => s.id === sectorId)?.name
+                return (
+                  <span key={sectorId} className="px-2.5 py-1 bg-udf-blue/10 text-udf-blue text-xs font-semibold rounded-lg flex items-center gap-1">
+                    {sName}
+                    <X className="h-3 w-3 cursor-pointer hover:text-red-500 transition-colors" onClick={() => {
+                      setSelectedSectors(prev => prev.filter(id => id !== sectorId))
+                    }} />
+                  </span>
+                )
+              })}
+              <button 
+                onClick={() => { setStatusFilter("all"); setSelectedSectors([]) }}
+                className="text-xs text-slate-500 hover:text-slate-800 underline ml-auto transition-colors"
+              >
+                Clear all
+              </button>
+            </div>
+          )}
         </div>
 
         <div className="flex flex-col md:flex-row gap-8 lg:gap-12 items-start">
