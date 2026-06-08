@@ -13,6 +13,7 @@ export interface Promise {
   status: Status;
   icon: string;
   sources: Source[];
+  updates?: Source[];
   lastUpdated: string; // ISO date
   createdAt: string;
 }
