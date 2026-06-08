@@ -41,15 +41,27 @@ const timelineEvents = [
     status: "fulfilled"
   },
   {
-    date: "JUN 01, 2026",
+    date: "MAY 29, 2026",
     title: "First Policy Address",
-    description: "Expected Governor's address outlining the legislative agenda and welfare rollout timeline.",
-    status: "pending"
+    description: "Governor Rajendra Vishwanath Arlekar delivers the policy address to the Assembly, outlining the UDF's 'Vision 2031' roadmap and key welfare guarantees.",
+    status: "fulfilled"
   },
   {
-    date: "JUL 10, 2026",
+    date: "JUN 01, 2026",
+    title: "100-Day Action Plan Launch",
+    description: "The UDF government's 100-day action plan formally commences across all departments to execute priority manifesto promises.",
+    status: "in-progress"
+  },
+  {
+    date: "JUN 04, 2026",
+    title: "Financial White Paper Tabled",
+    description: "CM V.D. Satheesan tables the Financial White Paper in the Assembly, detailing the state's fiscal health and liabilities.",
+    status: "fulfilled"
+  },
+  {
+    date: "JUN 19, 2026",
     title: "State Budget Presentation",
-    description: "Expected presentation of the revised State Budget and the separate Agricultural Budget.",
+    description: "Expected presentation of the revised State Budget for the 2026-27 financial year and the separate Agricultural Budget.",
     status: "pending"
   }
 ]
