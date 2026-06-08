@@ -3,10 +3,12 @@
 import React, { useState, useMemo, useEffect, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import { FilterSidebar } from "@/components/promises/FilterSidebar"
+import { MobileFilterDrawer } from "@/components/promises/MobileFilterDrawer"
 import { HorizontalCard } from "@/components/promises/HorizontalCard"
 import { EmptyState } from "@/components/promises/EmptyState"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType, Status } from "@/types"
+import { Search, SlidersHorizontal } from "lucide-react"
 
 import { motion } from "framer-motion"
 
@@ -32,6 +34,21 @@ function PromisesPageContent() {
   const [statusFilter, setStatusFilter] = useState<Status | "all">("all")
   const [selectedSectors, setSelectedSectors] = useState<string[]>([])
   const [sortOption, setSortOption] = useState("newest")
+  const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false)
+
+  const activeFilterCount = (statusFilter !== "all" ? 1 : 0) + selectedSectors.length
+
+  // Lock body scroll when mobile filter drawer is open
+  useEffect(() => {
+    if (isMobileDrawerOpen) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = "unset"
+    }
+    return () => {
+      document.body.style.overflow = "unset"
+    }
+  }, [isMobileDrawerOpen])
 
   // Sync state with URL search parameters on mount and when they change
   useEffect(() => {
@@ -102,6 +119,20 @@ function PromisesPageContent() {
 
   return (
     <div className="min-h-screen bg-slate-50/50 pt-8 pb-20 transition-colors duration-300">
+      <MobileFilterDrawer
+        isOpen={isMobileDrawerOpen}
+        onClose={() => setIsMobileDrawerOpen(false)}
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+        statusFilter={statusFilter}
+        setStatusFilter={setStatusFilter}
+        selectedSectors={selectedSectors}
+        setSelectedSectors={setSelectedSectors}
+        sectors={uniqueSectors}
+        sortOption={sortOption}
+        setSortOption={setSortOption}
+        resultCount={filteredPromises.length}
+      />
       <div className="container mx-auto px-4 md:px-8">
         <div className="mb-10">
           <h1 className="font-display font-bold text-4xl md:text-5xl text-slate-900 mb-4">All Promises</h1>
@@ -111,18 +142,65 @@ function PromisesPageContent() {
           </p>
         </div>
 
+        {/* Mobile Toolbar */}
+        <div className="w-full md:hidden space-y-4 mb-6">
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-400" />
+            <input 
+              type="text"
+              placeholder="Search promises..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-9 pr-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-udf-blue transition-all"
+            />
+          </div>
+
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setIsMobileDrawerOpen(true)}
+              className="flex items-center gap-2 px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors shrink-0 shadow-xs"
+            >
+              <SlidersHorizontal className="h-4 w-4 text-slate-500" />
+              <span>Filters</span>
+              {activeFilterCount > 0 && (
+                <span className="flex items-center justify-center bg-udf-blue text-white text-[10px] font-bold h-5 px-1.5 rounded-full min-w-5">
+                  {activeFilterCount}
+                </span>
+              )}
+            </button>
+
+            <div className="flex-1 overflow-x-auto scrollbar-none flex gap-2 py-0.5 -my-0.5">
+              {["all", "fulfilled", "in-progress", "evaded", "pending"].map((status) => (
+                <button
+                  key={status}
+                  onClick={() => setStatusFilter(status as Status | "all")}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-semibold capitalize transition-all shrink-0 ${
+                    statusFilter === status 
+                      ? "bg-slate-900 text-white shadow-xs" 
+                      : "bg-white text-slate-600 border border-slate-200 hover:bg-slate-50"
+                  }`}
+                >
+                  {status.replace("-", " ")}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-col md:flex-row gap-8 lg:gap-12 items-start">
-          <FilterSidebar 
-            searchQuery={searchQuery}
-            setSearchQuery={setSearchQuery}
-            statusFilter={statusFilter}
-            setStatusFilter={setStatusFilter}
-            selectedSectors={selectedSectors}
-            setSelectedSectors={setSelectedSectors}
-            sectors={uniqueSectors}
-            sortOption={sortOption}
-            setSortOption={setSortOption}
-          />
+          <div className="hidden md:block">
+            <FilterSidebar 
+              searchQuery={searchQuery}
+              setSearchQuery={setSearchQuery}
+              statusFilter={statusFilter}
+              setStatusFilter={setStatusFilter}
+              selectedSectors={selectedSectors}
+              setSelectedSectors={setSelectedSectors}
+              sectors={uniqueSectors}
+              sortOption={sortOption}
+              setSortOption={setSortOption}
+            />
+          </div>
 
           <div className="flex-1 w-full flex flex-col gap-4">
             <div className="mb-2 text-sm text-slate-500 font-medium">

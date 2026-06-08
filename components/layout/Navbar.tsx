@@ -55,11 +55,11 @@ export function Navbar() {
         </Link>
         
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
-          <Link href="/promises" className="hover:text-foreground transition-colors">Promises</Link>
-          <Link href="/sectors" className="hover:text-foreground transition-colors">Sectors</Link>
-          <Link href="/updates" className="hover:text-foreground transition-colors">Updates</Link>
-          <Link href="/impact" className="hover:text-foreground transition-colors">Impact</Link>
-          <Link href="/about" className="hover:text-foreground transition-colors">About</Link>
+          <Link href="/promises"  className="hover:text-udf-blue transition-all duration-200 hover:-translate-y-0.5">Promises</Link>
+          <Link href="/sectors"  className="hover:text-udf-blue transition-all duration-200 hover:-translate-y-0.5">Sectors</Link>
+          <Link href="/updates"  className="hover:text-udf-blue transition-all duration-200 hover:-translate-y-0.5">Updates</Link>
+          <Link href="/impact"   className="hover:text-udf-blue transition-all duration-200 hover:-translate-y-0.5">Impact</Link>
+          <Link href="/about"  className="hover:text-udf-blue transition-all duration-200 hover:-translate-y-0.5">About</Link>
           {isAdmin && (
             <Link 
               href="/admin/submissions" 
