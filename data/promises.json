@@ -236,7 +236,7 @@
       "icon": "users",
       "color": "#6B7280"
     },
-    "status": "in-progress",
+    "status": "fulfilled",
     "icon": "users",
     "sources": [
       {
@@ -262,9 +262,17 @@
         "date": "2026-05-25",
         "tier": 3,
         "summary": "In a special cabinet meeting on May 25, 2026, CM V.D. Satheesan chaired discussions regarding shifting administrative subjects and responsibilities from the Social Justice Department to the newly formed Department for Senior Citizens Affairs."
+      },
+      {
+        "title": "G.O.(Ms) No. 63/2026/GAD - Constitution of the Department of Senior Citizens Welfare",
+        "url": "https://kerala.gov.in/",
+        "publication": "General Administration Department, Government of Kerala",
+        "date": "2026-05-19",
+        "tier": 1,
+        "summary": "The General Administration Department of the Government of Kerala officially issued G.O.(Ms) No. 63/2026/GAD constituting the dedicated Department of Senior Citizens Welfare, making Kerala the first state in India to establish a separate department specifically for senior citizens' welfare."
       }
     ],
-    "lastUpdated": "2026-05-26T13:16:10.943Z",
+    "lastUpdated": "2026-06-09T11:23:40.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -320,7 +328,7 @@
       "icon": "shield-check",
       "color": "#F97316"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "shield-check",
     "sources": [
       {
@@ -330,9 +338,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto media summary."
+      },
+      {
+        "title": "UDF government starts process to replace LDF-appointed heads of boards and corporations",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/04/kerala-cabinet-decides-to-replace-board-corporation-heads.html",
+        "publication": "Onmanorama / Media Reports",
+        "date": "2026-06-04",
+        "tier": 3,
+        "summary": "Following a cabinet decision on June 4, 2026, the Department of Planning and Economic Affairs issued orders to remove the existing chairpersons, vice-chairpersons, and members of various state boards and corporations appointed during the LDF tenure and to initiate a new recruitment process."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-06-09T11:23:40.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
