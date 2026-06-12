@@ -100,7 +100,7 @@
       "icon": "users",
       "color": "#EC4899"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "users",
     "sources": [
       {
@@ -110,9 +110,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto / Indira Guarantee."
+      },
+      {
+        "title": "Governor's assembly address formally commits to ₹1,000 monthly stipend for college-going girl students",
+        "url": "http://www.niyamasabha.org/codes/16kla/session_1/Governors%20Address_May%202026%20(English)%20A4.pdf",
+        "publication": "Kerala Legislative Assembly / Governor's Address",
+        "date": "2026-05-29",
+        "tier": 2,
+        "summary": "The Governor's policy address in the 16th Legislative Assembly formally committed the UDF government to implementing the 'Indira Guarantee' providing a monthly stipend of ₹1,000 to all college-going female students in the state. Rollout details and budget allocations are expected in the upcoming state budget on June 19, 2026."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-05-29T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -202,9 +210,17 @@
         "date": "2026-05-31",
         "tier": 3,
         "summary": "Pre-budget reports indicate the pension hike to ₹3,000 per month (currently ₹2,000) is expected to be formally allocated in the June 19, 2026 state budget. Pension remains at ₹2,000 as of June 1, 2026 – implementation pending the budget session and GO issuance."
+      },
+      {
+        "title": "Government tables financial White Paper; welfare pension hike under review due to fiscal crisis",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-govts-white-paper-on-fiscal-health-seeks-revamp-of-loss-making-public-sector-enterprises/article71078652.ece",
+        "publication": "The Hindu",
+        "date": "2026-06-04",
+        "tier": 3,
+        "summary": "The V.D. Satheesan government tabled a financial White Paper, 'Kerala's Fiscal Health: A Status Report,' showing a ₹5.07 lakh crore debt burden. The report noted that committed expenditures (salaries, interest, and pensions) consume 77% of revenue, placing immediate implementation of the welfare pension hike to ₹3,000 under review pending fiscal consolidation."
       }
     ],
-    "lastUpdated": "2026-06-01T14:00:00.000Z",
+    "lastUpdated": "2026-06-04T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -222,7 +238,7 @@
       "icon": "users",
       "color": "#6366F1"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "users",
     "sources": [
       {
@@ -232,9 +248,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto / Indira Guarantee."
+      },
+      {
+        "title": "Governor's policy address outlines interest-free loans for young entrepreneurs",
+        "url": "http://www.niyamasabha.org/codes/16kla/session_1/Governors%20Address_May%202026%20(English)%20A4.pdf",
+        "publication": "Kerala Legislative Assembly / Governor's Address",
+        "date": "2026-05-29",
+        "tier": 2,
+        "summary": "The customary policy address by Governor Rajendra Vishwanath Arlekar officially announced the government's commitment to provide interest-free loans of up to ₹5 lakh for young entrepreneurs, aimed at promoting local start-ups and self-employment opportunities. Implementation details are expected in the state budget scheduled for June 19, 2026."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-05-29T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -392,9 +416,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto media summary."
+      },
+      {
+        "title": "Government tables financial White Paper identifying ₹48,733 crore in inherited arrears",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jun/05/kerala-debt-burden-at-rs-5-07-lakh-crore-reveals-white-paper-on-state-finances-2791017.html",
+        "publication": "The New Indian Express",
+        "date": "2026-06-04",
+        "tier": 3,
+        "summary": "The fiscal White Paper tabled in the Kerala Assembly on June 4, 2026, revealed that the state has inherited accumulated payment arrears amounting to ₹48,733 crore. This includes ₹21,670 crore in DA arrears for employees, ₹14,387 crore in DR arrears for pensioners, and ₹3,431 crore under the Bill Discounting System, highlighting the scale of liabilities that must be cleared."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-06-04T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
