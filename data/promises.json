@@ -64,9 +64,25 @@
         "date": "2026-06-04",
         "tier": 3,
         "summary": "Following a feasibility study by an expert committee, the Kerala government decided to restrict the free bus travel scheme for women starting June 15, 2026, to ordinary KSRTC services. The scheme will initially run on a 100-day trial basis to study passenger patterns and the state's financial burden (estimated at ₹57 crore/month or ₹712 crore/annum). The government also confirmed that transgender persons will be eligible for the scheme."
+      },
+      {
+        "title": "Kerala Cabinet officially approves 'Priyadarshini' free KSRTC travel scheme for women",
+        "url": "https://www.deccanherald.com/india/kerala/kerala-govt-to-launch-priyadarshini-scheme-for-free-bus-travel-for-women-transpersons-on-ksrtc-from-june-15-3069945.html",
+        "publication": "Deccan Herald / Cabinet Press Release",
+        "date": "2026-06-10",
+        "tier": 2,
+        "summary": "The Kerala Cabinet officially approved the 'Priyadarshini' scheme to offer free bus travel for all women and transgender persons on KSRTC ordinary buses starting June 15, 2026. The state government will fully compensate the KSRTC for the revenue loss, estimated at ₹800 crore annually."
+      },
+      {
+        "title": "Kerala Cabinet approves Priyadarshini scheme for free women's travel on KSRTC",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jun/10/kerala-cabinet-approves-priyadarshini-scheme-for-free-womens-travel-on-ksrtc-10701124.html",
+        "publication": "The New Indian Express",
+        "date": "2026-06-10",
+        "tier": 3,
+        "summary": "Following a cabinet meeting on June 10, the V.D. Satheesan government approved the free bus travel scheme for women of all age groups and transgender persons. The scheme will run on an initial trial basis for 100 days starting June 15, 2026, and is estimated to cost ₹60 crore per month."
       }
     ],
-    "lastUpdated": "2026-06-08T00:00:00.000Z",
+    "lastUpdated": "2026-06-10T12:42:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -84,7 +100,7 @@
       "icon": "users",
       "color": "#EC4899"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "users",
     "sources": [
       {
@@ -94,9 +110,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto / Indira Guarantee."
+      },
+      {
+        "title": "Governor's assembly address formally commits to ₹1,000 monthly stipend for college-going girl students",
+        "url": "http://www.niyamasabha.org/codes/16kla/session_1/Governors%20Address_May%202026%20(English)%20A4.pdf",
+        "publication": "Kerala Legislative Assembly / Governor's Address",
+        "date": "2026-05-29",
+        "tier": 2,
+        "summary": "The Governor's policy address in the 16th Legislative Assembly formally committed the UDF government to implementing the 'Indira Guarantee' providing a monthly stipend of ₹1,000 to all college-going female students in the state. Rollout details and budget allocations are expected in the upcoming state budget on June 19, 2026."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-05-29T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -186,9 +210,17 @@
         "date": "2026-05-31",
         "tier": 3,
         "summary": "Pre-budget reports indicate the pension hike to ₹3,000 per month (currently ₹2,000) is expected to be formally allocated in the June 19, 2026 state budget. Pension remains at ₹2,000 as of June 1, 2026 – implementation pending the budget session and GO issuance."
+      },
+      {
+        "title": "Government tables financial White Paper; welfare pension hike under review due to fiscal crisis",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-govts-white-paper-on-fiscal-health-seeks-revamp-of-loss-making-public-sector-enterprises/article71078652.ece",
+        "publication": "The Hindu",
+        "date": "2026-06-04",
+        "tier": 3,
+        "summary": "The V.D. Satheesan government tabled a financial White Paper, 'Kerala's Fiscal Health: A Status Report,' showing a ₹5.07 lakh crore debt burden. The report noted that committed expenditures (salaries, interest, and pensions) consume 77% of revenue, placing immediate implementation of the welfare pension hike to ₹3,000 under review pending fiscal consolidation."
       }
     ],
-    "lastUpdated": "2026-06-01T14:00:00.000Z",
+    "lastUpdated": "2026-06-04T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -206,7 +238,7 @@
       "icon": "users",
       "color": "#6366F1"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "users",
     "sources": [
       {
@@ -216,9 +248,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto / Indira Guarantee."
+      },
+      {
+        "title": "Governor's policy address outlines interest-free loans for young entrepreneurs",
+        "url": "http://www.niyamasabha.org/codes/16kla/session_1/Governors%20Address_May%202026%20(English)%20A4.pdf",
+        "publication": "Kerala Legislative Assembly / Governor's Address",
+        "date": "2026-05-29",
+        "tier": 2,
+        "summary": "The customary policy address by Governor Rajendra Vishwanath Arlekar officially announced the government's commitment to provide interest-free loans of up to ₹5 lakh for young entrepreneurs, aimed at promoting local start-ups and self-employment opportunities. Implementation details are expected in the state budget scheduled for June 19, 2026."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-05-29T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -376,9 +416,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto media summary."
+      },
+      {
+        "title": "Government tables financial White Paper identifying ₹48,733 crore in inherited arrears",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jun/05/kerala-debt-burden-at-rs-5-07-lakh-crore-reveals-white-paper-on-state-finances-2791017.html",
+        "publication": "The New Indian Express",
+        "date": "2026-06-04",
+        "tier": 3,
+        "summary": "The fiscal White Paper tabled in the Kerala Assembly on June 4, 2026, revealed that the state has inherited accumulated payment arrears amounting to ₹48,733 crore. This includes ₹21,670 crore in DA arrears for employees, ₹14,387 crore in DR arrears for pensioners, and ₹3,431 crore under the Bill Discounting System, highlighting the scale of liabilities that must be cleared."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
+    "lastUpdated": "2026-06-04T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z"
   },
   {
@@ -2419,9 +2467,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto campus welfare reform."
+      },
+      {
+        "title": "Kerala High Court directs State to finalise draft of anti-ragging Bill",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-hc-allows-time-to-state-on-anti-ragging-amendment-bill/article71085741.ece",
+        "publication": "The Hindu",
+        "date": "2026-06-10",
+        "tier": 3,
+        "summary": "The Kerala High Court directed the new UDF government to finalize the draft of the Kerala Prohibition of Ragging (Amendment) Bill, 2025. The government had requested more time, citing the recent cabinet transition, but the court urged swift action."
       }
     ],
-    "lastUpdated": "2026-05-24T13:06:36.935Z",
+    "lastUpdated": "2026-06-10T12:00:00.000Z",
     "createdAt": "2026-05-24T13:06:36.935Z"
   },
   {
@@ -2509,9 +2565,17 @@
         "date": "2026-05-18",
         "tier": 2,
         "summary": "UDF 2026 manifesto placement initiative."
+      },
+      {
+        "title": "Job Watch Tower to tackle graduate unemployment: Announcement expected in upcoming Kerala state budget",
+        "url": "https://keralakaumudi.com/en/kerala/general/securing-jobs-on-first-attempt-kerala-to-overhaul-higher-education-to-match-classroom-training-with-corporate-needs-1764094",
+        "publication": "Kerala Kaumudi",
+        "date": "2026-06-13",
+        "tier": 3,
+        "summary": "Media reports indicate that the upcoming state budget on June 19, 2026, is set to announce the formation of a 'Job Watch Tower'. The body, comprising experts and NRKs, will monitor global employment trends to help align university curricula with international job markets."
       }
     ],
-    "lastUpdated": "2026-05-24T13:06:36.935Z",
+    "lastUpdated": "2026-06-13T18:00:00.000Z",
     "createdAt": "2026-05-24T13:06:36.935Z"
   },
   {
