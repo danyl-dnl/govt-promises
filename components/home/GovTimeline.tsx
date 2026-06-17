@@ -28,7 +28,7 @@ const timelineEvents = [
     date: "MAY 20, 2026",
     title: "Landmark Cabinet Decisions",
     description: "Cabinet recommended KPSC rank list extensions, officially scrapped the controversial SilverLine project, announced a 100-day action plan, and approved a ₹5 lakh medical negligence compensation.",
-    status: "in-progress"
+    status: "fulfilled"
   },
   {
     date: "MAY 21, 2026",
@@ -61,9 +61,15 @@ const timelineEvents = [
     status: "fulfilled"
   },
   {
+    date: "JUN 15, 2026",
+    title: "Priyadarshini Scheme Launched",
+    description: "The flagship 'Priyadarshini' free KSRTC travel scheme for all women and transgender persons officially launches across Kerala, fulfilling the first major 'Indira Guarantee' of the UDF manifesto.",
+    status: "fulfilled"
+  },
+  {
     date: "JUN 19, 2026",
     title: "State Budget Presentation",
-    description: "Expected presentation of the revised State Budget for the 2026-27 financial year and the separate Agricultural Budget.",
+    description: "Expected presentation of the revised State Budget for the 2026-27 financial year and the separate Agricultural Budget, with key welfare scheme allocations expected.",
     status: "pending"
   }
 ]

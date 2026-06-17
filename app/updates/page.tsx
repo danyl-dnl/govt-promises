@@ -1,20 +1,30 @@
 import React from "react"
-import { ExternalLink, Rss } from "lucide-react"
+import { ExternalLink, Rss, Zap } from "lucide-react"
 import { TierBadge } from "@/components/promise/TierBadge"
 import promisesData from "@/data/promises.json"
 import { SourceTier } from "@/types"
 import Link from "next/link"
 
-// Extract all sources and flatten them into a single timeline feed
-const updatesFeed = promisesData.flatMap(promise => 
-  promise.sources.map(source => ({
+// Extract all sources AND updates and flatten them into a single timeline feed
+const updatesFeed = promisesData.flatMap(promise => {
+  const sources = promise.sources.map(source => ({
     ...source,
     promiseSlug: promise.slug,
     promiseTitle: promise.title,
     promiseStatus: promise.status,
-    sector: promise.sector
+    sector: promise.sector,
+    isUpdate: false
   }))
-).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  const updates = ((promise as Record<string, unknown>).updates as Array<{ title: string; url: string; publication: string; date: string; tier: number; summary: string }> ?? []).map(update => ({
+    ...update,
+    promiseSlug: promise.slug,
+    promiseTitle: promise.title,
+    promiseStatus: promise.status,
+    sector: promise.sector,
+    isUpdate: true
+  }))
+  return [...sources, ...updates]
+}).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
 export default function UpdatesPage() {
   return (
@@ -47,7 +57,15 @@ export default function UpdatesPage() {
                       </span>
                       <TierBadge tier={update.tier as SourceTier} />
                     </div>
-                    <h2 className="font-bold text-xl text-slate-900 mb-2">{update.title}</h2>
+                    <h2 className="font-bold text-xl text-slate-900 mb-2 flex items-center gap-2">
+                      {update.isUpdate && (
+                        <span className="inline-flex items-center gap-1 text-xs font-bold text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full shrink-0">
+                          <Zap className="h-3 w-3" />
+                          Major Update
+                        </span>
+                      )}
+                      {update.title}
+                    </h2>
                     <p className="text-slate-600 leading-relaxed mb-4">{update.summary}</p>
                   </div>
                   
