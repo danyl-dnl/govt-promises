@@ -102,7 +102,7 @@ export function GovTimeline() {
   const allEvents = [
     ...timelineEvents.map(e => ({ ...e, rawDate: new Date(e.date).getTime() })), 
     ...recentPromiseUpdates
-  ].sort((a, b) => a.rawDate - b.rawDate)
+  ].sort((a, b) => b.rawDate - a.rawDate)
 
   return (
     <section className="py-20 bg-slate-50 border-b border-border transition-colors duration-300">

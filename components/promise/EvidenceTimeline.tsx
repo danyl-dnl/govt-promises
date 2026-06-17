@@ -19,9 +19,13 @@ export function EvidenceTimeline({ sources, promiseId }: EvidenceTimelineProps) 
     )
   }
 
+  const sortedSources = [...sources].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  )
+
   return (
     <div className="relative border-l-2 border-slate-200 ml-4 md:ml-8">
-      {sources.map((source, index) => {
+      {sortedSources.map((source, index) => {
         // Fallback to our custom local Mock Press/Gazette Reader archive URL
         const archiveUrl = source.archiveUrl || `/archive/${promiseId}-${index + 1}`
 
