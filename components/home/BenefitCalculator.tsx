@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from "react"
 import { motion, AnimatePresence, animate } from "framer-motion"
-import { Calculator, Check, ArrowRight, Info, HelpCircle } from "lucide-react"
+import { Check, ArrowRight, Info, HelpCircle } from "lucide-react"
 import Link from "next/link"
 import { StatusBadge } from "@/components/shared/StatusBadge"
 import promisesData from "@/data/promises.json"
@@ -90,6 +90,7 @@ export function BenefitCalculator() {
       onUpdate: (value) => setDisplayValue(Math.round(value))
     })
     return () => controls.stop()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [totalBenefit])
 
   const toggleSelection = (id: string) => {

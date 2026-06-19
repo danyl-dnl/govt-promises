@@ -1,12 +1,13 @@
 import { NextRequest, NextResponse } from "next/server"
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/auth"
+import { Submission } from "@/types"
 
 const KV_REST_API_URL = process.env.KV_REST_API_URL
 const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN
 
 // Helper to fetch submissions from Vercel KV
-async function getKVSubmissions(): Promise<any[]> {
+async function getKVSubmissions(): Promise<Submission[]> {
   if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
     throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
   }
@@ -29,7 +30,7 @@ async function getKVSubmissions(): Promise<any[]> {
 }
 
 // Helper to write submissions back to Vercel KV
-async function saveKVSubmissions(submissions: any[]): Promise<void> {
+async function saveKVSubmissions(submissions: Submission[]): Promise<void> {
   if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
     throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
   }
@@ -73,7 +74,7 @@ export async function POST(req: NextRequest) {
 
     try {
       new URL(evidenceUrl)
-    } catch (_) {
+    } catch {
       return NextResponse.json(
         { error: "The provided evidence link must be a valid absolute URL." },
         { status: 400 }
@@ -93,7 +94,7 @@ export async function POST(req: NextRequest) {
     // Create unique ID using timestamp and random hex
     const submissionId = `sub_${Date.now()}_${Math.random().toString(36).substring(2, 9)}`
 
-    const newSubmission = {
+    const newSubmission: Submission = {
       id: submissionId,
       promiseId: promiseId ? promiseId.trim() : null,
       evidenceUrl: evidenceUrl.trim(),
@@ -116,10 +117,11 @@ export async function POST(req: NextRequest) {
       { success: true, submission: newSubmission },
       { status: 201 }
     )
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Submission API Error:", error)
+    const message = error instanceof Error ? error.message : String(error)
     return NextResponse.json(
-      { error: `Internal Server Error: ${error?.message || error}` },
+      { error: `Internal Server Error: ${message}` },
       { status: 500 }
     )
   }

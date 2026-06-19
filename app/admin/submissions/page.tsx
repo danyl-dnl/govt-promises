@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useMemo } from "react"
 import { useSession, signIn, signOut } from "next-auth/react"
 import Link from "next/link"
+import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import {
   ShieldCheck,
@@ -20,23 +21,8 @@ import {
   Search,
 } from "lucide-react"
 import promisesData from "@/data/promises.json"
-import { Promise as PromiseType } from "@/types"
+import { Promise as PromiseType, Submission } from "@/types"
 
-interface Submission {
-  id: string
-  promiseId: string | null
-  evidenceUrl: string
-  details: string
-  status: "pending" | "approved" | "rejected"
-  submittedBy: {
-    name: string
-    email: string
-    image: string | null
-  }
-  createdAt: string
-  lastUpdatedBy?: string
-  lastUpdatedAt?: string
-}
 
 export default function AdminSubmissionsPage() {
   const { data: session, status: authStatus } = useSession()
@@ -74,10 +60,23 @@ export default function AdminSubmissionsPage() {
   }
 
   useEffect(() => {
+    let active = true
     if (authStatus === "authenticated") {
-      fetchSubmissions()
+      const timer = setTimeout(() => {
+        if (active) fetchSubmissions()
+      }, 0)
+      return () => {
+        active = false
+        clearTimeout(timer)
+      }
     } else if (authStatus === "unauthenticated") {
-      setIsLoading(false)
+      const timer = setTimeout(() => {
+        if (active) setIsLoading(false)
+      }, 0)
+      return () => {
+        active = false
+        clearTimeout(timer)
+      }
     }
   }, [authStatus])
 
@@ -292,9 +291,9 @@ export default function AdminSubmissionsPage() {
             </button>
             <div className="h-6 w-[1px] bg-slate-200 hidden sm:block" />
             <div className="flex items-center gap-2 bg-slate-100/80 border border-slate-200 rounded-lg px-3 py-1.5 text-xs">
-              <div className="h-5 w-5 rounded-full bg-slate-200 flex items-center justify-center overflow-hidden flex-shrink-0">
+              <div className="h-5 w-5 rounded-full bg-slate-200 flex items-center justify-center overflow-hidden flex-shrink-0 relative">
                 {session?.user?.image ? (
-                  <img src={session.user.image} alt={session.user.name || ""} className="w-full h-full" />
+                  <Image src={session.user.image} alt={session.user.name || ""} className="w-full h-full object-cover" width={20} height={20} unoptimized />
                 ) : (
                   <User className="h-3 w-3 text-slate-500" />
                 )}
@@ -330,15 +329,15 @@ export default function AdminSubmissionsPage() {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
           {/* Tabs */}
           <div className="flex border-b border-slate-200/80 p-0.5 bg-slate-100 rounded-lg w-fit">
-            {[
+            {([
               { id: "all", label: "All Submissions" },
               { id: "pending", label: "Pending" },
               { id: "approved", label: "Approved" },
               { id: "rejected", label: "Rejected" },
-            ].map((tab) => (
+            ] as const).map((tab) => (
               <button
                 key={tab.id}
-                onClick={() => setFilter(tab.id as any)}
+                onClick={() => setFilter(tab.id)}
                 className={`px-4 py-1.5 text-xs font-semibold rounded-md transition-all cursor-pointer ${
                   filter === tab.id
                     ? "bg-white text-slate-900 shadow-sm"
@@ -482,9 +481,9 @@ export default function AdminSubmissionsPage() {
                         
                         {/* Contributor Profile */}
                         <div className="flex items-center gap-3 lg:text-right">
-                          <div className="h-9 w-9 rounded-full bg-slate-100 border border-slate-200/60 overflow-hidden flex items-center justify-center flex-shrink-0">
+                          <div className="h-9 w-9 rounded-full bg-slate-100 border border-slate-200/60 overflow-hidden flex items-center justify-center flex-shrink-0 relative">
                             {sub.submittedBy.image ? (
-                              <img src={sub.submittedBy.image} alt={sub.submittedBy.name} className="w-full h-full" />
+                              <Image src={sub.submittedBy.image} alt={sub.submittedBy.name} className="w-full h-full object-cover" width={36} height={36} unoptimized />
                             ) : (
                               <User className="h-4 w-4 text-slate-400" />
                             )}

@@ -35,3 +35,20 @@ export interface Sector {
   icon: string;
   color: string;
 }
+
+export interface Submission {
+  id: string;
+  promiseId: string | null;
+  evidenceUrl: string;
+  details: string;
+  status: 'pending' | 'approved' | 'rejected';
+  submittedBy: {
+    name: string;
+    email: string;
+    image: string | null;
+  };
+  createdAt: string;
+  lastUpdatedBy?: string;
+  lastUpdatedAt?: string;
+}
+

@@ -1,12 +1,13 @@
 import { NextRequest, NextResponse } from "next/server"
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/auth"
+import { Submission } from "@/types"
 
 const KV_REST_API_URL = process.env.KV_REST_API_URL
 const KV_REST_API_TOKEN = process.env.KV_REST_API_TOKEN
 
 // Helper to fetch submissions from Vercel KV
-async function getKVSubmissions(): Promise<any[]> {
+async function getKVSubmissions(): Promise<Submission[]> {
   if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
     throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
   }
@@ -29,7 +30,7 @@ async function getKVSubmissions(): Promise<any[]> {
 }
 
 // Helper to write submissions back to Vercel KV
-async function saveKVSubmissions(submissions: any[]): Promise<void> {
+async function saveKVSubmissions(submissions: Submission[]): Promise<void> {
   if (!KV_REST_API_URL || !KV_REST_API_TOKEN) {
     throw new Error("Vercel KV is not configured on the Vercel Dashboard.")
   }
@@ -73,15 +74,16 @@ export async function GET() {
 
     // Sort submissions newest first
     submissions.sort(
-      (a: any, b: any) =>
+      (a: Submission, b: Submission) =>
         new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
     )
 
     return NextResponse.json({ success: true, submissions })
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Admin Submissions GET Error:", error)
+    const message = error instanceof Error ? error.message : String(error)
     return NextResponse.json(
-      { error: `Internal Server Error: ${error?.message || error}` },
+      { error: `Internal Server Error: ${message}` },
       { status: 500 }
     )
   }
@@ -120,7 +122,7 @@ export async function PATCH(req: NextRequest) {
     const submissions = await getKVSubmissions()
 
     // Find and update target submission
-    const index = submissions.findIndex((sub: any) => sub.id === id)
+    const index = submissions.findIndex((sub: Submission) => sub.id === id)
     if (index === -1) {
       return NextResponse.json(
         { error: "Submission not found with the provided ID." },
@@ -128,8 +130,8 @@ export async function PATCH(req: NextRequest) {
       )
     }
 
-    submissions[index].status = status
-    submissions[index].lastUpdatedBy = session.user.email
+    submissions[index].status = status as "pending" | "approved" | "rejected"
+    submissions[index].lastUpdatedBy = session.user.email ?? undefined
     submissions[index].lastUpdatedAt = new Date().toISOString()
 
     // Write back to Vercel KV
@@ -139,10 +141,11 @@ export async function PATCH(req: NextRequest) {
       success: true,
       submission: submissions[index],
     })
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Admin Submissions PATCH Error:", error)
+    const message = error instanceof Error ? error.message : String(error)
     return NextResponse.json(
-      { error: `Internal Server Error: ${error?.message || error}` },
+      { error: `Internal Server Error: ${message}` },
       { status: 500 }
     )
   }

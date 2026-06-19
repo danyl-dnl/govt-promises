@@ -106,9 +106,17 @@
         "summary": "Comprehensive post-launch report: CM Satheesan rode the inaugural bus (driven by V.P. Sheela, Kerala's first PSC-recruited woman driver) from Thampanoor to the Secretariat. The CM emphasized Priyadarshini as a 'socio-economic driver' that will save women's travel money and boost their financial independence. Opposition CPM boycotted the event. KSRTC confirmed no ordinary services were converted to deny free travel."
       }
     ],
-    "lastUpdated": "2026-06-16T12:00:00.000Z",
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z",
     "updates": [
+      {
+        "title": "₹600 Crore Allocated to Support KSRTC Free Travel",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The state budget confirmed a ₹600 crore financial assistance package to compensate KSRTC for the revenue loss incurred by the women's free travel scheme."
+      },
       {
         "title": "Scheme Officially Launched: Priyadarshini",
         "url": "https://www.newindianexpress.com/states/kerala/2026/Jun/16/priyadarshini-change-will-reflect-in-every-household-cm-satheesan",
@@ -147,7 +155,7 @@
       },
       {
         "title": "Governor's assembly address formally commits to ₹1,000 monthly stipend for college-going girl students",
-        "url": "http://www.niyamasabha.org/codes/16kla/session_1/Governors%20Address_May%202026%20(English)%20A4.pdf",
+        "url": "http://www.niyamasabha.org/",
         "publication": "Kerala Legislative Assembly / Governor's Address",
         "date": "2026-05-29",
         "tier": 2,
@@ -192,8 +200,18 @@
         "summary": "The Oommen Chandy Health Insurance Scheme was formally announced as a core priority of the new UDF government in the Governor's assembly policy address, promising free annual health insurance coverage of up to ₹25 lakh per family."
       }
     ],
-    "lastUpdated": "2026-05-30T02:59:00.762Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "Oommen Chandy Health Insurance Announced in Budget",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "Chief Minister V.D. Satheesan officially introduced the Oommen Chandy Health Insurance Scheme in the 2026-27 state budget, offering up to ₹25 lakh annual cashless coverage per family, with an initial allocation of ₹10 crore."
+      }
+    ]
   },
   {
     "id": "p4",
@@ -239,7 +257,7 @@
       },
       {
         "title": "Kerala budget 2026: Welfare pension hike to ₹3,000 expected as key allocation",
-        "url": "http://www.niyamasabha.org/codes/16kla/session_1/Governors%20Address_May%202026%20(English)%20A4.pdf",
+        "url": "http://www.niyamasabha.org/",
         "publication": "Kerala Kaumudi / New Indian Express",
         "date": "2026-05-31",
         "tier": 3,
@@ -259,9 +277,9 @@
     "updates": [
       {
         "title": "White Paper on Fiscal Health Tabled",
-        "url": "https://www.thehindu.com/news/national/kerala",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-faces-burden-of-507-lakh-crore-liabilities-fiscal-structure-under-serious-strain-says-white-paper-tabled-by-cm/article71059665.ece",
         "publication": "Kerala Legislative Assembly",
-        "date": "2026-06-12",
+        "date": "2026-06-04",
         "tier": 1,
         "summary": "The government tabled the 'White Paper on Fiscal Health' in the Assembly, recommending comprehensive restructuring of loss-making public sector enterprises and moving towards consumption-based subsidies."
       }
@@ -295,7 +313,7 @@
       },
       {
         "title": "Governor's policy address outlines interest-free loans for young entrepreneurs",
-        "url": "http://www.niyamasabha.org/codes/16kla/session_1/Governors%20Address_May%202026%20(English)%20A4.pdf",
+        "url": "http://www.niyamasabha.org/",
         "publication": "Kerala Legislative Assembly / Governor's Address",
         "date": "2026-05-29",
         "tier": 2,
@@ -356,8 +374,18 @@
         "summary": "The General Administration Department of the Government of Kerala officially issued G.O.(Ms) No. 63/2026/GAD constituting the dedicated Department of Senior Citizens Welfare, making Kerala the first state in India to establish a separate department specifically for senior citizens' welfare."
       }
     ],
-    "lastUpdated": "2026-06-09T11:23:40.000Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "₹10 Crore Allocated for Senior Citizens Welfare Project",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "An initial allocation of ₹10 crore was granted to the new Senior Citizens Department for a forthcoming comprehensive welfare project."
+      }
+    ]
   },
   {
     "id": "p7",
@@ -656,7 +684,7 @@
       "icon": "users",
       "color": "#8B5CF6"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "users",
     "sources": [
       {
@@ -668,8 +696,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "Gen-Z Startups & Malayalam AI Initiative Funded",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The state budget earmarked a ₹50 crore initiative to empower Generation-Z in sectors like AI and robotics, fulfilling the Yuva Shakti Naadin Sampath promise, alongside a ₹10 crore allocation for a 'Malayalam AI Initiative'."
+      }
+    ]
   },
   {
     "id": "p16",
@@ -1180,8 +1218,18 @@
         "summary": "In the customary policy address on May 29, 2026, the Governor committed the UDF government to comprehensive agricultural reforms and strengthening crop support prices. This aligns with the UDF's election commitment for a phased price hike to reach ₹300 per kg for natural rubber (currently ₹200) to address agrarian distress."
       }
     ],
-    "lastUpdated": "2026-06-01T14:00:00.000Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Rubber MSP Raised to ₹250 in Budget",
+        "url": "https://www.newindianexpress.com/states/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The government raised the Minimum Support Price (MSP) for rubber to ₹250 in the 2026-27 state budget, taking a significant first step toward the promised ₹300 mark."
+      }
+    ]
   },
   {
     "id": "p32",
@@ -1454,8 +1502,18 @@
         "summary": "Forest Minister Shibu Baby John officially launched the 100-day action plan, which includes setting up 100 km of new solar fencing with automatic monitoring and sensor-based fault detection, forming 25 satellite Rapid Response Teams (RRTs) and urban Metro Rescue Teams, conducting Carrying Capacity and tiger studies, and establishing a unified victim compensation portal."
       }
     ],
-    "lastUpdated": "2026-06-05T23:20:00.000Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "₹192 Crore Allocated for Human-Wildlife Conflict",
+        "url": "https://www.onmanorama.com/news/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The state budget earmarked ₹192 crore specifically to address and mitigate human-wildlife conflicts, accelerating progress on safety technology implementation."
+      }
+    ]
   },
   {
     "id": "p40",
@@ -1500,8 +1558,18 @@
         "summary": "As part of the June 5, 2026 human-wildlife conflict action plan, the Forest Department announced a coordinated portal to streamline and expedite victim compensation payouts, alongside direct talks with insurance companies to roll out a dedicated life and property insurance scheme for hill-region and forest-fringe residents."
       }
     ],
-    "lastUpdated": "2026-06-05T23:20:00.000Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "₹192 Crore Earmarked for Wildlife Conflicts in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The state budget earmarked ₹192 crore to address human-wildlife conflicts, initiating progress towards improved mitigation measures and compensations."
+      }
+    ]
   },
   {
     "id": "p41",
@@ -1622,8 +1690,18 @@
         "summary": "On World Ocean Day, Chief Minister V.D. Satheesan outlined plans under the 'New-Age Kerala' (Puthuyuga Keralam) vision to leverage the state's 600-km coastline and ports to drive the blue economy. Plans include shifting 50% of cargo traffic from road to sea routes, expanding cruise shipping, and launching waterway-linked tourism, which aligns with the UDF's 'Mission Samudra' manifesto promise to integrate the maritime economy."
       }
     ],
-    "lastUpdated": "2026-06-08T00:00:00.000Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Mission Samudra Launched in 2026-27 Budget",
+        "url": "https://www.onmanorama.com/news/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The state budget officially launched Mission Samudra, a strategic initiative aimed at building a port-led economy to elevate Kerala as a global maritime and economic hub."
+      }
+    ]
   },
   {
     "id": "p44",
@@ -2164,7 +2242,7 @@
       "icon": "briefcase",
       "color": "#6D28D9"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "briefcase",
     "sources": [
       {
@@ -2176,8 +2254,18 @@
         "summary": "UDF manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Major Push for 10,000 MSMEs in Budget",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The state budget outlined a major push to establish 10,000 MSMEs as part of the broader 'Puthuyuga Kerala' (New Kerala) strategy for sustainable infrastructure and inclusive growth."
+      }
+    ]
   },
   {
     "id": "p59",
@@ -2237,8 +2325,18 @@
         "summary": "The expert committee chaired by former Cabinet Secretary Dr. K.M. Chandrasekhar officially presented the Financial White Paper, revealing a severe fiscal crisis with ₹5.07 lakh crore in outstanding liabilities and ₹48,733 crore in arrears. The report recommends structural audits of KIIFB and restructuring of non-strategic public sector enterprises."
       }
     ],
-    "lastUpdated": "2026-06-06T10:18:00.000Z",
-    "createdAt": "2026-05-20T07:09:21.704Z"
+    "lastUpdated": "2026-06-18T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:09:21.704Z",
+    "updates": [
+      {
+        "title": "White Paper Tabled & Revised Budget Announced",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "Kerala Legislative Assembly / Media",
+        "date": "2026-06-18",
+        "tier": 1,
+        "summary": "Chief Minister V.D. Satheesan announced the presentation of the revised state budget for June 19, following the official tabling of the Financial White Paper which detailed the state's severe fiscal stress and called for restructuring public sector enterprises."
+      }
+    ]
   },
   {
     "id": "p60",
@@ -2453,8 +2551,18 @@
         "summary": "As part of the government's 100-day action plan, Welfare Minister K.A. Thulasi announced a targeted program to revitalize the Government Medical College, Palakkad. The initiative establishes a high-level monitoring committee (convened by the Ottappalam Subcollector and meeting every 10 days) to fast-track construction of main blocks, operation theatres, labs, and hostels, and expedite staffing to meet National Medical Commission (NMC) norms."
       }
     ],
-    "lastUpdated": "2026-06-08T00:00:00.000Z",
-    "createdAt": "2026-05-22T06:50:00.000Z"
+    "lastUpdated": "2026-06-18T12:00:00.000Z",
+    "createdAt": "2026-05-22T06:50:00.000Z",
+    "updates": [
+      {
+        "title": "Cabinet Sub-Committee Formed for PM SHRI Scheme",
+        "url": "https://www.newindianexpress.com/states/kerala",
+        "publication": "Cabinet Decisions",
+        "date": "2026-06-18",
+        "tier": 2,
+        "summary": "The state cabinet formed a ministerial sub-committee to oversee the implementation of the central PM SHRI school scheme. The Chief Minister stated the state was compelled to continue the scheme due to agreements signed by the previous administration."
+      }
+    ]
   },
   {
     "id": "p64",
@@ -2539,7 +2647,7 @@
       "icon": "graduation-cap",
       "color": "#0EA5E9"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "graduation-cap",
     "sources": [
       {
@@ -2559,8 +2667,18 @@
         "summary": "The Kerala High Court directed the new UDF government to finalize the draft of the Kerala Prohibition of Ragging (Amendment) Bill, 2025. The government had requested more time, citing the recent cabinet transition, but the court urged swift action."
       }
     ],
-    "lastUpdated": "2026-06-10T12:00:00.000Z",
-    "createdAt": "2026-05-24T13:06:36.935Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-24T13:06:36.935Z",
+    "updates": [
+      {
+        "title": "Academic Council & Ombudsman Proposed in Budget",
+        "url": "https://www.thesouthfirst.com/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 state budget proposed the formation of an Academic Council to reduce political influence in higher education and the introduction of a new college ombudsman mechanism for student grievances, aligning with anti-ragging goals."
+      }
+    ]
   },
   {
     "id": "p67",
@@ -2697,5 +2815,253 @@
     ],
     "lastUpdated": "2026-06-01T14:00:00.000Z",
     "createdAt": "2026-05-24T13:06:36.935Z"
+  },
+  {
+    "id": "p71",
+    "slug": "one-kerala-karuthal-mission-71",
+    "title": "One Kerala Karuthal Mission",
+    "titleMl": "വൺ കേരള കരുതൽ മിഷൻ",
+    "description": "A social support scheme funded through CSR and public contributions to help individuals facing extreme poverty or critical medical/educational needs.",
+    "trackingNote": "Track fund generation and scheme beneficiaries.",
+    "manifestoQuote": "Announced in the 2026-27 State Budget.",
+    "sector": {
+      "id": "s4",
+      "name": "Welfare",
+      "nameMl": "ക്ഷേമം",
+      "icon": "shield-check",
+      "color": "#F59E0B"
+    },
+    "status": "in-progress",
+    "icon": "shield-check",
+    "sources": [
+      {
+        "title": "State Budget Announcement 2026-27",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "Introduced as a flagship social support scheme in the budget."
+      }
+    ],
+    "updates": [],
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-06-19T12:00:00.000Z"
+  },
+  {
+    "id": "p72",
+    "slug": "restructuring-of-kiifb-72",
+    "title": "Restructuring of KIIFB",
+    "titleMl": "കിഫ്ബി പുനർഘടന",
+    "description": "Formation of an expert committee to overhaul the Kerala Infrastructure Investment Fund Board (KIIFB) to mitigate state debt and off-budget borrowing concerns.",
+    "trackingNote": "Track committee report and implementation.",
+    "manifestoQuote": "Announced in the 2026-27 State Budget.",
+    "sector": {
+      "id": "s32",
+      "name": "Governance",
+      "nameMl": "ഭരണം",
+      "icon": "landmark",
+      "color": "#374151"
+    },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "State Budget Announcement 2026-27",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "Expert committee formation announced in the budget."
+      }
+    ],
+    "updates": [],
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-06-19T12:00:00.000Z"
+  },
+  {
+    "id": "p73",
+    "slug": "knowledge-valley-project-73",
+    "title": "Knowledge Valley Project",
+    "titleMl": "നോളജ് വാലി പദ്ധതി",
+    "description": "A plan to make Kerala a global higher education destination by enabling collaborations with foreign universities, with an initial allocation of ₹100 crore.",
+    "trackingNote": "Track university partnerships and Private University Bill amendment.",
+    "manifestoQuote": "Announced in the 2026-27 State Budget.",
+    "sector": {
+      "id": "s12",
+      "name": "Education",
+      "nameMl": "വിദ്യാഭ്യാസം",
+      "icon": "graduation-cap",
+      "color": "#0EA5E9"
+    },
+    "status": "in-progress",
+    "icon": "graduation-cap",
+    "sources": [
+      {
+        "title": "State Budget Announcement 2026-27",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "₹100 crore allocated in the budget for the Knowledge Valley project."
+      }
+    ],
+    "updates": [],
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-06-19T12:00:00.000Z"
+  },
+  {
+    "id": "p74",
+    "slug": "invest-kerala-cell-74",
+    "title": "Invest Kerala Cell",
+    "titleMl": "ഇൻവെസ്റ്റ് കേരള സെൽ",
+    "description": "Setting up a single-window clearance cell with ₹100 crore to drive industrial growth and support MSMEs.",
+    "trackingNote": "Track cell formation and investments cleared.",
+    "manifestoQuote": "Announced in the 2026-27 State Budget.",
+    "sector": {
+      "id": "s34",
+      "name": "Industry & Employment",
+      "nameMl": "വ്യവസായവും തൊഴിലും",
+      "icon": "briefcase",
+      "color": "#6D28D9"
+    },
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "State Budget Announcement 2026-27",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "₹100 crore allocated for the Invest Kerala Cell."
+      }
+    ],
+    "updates": [],
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-06-19T12:00:00.000Z"
+  },
+  {
+    "id": "p75",
+    "slug": "international-maritime-museum-75",
+    "title": "International Maritime Museum",
+    "titleMl": "അന്താരാഷ്ട്ര മാരിടൈം മ്യൂസിയം",
+    "description": "A major new cultural infrastructure project budgeted at an estimated ₹750 crore.",
+    "trackingNote": "Track project planning and execution.",
+    "manifestoQuote": "Announced in the 2026-27 State Budget.",
+    "sector": {
+      "id": "s24",
+      "name": "Maritime Economy",
+      "nameMl": "സമുദ്ര സമ്പദ്‌വ്യവസ്ഥ",
+      "icon": "building",
+      "color": "#0F766E"
+    },
+    "status": "in-progress",
+    "icon": "building",
+    "sources": [
+      {
+        "title": "State Budget Announcement 2026-27",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "₹750 crore maritime museum project announced."
+      }
+    ],
+    "updates": [],
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-06-19T12:00:00.000Z"
+  },
+  {
+    "id": "p76",
+    "slug": "jc-daniel-international-film-city-76",
+    "title": "JC Daniel International Film City, Kochi",
+    "titleMl": "ജെ.സി ഡാനിയേൽ ഇന്റർനാഷണൽ ഫിലിം സിറ്റി",
+    "description": "New film and cultural infrastructure allocated ₹100 crore.",
+    "trackingNote": "Track land acquisition and construction.",
+    "manifestoQuote": "Announced in the 2026-27 State Budget.",
+    "sector": {
+      "id": "s32",
+      "name": "Governance",
+      "nameMl": "ഭരണം",
+      "icon": "landmark",
+      "color": "#374151"
+    },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "State Budget Announcement 2026-27",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "₹100 crore allocated for the Film City."
+      }
+    ],
+    "updates": [],
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-06-19T12:00:00.000Z"
+  },
+  {
+    "id": "p77",
+    "slug": "mt-vasudevan-nair-cultural-park-77",
+    "title": "MT Vasudevan Nair Cultural Park, Kozhikode",
+    "titleMl": "എം.ടി വാസുദേവൻ നായർ കൾച്ചറൽ പാർക്ക്",
+    "description": "Establishment of a dedicated cultural park allocated ₹50 crore.",
+    "trackingNote": "Track park development.",
+    "manifestoQuote": "Announced in the 2026-27 State Budget.",
+    "sector": {
+      "id": "s32",
+      "name": "Governance",
+      "nameMl": "ഭരണം",
+      "icon": "landmark",
+      "color": "#374151"
+    },
+    "status": "in-progress",
+    "icon": "landmark",
+    "sources": [
+      {
+        "title": "State Budget Announcement 2026-27",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "₹50 crore allocated for the Cultural Park."
+      }
+    ],
+    "updates": [],
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-06-19T12:00:00.000Z"
+  },
+  {
+    "id": "p78",
+    "slug": "southern-kerala-economic-corridor-78",
+    "title": "Southern Kerala Economic Corridor",
+    "titleMl": "സതേൺ കേരള ഇക്കണോമിക് കോറിഡോർ",
+    "description": "Major infrastructure and renewable energy push featuring Green Hydrogen projects.",
+    "trackingNote": "Track project milestones.",
+    "manifestoQuote": "Announced in the 2026-27 State Budget.",
+    "sector": {
+      "id": "s34",
+      "name": "Industry & Employment",
+      "nameMl": "വ്യവസായവും തൊഴിലും",
+      "icon": "briefcase",
+      "color": "#6D28D9"
+    },
+    "status": "in-progress",
+    "icon": "briefcase",
+    "sources": [
+      {
+        "title": "State Budget Announcement 2026-27",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "Economic corridor and Green Hydrogen initiative proposed."
+      }
+    ],
+    "updates": [],
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-06-19T12:00:00.000Z"
   }
 ]

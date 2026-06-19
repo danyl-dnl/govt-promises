@@ -1,7 +1,7 @@
 import React from "react"
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { ArrowLeft, Calendar, FileText, CheckCircle, ShieldCheck, Printer, Bookmark } from "lucide-react"
+import { ArrowLeft, Calendar, FileText, CheckCircle, ShieldCheck, Bookmark } from "lucide-react"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType } from "@/types"
 import { PrintButton } from "@/components/shared/PrintButton"
@@ -19,7 +19,7 @@ export default async function ArchivePage({ params }: ArchivePageProps) {
     notFound()
   }
 
-  const [_, promiseId, sourceIndexStr] = match
+  const [, promiseId, sourceIndexStr] = match
   const sourceIndex = parseInt(sourceIndexStr, 10) - 1 // convert 1-indexed to 0-indexed
 
   const promise = (promisesData as PromiseType[]).find((p) => p.id === promiseId)
