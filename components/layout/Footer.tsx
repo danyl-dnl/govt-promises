@@ -10,7 +10,7 @@ export function Footer() {
       <div className="h-1 w-full bg-gradient-to-r from-green-600 via-udf-blue to-green-600" />
       
       <div className="container mx-auto px-4 md:px-8 py-14">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 mb-12">
           
           {/* Brand Column */}
           <div className="md:col-span-2">
@@ -28,7 +28,7 @@ export function Footer() {
           {/* Links Column 1 */}
           <div>
             <h4 className="text-white font-bold tracking-wider uppercase text-xs mb-4">Pages</h4>
-            <div className="flex flex-col gap-3 text-sm font-medium">
+            <div className="flex flex-col gap-4 md:gap-3 text-sm font-medium">
               <Link href="/promises" className="hover:text-white hover:translate-x-1 transition-all">All Promises</Link>
               <Link href="/sectors" className="hover:text-white hover:translate-x-1 transition-all">Sectors</Link>
               <Link href="/updates" className="hover:text-white hover:translate-x-1 transition-all">Live Updates</Link>
@@ -39,7 +39,7 @@ export function Footer() {
           {/* Links Column 2 */}
           <div>
             <h4 className="text-white font-bold tracking-wider uppercase text-xs mb-4">Project</h4>
-            <div className="flex flex-col gap-3 text-sm font-medium">
+            <div className="flex flex-col gap-4 md:gap-3 text-sm font-medium">
               <Link href="/about" className="hover:text-white hover:translate-x-1 transition-all">About Us</Link>
               <Link href="/about#methodology" className="hover:text-white hover:translate-x-1 transition-all">Methodology</Link>
               <Link href="/submit" className="hover:text-white hover:translate-x-1 transition-all">Submit Evidence</Link>

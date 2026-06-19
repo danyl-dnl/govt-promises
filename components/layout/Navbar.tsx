@@ -33,6 +33,18 @@ export function Navbar() {
     return () => document.removeEventListener("click", closeDropdown)
   }, [dropdownOpen])
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = ""
+    }
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [isOpen])
+
 
   return (
     <header
@@ -89,7 +101,7 @@ export function Navbar() {
                   e.stopPropagation()
                   setDropdownOpen(!dropdownOpen)
                 }}
-                className="flex items-center gap-2 sm:bg-slate-100 rounded-full sm:pr-3 sm:pl-1 sm:py-1 sm:border sm:border-slate-200 hover:bg-slate-200/60 transition-colors cursor-pointer select-none outline-none"
+                className="flex items-center gap-2 p-1.5 sm:p-0 sm:bg-slate-100 rounded-full sm:pr-3 sm:pl-1 sm:py-1 sm:border sm:border-slate-200 hover:bg-slate-200/60 transition-colors cursor-pointer select-none outline-none"
               >
                 {session.user?.image ? (
                   <Image
@@ -172,7 +184,7 @@ export function Navbar() {
           {/* Mobile menu toggle button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 -mr-1.5 text-slate-600 hover:text-slate-900 focus:outline-none"
+            className="md:hidden p-3 -mr-2.5 text-slate-600 hover:text-slate-900 focus:outline-none cursor-pointer"
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -188,41 +200,41 @@ export function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.2, ease: "easeInOut" }}
-            className="md:hidden bg-white border-b border-border shadow-lg overflow-hidden w-full absolute top-16 left-0 z-40"
+            className="md:hidden bg-white border-b border-border shadow-lg overflow-y-auto max-h-[calc(100vh-4rem)] w-full absolute top-16 left-0 z-40"
           >
             <div className="px-6 py-6 flex flex-col gap-4 text-base font-semibold text-slate-700">
               <Link 
                 href="/promises" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-udf-blue py-3 border-b border-slate-100 transition-colors"
               >
                 Promises
               </Link>
               <Link 
                 href="/sectors" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-udf-blue py-3 border-b border-slate-100 transition-colors"
               >
                 Sectors
               </Link>
               <Link 
                 href="/updates" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-udf-blue py-3 border-b border-slate-100 transition-colors"
               >
                 Updates
               </Link>
               <Link 
                 href="/impact" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-udf-blue py-3 border-b border-slate-100 transition-colors"
               >
                 Impact
               </Link>
               <Link 
                 href="/about" 
                 onClick={() => setIsOpen(false)}
-                className="hover:text-udf-blue py-2 border-b border-slate-100 transition-colors"
+                className="hover:text-udf-blue py-3 border-b border-slate-100 transition-colors"
               >
                 About
               </Link>
@@ -231,7 +243,7 @@ export function Navbar() {
                 <Link 
                   href="/admin/submissions" 
                   onClick={() => setIsOpen(false)}
-                  className="text-amber-600 hover:text-amber-700 py-2 border-b border-slate-100 transition-colors flex items-center gap-1.5"
+                  className="text-amber-600 hover:text-amber-700 py-3 border-b border-slate-100 transition-colors flex items-center gap-1.5"
                 >
                   <ShieldCheck className="h-4 w-4" />
                   Admin Panel

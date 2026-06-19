@@ -151,14 +151,14 @@ function PromisesPageContent() {
               placeholder="Search promises..." 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-9 pr-4 py-2.5 bg-white border border-slate-200 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-udf-blue transition-all"
+              className="w-full pl-9 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-udf-blue transition-all"
             />
           </div>
 
           <div className="flex items-center gap-3">
             <button
               onClick={() => setIsMobileDrawerOpen(true)}
-              className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-white border border-slate-200 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors shadow-xs"
+              className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-white border border-slate-200 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors shadow-xs cursor-pointer select-none"
             >
               <SlidersHorizontal className="h-4 w-4 text-slate-500" />
               <span>Filter & Sort</span>
@@ -172,7 +172,7 @@ function PromisesPageContent() {
           
           {/* Active Filters Display */}
           {activeFilterCount > 0 && (
-            <div className="flex flex-wrap items-center gap-2 pt-1">
+            <div className="flex flex-wrap items-center gap-2 pt-1 pb-1">
               <span className="text-xs text-slate-500 font-medium">Active:</span>
               {statusFilter !== "all" && (
                 <span className="px-2.5 py-1 bg-udf-blue/10 text-udf-blue text-xs font-semibold rounded-lg flex items-center gap-1">
@@ -193,7 +193,7 @@ function PromisesPageContent() {
               })}
               <button 
                 onClick={() => { setStatusFilter("all"); setSelectedSectors([]) }}
-                className="text-xs text-slate-500 hover:text-slate-800 underline ml-auto transition-colors"
+                className="text-xs text-slate-500 hover:text-slate-800 underline transition-colors px-2 py-1 cursor-pointer"
               >
                 Clear all
               </button>

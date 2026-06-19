@@ -74,7 +74,7 @@ export function SpotlightRow() {
             return (
               <motion.div
                 key={promise.id}
-                className="snap-start shrink-0 w-[280px] md:w-[320px]"
+                className="snap-start shrink-0 w-[82vw] max-w-[320px] sm:w-[320px]"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
@@ -135,15 +135,23 @@ export function SpotlightRow() {
             )
           })}
 
-          <div className="snap-start shrink-0 w-[280px] md:w-[320px] flex items-center justify-center p-6">
+          <div className="snap-start shrink-0 w-[82vw] max-w-[320px] sm:w-[320px] flex items-center justify-center p-6">
             <Link href="/promises" className="flex flex-col items-center justify-center gap-3 text-muted-foreground hover:text-udf-blue transition-colors group cursor-pointer">
               <div className="w-16 h-16 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center group-hover:border-udf-blue group-hover:bg-udf-blue-bg transition-colors">
                 <ArrowRight className="h-6 w-6" />
               </div>
-              <span className="font-medium">See all {promisesData.length} promises</span>
+              <span className="font-medium text-sm">See all {promisesData.length} promises</span>
             </Link>
           </div>
         </div>
+      </div>
+
+      {/* Mobile-only View All Button */}
+      <div className="md:hidden px-4 mt-4">
+        <Link href="/promises" className="inline-flex items-center justify-center w-full py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold rounded-xl text-sm transition-all border border-slate-200/60 shadow-xs cursor-pointer select-none">
+          View All Promises
+          <ArrowRight className="ml-2 h-4 w-4 text-slate-500" />
+        </Link>
       </div>
     </section>
   )

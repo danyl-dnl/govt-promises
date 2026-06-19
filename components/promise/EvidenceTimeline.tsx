@@ -59,7 +59,7 @@ export function EvidenceTimeline({ sources, promiseId }: EvidenceTimelineProps) 
             <div className={`absolute w-4 h-4 rounded-full -left-[1px] top-1 border-4 border-white ${nodeColor} shadow-sm z-10`} />
             
             <div className="flex flex-col gap-3">
-              <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
+              <div className="flex flex-row items-center gap-2 flex-wrap">
                 <span className="inline-flex items-center justify-center px-2 py-0.5 rounded bg-slate-800 text-white text-[9px] font-bold tracking-wider uppercase font-mono shadow-sm">
                   {new Date(source.date).toLocaleDateString("en-IN", { 
                     year: 'numeric', month: 'short', day: 'numeric' 
@@ -68,23 +68,23 @@ export function EvidenceTimeline({ sources, promiseId }: EvidenceTimelineProps) 
                 <TierBadge tier={source.tier} />
               </div>
               
-              <div className={`bg-white p-5 rounded-xl border border-slate-100 shadow-sm transition-all duration-300 border-l-4 ${cardBorderColor} hover:shadow-md`}>
+              <div className={`bg-white p-4 md:p-5 rounded-xl border border-slate-100 shadow-sm transition-all duration-300 border-l-4 ${cardBorderColor} hover:shadow-md`}>
                 <div className="flex justify-between items-start gap-4 mb-3">
-                  <h3 className="font-bold text-lg text-slate-900">{source.title}</h3>
+                  <h3 className="font-bold text-lg text-slate-900 leading-snug">{source.title}</h3>
                   {((source.url && source.url !== "#") || archiveUrl) && (
                     <a 
-                      href={source.url !== "#" ? source.url : archiveUrl} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="shrink-0 p-2 rounded-full hover:bg-slate-100 text-slate-400 hover:text-udf-blue transition-colors"
-                      aria-label="View source report"
+                       href={source.url !== "#" ? source.url : archiveUrl} 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       className="shrink-0 p-3 md:p-2 rounded-full hover:bg-slate-100 text-slate-400 hover:text-udf-blue transition-colors cursor-pointer"
+                       aria-label="View source report"
                     >
                       <ExternalLink className="h-4 w-4" />
                     </a>
                   )}
                 </div>
                 
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                <p className="text-muted-foreground text-xs md:text-sm leading-relaxed mb-4">
                   {source.summary}
                 </p>
                 
@@ -98,23 +98,20 @@ export function EvidenceTimeline({ sources, promiseId }: EvidenceTimelineProps) 
                         href={source.url} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-udf-blue hover:text-udf-blue-dark transition-colors group"
+                        className="inline-flex items-center gap-1.5 text-[10px] md:text-xs font-bold uppercase tracking-wider text-udf-blue hover:text-udf-blue-dark transition-colors group bg-slate-50 hover:bg-slate-100/80 px-3.5 py-3 md:px-2.5 md:py-1.5 rounded-lg border border-slate-100 cursor-pointer select-none"
                       >
-                        View Original Report
+                        View Original
                         <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                       </a>
                     )}
                     {archiveUrl && (
-                      <>
-                        {source.url && source.url !== "#" && <span className="text-slate-300 text-xs">•</span>}
-                        <a 
-                          href={archiveUrl}
-                          className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-slate-500 hover:text-slate-700 transition-colors group"
-                        >
-                          Archived Copy
-                          <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                        </a>
-                      </>
+                      <a 
+                        href={archiveUrl}
+                        className="inline-flex items-center gap-1.5 text-[10px] md:text-xs font-bold uppercase tracking-wider text-slate-500 hover:text-slate-700 transition-colors group bg-slate-50 hover:bg-slate-100/80 px-3.5 py-3 md:px-2.5 md:py-1.5 rounded-lg border border-slate-100 cursor-pointer select-none"
+                      >
+                        Archived Copy
+                        <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                      </a>
                     )}
                   </div>
                 </div>

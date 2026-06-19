@@ -112,7 +112,7 @@ export function GovTimeline() {
           <p className="text-muted-foreground mt-2">Key milestones and policy implementations since day one.</p>
         </div>
 
-        <div className="relative ml-4 md:ml-[120px]">
+        <div className="relative ml-2 md:ml-[120px]">
           {/* Timeline background base line */}
           <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-slate-200 origin-top" />
           
@@ -139,7 +139,7 @@ export function GovTimeline() {
             return (
               <motion.div 
                 key={index}
-                className="mb-10 relative pl-8 md:pl-12"
+                className="mb-10 relative pl-6 md:pl-12"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
@@ -150,21 +150,27 @@ export function GovTimeline() {
                 
                 <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-0">
                   {/* Date label - styled as a bold press-dateline badge */}
-                  <div className="md:absolute md:-left-[140px] md:top-1 md:w-[100px] md:text-right">
+                  <div className="hidden md:block md:absolute md:-left-[140px] md:top-1 md:w-[100px] md:text-right">
                     <span className="inline-flex items-center justify-center px-2 py-0.5 rounded bg-slate-800 text-white text-[9px] font-bold tracking-wider uppercase font-mono shadow-sm">
                       {event.date}
                     </span>
                   </div>
                   
-                  <div className={`bg-white p-5 rounded-xl border border-slate-100 shadow-sm flex-1 ml-0 hover:shadow-md transition-all duration-300 border-l-4 ${
+                  <div className={`bg-white p-4 md:p-5 rounded-xl border border-slate-100 shadow-sm flex-1 ml-0 hover:shadow-md transition-all duration-300 border-l-4 ${
                     isFulfilled 
                       ? "border-l-kerala-green" 
                       : isInProgress 
                         ? "border-l-udf-blue" 
                         : "border-l-slate-200"
                   }`}>
-                    <h3 className="font-bold text-lg text-slate-900 mb-1">{event.title}</h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">{event.description}</p>
+                    {/* Mobile-only Date Badge inside the card */}
+                    <div className="md:hidden mb-2.5">
+                      <span className="inline-flex items-center justify-center px-2 py-0.5 rounded bg-slate-800 text-white text-[9px] font-bold tracking-wider uppercase font-mono shadow-sm">
+                        {event.date}
+                      </span>
+                    </div>
+                    <h3 className="font-bold text-base md:text-lg text-slate-900 mb-1 leading-snug">{event.title}</h3>
+                    <p className="text-muted-foreground text-xs md:text-sm leading-relaxed">{event.description}</p>
                   </div>
                 </div>
               </motion.div>
