@@ -4,6 +4,7 @@ import React from "react"
 import { ExternalLink } from "lucide-react"
 import { TierBadge } from "@/components/promise/TierBadge"
 import { Source } from "@/types"
+import { motion } from "framer-motion"
 
 interface EvidenceTimelineProps {
   sources: Source[]
@@ -24,19 +25,42 @@ export function EvidenceTimeline({ sources, promiseId }: EvidenceTimelineProps) 
   )
 
   return (
-    <div className="relative border-l-2 border-slate-200 ml-4 md:ml-8">
+    <div className="relative ml-4 md:ml-8">
+      {/* Timeline Background Line */}
+      <div className="absolute left-[7px] top-0 bottom-0 w-0.5 bg-slate-200" />
+      {/* Animated Timeline Line */}
+      <motion.div
+        className="absolute left-[7px] top-0 bottom-0 w-0.5 bg-gradient-to-b from-udf-blue via-blue-400 to-kerala-green origin-top"
+        initial={{ scaleY: 0 }}
+        whileInView={{ scaleY: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1.5, ease: "easeInOut" }}
+      />
+
       {sortedSources.map((source, index) => {
         // Fallback to our custom local Mock Press/Gazette Reader archive URL
         const archiveUrl = source.archiveUrl || `/archive/${promiseId}-${index + 1}`
 
+        const nodeColor = source.tier === 1 
+          ? "bg-kerala-green" 
+          : source.tier === 2 
+            ? "bg-udf-blue" 
+            : "bg-slate-400"
+
+        const cardBorderColor = source.tier === 1 
+          ? "border-l-kerala-green" 
+          : source.tier === 2 
+            ? "border-l-udf-blue" 
+            : "border-l-slate-300"
+
         return (
           <div key={index} className="mb-10 relative pl-8">
             {/* Node */}
-            <div className="absolute w-4 h-4 rounded-full -left-[9px] top-1 border-4 border-white bg-slate-300 shadow-sm" />
+            <div className={`absolute w-4 h-4 rounded-full -left-[1px] top-1 border-4 border-white ${nodeColor} shadow-sm z-10`} />
             
             <div className="flex flex-col gap-3">
               <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-                <span className="text-sm font-bold text-slate-500 uppercase tracking-wider">
+                <span className="inline-flex items-center justify-center px-2 py-0.5 rounded bg-slate-800 text-white text-[9px] font-bold tracking-wider uppercase font-mono shadow-sm">
                   {new Date(source.date).toLocaleDateString("en-IN", { 
                     year: 'numeric', month: 'short', day: 'numeric' 
                   })}
@@ -44,7 +68,7 @@ export function EvidenceTimeline({ sources, promiseId }: EvidenceTimelineProps) 
                 <TierBadge tier={source.tier} />
               </div>
               
-              <div className="bg-white p-5 rounded-xl border border-border shadow-sm transition-colors duration-300">
+              <div className={`bg-white p-5 rounded-xl border border-slate-100 shadow-sm transition-all duration-300 border-l-4 ${cardBorderColor} hover:shadow-md`}>
                 <div className="flex justify-between items-start gap-4 mb-3">
                   <h3 className="font-bold text-lg text-slate-900">{source.title}</h3>
                   {((source.url && source.url !== "#") || archiveUrl) && (

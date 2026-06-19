@@ -236,7 +236,7 @@ function PromisesPageContent() {
                 ))}
               </motion.div>
             ) : (
-              <EmptyState />
+              <EmptyState onClearFilters={() => { setSearchQuery(""); setStatusFilter("all"); setSelectedSectors([]) }} />
             )}
           </div>
         </div>

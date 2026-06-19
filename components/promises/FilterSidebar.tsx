@@ -3,7 +3,9 @@
 import React from "react"
 import { Input } from "@/components/ui/input"
 import { Search, X } from "lucide-react"
-import { Status } from "@/types"
+import { Status, Promise as PromiseType } from "@/types"
+import { motion } from "framer-motion"
+import promisesData from "@/data/promises.json"
 
 interface FilterSidebarProps {
   searchQuery: string
@@ -28,6 +30,15 @@ export function FilterSidebar({
   sortOption,
   setSortOption
 }: FilterSidebarProps) {
+  const statusCounts = React.useMemo(() => {
+    const counts = { all: promisesData.length, fulfilled: 0, "in-progress": 0, evaded: 0, pending: 0 }
+    ;(promisesData as PromiseType[]).forEach((p) => {
+      if (p.status in counts) {
+        counts[p.status as keyof typeof counts]++
+      }
+    })
+    return counts
+  }, [])
   
   const toggleSector = (sectorId: string) => {
     setSelectedSectors(prev => 
@@ -117,16 +128,32 @@ export function FilterSidebar({
       {/* Status Filter */}
       <div>
         <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-3">Status</h3>
-        <div className="flex flex-wrap gap-2">
-          {["all", "fulfilled", "in-progress", "evaded", "pending"].map((status) => (
-            <button
-              key={status}
-              onClick={() => setStatusFilter(status as Status | "all")}
-              className={`px-3 py-1.5 rounded-full text-xs font-semibold capitalize transition-colors cursor-pointer ${ statusFilter === status ? "bg-slate-800 text-white " : "bg-slate-100 text-slate-600 hover:bg-slate-200 " }`}
-            >
-              {status.replace("-", " ")}
-            </button>
-          ))}
+        <div className="flex flex-col gap-1 w-full bg-slate-100/50 p-1 rounded-2xl border border-slate-200/40">
+          {["all", "fulfilled", "in-progress", "evaded", "pending"].map((status) => {
+            const isActive = statusFilter === status
+            const count = statusCounts[status as keyof typeof statusCounts]
+            return (
+              <button
+                key={status}
+                onClick={() => setStatusFilter(status as Status | "all")}
+                className="relative flex items-center justify-between w-full px-3 py-2 rounded-xl text-xs font-semibold capitalize transition-all duration-200 cursor-pointer select-none"
+              >
+                {isActive && (
+                  <motion.div
+                    layoutId="activeSidebarStatus"
+                    className="absolute inset-0 bg-slate-900 rounded-xl -z-10 shadow-sm"
+                    transition={{ type: "spring", stiffness: 350, damping: 28 }}
+                  />
+                )}
+                <span className={`z-10 transition-colors duration-200 ${isActive ? "text-white" : "text-slate-600 hover:text-slate-900"}`}>
+                  {status.replace("-", " ")}
+                </span>
+                <span className={`z-10 text-[10px] font-bold px-2 py-0.5 rounded-full transition-colors duration-200 ${isActive ? "bg-white/20 text-white" : "bg-slate-200/80 text-slate-500"}`}>
+                  {count}
+                </span>
+              </button>
+            )
+          })}
         </div>
       </div>
 

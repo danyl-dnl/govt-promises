@@ -22,6 +22,7 @@ import {
 } from "lucide-react"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType, Sector } from "@/types"
+import { AnimatedCounter } from "@/components/shared/AnimatedCounter"
 
 import { motion } from "framer-motion"
 
@@ -196,9 +197,14 @@ export default function SectorsPage() {
           {sectorStats.map(sector => (
             <motion.div key={sector.id} variants={itemVariants}>
               <Link href={`/promises?sector=${sector.id}`}>
-                <Card className="h-full bg-white border-slate-200 hover:shadow-md transition-all duration-300 group cursor-pointer relative overflow-hidden flex flex-col">
+                <Card 
+                  className="h-full border-slate-200 hover:shadow-lg transition-all duration-300 group cursor-pointer relative overflow-hidden flex flex-col"
+                  style={{
+                    background: `linear-gradient(135deg, #ffffff 70%, ${sector.color}08 100%)`
+                  }}
+                >
                   <div 
-                    className="absolute top-0 left-0 w-full h-1 transition-all duration-300 opacity-80 group-hover:opacity-100"
+                    className="absolute top-0 left-0 w-full h-1.5 transition-all duration-300 opacity-80 group-hover:opacity-100"
                     style={{ backgroundColor: sector.color }}
                   />
                   <CardContent className="p-6 flex-grow flex flex-col">
@@ -211,7 +217,9 @@ export default function SectorsPage() {
                       </div>
                       <div className="text-right">
                         <span className="text-sm font-bold text-slate-400 uppercase tracking-wider">Completion</span>
-                        <p className="font-display font-bold text-2xl text-slate-900">{sector.completionPercent}%</p>
+                        <p className="font-display font-bold text-2xl text-slate-900">
+                          <AnimatedCounter value={sector.completionPercent} suffix="%" />
+                        </p>
                       </div>
                     </div>
                     
@@ -222,16 +230,45 @@ export default function SectorsPage() {
                       {sector.nameMl}
                     </p>
                     
-                    <div className="mt-auto">
-                      <div className="flex justify-between text-xs font-semibold text-slate-500 mb-2">
-                        <span>Progress</span>
-                        <span>{sector.fulfilled} / {sector.total} Fulfilled</span>
+                    <div className="mt-auto space-y-3">
+                      <div className="flex justify-between text-xs font-semibold text-slate-500">
+                        <span>Breakdown</span>
+                        <span>
+                          <AnimatedCounter value={sector.fulfilled} /> of <AnimatedCounter value={sector.total} /> Fulfilled
+                        </span>
                       </div>
-                      <SectorBar percentage={sector.completionPercent} color={sector.color} />
+                      
+                      {/* Mini Segmented Bar */}
+                      <div className="flex h-2 rounded-full overflow-hidden gap-px bg-slate-100 border border-slate-100 shadow-2xs">
+                        {[
+                          { value: sector.fulfilled, color: "#15803D", label: "Fulfilled" },
+                          { value: sector.inProgress, color: "#2563EB", label: "In Progress" },
+                          { value: sector.evaded, color: "#DC2626", label: "Evaded" },
+                          { value: sector.pending, color: "#CBD5E1", label: "Pending" },
+                        ].map((seg, i) => (
+                          <div
+                            key={i}
+                            className="h-full first:rounded-l-full last:rounded-r-full"
+                            style={{ 
+                              backgroundColor: seg.color,
+                              width: sector.total > 0 ? `${(seg.value / sector.total) * 100}%` : "0%"
+                            }}
+                            title={`${seg.label}: ${seg.value}`}
+                          />
+                        ))}
+                      </div>
+
+                      {/* Micro Legend */}
+                      <div className="flex justify-between text-[10px] text-slate-400 font-mono font-bold">
+                        <span className="text-kerala-green">F: <AnimatedCounter value={sector.fulfilled} /></span>
+                        <span className="text-udf-blue">P: <AnimatedCounter value={sector.inProgress} /></span>
+                        <span className="text-evaded">E: <AnimatedCounter value={sector.evaded} /></span>
+                        <span className="text-slate-400 font-mono">W: <AnimatedCounter value={sector.pending} /></span>
+                      </div>
                     </div>
                     
                     <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-slate-500 group-hover:text-udf-blue transition-colors">
-                      <span>View all {sector.total} promises</span>
+                      <span>View all <AnimatedCounter value={sector.total} /> promises</span>
                       <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </div>
                   </CardContent>

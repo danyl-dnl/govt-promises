@@ -229,7 +229,10 @@ export function BentoStats() {
           >
             <Link
               href={`/promises?sector=${stats.mostActiveSector.id}`}
-              className="group block bg-white border border-slate-200 rounded-xl p-6 h-full hover:border-slate-300 hover:shadow-sm transition-all duration-200 cursor-pointer"
+              className="group block border border-slate-200 rounded-xl p-6 h-full hover:border-slate-300 hover:shadow-md transition-all duration-200 cursor-pointer relative overflow-hidden"
+              style={{
+                background: `linear-gradient(135deg, #ffffff 60%, ${stats.mostActiveSector.color}08 100%)`
+              }}
             >
               <div className="flex items-center justify-between mb-4">
                 <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400">

@@ -24,6 +24,7 @@ const notoSansMalayalam = Noto_Sans_Malayalam({
 })
 
 import AuthProvider from "@/components/auth/AuthProvider"
+import { PageTransition } from "@/components/shared/PageTransition"
 
 export const metadata: Metadata = {
   title: "Vaaku Paalicho | UDF Promise Tracker",
@@ -45,8 +46,10 @@ export default function RootLayout({
       <body className="antialiased min-h-screen flex flex-col bg-background text-foreground font-ui" suppressHydrationWarning>
         <AuthProvider>
           <Navbar />
-          <main className="flex-grow bg-slate-50/30">
-            {children}
+          <main className="flex-grow bg-slate-50/30 flex flex-col">
+            <PageTransition>
+              {children}
+            </PageTransition>
           </main>
           <Footer />
         </AuthProvider>
