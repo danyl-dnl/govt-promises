@@ -12,31 +12,33 @@ export function StatusBadge({ status, className }: StatusBadgeProps) {
   switch (status) {
     case "fulfilled":
       return (
-        <Badge variant="outline" className={`bg-kerala-green-bg text-kerala-green border-kerala-green/20 ${className}`}>
-          <CheckCircle2 className="mr-1 h-3 w-3" />
+        <Badge className={`bg-kerala-green hover:bg-kerala-green text-white border-transparent font-semibold shadow-sm gap-1 ${className}`}>
+          <CheckCircle2 className="h-3.5 w-3.5" />
           Fulfilled
         </Badge>
       )
     case "in-progress":
       return (
-        <Badge variant="outline" className={`bg-udf-blue-bg text-udf-blue border-udf-blue/20 relative overflow-hidden ${className}`}>
-          <span className="absolute inset-0 bg-udf-blue/10 animate-pulse" />
-          <Clock className="mr-1 h-3 w-3 z-10" />
-          <span className="z-10">In Progress</span>
+        <Badge variant="outline" className={`bg-udf-blue-bg text-udf-blue border-udf-blue/30 font-semibold gap-1.5 shadow-sm ${className}`}>
+          <span className="relative flex h-1.5 w-1.5">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-udf-blue opacity-75" />
+            <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-udf-blue" />
+          </span>
+          <span>In Progress</span>
         </Badge>
       )
     case "evaded":
       return (
-        <Badge variant="outline" className={`bg-red-50 text-evaded border-evaded/20 ${className}`}>
-          <XCircle className="mr-1 h-3 w-3" />
+        <Badge className={`bg-evaded hover:bg-evaded text-white border-transparent font-semibold shadow-sm gap-1 ${className}`}>
+          <XCircle className="h-3.5 w-3.5" />
           Evaded
         </Badge>
       )
     case "pending":
     default:
       return (
-        <Badge variant="outline" className={`bg-gray-50 text-pending border-pending/20 ${className}`}>
-          <AlertCircle className="mr-1 h-3 w-3" />
+        <Badge variant="outline" className={`bg-slate-50 text-pending border-slate-200 font-semibold gap-1 ${className}`}>
+          <AlertCircle className="h-3.5 w-3.5" />
           Pending
         </Badge>
       )

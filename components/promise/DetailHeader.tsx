@@ -17,11 +17,28 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
 
   return (
     <div className="relative bg-white border-b border-border transition-colors duration-300">
-      {/* Top Status Band */}
+      {/* Top Status Announcement Bar */}
       <div 
-        className="absolute top-0 left-0 right-0 h-1"
-        style={{ backgroundColor: statusColor }}
-      />
+        className="py-2.5 px-4 flex items-center justify-center gap-2 border-b text-xs font-bold uppercase tracking-wider transition-all duration-300"
+        style={{ 
+          backgroundColor: statusColor + '0d', 
+          borderColor: statusColor + '20',
+          color: statusColor
+        }}
+      >
+        <span className="relative flex h-1.5 w-1.5">
+          {promise.status === 'in-progress' && (
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-current opacity-75" />
+          )}
+          <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-current" />
+        </span>
+        <span>
+          {promise.status === 'fulfilled' && 'Verification Audit: Implementation confirmed and complete'}
+          {promise.status === 'in-progress' && 'Verification Audit: Promise actively being implemented'}
+          {promise.status === 'evaded' && 'Verification Audit: Government action is currently evaded or stalled'}
+          {promise.status === 'pending' && 'Verification Audit: Awaiting initial government action'}
+        </span>
+      </div>
       
       <div className="container mx-auto px-4 md:px-8 pt-8 pb-12">
         {/* Breadcrumb */}
@@ -69,18 +86,23 @@ export function DetailHeader({ promise }: DetailHeaderProps) {
           </div>
         </div>
 
-        {/* Verbatim Manifesto Quote */}
-        <div className="bg-slate-50 rounded-xl p-6 md:p-8 border-l-4 border-slate-300 relative transition-colors duration-300">
-          <div className="absolute top-0 right-0 p-4 text-slate-300 opacity-50">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-            </svg>
-          </div>
-          <p className="font-display italic text-lg md:text-xl text-slate-700 relative z-10">
-            &ldquo;<HighlightJargon text={promise.manifestoQuote} />&rdquo;
-          </p>
-          <div className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-500">
-            — UDF Election Manifesto 2026
+        {/* Verbatim Manifesto Quote Card */}
+        <div className="relative rounded-xl overflow-hidden border border-slate-200 bg-gradient-to-br from-slate-50 to-white shadow-sm transition-all duration-300">
+          <div className="absolute top-0 left-0 bottom-0 w-1 bg-gradient-to-b from-udf-blue to-kerala-green" />
+          <div className="px-6 py-6 md:px-8 md:py-8">
+            <div className="flex items-center justify-between mb-4">
+              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">
+                📄 Verbatim — UDF Manifesto 2026
+              </p>
+              <div className="text-slate-200">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                </svg>
+              </div>
+            </div>
+            <p className="font-display italic text-lg md:text-xl text-slate-700 leading-relaxed relative z-10">
+              &ldquo;<HighlightJargon text={promise.manifestoQuote} />&rdquo;
+            </p>
           </div>
         </div>
       </div>

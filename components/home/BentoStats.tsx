@@ -5,6 +5,7 @@ import Link from "next/link"
 import { motion, Variants } from "framer-motion"
 import { DonutChart } from "@/components/shared/DonutChart"
 import { CountdownTimer } from "@/components/shared/CountdownTimer"
+import { AnimatedCounter } from "@/components/shared/AnimatedCounter"
 import {
   HeartPulse,
   Users,
@@ -118,9 +119,38 @@ export function BentoStats() {
             </p>
           </div>
           <p className="text-sm text-slate-400 font-medium shrink-0">
-            Tracking <span className="text-slate-700 font-semibold">{stats.total}</span> core promises
+            Tracking <span className="text-slate-700 font-semibold"><AnimatedCounter value={stats.total} /></span> core promises
           </p>
         </div>
+
+        {/* Segmented status progress bar */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="mb-8"
+        >
+          <div className="flex h-2.5 rounded-full overflow-hidden gap-px bg-slate-100 shadow-sm border border-slate-100">
+            {[
+              { value: stats.fulfilled, color: "#15803D", label: "Fulfilled" },
+              { value: stats.inProgress, color: "#2563EB", label: "In Progress" },
+              { value: stats.evaded, color: "#DC2626", label: "Evaded" },
+              { value: stats.pending, color: "#CBD5E1", label: "Pending" },
+            ].map((seg, i) => (
+              <motion.div
+                key={seg.label}
+                className="h-full first:rounded-l-full last:rounded-r-full"
+                style={{ backgroundColor: seg.color }}
+                initial={{ width: 0 }}
+                whileInView={{ width: stats.total > 0 ? `${(seg.value / stats.total) * 100}%` : "0%" }}
+                viewport={{ once: true }}
+                transition={{ duration: 1, delay: i * 0.12, ease: "easeOut" }}
+                title={`${seg.label}: ${seg.value}`}
+              />
+            ))}
+          </div>
+        </motion.div>
 
         {/* ── Row 2: Donut + Timer + Sector ── */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -160,7 +190,7 @@ export function BentoStats() {
                         </span>
                       </div>
                       <span className="text-xs font-bold text-slate-700 tabular-nums group-hover:text-udf-blue transition-colors">
-                        {d.value}
+                        <AnimatedCounter value={d.value} />
                       </span>
                     </Link>
                   ))}
@@ -217,7 +247,7 @@ export function BentoStats() {
                     {stats.mostActiveSector.name}
                   </p>
                   <p className="text-xs text-slate-400 font-medium mt-0.5">
-                    {stats.mostActiveSector.count} promises tracked
+                    <AnimatedCounter value={stats.mostActiveSector.count} /> promises tracked
                   </p>
                 </div>
               </div>
@@ -227,7 +257,7 @@ export function BentoStats() {
                 <div className="flex items-center justify-between mb-1.5">
                   <span className="text-[10px] text-slate-400 font-medium uppercase tracking-wider">Share of total</span>
                   <span className="text-[10px] font-bold text-slate-600">
-                    {Math.round((stats.mostActiveSector.count / stats.total) * 100)}%
+                    <AnimatedCounter value={Math.round((stats.mostActiveSector.count / stats.total) * 100)} suffix="%" />
                   </span>
                 </div>
                 <div className="h-[2px] rounded-full bg-slate-100 overflow-hidden">

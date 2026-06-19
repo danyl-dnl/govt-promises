@@ -4,6 +4,7 @@ import { DetailHeader } from "@/components/promise/DetailHeader"
 import { EvidenceTimeline } from "@/components/promise/EvidenceTimeline"
 import { Disclaimer } from "@/components/shared/Disclaimer"
 import { HorizontalCard } from "@/components/promises/HorizontalCard"
+import { StickyDetailTOC } from "@/components/promise/StickyDetailTOC"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType } from "@/types"
 
@@ -32,11 +33,19 @@ export default async function PromiseDetailPage({ params }: PromiseDetailPagePro
 
   return (
     <div className="min-h-screen bg-slate-50/50 pb-20">
-      <DetailHeader promise={promise} />
+      <div id="commitment">
+        <DetailHeader promise={promise} />
+      </div>
       
-      <div className="container mx-auto px-4 md:px-8 mt-12 grid grid-cols-1 lg:grid-cols-12 gap-12">
-        <div className="lg:col-span-8">
-          <div className="mb-10">
+      <div className="container mx-auto px-4 md:px-8 mt-12 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+        {/* Left Column - TOC */}
+        <div className="hidden lg:block lg:col-span-2">
+          <StickyDetailTOC />
+        </div>
+
+        {/* Middle Column - Content */}
+        <div className="lg:col-span-7">
+          <div id="evidence-trail" className="mb-10 scroll-mt-24">
             <h2 className="font-display font-bold text-2xl text-slate-900 mb-6">Evidence & Timeline</h2>
             <EvidenceTimeline sources={promise.sources} promiseId={promise.id} />
           </div>
@@ -51,10 +60,11 @@ export default async function PromiseDetailPage({ params }: PromiseDetailPagePro
           </div>
         </div>
         
-        <div className="lg:col-span-4">
+        {/* Right Column - Related Promises */}
+        <div className="lg:col-span-3">
           {relatedPromises.length > 0 && (
-            <div className="sticky top-24">
-              <h3 className="font-bold text-lg text-slate-900 mb-6 uppercase tracking-wider text-sm">Related Promises</h3>
+            <div id="related-promises" className="sticky top-24 scroll-mt-24">
+              <h3 className="font-bold text-slate-900 mb-6 uppercase tracking-wider text-xs font-semibold">Related Promises</h3>
               <div className="flex flex-col gap-4">
                 {relatedPromises.map((relatedPromise) => (
                   <HorizontalCard key={relatedPromise.id} promise={relatedPromise} />

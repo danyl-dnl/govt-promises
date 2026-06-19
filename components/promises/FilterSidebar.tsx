@@ -2,7 +2,7 @@
 
 import React from "react"
 import { Input } from "@/components/ui/input"
-import { Search } from "lucide-react"
+import { Search, X } from "lucide-react"
 import { Status } from "@/types"
 
 interface FilterSidebarProps {
@@ -47,16 +47,56 @@ export function FilterSidebar({
 
   return (
     <div className="w-full md:w-64 shrink-0 space-y-8">
-      {/* Active Filters Clear Row */}
+      {/* Active Filters Clear Row & Pills */}
       {hasActiveFilters && (
-        <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-          <span className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400">Active Filters</span>
-          <button
-            onClick={handleClearAll}
-            className="text-xs font-bold text-udf-blue hover:text-udf-blue-dark transition-colors cursor-pointer"
-          >
-            Clear All
-          </button>
+        <div className="space-y-3 pb-4 border-b border-slate-100">
+          <div className="flex items-center justify-between">
+            <span className="text-[11px] font-bold uppercase tracking-[0.15em] text-slate-400">Active Filters</span>
+            <button
+              onClick={handleClearAll}
+              className="text-xs font-bold text-udf-blue hover:text-udf-blue-dark transition-colors cursor-pointer"
+            >
+              Clear All
+            </button>
+          </div>
+          
+          <div className="flex flex-wrap gap-1.5 pt-1">
+            {searchQuery !== "" && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-slate-800 text-white shadow-sm">
+                "{searchQuery.slice(0, 10)}{searchQuery.length > 10 ? '...' : ''}"
+                <X 
+                  className="h-3 w-3 ml-0.5 cursor-pointer text-slate-400 hover:text-white transition-colors" 
+                  onClick={() => setSearchQuery("")} 
+                />
+              </span>
+            )}
+            
+            {statusFilter !== "all" && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-slate-800 text-white shadow-sm capitalize">
+                {statusFilter.replace("-", " ")}
+                <X 
+                  className="h-3 w-3 ml-0.5 cursor-pointer text-slate-400 hover:text-white transition-colors" 
+                  onClick={() => setStatusFilter("all")} 
+                />
+              </span>
+            )}
+            
+            {selectedSectors.map((sectorId) => {
+              const sectorName = sectors.find(s => s.id === sectorId)?.name
+              return (
+                <span 
+                  key={sectorId} 
+                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-udf-blue-bg text-udf-blue border border-udf-blue/20 shadow-sm"
+                >
+                  {sectorName}
+                  <X 
+                    className="h-3 w-3 ml-0.5 cursor-pointer text-udf-blue/60 hover:text-udf-blue transition-colors" 
+                    onClick={() => toggleSector(sectorId)} 
+                  />
+                </span>
+              )
+            })}
+          </div>
         </div>
       )}
 

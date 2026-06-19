@@ -4,7 +4,7 @@ import React, { useRef } from "react"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { StatusBadge } from "@/components/shared/StatusBadge"
-import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat, GraduationCap, Scale, Landmark } from "lucide-react"
+import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat, GraduationCap, Scale, Landmark, Link2, Clock } from "lucide-react"
 import Link from "next/link"
 import promisesData from "@/data/promises.json"
 import { Promise as PromiseType } from "@/types"
@@ -94,9 +94,22 @@ export function SpotlightRow() {
                       {promise.title}
                     </h3>
                     
-                    <p className="text-sm text-muted-foreground line-clamp-3 mb-6 flex-grow">
+                    <p className="text-sm text-muted-foreground line-clamp-3 mb-4 flex-grow">
                       {promise.description}
                     </p>
+
+                    {/* Metadata Row */}
+                    <div className="flex items-center gap-3 text-[10px] text-slate-400 font-medium mb-4 flex-shrink-0">
+                      <span className="flex items-center gap-1">
+                        <Link2 className="h-3 w-3" />
+                        {promise.sources?.length ?? 0} sources
+                      </span>
+                      <span>·</span>
+                      <span className="flex items-center gap-1">
+                        <Clock className="h-3 w-3" />
+                        Updated {new Date(promise.lastUpdated).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+                      </span>
+                    </div>
                     
                     <div className="pt-4 border-t border-slate-100 flex items-center text-xs text-slate-500 font-medium uppercase tracking-wider group-hover:text-[var(--sector-color)] transition-colors mt-auto">
                       View Details

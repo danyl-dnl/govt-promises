@@ -112,7 +112,19 @@ export function GovTimeline() {
           <p className="text-muted-foreground mt-2">Key milestones and policy implementations since day one.</p>
         </div>
 
-        <div className="relative border-l-2 border-slate-200 ml-4 md:ml-[120px]">
+        <div className="relative ml-4 md:ml-[120px]">
+          {/* Timeline background base line */}
+          <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-slate-200 origin-top" />
+          
+          {/* Animated timeline line */}
+          <motion.div
+            className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-udf-blue via-kerala-green to-slate-200 origin-top"
+            initial={{ scaleY: 0 }}
+            whileInView={{ scaleY: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.8, ease: "easeInOut" }}
+          />
+
           {allEvents.map((event, index) => {
             const isFulfilled = event.status === "fulfilled"
             const isInProgress = event.status === "in-progress"
@@ -134,22 +146,23 @@ export function GovTimeline() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 {/* Timeline Node */}
-                <div className={`absolute w-4 h-4 rounded-full -left-[9px] top-1 border-4 border-white ${bulletColor} shadow-sm z-10`} />
+                <div className={`absolute w-4 h-4 rounded-full -left-[7px] top-1 border-4 border-white ${bulletColor} shadow-sm z-10`} />
                 
-                {/* Connecting Line override for fulfilled/progress */}
-                {(isFulfilled || isInProgress) && (
-                  <div className={`absolute w-0.5 h-full -left-[1px] top-4 ${bulletColor} opacity-50 z-0`} />
-                )}
-
                 <div className="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-0">
-                  {/* Date label - absolutely positioned on desktop to the left */}
-                  <div className="md:absolute md:-left-[140px] md:top-0.5 md:w-[100px] md:text-right">
-                    <span className={`text-xs font-bold uppercase tracking-widest ${isFulfilled ? 'text-kerala-green ' : isInProgress ? 'text-udf-blue ' : 'text-slate-400 '}`}>
+                  {/* Date label - styled as a bold press-dateline badge */}
+                  <div className="md:absolute md:-left-[140px] md:top-1 md:w-[100px] md:text-right">
+                    <span className="inline-flex items-center justify-center px-2 py-0.5 rounded bg-slate-800 text-white text-[9px] font-bold tracking-wider uppercase font-mono shadow-sm">
                       {event.date}
                     </span>
                   </div>
                   
-                  <div className="bg-white p-5 rounded-xl border border-slate-100 shadow-sm flex-1 ml-0 hover:shadow-md transition-all duration-300">
+                  <div className={`bg-white p-5 rounded-xl border border-slate-100 shadow-sm flex-1 ml-0 hover:shadow-md transition-all duration-300 border-l-4 ${
+                    isFulfilled 
+                      ? "border-l-kerala-green" 
+                      : isInProgress 
+                        ? "border-l-udf-blue" 
+                        : "border-l-slate-200"
+                  }`}>
                     <h3 className="font-bold text-lg text-slate-900 mb-1">{event.title}</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed">{event.description}</p>
                   </div>

@@ -202,18 +202,20 @@ function PromisesPageContent() {
         </div>
 
         <div className="flex flex-col md:flex-row gap-8 lg:gap-12 items-start">
-          <div className="hidden md:block">
-            <FilterSidebar 
-              searchQuery={searchQuery}
-              setSearchQuery={setSearchQuery}
-              statusFilter={statusFilter}
-              setStatusFilter={setStatusFilter}
-              selectedSectors={selectedSectors}
-              setSelectedSectors={setSelectedSectors}
-              sectors={uniqueSectors}
-              sortOption={sortOption}
-              setSortOption={setSortOption}
-            />
+          <div className="hidden md:block w-64 shrink-0">
+            <div className="sticky top-24 space-y-6">
+              <FilterSidebar 
+                searchQuery={searchQuery}
+                setSearchQuery={setSearchQuery}
+                statusFilter={statusFilter}
+                setStatusFilter={setStatusFilter}
+                selectedSectors={selectedSectors}
+                setSelectedSectors={setSelectedSectors}
+                sectors={uniqueSectors}
+                sortOption={sortOption}
+                setSortOption={setSortOption}
+              />
+            </div>
           </div>
 
           <div className="flex-1 w-full flex flex-col gap-4">

@@ -4,7 +4,7 @@ import React from "react"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { StatusBadge } from "@/components/shared/StatusBadge"
-import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat, GraduationCap, Scale, Landmark } from "lucide-react"
+import { ArrowRight, BusFront, Activity, Wallet, ShieldCheck, Ship, Tractor, HardHat, GraduationCap, Scale, Landmark, Link2, Clock } from "lucide-react"
 import { Promise as PromiseType } from "@/types"
 
 const iconMap: Record<string, React.ReactNode> = {
@@ -77,9 +77,21 @@ export function HorizontalCard({ promise }: HorizontalCardProps) {
                 {promise.titleMl}
               </p>
             )}
-            <p className="text-sm text-muted-foreground line-clamp-2 md:line-clamp-1 max-w-3xl">
+            <p className="text-sm text-muted-foreground line-clamp-2 md:line-clamp-1 max-w-3xl mb-3">
               {promise.description}
             </p>
+            {/* Metadata Row */}
+            <div className="flex items-center gap-3 text-[10px] text-slate-400 font-medium flex-shrink-0">
+              <span className="flex items-center gap-1">
+                <Link2 className="h-3 w-3" />
+                {promise.sources?.length ?? 0} sources
+              </span>
+              <span>·</span>
+              <span className="flex items-center gap-1">
+                <Clock className="h-3 w-3" />
+                Updated {new Date(promise.lastUpdated).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+              </span>
+            </div>
           </div>
           
           <div className="p-5 pl-6 md:p-6 md:pl-4 flex flex-row md:flex-col justify-between md:justify-center items-center md:items-end gap-4 border-t md:border-t-0 md:border-l border-slate-100 bg-slate-50/50 min-w-[180px] transition-colors duration-300">

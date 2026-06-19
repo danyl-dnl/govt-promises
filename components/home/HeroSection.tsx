@@ -7,6 +7,7 @@ import Link from "next/link"
 import { ArrowRight, ShieldCheck, TrendingUp, CheckCircle } from "lucide-react"
 
 import promisesData from "@/data/promises.json"
+import { AnimatedCounter } from "@/components/shared/AnimatedCounter"
 
 export function HeroSection() {
   const totalTracked = promisesData.length
@@ -153,9 +154,11 @@ export function HeroSection() {
                     </div>
                     <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">Total Tracked</span>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <span className="font-display font-bold text-2xl text-slate-900 tabular-nums group-hover:text-udf-blue transition-colors">{totalTracked}</span>
-                    <ArrowRight className="h-3.5 w-3.5 text-slate-300 -translate-x-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 group-hover:text-udf-blue transition-all duration-200" />
+                  <div className="relative flex items-center justify-end w-12">
+                    <span className="font-display font-bold text-2xl text-slate-900 tabular-nums group-hover:text-udf-blue transition-colors">
+                      <AnimatedCounter value={totalTracked} />
+                    </span>
+                    <ArrowRight className="absolute -right-5 h-3.5 w-3.5 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-udf-blue transition-all duration-200" />
                   </div>
                 </Link>
 
@@ -166,7 +169,12 @@ export function HeroSection() {
                     </div>
                     <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">Fulfilled</span>
                   </div>
-                  <span className="font-display font-bold text-2xl text-kerala-green tabular-nums">{fulfilledCount}</span>
+                  <div className="relative flex items-center justify-end w-12">
+                    <span className="font-display font-bold text-2xl text-kerala-green tabular-nums">
+                      <AnimatedCounter value={fulfilledCount} />
+                    </span>
+                    <ArrowRight className="absolute -right-5 h-3.5 w-3.5 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-kerala-green transition-all duration-200" />
+                  </div>
                 </Link>
 
                 <Link href="/promises?status=in-progress" className="group flex items-center justify-between px-7 py-4 hover:bg-blue-50/40 transition-colors duration-200">
@@ -176,7 +184,12 @@ export function HeroSection() {
                     </div>
                     <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">In Progress</span>
                   </div>
-                  <span className="font-display font-bold text-2xl text-udf-blue tabular-nums">{inProgressCount}</span>
+                  <div className="relative flex items-center justify-end w-12">
+                    <span className="font-display font-bold text-2xl text-udf-blue tabular-nums">
+                      <AnimatedCounter value={inProgressCount} />
+                    </span>
+                    <ArrowRight className="absolute -right-5 h-3.5 w-3.5 text-slate-300 opacity-0 group-hover:opacity-100 group-hover:text-udf-blue transition-all duration-200" />
+                  </div>
                 </Link>
               </div>
 
@@ -184,7 +197,9 @@ export function HeroSection() {
               <div className="px-7 py-5 bg-slate-50/60">
                 <div className="flex justify-between items-center mb-2.5">
                   <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Fulfillment Rate</span>
-                  <span className="text-sm font-bold text-slate-700">{fulfillmentPct}%</span>
+                  <span className="text-sm font-bold text-slate-700">
+                    <AnimatedCounter value={fulfillmentPct} suffix="%" />
+                  </span>
                 </div>
                 <div className="h-2 rounded-full bg-slate-200 overflow-hidden">
                   <motion.div
