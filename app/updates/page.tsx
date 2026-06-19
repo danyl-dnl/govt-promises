@@ -1,5 +1,5 @@
 import React from "react"
-import { ExternalLink, Rss, Zap } from "lucide-react"
+import { ExternalLink, Rss } from "lucide-react"
 import { TierBadge } from "@/components/promise/TierBadge"
 import promisesData from "@/data/promises.json"
 import { SourceTier } from "@/types"
@@ -60,7 +60,6 @@ export default function UpdatesPage() {
                     <h2 className="font-bold text-xl text-slate-900 mb-2 flex items-center gap-2">
                       {update.isUpdate && (
                         <span className="inline-flex items-center gap-1 text-xs font-bold text-amber-700 bg-amber-50 border border-amber-200 px-2 py-0.5 rounded-full shrink-0">
-                          <Zap className="h-3 w-3" />
                           Major Update
                         </span>
                       )}
