@@ -5,11 +5,12 @@ import Link from "next/link"
 import { Landmark, Menu, X, ShieldCheck, ChevronDown, FilePlus, LogOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useSession, signIn, signOut } from "next-auth/react"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion, AnimatePresence, useScroll } from "framer-motion"
 import Image from "next/image"
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false)
+  const { scrollYProgress } = useScroll()
   const [isOpen, setIsOpen] = useState(false)
   const [dropdownOpen, setDropdownOpen] = useState(false)
   const { data: session } = useSession()
@@ -37,10 +38,12 @@ export function Navbar() {
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${
         scrolled || isOpen
-          ? "bg-white/80 backdrop-blur-md border-b border-border shadow-sm"
+          ? "bg-white/90 backdrop-blur-md border-b border-border shadow-sm"
           : "bg-transparent border-transparent"
       }`}
     >
+      <motion.div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-udf-blue to-emerald-400 origin-left z-[60]" style={{ scaleX: scrollYProgress }} />
+
       <div className="container mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group" onClick={() => setIsOpen(false)}>
           <div className="bg-udf-blue text-white p-1.5 rounded-md group-hover:bg-udf-blue-dark transition-colors">

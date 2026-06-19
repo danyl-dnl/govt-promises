@@ -52,7 +52,7 @@ export function SpotlightRow() {
         </Link>
       </div>
 
-      <div className="relative w-full">
+      <div className="relative w-full" style={{ maskImage: 'linear-gradient(to right, transparent, black 5%, black 95%, transparent)', WebkitMaskImage: 'linear-gradient(to right, transparent, black 5%, black 95%, transparent)' }}>
         <div 
           ref={scrollRef}
           className="flex overflow-x-auto pb-8 pt-4 px-4 md:px-8 gap-6 snap-x snap-mandatory scrollbar-hide"
