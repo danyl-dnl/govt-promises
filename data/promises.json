@@ -162,8 +162,18 @@
         "summary": "The Governor's policy address in the 16th Legislative Assembly formally committed the UDF government to implementing the 'Indira Guarantee' providing a monthly stipend of ₹1,000 to all college-going female students in the state. Rollout details and budget allocations are expected in the upcoming state budget on June 19, 2026."
       }
     ],
-    "lastUpdated": "2026-05-29T12:00:00.000Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "Stipend Commitment Reaffirmed in Revised Budget",
+        "url": "https://www.newindianexpress.com/states/kerala",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "In the revised 2026-27 state budget, the government reaffirmed its commitment to implement the ₹1,000 monthly stipend for college-going girls in government and aided colleges during the current academic year, with preliminary departmental work underway."
+      }
+    ]
   },
   {
     "id": "p3",
@@ -272,9 +282,17 @@
         "summary": "The V.D. Satheesan government tabled a financial White Paper, 'Kerala's Fiscal Health: A Status Report,' showing a ₹5.07 lakh crore debt burden. The report noted that committed expenditures (salaries, interest, and pensions) consume 77% of revenue, placing immediate implementation of the welfare pension hike to ₹3,000 under review pending fiscal consolidation."
       }
     ],
-    "lastUpdated": "2026-06-16T12:00:00.000Z",
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z",
     "updates": [
+      {
+        "title": "Pension Hike Deferred in Revised Budget due to Fiscal Stress",
+        "url": "https://www.thehindu.com/news/national/kerala",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The UDF government's revised 2026-27 budget did not allocate funds to implement the pension hike to ₹3,000 per month. The monthly payout remains at ₹2,000 due to fiscal constraints highlighted in the recent White Paper, placing the hike under review pending financial recovery."
+      },
       {
         "title": "White Paper on Fiscal Health Tabled",
         "url": "https://www.thehindu.com/news/national/kerala/kerala-faces-burden-of-507-lakh-crore-liabilities-fiscal-structure-under-serious-strain-says-white-paper-tabled-by-cm/article71059665.ece",
@@ -2551,9 +2569,17 @@
         "summary": "As part of the government's 100-day action plan, Welfare Minister K.A. Thulasi announced a targeted program to revitalize the Government Medical College, Palakkad. The initiative establishes a high-level monitoring committee (convened by the Ottappalam Subcollector and meeting every 10 days) to fast-track construction of main blocks, operation theatres, labs, and hostels, and expedite staffing to meet National Medical Commission (NMC) norms."
       }
     ],
-    "lastUpdated": "2026-06-18T12:00:00.000Z",
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
     "createdAt": "2026-05-22T06:50:00.000Z",
     "updates": [
+      {
+        "title": "100-Day Action Plan Commencement Set for July 1",
+        "url": "https://www.uniindia.com/kerala",
+        "publication": "Cabinet / Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The revised state budget confirmed that the UDF government's first 100-day action programme will officially commence on July 1, 2026, with departments preparing specific project proposals to execute manifesto commitments."
+      },
       {
         "title": "Cabinet Sub-Committee Formed for PM SHRI Scheme",
         "url": "https://www.newindianexpress.com/states/kerala",

@@ -69,8 +69,8 @@ const timelineEvents = [
   {
     date: "JUN 19, 2026",
     title: "State Budget Presentation",
-    description: "Expected presentation of the revised State Budget for the 2026-27 financial year and the separate Agricultural Budget, with key welfare scheme allocations expected.",
-    status: "pending"
+    description: "CM V.D. Satheesan presented the revised State Budget for the 2026-27 financial year, emphasizing a 'New-Age Kerala' (Puthuyuga Keralam) focused on private investment, infrastructure (Mission Samudra), and key welfare guarantees (Oommen Chandy Health Insurance, ₹600 Cr for women's free travel).",
+    status: "fulfilled"
   }
 ]
 
