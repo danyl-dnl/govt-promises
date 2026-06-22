@@ -2891,7 +2891,7 @@
       "icon": "users",
       "color": "#6366F1"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "users",
     "sources": [
       {
@@ -2911,8 +2911,18 @@
         "summary": "Media reports indicate that the upcoming state budget on June 19, 2026, is set to announce the formation of a 'Job Watch Tower'. The body, comprising experts and NRKs, will monitor global employment trends to help align university curricula with international job markets."
       }
     ],
-    "lastUpdated": "2026-06-13T18:00:00.000Z",
-    "createdAt": "2026-05-24T13:06:36.935Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-24T13:06:36.935Z",
+    "updates": [
+      {
+        "title": "Global Job Watch Tower Formally Announced in Budget",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-budget-unveils-knowledge-valley-job-watch-tower-research-park-to-boost-higher-education/article71121165.ece",
+        "publication": "The Hindu / State Budget",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The UDF government's revised 2026-27 state budget officially announced the establishment of the Global Job Watch Tower with a ₹2 crore allocation, aimed at tracking international employment trends to reform higher education curricula."
+      }
+    ]
   },
   {
     "id": "p70",
