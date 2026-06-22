@@ -1,6 +1,6 @@
 import React from "react"
 import { Badge } from "@/components/ui/badge"
-import { CheckCircle2, Clock, XCircle, AlertCircle } from "lucide-react"
+import { CheckCircle2, XCircle, AlertCircle } from "lucide-react"
 import { Status } from "@/types"
 
 interface StatusBadgeProps {

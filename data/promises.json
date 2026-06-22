@@ -111,7 +111,7 @@
     "updates": [
       {
         "title": "₹600 Crore Allocated to Support KSRTC Free Travel",
-        "url": "https://www.thehindu.com/news/national/kerala/",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
         "publication": "State Budget Presentation",
         "date": "2026-06-19",
         "tier": 1,
@@ -338,8 +338,18 @@
         "summary": "The customary policy address by Governor Rajendra Vishwanath Arlekar officially announced the government's commitment to provide interest-free loans of up to ₹5 lakh for young entrepreneurs, aimed at promoting local start-ups and self-employment opportunities. Implementation details are expected in the state budget scheduled for June 19, 2026."
       }
     ],
-    "lastUpdated": "2026-05-29T12:00:00.000Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "Youth Entrepreneur Loan Program Deferred in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The revised 2026-27 budget did not allocate funds for the interest-free loans of up to ₹5 lakh, deferring its rollout due to inherited fiscal constraints. However, the budget announced a ₹50 crore Gen-Z fund for technological innovation and ₹100 crore for MSMEs under the 'Invest Keralam' cell to support young innovators."
+      }
+    ]
   },
   {
     "id": "p6",
@@ -397,7 +407,7 @@
     "updates": [
       {
         "title": "₹10 Crore Allocated for Senior Citizens Welfare Project",
-        "url": "https://www.thehindu.com/news/national/kerala/",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
         "publication": "State Budget Presentation",
         "date": "2026-06-19",
         "tier": 1,
@@ -892,7 +902,7 @@
       "icon": "heart-pulse",
       "color": "#06B6D4"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "heart-pulse",
     "sources": [
       {
@@ -904,8 +914,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "Tribal Health Infrastructure Expansion Proposed",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 revised state budget proposed the establishment of tribal health clusters to expand care delivery in remote and tribal settlements, backed by a ₹2,076.02 crore health sector budget."
+      }
+    ]
   },
   {
     "id": "p22",
@@ -922,7 +942,7 @@
       "icon": "heart-pulse",
       "color": "#0891B2"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "heart-pulse",
     "sources": [
       {
@@ -934,8 +954,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Coastal Care Units Proposed in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 revised state budget proposed the establishment of special coastal care units to improve healthcare delivery in coastal communities, backed by a general health sector allocation of ₹2,076.02 crore."
+      }
+    ]
   },
   {
     "id": "p23",
@@ -982,7 +1012,7 @@
       "icon": "heart-pulse",
       "color": "#06B6D4"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "heart-pulse",
     "sources": [
       {
@@ -994,8 +1024,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Tribal Health Clusters Proposed in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The V.D. Satheesan government's budget proposed the establishment of tribal health clusters in remote areas to strengthen health coverage for marginalized communities, funded under the ₹2,076.02 crore health sector outlay."
+      }
+    ]
   },
   {
     "id": "p25",
@@ -1032,8 +1072,18 @@
         "summary": "ASHA workers celebrated the newly elected UDF cabinet's decision to increase their monthly honorarium by ₹3,000, bringing it up to ₹12,000, by distributing sweets and payasam in front of the Secretariat."
       }
     ],
-    "lastUpdated": "2026-05-20T07:09:08.666Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "ASHA Worker Honorarium Hike Confirmed in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 revised state budget confirmed the allocation for the ₹3,000 monthly honorarium increase for ASHA workers (bringing their monthly pay to ₹12,000), implementing the first phase of the welfare wage revision."
+      }
+    ]
   },
   {
     "id": "p26",
@@ -1070,8 +1120,18 @@
         "summary": "The newly sworn-in UDF government under CM V.D. Satheesan approved an immediate ₹1,000 hike in wages for Anganwadi workers, helpers, and related staff in its first Cabinet meeting on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-05-20T07:09:08.666Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Anganwadi Worker Honorarium Hike Confirmed in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 revised state budget confirmed the allocation for the ₹1,000 monthly wage increase for Anganwadi workers and helpers, securing the wage enhancement approved by the V.D. Satheesan cabinet."
+      }
+    ]
   },
   {
     "id": "p27",
@@ -1108,8 +1168,18 @@
         "summary": "In its inaugural cabinet meeting on May 18, 2026, the V.D. Satheesan-led UDF government approved an immediate ₹1,000 monthly honorarium increase for school midday meal cooks, along with Anganwadi staff, pre-primary teachers, and ayahs."
       }
     ],
-    "lastUpdated": "2026-05-30T02:59:00.763Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "School Cook Wage Hike Confirmed in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 revised state budget confirmed the allocation for the ₹1,000 monthly honorarium increase for school midday meal cooks, solidifying the pay revision announced in the initial cabinet decisions."
+      }
+    ]
   },
   {
     "id": "p28",
@@ -1168,8 +1238,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Agriculture Outlay Integrated in Main Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The UDF government's first revised state budget presented on June 19, 2026, did not introduce a separate agriculture budget, instead keeping the agricultural and allied sector allocations (totaling ₹1,535 crore) integrated within the general state budget."
+      }
+    ]
   },
   {
     "id": "p30",
@@ -1964,7 +2044,7 @@
       "icon": "building",
       "color": "#0284C7"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "building",
     "sources": [
       {
@@ -1976,8 +2056,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "₹200 Crore Earmarked for Aviation Logistics Hub",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 revised state budget allocated ₹200 crore to initiate the development of Kerala as a premier aviation-logistics hub in South India, leveraging Kochi, Thiruvananthapuram, Kannur, and Kozhikode airports."
+      }
+    ]
   },
   {
     "id": "p51",
@@ -2062,7 +2152,7 @@
       "icon": "building",
       "color": "#0369A1"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "building",
     "sources": [
       {
@@ -2074,8 +2164,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "MRO Facilities Part of Aviation Hub Plan",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 revised state budget included proposals to strengthen Maintenance, Repair, and Overhaul (MRO) facilities at state airports as part of a ₹200 crore preliminary package for the aviation-logistics hub."
+      }
+    ]
   },
   {
     "id": "p54",
@@ -2382,8 +2482,18 @@
         "summary": "A division bench of the Kerala High Court set aside a single bench order directing the state to enhance pre-primary staff honorariums, directing the state to fix an ad-hoc honorarium and service conditions."
       }
     ],
-    "lastUpdated": "2026-05-20T07:09:21.704Z",
-    "createdAt": "2026-05-20T07:09:21.704Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:09:21.704Z",
+    "updates": [
+      {
+        "title": "Pre-primary Teacher and Ayah Wage Hike Confirmed in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The 2026-27 revised state budget confirmed the allocation for the ₹1,000 monthly honorarium increase for pre-primary school teachers and ayahs, matching the enhancements approved for other scheme workers."
+      }
+    ]
   },
   {
     "id": "p61",

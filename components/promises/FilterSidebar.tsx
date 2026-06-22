@@ -74,7 +74,7 @@ export function FilterSidebar({
           <div className="flex flex-wrap gap-1.5 pt-1">
             {searchQuery !== "" && (
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-slate-800 text-white shadow-sm">
-                "{searchQuery.slice(0, 10)}{searchQuery.length > 10 ? '...' : ''}"
+                &quot;{searchQuery.slice(0, 10)}{searchQuery.length > 10 ? '...' : ''}&quot;
                 <X 
                   className="h-3 w-3 ml-0.5 cursor-pointer text-slate-400 hover:text-white transition-colors" 
                   onClick={() => setSearchQuery("")} 
