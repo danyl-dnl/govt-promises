@@ -106,9 +106,17 @@
         "summary": "Comprehensive post-launch report: CM Satheesan rode the inaugural bus (driven by V.P. Sheela, Kerala's first PSC-recruited woman driver) from Thampanoor to the Secretariat. The CM emphasized Priyadarshini as a 'socio-economic driver' that will save women's travel money and boost their financial independence. Opposition CPM boycotted the event. KSRTC confirmed no ordinary services were converted to deny free travel."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-06-22T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z",
     "updates": [
+      {
+        "title": "Kerala High Court Dismisses PIL Challenging Priyadarshini Scheme",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-high-court-dismisses-pil-challenging-free-bus-travel-for-women/article71142563.ece",
+        "publication": "Kerala High Court / The Hindu",
+        "date": "2026-06-22",
+        "tier": 1,
+        "summary": "The Kerala High Court dismissed a Public Interest Litigation (PIL) challenging the 'Priyadarshini' free KSRTC travel scheme for women and transgender persons, upholding the policy as a constitutional measure for social and economic empowerment."
+      },
       {
         "title": "₹600 Crore Allocated to Support KSRTC Free Travel",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
@@ -2617,8 +2625,18 @@
         "summary": "Home Minister Ramesh Chennithala directly intervened to ensure the urgent appointment of 43 candidates from the Sub-Inspector (SI) rank list which was scheduled to expire on June 9, 2026. The Home Department has directed immediate recruitment steps before the expiry date."
       }
     ],
-    "lastUpdated": "2026-06-05T23:20:00.000Z",
-    "createdAt": "2026-05-22T06:50:00.000Z"
+    "lastUpdated": "2026-06-26T12:00:00.000Z",
+    "createdAt": "2026-05-22T06:50:00.000Z",
+    "updates": [
+      {
+        "title": "152 FHC Posts Sanctioned to be Filled from PSC Lists",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/26/kerala-health-department-sanctions-152-new-posts-in-family-health-centres.html",
+        "publication": "Kerala Health Department / Onmanorama",
+        "date": "2026-06-26",
+        "tier": 1,
+        "summary": "The Kerala Health Department sanctioned 152 new posts (60 Pharmacist Grade II, 47 Nursing Officer, 33 Lab Technician Grade II, and 12 Medical Officer) to address staff shortages in Family Health Centres (FHCs). The vacancies will be filled from the existing KPSC rank lists, showing concrete progress in utilizing the extended rank lists."
+      }
+    ]
   },
   {
     "id": "p63",
