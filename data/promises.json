@@ -1394,8 +1394,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.447Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Paddy Procurement Price Kept at ₹30/kg in Budget",
+        "url": "https://www.indianexpress.com/",
+        "publication": "State Budget / Media Reports",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "In the 2026-27 state budget, the Kerala government confirmed that it will continue providing a state incentive bonus over the central MSP to maintain the paddy procurement price at ₹30/kg, supporting farmers despite central directives to discontinue bonuses, though still short of the ₹35/kg manifesto promise."
+      }
+    ]
   },
   {
     "id": "p34",
@@ -2230,7 +2240,7 @@
       "icon": "shield-check",
       "color": "#BE185D"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "shield-check",
     "sources": [
       {
@@ -2242,8 +2252,26 @@
         "summary": "UDF promise list / manifesto summary to be verified against official manifesto page."
       }
     ],
-    "lastUpdated": "2026-05-28T17:01:16.094Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-27T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "₹50 Crore Earmarked for Wayanad Tribal University in State Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
+        "publication": "State Budget Presentation",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "The revised 2026-27 state budget earmarked ₹50 crore for establishing the Wayanad Tribal University and Indigenous Knowledge Zone to foster higher learning, indigenous studies, and social development for tribal communities."
+      },
+      {
+        "title": "Priyanka Gandhi Announces Tribal University in Nilambur",
+        "url": "https://www.aninews.in/",
+        "publication": "ANI / Media Reports",
+        "date": "2026-06-27",
+        "tier": 2,
+        "summary": "Wayanad MP Priyanka Gandhi Vadra announced that the government has decided to establish a university for tribal people in Nilambur to preserve their culture, traditions, and languages, aligning with the budget's indigenous knowledge zone."
+      }
+    ]
   },
   {
     "id": "p56",
@@ -2304,8 +2332,18 @@
         "summary": "Building on the Project Zero anti-corruption framework, CM V.D. Satheesan and Home Minister Ramesh Chennithala formally launched 'Operation Toofan: The Narco Hunt' on June 2, 2026, at Cotton Hill GHSS, Thiruvananthapuram. The campaign uses drone-assisted patrolling, wastewater-testing in campuses, AI/digital surveillance, WhatsApp chatbots for anonymous reporting, and strict enforcement near educational institutions. Project Zero VACB trap cases also continue, with the first arrest of DySP T. Anilkumar in Cherthala on May 27 for accepting a ₹50,000 bribe."
       }
     ],
-    "lastUpdated": "2026-06-01T14:00:00.000Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-24T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "New Vigilance Manual Drafting Announced",
+        "url": "https://www.thehindu.com/news/national/kerala/",
+        "publication": "Kerala Legislative Assembly / Media Reports",
+        "date": "2026-06-24",
+        "tier": 2,
+        "summary": "Home and Vigilance Minister Ramesh Chennithala announced in the Legislative Assembly that the government is drafting a new Vigilance Manual to replace the outdated 1960s version, modernizing procedures under the 'Project Zero' anti-corruption framework."
+      }
+    ]
   },
   {
     "id": "p57",
@@ -3014,7 +3052,7 @@
         "publication": "State Budget Presentation",
         "date": "2026-06-19",
         "tier": 1,
-        "summary": "Introduced as a flagship social support scheme in the budget."
+        "summary": "The revised 2026-27 state budget officially announced the 'One Kerala Karuthal Mission' with an initial allocation of ₹1 crore. The technology-driven platform provides direct financial support for healthcare and education to poor families, using public donations and CSR funds, with the government covering all administrative overheads to ensure 100% donation utilization."
       }
     ],
     "updates": [],
