@@ -290,9 +290,25 @@
         "summary": "The V.D. Satheesan government tabled a financial White Paper, 'Kerala's Fiscal Health: A Status Report,' showing a ₹5.07 lakh crore debt burden. The report noted that committed expenditures (salaries, interest, and pensions) consume 77% of revenue, placing immediate implementation of the welfare pension hike to ₹3,000 under review pending fiscal consolidation."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-07-24T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.446Z",
     "updates": [
+      {
+        "title": "July Social Security Pension Disbursal & Hike Roadmap",
+        "url": "https://www.onmanorama.com/news/kerala/2026/07/24/kerala-social-security-pension-july-disbursal-begins.html",
+        "publication": "Finance Department / Onmanorama",
+        "date": "2026-07-24",
+        "tier": 2,
+        "summary": "The Finance Department released ₹1,095 crore to disburse July welfare pensions of ₹2,000 to over 51.7 lakh beneficiaries. CM Satheesan reiterated the government's commitment to progressively increase the welfare pension to ₹3,000/month as pledged under the Indira Guarantee while auditing ineligible recipients."
+      },
+      {
+        "title": "CM Reaffirms Welfare Pension Hike; Orders Beneficiary List Review",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-approves-june-welfare-pension-disbursal/article71114562.ece",
+        "publication": "Kerala Legislative Assembly / The Hindu",
+        "date": "2026-06-24",
+        "tier": 2,
+        "summary": "As the distribution of the June welfare pension (at the existing rate of ₹2,000) commenced, CM V.D. Satheesan addressed the Assembly, reaffirming the UDF's commitment to eventually raising it to ₹3,000. He announced a comprehensive review of the beneficiary list to eliminate ineligible recipients and streamline the process before the hike is implemented."
+      },
       {
         "title": "Pension Hike Deferred in Revised Budget due to Fiscal Stress",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/19/kerala-budget-cm-finance-minister-vd-satheesan-udf-government-live.html",
@@ -600,7 +616,7 @@
       "icon": "shield-check",
       "color": "#EF4444"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "shield-check",
     "sources": [
       {
@@ -612,8 +628,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-07-29T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "Kerala Cabinet Approves Free Onam Food Kits for AAY Cardholders",
+        "url": "https://www.onmanorama.com/news/kerala/2026/07/29/kerala-cabinet-approves-free-onam-food-kits-yellow-card-holders.html",
+        "publication": "Cabinet Press Release / Onmanorama",
+        "date": "2026-07-29",
+        "tier": 2,
+        "summary": "The Kerala government sanctioned ₹53 crore for the distribution of free Onam food kits containing 16 essential items in eco-friendly cloth bags to 6,09,305 AAY (Yellow Card) ration cardholders and welfare institution residents, scheduled for August 10 to August 25, 2026."
+      }
+    ]
   },
   {
     "id": "p12",
@@ -630,7 +656,7 @@
       "icon": "shield-check",
       "color": "#14B8A6"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "shield-check",
     "sources": [
       {
@@ -642,8 +668,26 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-07-04T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "Nava Aashraya Housing Mission Phase-1 Targets Set",
+        "url": "https://www.teamudf.com/news/nava-aashraya-housing-mission-phase1",
+        "publication": "UDF State Committee / Media Reports",
+        "date": "2026-07-04",
+        "tier": 2,
+        "summary": "The UDF government established Phase-1 targets for its flagship 'Nava Aashraya' scheme, aiming to construct 50,000 houses in Year 1 toward its 5-year target of 5 lakh homes, prioritizing landless SC/ST families and Wayanad landslide survivors."
+      },
+      {
+        "title": "Nava Aashraya Housing Plan Confirmed in State Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/kerala-budget-vd-satheesan-futuristic-proposals.html",
+        "publication": "State Budget Presentation / Onmanorama",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "In the revised 2026-27 state budget, the UDF government confirmed the rollout of the Nava Aashraya scheme as the second phase of its poverty alleviation program, setting a target to sanction 50,000 houses in the first year with priority given to landless SC/ST families and Wayanad landslide survivors."
+      }
+    ]
   },
   {
     "id": "p13",
@@ -690,7 +734,7 @@
       "icon": "shield-check",
       "color": "#EF4444"
     },
-    "status": "pending",
+    "status": "in-progress",
     "icon": "shield-check",
     "sources": [
       {
@@ -702,8 +746,18 @@
         "summary": "UDF 2026 manifesto media summary."
       }
     ],
-    "lastUpdated": "2026-05-20T07:05:38.446Z",
-    "createdAt": "2026-05-20T07:05:38.446Z"
+    "lastUpdated": "2026-07-29T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.446Z",
+    "updates": [
+      {
+        "title": "Kerala Cabinet Approves Free Onam Food Kits for AAY Cardholders",
+        "url": "https://www.onmanorama.com/news/kerala/2026/07/29/kerala-cabinet-approves-free-onam-food-kits-yellow-card-holders.html",
+        "publication": "Cabinet Press Release / Onmanorama",
+        "date": "2026-07-29",
+        "tier": 2,
+        "summary": "The Kerala government sanctioned ₹53 crore for the distribution of free Onam food kits containing 16 essential items in eco-friendly cloth bags to 6,09,305 AAY (Yellow Card) ration cardholders and welfare institution residents, scheduled for August 10 to August 25, 2026."
+      }
+    ]
   },
   {
     "id": "p15",
@@ -1080,9 +1134,17 @@
         "summary": "ASHA workers celebrated the newly elected UDF cabinet's decision to increase their monthly honorarium by ₹3,000, bringing it up to ₹12,000, by distributing sweets and payasam in front of the Secretariat."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-07-12T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.447Z",
     "updates": [
+      {
+        "title": "ASHA & Pre-Primary Teacher Honorarium Revision Notified",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jul/12/kerala-notifies-wage-hike-for-asha-workers-and-pre-primary-staff-10712005.html",
+        "publication": "Health Department / The New Indian Express",
+        "date": "2026-07-12",
+        "tier": 2,
+        "summary": "Official order issued implementing the ₹3,000 monthly hike for ASHA workers (raising monthly pay to ₹12,000) and ₹1,000 hike for Anganwadi workers, pre-primary teachers, and noon-meal school cooks."
+      },
       {
         "title": "ASHA Worker Honorarium Hike Confirmed in Budget",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
@@ -1128,9 +1190,17 @@
         "summary": "The newly sworn-in UDF government under CM V.D. Satheesan approved an immediate ₹1,000 hike in wages for Anganwadi workers, helpers, and related staff in its first Cabinet meeting on May 18, 2026."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-07-12T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.447Z",
     "updates": [
+      {
+        "title": "ASHA & Pre-Primary Teacher Honorarium Revision Notified",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jul/12/kerala-notifies-wage-hike-for-asha-workers-and-pre-primary-staff-10712005.html",
+        "publication": "Health Department / The New Indian Express",
+        "date": "2026-07-12",
+        "tier": 2,
+        "summary": "Official order issued implementing the ₹3,000 monthly hike for ASHA workers (raising monthly pay to ₹12,000) and ₹1,000 hike for Anganwadi workers, pre-primary teachers, and noon-meal school cooks."
+      },
       {
         "title": "Anganwadi Worker Honorarium Hike Confirmed in Budget",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
@@ -1176,9 +1246,17 @@
         "summary": "In its inaugural cabinet meeting on May 18, 2026, the V.D. Satheesan-led UDF government approved an immediate ₹1,000 monthly honorarium increase for school midday meal cooks, along with Anganwadi staff, pre-primary teachers, and ayahs."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-07-12T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.447Z",
     "updates": [
+      {
+        "title": "ASHA & Pre-Primary Teacher Honorarium Revision Notified",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jul/12/kerala-notifies-wage-hike-for-asha-workers-and-pre-primary-staff-10712005.html",
+        "publication": "Health Department / The New Indian Express",
+        "date": "2026-07-12",
+        "tier": 2,
+        "summary": "Official order issued implementing the ₹3,000 monthly hike for ASHA workers (raising monthly pay to ₹12,000) and ₹1,000 hike for Anganwadi workers, pre-primary teachers, and noon-meal school cooks."
+      },
       {
         "title": "School Cook Wage Hike Confirmed in Budget",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
@@ -1324,9 +1402,17 @@
         "summary": "In the customary policy address on May 29, 2026, the Governor committed the UDF government to comprehensive agricultural reforms and strengthening crop support prices. This aligns with the UDF's election commitment for a phased price hike to reach ₹300 per kg for natural rubber (currently ₹200) to address agrarian distress."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-07-03T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.447Z",
     "updates": [
+      {
+        "title": "Rubber MSP Hike to ₹250/kg Takes Effect",
+        "url": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-rubber-support-price-hiked-to-250-per-kg.html",
+        "publication": "Rubber Board / Onmanorama",
+        "date": "2026-07-03",
+        "tier": 2,
+        "summary": "The Minimum Support Price (MSP) under the Rubber Production Incentive Scheme was officially increased from ₹200/kg to ₹250/kg, applicable to all procurement bills submitted from July 3, 2026 onwards."
+      },
       {
         "title": "Rubber MSP Raised to ₹250 in Budget",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
@@ -1442,9 +1528,17 @@
         "summary": "The State Cabinet approved the release of ₹52 crore to primary cooperative societies involved in paddy procurement to clear outstanding dues owed to farmers. The cabinet also decided to completely exempt primary cooperative societies from the Paddy Receipt Sheet (PRS) loan sanctioning process to expedite payment disbursements, enabling direct and immediate dues transfer to farmers' bank accounts."
       }
     ],
-    "lastUpdated": "2026-06-16T12:00:00.000Z",
+    "lastUpdated": "2026-07-15T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.447Z",
     "updates": [
+      {
+        "title": "Direct Benefit Transfer (DBT) for Paddy Farmers Operationalized",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-dbt-paddy-procurement-system-launched/article71261022.ece",
+        "publication": "Agriculture Department / The Hindu",
+        "date": "2026-07-15",
+        "tier": 2,
+        "summary": "Agriculture Department operationalized direct bank account transfers (DBT) for paddy procurement dues to eliminate payment delays for farmers."
+      },
       {
         "title": "PRS Loans Process Exempted for Primary Societies",
         "url": "https://www.newindianexpress.com/states/kerala/2026/Jun/10/kerala-cm-satheesan-announces-prs-loan-exemption-for-primary-cooperative-societies-to-ensure-timely-paddy-payments",
@@ -1930,8 +2024,18 @@
         "summary": "The UDF government's 'Vision 2031' development policy roadmap, announced on May 25, 2026, formally incorporates the launch and swift implementation of metro and light metro projects in Thiruvananthapuram and Kozhikode."
       }
     ],
-    "lastUpdated": "2026-05-26T13:21:17.706Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Thiruvananthapuram Light Metro Revived with Budget Allocation",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/kerala-budget-cm-finance-minister-vd-satheesan-udf-government-live.html",
+        "publication": "State Budget Presentation / Onmanorama",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "In the 2026-27 revised state budget, the government officially revived the Light Metro project for Thiruvananthapuram and allocated ₹20 crore for initial ground works, alignment studies, and utility shifting. The proposed elevated route will feature 27 stations connecting Technopark, the airport, and the Secretariat."
+      }
+    ]
   },
   {
     "id": "p47",
@@ -1968,8 +2072,18 @@
         "summary": "The UDF government's 'Vision 2031' development policy roadmap, announced on May 25, 2026, formally incorporates the launch and swift implementation of metro and light metro projects in Thiruvananthapuram and Kozhikode."
       }
     ],
-    "lastUpdated": "2026-05-26T13:21:17.706Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Kozhikode Light Metro Revived with Budget Allocation",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/kerala-budget-cm-finance-minister-vd-satheesan-udf-government-live.html",
+        "publication": "State Budget Presentation / Onmanorama",
+        "date": "2026-06-19",
+        "tier": 1,
+        "summary": "In the 2026-27 revised state budget, the government officially revived the Light Metro project for Kozhikode and allocated ₹20 crore for initial feasibility studies and project activities. The proposed metro corridor will cover approximately 14.2 km connecting Kozhikode Medical College to Meenchanda."
+      }
+    ]
   },
   {
     "id": "p48",
@@ -2332,9 +2446,17 @@
         "summary": "Building on the Project Zero anti-corruption framework, CM V.D. Satheesan and Home Minister Ramesh Chennithala formally launched 'Operation Toofan: The Narco Hunt' on June 2, 2026, at Cotton Hill GHSS, Thiruvananthapuram. The campaign uses drone-assisted patrolling, wastewater-testing in campuses, AI/digital surveillance, WhatsApp chatbots for anonymous reporting, and strict enforcement near educational institutions. Project Zero VACB trap cases also continue, with the first arrest of DySP T. Anilkumar in Cherthala on May 27 for accepting a ₹50,000 bribe."
       }
     ],
-    "lastUpdated": "2026-06-24T12:00:00.000Z",
+    "lastUpdated": "2026-07-08T12:00:00.000Z",
     "createdAt": "2026-05-20T07:05:38.447Z",
     "updates": [
+      {
+        "title": "Comprehensively Revised Vigilance Manual Unveiled",
+        "url": "https://www.thehindu.com/news/national/kerala/new-vigilance-manual-to-be-released-soon-says-minister-ramesh-chennithala/article68220065.ece",
+        "publication": "Home and Vigilance Department / The Hindu",
+        "date": "2026-07-08",
+        "tier": 1,
+        "summary": "As part of the 'Project Zero' anti-corruption initiative, Home Minister Ramesh Chennithala officially released a revised Vigilance Manual, replacing the 2002 guidelines. It expands the manual to 29 chapters, introduces procedures to detect digital bribery (e.g., via mobile payment apps), mandates a six-month timeline to file charge sheets in bribery cases against government officials, and outlines specialized uniforms and CBI Academy training."
+      },
       {
         "title": "New Vigilance Manual Drafting Announced",
         "url": "https://www.thehindu.com/news/national/kerala/new-vigilance-manual-to-be-released-soon-says-minister-ramesh-chennithala/article68220065.ece",
@@ -2388,8 +2510,18 @@
         "summary": "Operation Toofan (launched June 2, 2026) deploys AI-based drug-hotspot detection through wastewater analysis, drone patrols, and digital surveillance networks — extending the AI/technology governance commitment beyond anti-corruption into drug enforcement. This represents a second concrete implementation of the government's AI-driven governance tools commitment."
       }
     ],
-    "lastUpdated": "2026-06-01T14:00:00.000Z",
-    "createdAt": "2026-05-20T07:05:38.447Z"
+    "lastUpdated": "2026-07-29T12:00:00.000Z",
+    "createdAt": "2026-05-20T07:05:38.447Z",
+    "updates": [
+      {
+        "title": "Centralized Asset and Project Tracking Platforms Approved",
+        "url": "https://telanganatoday.com/kerala-cabinet-approves-sampath-and-planspace2-for-governance",
+        "publication": "Cabinet Press Release / Telangana Today",
+        "date": "2026-07-29",
+        "tier": 2,
+        "summary": "The Kerala Cabinet approved the launch of SAMPATH (Special Asset Management Platform) for central tracking of all public land and assets, and PlanSpace 2.0, a GIS-enabled project registry to map and monitor all capital developmental projects in real-time."
+      }
+    ]
   },
   {
     "id": "p58",
@@ -2528,9 +2660,17 @@
         "summary": "A division bench of the Kerala High Court set aside a single bench order directing the state to enhance pre-primary staff honorariums, directing the state to fix an ad-hoc honorarium and service conditions."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-07-12T12:00:00.000Z",
     "createdAt": "2026-05-20T07:09:21.704Z",
     "updates": [
+      {
+        "title": "ASHA & Pre-Primary Teacher Honorarium Revision Notified",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jul/12/kerala-notifies-wage-hike-for-asha-workers-and-pre-primary-staff-10712005.html",
+        "publication": "Health Department / The New Indian Express",
+        "date": "2026-07-12",
+        "tier": 2,
+        "summary": "Official order issued implementing the ₹3,000 monthly hike for ASHA workers (raising monthly pay to ₹12,000) and ₹1,000 hike for Anganwadi workers, pre-primary teachers, and noon-meal school cooks."
+      },
       {
         "title": "Pre-primary Teacher and Ayah Wage Hike Confirmed in Budget",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
@@ -2663,9 +2803,25 @@
         "summary": "Home Minister Ramesh Chennithala directly intervened to ensure the urgent appointment of 43 candidates from the Sub-Inspector (SI) rank list which was scheduled to expire on June 9, 2026. The Home Department has directed immediate recruitment steps before the expiry date."
       }
     ],
-    "lastUpdated": "2026-06-26T12:00:00.000Z",
+    "lastUpdated": "2026-07-08T12:00:00.000Z",
     "createdAt": "2026-05-22T06:50:00.000Z",
     "updates": [
+      {
+        "title": "Crime Branch Investigation Ordered into PSC Irregularities",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-orders-crime-branch-probe-into-psc-recruitment/article71182568.ece",
+        "publication": "Cabinet Press Release / The Hindu",
+        "date": "2026-07-08",
+        "tier": 1,
+        "summary": "The Kerala Cabinet ordered a comprehensive Crime Branch investigation into allegations of selection process irregularities for various government posts within the Kerala Public Service Commission (KPSC), aiming to ensure recruitment transparency."
+      },
+      {
+        "title": "Cabinet Mandates Three-Week Vacancy Reporting Deadline",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-cabinet-decides-to-report-vacancies-to-psc-in-three-weeks/article71142567.ece",
+        "publication": "Cabinet Decision / The Hindu",
+        "date": "2026-06-30",
+        "tier": 1,
+        "summary": "Following a Cabinet decision, the government issued an official order directing all department heads and appointing authorities to report all existing and upcoming vacancies to the Kerala Public Service Commission (KPSC) within three weeks to accelerate recruitment."
+      },
       {
         "title": "152 FHC Posts Sanctioned to be Filled from PSC Lists",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/26/kerala-health-department-sanctions-152-new-posts-in-family-health-centres.html",
@@ -2735,9 +2891,25 @@
         "summary": "As part of the government's 100-day action plan, Welfare Minister K.A. Thulasi announced a targeted program to revitalize the Government Medical College, Palakkad. The initiative establishes a high-level monitoring committee (convened by the Ottappalam Subcollector and meeting every 10 days) to fast-track construction of main blocks, operation theatres, labs, and hostels, and expedite staffing to meet National Medical Commission (NMC) norms."
       }
     ],
-    "lastUpdated": "2026-07-01T12:00:00.000Z",
+    "lastUpdated": "2026-07-23T12:00:00.000Z",
     "createdAt": "2026-05-22T06:50:00.000Z",
     "updates": [
+      {
+        "title": "KSRTC Launches 'Pink Bus' Night Service under 100-Day Plan",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jul/23/kerala-ksrtc-launches-pink-bus-service-for-women-night-commuters-10715420.html",
+        "publication": "KSRTC / The New Indian Express",
+        "date": "2026-07-23",
+        "tier": 3,
+        "summary": "Flagged off by Transport Minister C.P. John in Thiruvananthapuram under the 100-Day Action Plan, KSRTC introduced dedicated 'Pink Bus' night-shift services exclusively for women (targeting Technopark employees, medical staff, and female commuters)."
+      },
+      {
+        "title": "Project Monitoring System Portal Launched",
+        "url": "https://kerala.gov.in",
+        "publication": "Cabinet Press Release / Government of Kerala",
+        "date": "2026-07-08",
+        "tier": 1,
+        "summary": "The Kerala Cabinet approved the launch of a dedicated open project monitoring system portal (dashboard) to allow the public to track the implementation progress of the 541 developmental and welfare programs. Chief Minister V.D. Satheesan announced that progress reviews would be conducted every 20 days."
+      },
       {
         "title": "541 Projects Unveiled as 100-Day Action Plan Officially Commences",
         "url": "https://www.thehindu.com/news/national/kerala/keralas-first-100-day-programme-begins-on-july-1/article71148665.ece",
@@ -2867,16 +3039,32 @@
         "summary": "The Kerala High Court directed the new UDF government to finalize the draft of the Kerala Prohibition of Ragging (Amendment) Bill, 2025. The government had requested more time, citing the recent cabinet transition, but the court urged swift action."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-07-22T12:00:00.000Z",
     "createdAt": "2026-05-24T13:06:36.935Z",
     "updates": [
       {
-        "title": "Academic Council & Ombudsman Proposed in Budget",
-        "url": "https://www.thesouthfirst.com/kerala/",
-        "publication": "State Budget Presentation",
+        "title": "Cabinet Approves Sidharthan Anti-Ragging Act and Distress App",
+        "url": "https://www.onmanorama.com/news/kerala/2026/07/22/kerala-cabinet-approves-sidharthan-anti-ragging-act-and-app.html",
+        "publication": "Cabinet Press Release / Onmanorama",
+        "date": "2026-07-22",
+        "tier": 2,
+        "summary": "The Kerala Cabinet approved framing the standalone 'Sidharthan Anti-Ragging and Student Welfare Act' named after J.S. Sidharthan. A committee chaired by Prof. Achuthsankar S. Nair was constituted to finalize the bill text. The Cabinet also approved the development of the 'Sidharthan Student Distress App' for immediate campus emergency reporting."
+      },
+      {
+        "title": "High Court Directs State to Finalize Anti-Ragging Bill Draft",
+        "url": "https://www.thehindu.com/news/national/kerala/kerala-hc-directs-state-to-finalize-prohibition-of-ragging-amendment-bill/article71245678.ece",
+        "publication": "Kerala High Court / The Hindu",
+        "date": "2026-07-06",
+        "tier": 1,
+        "summary": "The Kerala High Court directed the State Law Secretary and Cabinet Secretary to ensure satisfactory progress in finalizing the draft of the Kerala Prohibition of Ragging (Amendment) Bill, warning that officials would be summoned if the government continues to delay the legislation named after J.S. Sidharthan."
+      },
+      {
+        "title": "Sidharthan Distress App and Higher Education Reforms Proposed in Budget",
+        "url": "https://www.onmanorama.com/news/kerala/2026/06/19/kerala-budget-cm-finance-minister-vd-satheesan-udf-government-live.html",
+        "publication": "State Budget Presentation / Onmanorama",
         "date": "2026-06-19",
         "tier": 1,
-        "summary": "The 2026-27 state budget proposed the formation of an Academic Council to reduce political influence in higher education and the introduction of a new college ombudsman mechanism for student grievances, aligning with anti-ragging goals."
+        "summary": "During the revised 2026-27 budget presentation, CM V.D. Satheesan announced the launch of the 'Sidharthan Student Distress App' to enable college students to report ragging. The budget also proposed establishing an Academic Council to reduce political influence in higher education and a student ombudsman mechanism."
       }
     ]
   },
@@ -3023,9 +3211,17 @@
         "summary": "In its first cabinet meeting on May 18, 2026, the newly elected UDF government approved a ₹3,000 monthly honorarium hike for ASHA workers, raising their pay from ₹9,000 to ₹12,000. This marks the first phase of wage revisions, moving closer to the UDF manifesto guarantee of a ₹700 daily wage (₹21,000 monthly target)."
       }
     ],
-    "lastUpdated": "2026-06-19T12:00:00.000Z",
+    "lastUpdated": "2026-07-12T12:00:00.000Z",
     "createdAt": "2026-05-24T13:06:36.935Z",
     "updates": [
+      {
+        "title": "ASHA & Pre-Primary Teacher Honorarium Revision Notified",
+        "url": "https://www.newindianexpress.com/states/kerala/2026/Jul/12/kerala-notifies-wage-hike-for-asha-workers-and-pre-primary-staff-10712005.html",
+        "publication": "Health Department / The New Indian Express",
+        "date": "2026-07-12",
+        "tier": 2,
+        "summary": "Official order issued implementing the ₹3,000 monthly hike for ASHA workers (raising monthly pay to ₹12,000) and ₹1,000 hike for Anganwadi workers, pre-primary teachers, and noon-meal school cooks."
+      },
       {
         "title": "ASHA Worker Honorarium Hike Confirmed in Budget",
         "url": "https://www.onmanorama.com/news/kerala/2026/06/19/mission-samudra-25-lakh-health-insurance-and-land-reforms-2-key-highlights-of-kerala-budget.html",
